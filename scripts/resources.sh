@@ -21,7 +21,15 @@ echo "Deploying ETL resources..."
 az group deployment create --name ResourcesDeployment \
     --resource-group $resourceGroup \
     --template-file ./templates/resourcestemplate.json \
-    --parameters principalId=$principalId
+    --parameters principalId=$principalId > resourcesoutputs.json
+
+blobStorageName=$(cat resourcesoutputs.json | jq -r '.properties.outputs.blobStorageName.value')
+ADLSGen2StorageName=$(cat resourcesoutputs.json | jq -r '.properties.outputs.ADLSGen2storageName.value')
+
+echo "Uploading data to blob storage..."
+az storage blob upload-batch -d rawdata \
+    --account-name $blobStorageName -s ./ --pattern *.csv
 
 rm mioutputs.json
+rm resourcesoutputs.json
 echo "Done"
