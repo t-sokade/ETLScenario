@@ -1,10 +1,10 @@
 #!/bin/bash
 # create service principal, assign role, save variables
-subscriptionId=$1
-resourceGroup=$2
-STORAGE_ACCOUNT_NAME=$3
+# subscriptionId=$1
+# resourceGroup=$2
+STORAGE_ACCOUNT_NAME=$ADLSGen2StorageName
 
-az ad sp create-for-rbac --role "Storage Blob Data Contributor" --scope "subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.Storage/storageAccounts/$STORAGE_ACCOUNT_NAME" > serviceprincipal.json
+# az ad sp create-for-rbac --role "Storage Blob Data Contributor" --scope "subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.Storage/storageAccounts/$STORAGE_ACCOUNT_NAME" > serviceprincipal.json
 
 CLIENT_ID=$(cat serviceprincipal.json | jq -r ".appId")
 CLIENT_SECRET=$(cat serviceprincipal.json | jq -r ".password")
