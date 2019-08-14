@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "sparkClusterLoginUserName": {
+      "value": "admin"
+    },
+    "sparkClusterLoginPassword": {
+      "value": "Thisisapassword1"
+    },
+    "sparkClusterVersion": {
+      "value": "3.6"
+    },
+    "sparkClusterWorkerNodeCount": {
+      "value": 4
+    },
+    "sparkClusterKind": {
+      "value": "SPARK"
+    },
+    "sparksshUserName": {
+      "value": "sshuser"
+    },
+    "sparksshPassword": {
+      "value": "Thisisapassword1"
+    },
+    "llapClusterLoginUserName": {
+      "value": "admin"
+    },
+    "llapClusterLoginPassword": {
+      "value": "Thisisapassword1"
+    },
+    "llapclusterVersion": {
+      "value": "3.6"
+    },
+    "llapclusterWorkerNodeCount": {
+      "value": 4
+    },
+    "llapclusterKind": {
+      "value": "INTERACTIVEHIVE"
+    },
+    "llapsshUserName": {
+      "value": "sshuser"
+    },
+    "llapsshPassword": {
+      "value": "Thisisapassword1"
+    }
+  }
+}

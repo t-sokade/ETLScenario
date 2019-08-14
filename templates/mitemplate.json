@@ -1,0 +1,22 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01-preview/deploymentTemplate.json#",
+    "contentVersion": "0.9.0.0",
+    "variables": {
+        "managedIdentityName": "[concat('mi-', uniqueString(resourceGroup().id))]",
+        "identityResourceId": "[concat(resourceId('Microsoft.ManagedIdentity/userAssignedIdentities', variables('managedIdentityName')), '/providers/Microsoft.ManagedIdentity/Identities/default')]"
+    },
+    "resources": [
+        {
+            "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+            "apiVersion": "2018-11-30",
+            "name": "[variables('managedIdentityName')]",
+            "location": "[resourceGroup().location]"
+        },
+    ],
+    "outputs" : {
+        "principalId" : {
+            "type": "string", 
+            "value": "[reference(variables('identityResourceId'), '2018-11-30').principalId]"
+        }
+    }
+}
