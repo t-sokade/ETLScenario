@@ -11,7 +11,7 @@ az group create --name $resourceGroup --location $location
 
 echo "Creating managed identity..."
 randomstring=$(date | md5sum)
-az group deployment create --name "MIDeployment"+$randomstring --resource-group $resourceGroup \
+az group deployment create --name "MIDeployment"$randomstring --resource-group $resourceGroup \
      --template-file ./templates/mitemplate.json > mioutputs.json
 
 principalId=$(cat mioutputs.json | jq -r '.properties.outputs.principalId.value')
@@ -19,7 +19,7 @@ principalId=$(cat mioutputs.json | jq -r '.properties.outputs.principalId.value'
 
 sleep 20s
 echo "Deploying ETL resources..."
-az group deployment create --name "ResourcesDeployment"+randomstring \
+az group deployment create --name "ResourcesDeployment"randomstring \
     --resource-group $resourceGroup \
     --template-file ./templates/resourcestemplate.json \
     --parameters principalId=$principalId > resourcesoutputs.json
