@@ -4,7 +4,8 @@ if [[ $# -ne 2 ]]
         echo "Please provide arguments in the format './resources.sh <RESOURCEGROUP> <LOCATION>'"
         exit 1
 fi
-subscriptionId=$1
+subscriptionId=$(az acccount show | jq -r '.id')
+
 resourceGroup=$2
 location=$3
 echo "Creating resource group..." 
