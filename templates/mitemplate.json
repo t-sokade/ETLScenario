@@ -22,7 +22,7 @@
             "type": "string", 
             "value": "[variables('managedIdentityName')]"
         },
-        "ADLSGen2Name": {
+        "ADLSGen2StorageName": {
             "type": "string",
             "value": "[concat('adlsgen2', uniqueString(resourceGroup().id))]"
         }
