@@ -53,7 +53,8 @@ This section will deploy the following resources:
 
 The `resourcestemplate.json` Resource Manager Template configures all the above resources. The default password used for ssh access to the clusters is `Thisisapassword1`. If you'd like to change the password navigate to `resourcesparameters.json` file and change the password for the `sparksshPassword`, `sparkClusterLoginPassword`, `llapClusterLoginPassword`, `llapsshPassword` parameters. 
 
-Run the resource script to deploy the resources and to upload data to the blob storage account. Type in your own unique resource group name as the first argument, and the location of the resource group as the second argument (for example `'westus'`). Include the first `.` so that variables set in this script propogate to the shell. 
+Run the resource script to deploy the resources and to upload data to the blob storage account. Type in your own unique resource group name as the first argument, and the location of the resource group as the second argument (for example `'westus'`). 
+Important: Include the first `.` so that variables set in this script propogate to the shell. 
 
 ```azurecli-interactive 
 . ./scripts/resources.sh "<RESOURCEGROUPNAME>" "<LOCATION>" 
@@ -77,7 +78,7 @@ This Azure Data Factory will do 2 things:
 
 In `sparktransform.py`, fill in the ADLS Gen2 storage account name within the angle brackets. 
 
-Run `adlsgen2script.sh` with the following arguments. This creates a service principal with  Storage Blob Data Contributor permissions on the ADLS Gen2 storage account. It then obtains an authentication token to authorize POST requests to the [ADLS Gen2 FileSystem REST API](https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/filesystem/create)
+Next we will create a service principal with Storage Blob Data Contributor permissions on the ADLS Gen2 storage account. It then obtains an authentication token to authorize POST requests to the [ADLS Gen2 FileSystem REST API](https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/filesystem/create). Run `adlsgen2script.sh` with the following arguments. 
 
 ```
 ./adlsgen2script.sh $t"<SUBSCRIPTION ID>" $resourceGroup $ADLSGen2StorageName
