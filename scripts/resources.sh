@@ -25,7 +25,7 @@ az group deployment create --name "ResourcesDeployment"+randomstring \
     --parameters principalId=$principalId > resourcesoutputs.json
 
 blobStorageName=$(cat resourcesoutputs.json | jq -r '.properties.outputs.blobStorageName.value')
-ADLSGen2StorageName=$(cat resourcesoutputs.json | jq -r '.properties.outputs.ADLSGen2storageName.value')
+ADLSGen2StorageName=$(cat resourcesoutputs.json | jq -r '.properties.outputs.ADLSGen2StorageName.value')
 
 echo "Uploading data to blob storage..."
 az storage blob upload-batch -d rawdata \

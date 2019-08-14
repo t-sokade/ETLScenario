@@ -8,7 +8,7 @@ az ad sp create-for-rbac --role "Storage Blob Data Contributor" --scope "subscri
 CLIENT_ID=$(cat serviceprincipal.json | jq -r '.appId')
 CLIENT_SECRET=$(cat serviceprincipal.json | jq -r '.password')
 TENANT_NAME=$(cat serviceprincipal.json | jq -r '.tenant')
-STORAGE_ACCOUNT_NAME=<YOUR_STORAGE_ACCOUNT_NAME>
+STORAGE_ACCOUNT_NAME=$3
 # get authorization token
 echo "Getting authorization token..."
 ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded" --data-urlencode "client_id=$CLIENT_ID" --data-urlencode "client_secret=$CLIENT_SECRET" --data-urlencode "scope=https://storage.azure.com/.default" --data-urlencode "grant_type=client_credentials" "https://login.microsoftonline.com/$TENANT_NAME/oauth2/v2.0/token" | jq -r ".access_token")
