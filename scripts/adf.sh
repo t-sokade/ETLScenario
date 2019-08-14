@@ -13,7 +13,7 @@ blobkey=$(cat blobkeys.json | jq -r '.[0].value')
 
 randomstring=$(date | md5sum)
 echo "Deploying ADF..."
-az group deployment create --name "ADFDeployment"+$randomstring \
+az group deployment create --name "ADFDeployment"$resourceGroup \
     --resource-group $resourceGroup \
     --template-file ./templates/adftemplate.json \
     --parameters AzureDataLakeStorage1_accountKey=$adlskey AzureBlobStorage1_accountKey=$blobkey
