@@ -74,9 +74,7 @@ Important: In `sparktransform.py`, fill in the ADLS Gen2 storage account name wi
 Next we will create a service principal with Storage Blob Data Contributor permissions on the ADLS Gen2 storage account. It then obtains an authentication token to authorize POST requests to the [ADLS Gen2 FileSystem REST API](https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/filesystem/create). Run `adlsgen2script.sh` with the following arguments. 
 
 ```
-az ad sp create-for-rbac --role "Storage Blob Data Contributor" --scope "subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.Storage/storageAccounts/$ADLSGen2StorageName" > serviceprincipal.json
-
-. ./scripts/adlsgen2script.sh
+. ./scripts/adlsgen2script.sh $subscriptionId $resourceGroup $ADLSGen2StorageName
 ```
 Deploy the ADF by running the adf script. 
 
