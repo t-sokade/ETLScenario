@@ -39,8 +39,6 @@ Clone this [git hub repository]() and `cd` into the folder.
     - `adlsgen2script.sh`
     - `adf.sh`
 
-Navigate to this directory on your Azure CLI. 
-
 ## Deploy Azure resources needed for the pipeline 
 
 This section will deploy the following resources: 
