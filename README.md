@@ -24,6 +24,8 @@ Through the Azure portal, open the Cloud Shell from the top menu bar. Log into y
 ```azurecli-interactive 
 az account set --subscription <SUBSCRIPTION ID>
 ```
+
+For this tutorial to work you MUST have the status of `Owner` on your subscription. 
 #### Download relevant files for this project
 
 Clone the github repository and `cd` into the root folder. 
@@ -76,7 +78,7 @@ Next we will create a service principal with Storage Blob Data Contributor permi
 ```
 
 ### Trigger the Pipeline
-You can either trigger the ADF pipeline with the following command: 
+You can either trigger the ADF pipeline by changing the cloudshell to PowerShell mode and executing the following command: 
 
 ```powershell
 Invoke-AzDataFactoryV2Pipeline -DataFactory "<DATA FACTORY NAME>" -PipelineName "IngestAndTransform" 
