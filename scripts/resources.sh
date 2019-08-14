@@ -17,7 +17,9 @@ az group deployment create --name "MIDeployment"$resourceGroup --resource-group 
 
 principalId=$(cat mioutputs.json | jq -r '.properties.outputs.principalId.value')
 miname=$(cat mioutputs.json | jq -r '.properties.outputs.miname.value')
-ADLSGen2StorageName=$(cat mioutputs.json | jq -r '.properties.outputs.ADLSGen2StorageName.value')
+ADLSGen2StorageName=$(cat mioutputs.json | jq -r '.properties.outputs.adls.value')
+# for hierarchical namespace argument
+az extension add --name storage-preview
 
 echo "Deploying ADLS Gen2 Storage Account called "$ADLSGen2StorageName
 az storage account create --name $ADLSGen2StorageName\
