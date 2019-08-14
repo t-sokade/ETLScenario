@@ -71,14 +71,9 @@ This Azure Data Factory will do 2 things:
 
 Important: In `sparktransform.py`, fill in the ADLS Gen2 storage account name within the angle brackets. 
 
-Next we will create a service principal with Storage Blob Data Contributor permissions on the ADLS Gen2 storage account. It then obtains an authentication token to authorize POST requests to the [ADLS Gen2 FileSystem REST API](https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/filesystem/create). Run `adlsgen2script.sh` with the following arguments. 
+Next we will create a service principal with Storage Blob Data Contributor permissions on the ADLS Gen2 storage account. It then obtains an authentication token to authorize POST requests to the [ADLS Gen2 FileSystem REST API](https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/filesystem/create). Run `adf.sh` with the following arguments. Then we will deploy an Azure Data Factory. 
 
 ```
-. ./scripts/adlsgen2script.sh
-```
-Deploy the ADF by running the adf script. 
-
-```azurecli-interactive 
 . ./scripts/adf.sh
 ```
 
