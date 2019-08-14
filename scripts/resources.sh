@@ -28,6 +28,11 @@ echo "Assigning Role to Managed Identity"
 az role assignment create --role "Storage Blob Data Contributor" \
 --assignee $principalId --scope "/subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.Storage/storageAccounts/$ADLSGen2StorageName"
 
+az group deployment create --name "ResourcesDeployment"$resourceGroup \
+    --resource-group $resourceGroup \
+    --template-file ./templates/resourcestemplate.json \
+    --parameters principalId=$principalId > resourcesoutputs.json
+
 echo "Deploying ETL resources..."
 echo "Deploying Blob Storage Account"
 echo "Deploying VNET"
@@ -35,11 +40,6 @@ echo "Deploying Network Security Group"
 echo "Deploying Spark Cluster"
 echo "Deploying LLAP cluster"
 echo "Note: Cluster creation can take around 20 minutes"
-
-az group deployment create --name "ResourcesDeployment"$resourceGroup \
-    --resource-group $resourceGroup \
-    --template-file ./templates/resourcestemplate.json \
-    --parameters principalId=$principalId > resourcesoutputs.json
 
 blobStorageName=$(cat resourcesoutputs.json | jq -r '.properties.outputs.blobStorageName.value')
 
