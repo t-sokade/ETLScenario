@@ -30,10 +30,14 @@ az account set --subscription <SUBSCRIPTION ID>
 Clone this [git hub repository]() and `cd` into the folder.  
 
 - `/salesdata/`
-- `resourcestemplate.json`, `resourcesparameters.json`
-- `adftemplate.json`, `adfparameters.json`
-- `sparktransform.py` 
-- `adlsgen2script.sh`
+- `/templates/`
+    - `resourcestemplate.json`, `resourcesparameters.json`
+    - `adftemplate.json`, `adfparameters.json`
+- `/scripts/`
+    - `resources.sh` 
+    - `sparktransform.py` 
+    - `adlsgen2script.sh`
+    - `adf.sh`
 
 Navigate to this directory on your Azure CLI. 
 
@@ -54,6 +58,10 @@ Run the resource script to deploy the resources and to upload data to the blob s
 ```azurecli-interactive 
 . ./scripts/resources.sh "<RESOURCEGROUPNAME>" "<LOCATION>" 
 ```
+To check on your deployment progress in the Azure portal, navigate to your resource group. Then click where it says Deployments as shown below.
+
+![alt text](media/deployment.png)
+ 
 Note: Cluster creation can take around 20 minutes. 
  
 To verify this step worked correctly, go to the resource group on the azure portal and check all the outlined resources were deployed. You can also check that the data is uploaded to the Blob Storage account. 
