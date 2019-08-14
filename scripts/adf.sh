@@ -3,7 +3,7 @@
 STORAGE_ACCOUNT_NAME=$ADLSGen2StorageName
 
 echo "Filling in storage name in spark script..."
-sed -i -e 's/<ADLS GEN2 STORAGE NAME>/'$ADLSGen2StorageName'/g' sparktransform.py
+sed -i -e 's/<ADLS GEN2 STORAGE NAME>/'$ADLSGen2StorageName'/g' ./scripts/sparktransform.py
 
 ./serviceprincipal.sh
 
@@ -56,3 +56,6 @@ az group deployment create --name "ADFDeployment"$resourceGroup \
     --template-file ./templates/adftemplate.json \
     --parameters AzureDataLakeStorage1_accountKey=$adlskey AzureBlobStorage1_accountKey=$blobkey
 echo "done"
+rm serviceprincipal.json
+rm blobkeys.json
+rm adlskeys.json
