@@ -2,6 +2,7 @@
 # create service principal, assign role, save variables
 STORAGE_ACCOUNT_NAME=$ADLSGen2StorageName
 
+echo "Filling in storage name in spark script..."
 sed -i -e 's/<ADLS GEN2 STORAGE NAME>/'$ADLSGen2StorageName'/g' sparktransform.py
 
 ./serviceprincipal.sh
