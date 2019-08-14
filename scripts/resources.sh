@@ -17,12 +17,12 @@ az group deployment create --name "MIDeployment"$resourceGroup --resource-group 
 
 principalId=$(cat mioutputs.json | jq -r '.properties.outputs.principalId.value')
 miname=$(cat mioutputs.json | jq -r '.properties.outputs.miname.value')
-ADLSGen2StorageName=$(cat mioutputs.json | jq -r '.properties.outputs.miname.value')
+ADLSGen2StorageName=$(cat mioutputs.json | jq -r '.properties.outputs.ADLSGen2StorageName.value')
 
 echo "Deploying ADLS Gen2 Storage Account called "$ADLSGen2StorageName
 az storage account create --name $ADLSGen2StorageName\
     --resource-group $resourceGroup \
-    --location eastus --sku Standard_LRS \
+    --location $location --sku Standard_LRS \
     --kind StorageV2 --hierarchical-namespace true
 
 echo "Assigning Role to Managed Identity"
