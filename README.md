@@ -79,12 +79,12 @@ In `sparktransform.py`, fill in the ADLS Gen2 storage account name within the an
 Next we will create a service principal with Storage Blob Data Contributor permissions on the ADLS Gen2 storage account. It then obtains an authentication token to authorize POST requests to the [ADLS Gen2 FileSystem REST API](https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/filesystem/create). Run `adlsgen2script.sh` with the following arguments. 
 
 ```
-./adlsgen2script.sh $t"<SUBSCRIPTION ID>" $resourceGroup $ADLSGen2StorageName
+./scripts/adlsgen2script.sh $t"<SUBSCRIPTION ID>" $resourceGroup $ADLSGen2StorageName
 ```
 Deploy the ADF by running the adf script. 
 
 ```azurecli-interactive 
-. ./adf.sh
+. ./scripts/adf.sh
 ```
 
 ### Trigger the Pipeline
