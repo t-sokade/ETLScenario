@@ -17,6 +17,14 @@
         "principalId" : {
             "type": "string", 
             "value": "[reference(variables('identityResourceId'), '2018-11-30').principalId]"
+        },
+        "miname": {
+            "type": "string", 
+            "value": "[variables('managedIdentityName')]"
+        },
+        "ADLSGen2Name": {
+            "type": "string",
+            "value": "[concat('adlsgen2', uniqueString(resourceGroup().id))]"
         }
     }
 }

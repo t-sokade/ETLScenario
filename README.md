@@ -22,22 +22,16 @@ Download [Power BI Desktop](https://www.microsoft.com/en-us/download/details.asp
 Through the Azure portal, open the Cloud Shell from the top menu bar. Log into your Azure account and set the subscription. 
 
 ```azurecli-interactive 
-az login
 az account set --subscription <SUBSCRIPTION ID>
 ```
 #### Download relevant files for this project
 
-Clone this [git hub repository]() and `cd` into the folder.  
+Clone the github repository and `cd` into the root folder. 
 
-- `/salesdata/`
-- `/templates/`
-    - `resourcestemplate.json`, `resourcesparameters.json`
-    - `adftemplate.json`, `adfparameters.json`
-- `/scripts/`
-    - `resources.sh` 
-    - `sparktransform.py` 
-    - `adlsgen2script.sh`
-    - `adf.sh`
+```azurecli-interactive
+git clone https://github.com/t-sokade/ETLScenario.git
+cd ETLScenario
+```
 
 ## Deploy Azure resources needed for the pipeline 
 
@@ -49,13 +43,14 @@ This section will deploy the following resources:
 5. Interactive Query Cluster - to allow quick querying and data visualization on Power BI
 6. VNET supported by NSG rules - to provide security to your clusters 
 
-The `resourcestemplate.json` Resource Manager Template configures all the above resources. The default password used for ssh access to the clusters is `Thisisapassword1`. If you'd like to change the password navigate to `resourcesparameters.json` file and change the password for the `sparksshPassword`, `sparkClusterLoginPassword`, `llapClusterLoginPassword`, `llapsshPassword` parameters. 
+The default password used for ssh access to the clusters is `Thisisapassword1`. If you'd like to change the password navigate to `resourcesparameters.json` file and change the password for the `sparksshPassword`, `sparkClusterLoginPassword`, `llapClusterLoginPassword`, `llapsshPassword` parameters. 
 
-Run the resource script to deploy the resources and to upload data to the blob storage account. Type in your own unique resource group name as the first argument, and the location of the resource group as the second argument (for example `'westus'`). 
+Run the resource script from the root folder to deploy the resources and to upload data to the blob storage account. Type in your own unique resource group name as the first argument, and the location of the resource group as the second argument (for example `'westus'` or `'eastus2'`). 
+
 Important: Include the first `.` so that variables set in this script propogate to the shell. 
 
 ```azurecli-interactive 
-. ./scripts/resources.sh "<RESOURCEGROUPNAME>" "<LOCATION>" 
+. ./scripts/resources.sh "<RESOURCEGROUPNAME>" westus
 ```
 To check on your deployment progress in the Azure portal, navigate to your resource group. Then click where it says Deployments as shown below.
 
@@ -79,7 +74,7 @@ Important: In `sparktransform.py`, fill in the ADLS Gen2 storage account name wi
 Next we will create a service principal with Storage Blob Data Contributor permissions on the ADLS Gen2 storage account. It then obtains an authentication token to authorize POST requests to the [ADLS Gen2 FileSystem REST API](https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/filesystem/create). Run `adlsgen2script.sh` with the following arguments. 
 
 ```
-az ad sp create-for-rbac --role "Storage Blob Data Contributor" --scope "subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.Storage/storageAccounts/$STORAGE_ACCOUNT_NAME" > serviceprincipal.json
+az ad sp create-for-rbac --role "Storage Blob Data Contributor" --scope "subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.Storage/storageAccounts/$ADLSGen2StorageName" > serviceprincipal.json
 
 . ./scripts/adlsgen2script.sh
 ```
@@ -96,7 +91,7 @@ You can either trigger the ADF pipeline with the following command:
 Invoke-AzDataFactoryV2Pipeline -DataFactory "<DATA FACTORY NAME>" -PipelineName "IngestAndTransform" 
 ```
 
-Or you can also open the Data Factory, select Author & Monitor, and trigger the copy pipeline, then the spark pipeline from the portal. [Here](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-create-linux-clusters-adf#trigger-a-pipeline) is a tutorial that shows you how to trigger pipelines from the portal. 
+Or you can also open the Data Factory, select Author & Monitor, and trigger the pipeline from the portal. [Here](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-create-linux-clusters-adf#trigger-a-pipeline) is a tutorial that shows you how to trigger pipelines from the portal. 
 
 To verify that the pipelines executed you can either 
 1. Navigate to the monitor section on ADF through the portal. 
@@ -105,8 +100,9 @@ To verify that the pipelines executed you can either
 For other ways to transform data using HDInsight check out this article on using [Jupyter notebook](https://docs.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-load-data-run-query)
 
 ## Create a table on the Interactive Query cluster to view data on Power BI
-
-Now, SSH into the LLAP cluster using the following command and then enter your password. If you have not altered the `resourcesparameters.json` file this should be `Thisisapassword1`. 
+You can complete this step by sshing in to the cluster from the command line or by opening up the Interactive Query editor on the LLAP cluster and pasting the hive script there. 
+ 
+To SSH into the LLAP cluster follow these steps. If you have not altered the `resourcesparameters.json` file the password should be `Thisisapassword1`. 
 
 ```
 ssh sshuser@<clustername>-ssh.azurehdinsight.net
