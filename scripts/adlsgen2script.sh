@@ -2,22 +2,23 @@
 # create service principal, assign role, save variables
 subscriptionId=$1
 resourceGroup=$2
-storageAccount=$3
-echo "Creating service principal..."
-az ad sp create-for-rbac --role "Storage Blob Data Contributor" --scope "subscriptions/$1/resourceGroups/$2/providers/Microsoft.Storage/storageAccounts/$3" > serviceprincipal.json
-CLIENT_ID=$(cat serviceprincipal.json | jq -r '.appId')
-CLIENT_SECRET=$(cat serviceprincipal.json | jq -r '.password')
-TENANT_NAME=$(cat serviceprincipal.json | jq -r '.tenant')
 STORAGE_ACCOUNT_NAME=$3
+
+az ad sp create-for-rbac --role "Storage Blob Data Contributor" --scope "subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.Storage/storageAccounts/$STORAGE_ACCOUNT_NAME" > serviceprincipal.json
+
+CLIENT_ID=$(cat serviceprincipal.json | jq -r ".appId")
+CLIENT_SECRET=$(cat serviceprincipal.json | jq -r ".password")
+TENANT_NAME=$(cat serviceprincipal.json | jq -r ".tenant")
 # get authorization token
-echo "Getting authorization token..."
-ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded" --data-urlencode "client_id=$CLIENT_ID" --data-urlencode "client_secret=$CLIENT_SECRET" --data-urlencode "scope=https://storage.azure.com/.default" --data-urlencode "grant_type=client_credentials" "https://login.microsoftonline.com/$TENANT_NAME/oauth2/v2.0/token" | jq -r ".access_token")
+ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded" --data-urlencode "client_id=$CLIENT_ID" \
+--data-urlencode "client_secret=$CLIENT_SECRET" --data-urlencode "scope=https://storage.azure.com/.default" --data-urlencode \
+"grant_type=client_credentials" "https://login.microsoftonline.com/$TENANT_NAME/oauth2/v2.0/token" | jq -r ".access_token")
 #create files FS
-echo "Creating file system..."
+echo $ACCESS_TOKEN
+
 curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files?resource=filesystem"
 curl -i -X PATCH -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "x-ms-acl: user::rwx,group::r-x,other::--x,default:user::rwx,default:group::r-x,default:other::--x" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/?action=setAccessControl"
 # create correct folder structure
-echo "Creating folder structure..."
 curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/data?resource=directory"
 curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/transformed?resource=directory"
 curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/adf?resource=directory"
@@ -28,7 +29,6 @@ curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authoriz
 curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/adf/logs?resource=directory"
 curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/adf/sparktransform.py?resource=file"
 # create the sparktransform.py file
-echo "uploading sparktransform.py"
 cat ./scripts/sparktransform.py | curl -i -X PATCH -H "x-ms-version: 2018-11-09" -H "Authorization: Bearer $ACCESS_TOKEN" --data-binary @- "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/adf/sparktransform.py?action=append&position=0"
 curl -i -H "x-ms-version: 2018-11-09" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/adf/sparktransform.py"
 FILENUM=$(wc -c < ./scripts/sparktransform.py)
