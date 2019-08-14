@@ -1,6 +1,7 @@
 #!/bin/bash
 # create service principal, assign role, save variables
-subscriptionId=$(az acccount show | jq -r '.id')
+subscriptionId=$(az account show | jq -r '.id')
+echo subscriptionId
 resourceGroup=$1
 STORAGE_ACCOUNT_NAME=$ADLSGen2StorageName
 
