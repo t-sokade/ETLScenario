@@ -106,7 +106,10 @@
 			"metadata": {
 				"description": "A new GUID used to identify the role assignment"
 			}
-		}
+        },
+        "ADLSGen2StorageName": {
+            "type": "string"
+        }
 	},
 	"variables": {
 		"blobStorageName": "[concat('blob', uniqueString(resourceGroup().id))]",
