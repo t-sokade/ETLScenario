@@ -28,13 +28,13 @@ az storage account create --name $ADLSGen2StorageName\
     --kind StorageV2 --hierarchical-namespace true
 
 echo "Assigning Role to Managed Identity"
+sleep 20s
 az role assignment create --role "Storage Blob Data Contributor" \
 --assignee $principalId --scope "/subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.Storage/storageAccounts/$ADLSGen2StorageName"
 
 az group deployment create --name "ResourcesDeployment"$resourceGroup \
     --resource-group $resourceGroup \
-    --template-file ./templates/resourcestemplate.json \
-    --parameters principalId=$principalId > resourcesoutputs.json
+    --template-file ./templates/resourcestemplate.json > resourcesoutputs.json
 
 echo "Deploying ETL resources..."
 echo "Deploying Blob Storage Account"
