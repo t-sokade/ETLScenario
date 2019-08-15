@@ -18,7 +18,7 @@ schema = StructType([
     StructField('firstpurchase', DateType(), True),
     StructField('freq', IntegerType(), True),
     ])
-df = spark.read.csv("abfs://files@<ADLS GEN2 STORAGE NAME>.dfs.core.windows.net/data/*.csv", schema, header=True)
+df = spark.read.csv("abfs://files@<ADLS GEN2 STORAGE NAME>.dfs.core.windows.net/data/salesdata/*.csv", schema, header=True)
 df = df.drop("employeeID").drop("ordernum")
 df = df.withColumn("revenue", col('unitsold')*col('unitprice'))
 df.write.format('csv').save("abfs://files@<ADLS GEN2 STORAGE NAME>.dfs.core.windows.net/transformed", mode="overwrite")
