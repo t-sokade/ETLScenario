@@ -7,8 +7,6 @@ ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded"
 
 echo $ACCESS_TOKEN
 
-exit 
-
 #create files FS
 echo "Creating FileSystem"
 curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files?resource=filesystem"
