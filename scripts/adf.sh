@@ -1,6 +1,6 @@
 #!/bin/bash
 # create service principal, assign role, save variables
-
+chmod +x ./scripts/serviceprincipal.sh
 ./scripts/serviceprincipal.sh
 
 echo "Filling in storage name in spark script..."
