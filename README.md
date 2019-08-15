@@ -76,7 +76,12 @@ Next we will create a service principal with Storage Blob Data Contributor permi
 ```
 . ./scripts/adf.sh
 ```
-
+If for any reason this script is failing make sure that the following environment variables are set:
+```
+echo $resourceGroup
+echo $blobStorageName
+echo $ADLSGen2StorageName
+```
 ### Trigger the Pipeline
 You can either trigger the ADF pipeline by changing the cloudshell to PowerShell mode and executing the following command: 
 

@@ -4,8 +4,6 @@ chmod +x ./scripts/serviceprincipal.sh
 . ./scripts/serviceprincipal.sh
 
 echo "Filling in storage name in spark script..."
-sed -i -e 's/<ADLS GEN2 STORAGE NAME>/'$ADLSGen2StorageName'/g' ./scripts/sparktransform.py
-
 CLIENT_ID=$(cat serviceprincipal.json | jq -r ".appId")
 CLIENT_SECRET=$(cat serviceprincipal.json | jq -r ".password")
 TENANT_NAME=$(cat serviceprincipal.json | jq -r ".tenant")
@@ -16,6 +14,11 @@ ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded"
 --data-urlencode "client_secret=$CLIENT_SECRET" --data-urlencode "scope=https://storage.azure.com/.default" --data-urlencode \
 "grant_type=client_credentials" "https://login.microsoftonline.com/$TENANT_NAME/oauth2/v2.0/token" | jq -r ".access_token")
 
+while [-z "$ACCESS_TOKEN"]
+do
+    echo "Obtaining ACCESS_TOKEN"
+    ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded" --data-urlencode "client_id=$CLIENT_ID" --data-urlencode "client_secret=$CLIENT_SECRET" --data-urlencode "scope=https://storage.azure.com/.default" --data-urlencode "grant_type=client_credentials" "https://login.microsoftonline.com/$TENANT_NAME/oauth2/v2.0/token" | jq -r ".access_token")
+done
 #create files FS
 echo "Creating FileSystem"
 curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files?resource=filesystem"
@@ -35,6 +38,8 @@ curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authoriz
 
 # create the sparktransform.py file
 echo "Creating sparktransform file..."
+sed -i -e 's/<ADLS GEN2 STORAGE NAME>/'$ADLSGen2StorageName'/g' ./scripts/sparktransform.py
+
 cat ./scripts/sparktransform.py | curl -i -X PATCH -H "x-ms-version: 2018-11-09" -H "Authorization: Bearer $ACCESS_TOKEN" --data-binary @- "https://$ADLSGEN2StorageName.dfs.core.windows.net/files/adf/sparktransform.py?action=append&position=0"
 curl -i -H "x-ms-version: 2018-11-09" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files/adf/sparktransform.py"
 FILENUM=$(wc -c < ./scripts/sparktransform.py)
@@ -59,6 +64,6 @@ az group deployment create --name "ADFDeployment"$resourceGroup \
     --template-file ./templates/adftemplate.json \
     --parameters AzureDataLakeStorage1_accountKey=$adlskey AzureBlobStorage1_accountKey=$blobkey
 echo "done"
-rm ./scripts/serviceprincipal.json
+rm serviceprincipal.json
 rm blobkeys.json
 rm adlskeys.json
