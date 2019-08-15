@@ -1,6 +1,5 @@
 #!/bin/bash
 # create service principal, assign role, save variables
-STORAGE_ACCOUNT_NAME=$ADLSGen2StorageName
 
 ./scripts/serviceprincipal.sh
 
@@ -19,27 +18,27 @@ ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded"
 
 #create files FS
 echo "Creating FileSystem"
-curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files?resource=filesystem"
-curl -i -X PATCH -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "x-ms-acl: user::rwx,group::r-x,other::--x,default:user::rwx,default:group::r-x,default:other::--x" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/?action=setAccessControl"
+curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files?resource=filesystem"
+curl -i -X PATCH -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "x-ms-acl: user::rwx,group::r-x,other::--x,default:user::rwx,default:group::r-x,default:other::--x" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files/?action=setAccessControl"
 
 # create correct folder structure
 echo "Creating folder structure..."
-curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/data?resource=directory"
-curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/transformed?resource=directory"
-curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/adf?resource=directory"
-curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/adf/files?resource=directory"
-curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/adf/pyFiles?resource=directory"
-curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/adf/jars?resource=directory"
-curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/adf/archives?resource=directory"
-curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/adf/logs?resource=directory"
-curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/adf/sparktransform.py?resource=file"
+curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files/data?resource=directory"
+curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files/transformed?resource=directory"
+curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files/adf?resource=directory"
+curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files/adf/files?resource=directory"
+curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files/adf/pyFiles?resource=directory"
+curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files/adf/jars?resource=directory"
+curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files/adf/archives?resource=directory"
+curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files/adf/logs?resource=directory"
+curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files/adf/sparktransform.py?resource=file"
 
 # create the sparktransform.py file
 echo "Creating sparktransform file..."
-cat ./scripts/sparktransform.py | curl -i -X PATCH -H "x-ms-version: 2018-11-09" -H "Authorization: Bearer $ACCESS_TOKEN" --data-binary @- "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/adf/sparktransform.py?action=append&position=0"
-curl -i -H "x-ms-version: 2018-11-09" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/adf/sparktransform.py"
+cat ./scripts/sparktransform.py | curl -i -X PATCH -H "x-ms-version: 2018-11-09" -H "Authorization: Bearer $ACCESS_TOKEN" --data-binary @- "https://$ADLSGEN2StorageName.dfs.core.windows.net/files/adf/sparktransform.py?action=append&position=0"
+curl -i -H "x-ms-version: 2018-11-09" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files/adf/sparktransform.py"
 FILENUM=$(wc -c < ./scripts/sparktransform.py)
-curl -i -X PATCH -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$STORAGE_ACCOUNT_NAME.dfs.core.windows.net/files/adf/sparktransform.py?action=flush&position=$FILENUM"
+curl -i -X PATCH -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files/adf/sparktransform.py?action=flush&position=$FILENUM"
 
 echo "Obtaining storage keys..."
 az storage account keys list \
