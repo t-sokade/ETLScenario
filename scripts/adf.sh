@@ -6,9 +6,9 @@ chmod +x ./scripts/serviceprincipal.sh
 echo "Filling in storage name in spark script..."
 sed -i -e 's/<ADLS GEN2 STORAGE NAME>/'$ADLSGen2StorageName'/g' ./scripts/sparktransform.py
 
-CLIENT_ID=$(cat ./scripts/serviceprincipal.json | jq -r ".appId")
-CLIENT_SECRET=$(cat ./scripts/serviceprincipal.json | jq -r ".password")
-TENANT_NAME=$(cat ./scripts/serviceprincipal.json | jq -r ".tenant")
+CLIENT_ID=$(cat serviceprincipal.json | jq -r ".appId")
+CLIENT_SECRET=$(cat serviceprincipal.json | jq -r ".password")
+TENANT_NAME=$(cat serviceprincipal.json | jq -r ".tenant")
 
 # get authorization token
 echo "Getting authorization token..."
