@@ -1,9 +1,4 @@
-#!/bin/sh
-# create service principal, assign role, save variables
-chmod +x ./scripts/serviceprincipal.sh
-. ./scripts/serviceprincipal.sh
-
-sleep 2s
+#!/bin/bash
 # get authorization token
 echo "Getting authorization token..."
 ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded" --data-urlencode "client_id=$CLIENT_ID" \
