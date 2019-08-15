@@ -75,12 +75,15 @@ Next we will create a service principal with Storage Blob Data Contributor permi
 
 ```
 . ./scripts/serviceprincipal.sh
-
+```
 # Obtain the access token for ADLS Gen2 REST API requests
-ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded" --data-urlencode "client_id=$CLIENT_ID" \
---data-urlencode "client_secret=$CLIENT_SECRET" --data-urlencode "scope=https://storage.azure.com/.default" --data-urlencode \
-"grant_type=client_credentials" "https://login.microsoftonline.com/$TENANT_NAME/oauth2/v2.0/token" | jq -r ".access_token")
-
+ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded" --data-urlencode "client_id=$CLIENT_ID" --data-urlencode "client_secret=$CLIENT_SECRET" --data-urlencode "scope=https://storage.azure.com/.default" --data-urlencode "grant_type=client_credentials" "https://login.microsoftonline.com/$TENANT_NAME/oauth2/v2.0/token" | jq -r ".access_token")
+```
+Before proceeding, ensure that an ACCESS_TOKEN was obtained by running. If it returns null, try running the above command again. 
+```
+echo $ACCESS_TOKEN
+```
+```
 . ./scripts/adf.sh
 ```
 If for any reason this script is failing make sure that the following environment variables are set:
