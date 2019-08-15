@@ -1,24 +1,19 @@
-#!/bin/bash
+#!/bin/sh
 # create service principal, assign role, save variables
 chmod +x ./scripts/serviceprincipal.sh
 . ./scripts/serviceprincipal.sh
 
-echo "Filling in storage name in spark script..."
-CLIENT_ID=$(cat serviceprincipal.json | jq -r ".appId")
-CLIENT_SECRET=$(cat serviceprincipal.json | jq -r ".password")
-TENANT_NAME=$(cat serviceprincipal.json | jq -r ".tenant")
-
+sleep 2s
 # get authorization token
 echo "Getting authorization token..."
 ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded" --data-urlencode "client_id=$CLIENT_ID" \
 --data-urlencode "client_secret=$CLIENT_SECRET" --data-urlencode "scope=https://storage.azure.com/.default" --data-urlencode \
 "grant_type=client_credentials" "https://login.microsoftonline.com/$TENANT_NAME/oauth2/v2.0/token" | jq -r ".access_token")
 
-until $ACCESS_TOKEN
-do
-    echo "Obtaining ACCESS_TOKEN"
-    ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded" --data-urlencode "client_id=$CLIENT_ID" --data-urlencode "client_secret=$CLIENT_SECRET" --data-urlencode "scope=https://storage.azure.com/.default" --data-urlencode "grant_type=client_credentials" "https://login.microsoftonline.com/$TENANT_NAME/oauth2/v2.0/token" | jq -r ".access_token")
-done
+echo $ACCESS_TOKEN
+
+exit 
+
 #create files FS
 echo "Creating FileSystem"
 curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files?resource=filesystem"
