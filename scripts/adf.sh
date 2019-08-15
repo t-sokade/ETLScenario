@@ -1,7 +1,7 @@
 #!/bin/bash
 # create service principal, assign role, save variables
 chmod +x ./scripts/serviceprincipal.sh
-./scripts/serviceprincipal.sh
+. ./scripts/serviceprincipal.sh
 
 echo "Filling in storage name in spark script..."
 sed -i -e 's/<ADLS GEN2 STORAGE NAME>/'$ADLSGen2StorageName'/g' ./scripts/sparktransform.py
