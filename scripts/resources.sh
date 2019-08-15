@@ -42,7 +42,7 @@ echo "Note: Cluster creation can take around 20 minutes"
 az group deployment create --name "ResourcesDeployment"$resourceGroup \
     --resource-group $resourceGroup \
     --template-file ./templates/resourcestemplate.json \
-    --parameters ADLSGen2storageName=$ADLSGen2StorageName > resourcesoutputs.json
+    --parameters ADLSGen2StorageName=$ADLSGen2StorageName > resourcesoutputs.json
 
 
 blobStorageName=$(cat resourcesoutputs.json | jq -r '.properties.outputs.blobStorageName.value')
