@@ -5,8 +5,6 @@ ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded"
 --data-urlencode "client_secret=$CLIENT_SECRET" --data-urlencode "scope=https://storage.azure.com/.default" --data-urlencode \
 "grant_type=client_credentials" "https://login.microsoftonline.com/$TENANT_NAME/oauth2/v2.0/token" | jq -r ".access_token")
 
-echo $ACCESS_TOKEN
-
 #create files FS
 echo "Creating FileSystem"
 curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGEN2StorageName.dfs.core.windows.net/files?resource=filesystem"
