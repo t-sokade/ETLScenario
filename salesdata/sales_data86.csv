@@ -1,1020 +1,903 @@
-ordernum,quant,region,store,saledate,dep,item,unitsold,unitprice,employeeID
-0,10,Australia Southeast,Australia Southeast Store 86,2019-04-25,Beauty/Health,Bath,7,15,47779421
-1,21,Australia Southeast,Australia Southeast Store 86,2019-02-03,Clothing,Baby,5,25,43924051
-2,52,Australia Southeast,Australia Southeast Store 86,2019-05-28,Beauty/Health,Fragrances,7,10,97571466
-3,21,Australia Southeast,Australia Southeast Store 86,2019-01-21,Baby,Strollers,2,30,59614511
-4,50,Australia Southeast,Australia Southeast Store 86,2019-05-26,Clothing,Mens,6,12,44756961
-5,25,Australia Southeast,Australia Southeast Store 86,2019-07-03,Clothing,Mens,8,13,91370823
-6,42,Australia Southeast,Australia Southeast Store 86,2019-06-10,Electronics,Televisions,2,50,95801350
-7,17,Australia Southeast,Australia Southeast Store 86,2019-01-24,Furniture,Pool furniture,4,30,91861508
-8,16,Australia Southeast,Australia Southeast Store 86,2019-02-15,Furniture,Pool furniture,4,30,39977233
-9,60,Australia Southeast,Australia Southeast Store 86,2019-01-09,Electronics,Televisions,2,50,93344125
-10,2,Australia Southeast,Australia Southeast Store 86,2019-03-27,Electronics,Computers,2,300,11497620
-11,10,Australia Southeast,Australia Southeast Store 86,2019-01-13,Electronics,Televisions,2,200,40712161
-12,2,Australia Southeast,Australia Southeast Store 86,2019-03-24,Baby,Baby toys,5,12,54793013
-13,14,Australia Southeast,Australia Southeast Store 86,2019-01-11,Furniture,Indoor seating,3,100,83569201
-14,4,Australia Southeast,Australia Southeast Store 86,2019-05-27,Baby,Car seats,6,30,32057969
-15,23,Australia Southeast,Australia Southeast Store 86,2019-04-23,Electronics,Headphones,2,300,91674936
-16,98,Australia Southeast,Australia Southeast Store 86,2019-03-11,Clothing,Womens,4,25,79231641
-17,7,Australia Southeast,Australia Southeast Store 86,2019-02-08,Electronics,Tablets,2,300,83201455
-18,74,Australia Southeast,Australia Southeast Store 86,2019-04-08,Beauty/Health,Bath,5,10,82755192
-19,40,Australia Southeast,Australia Southeast Store 86,2019-04-01,Electronics,Cell Phones,2,200,55457333
-20,76,Australia Southeast,Australia Southeast Store 86,2019-05-01,Baby,Diaper bags,3,15,97705313
-21,93,Australia Southeast,Australia Southeast Store 86,2019-02-16,Beauty/Health,Skincare,5,10,84979551
-22,92,Australia Southeast,Australia Southeast Store 86,2019-02-02,Furniture,Patio furniture,1,15,29070641
-23,85,Australia Southeast,Australia Southeast Store 86,2019-03-25,Baby,Diaper bags,1,12,29019645
-24,94,Australia Southeast,Australia Southeast Store 86,2019-01-04,Clothing,Kids,2,25,72543442
-25,85,Australia Southeast,Australia Southeast Store 86,2019-03-03,Electronics,Tablets,1,100,99029792
-26,46,Australia Southeast,Australia Southeast Store 86,2019-04-19,Beauty/Health,Bath,4,14,28127009
-27,31,Australia Southeast,Australia Southeast Store 86,2019-03-02,Furniture,Indoor seating,3,15,21896853
-28,30,Australia Southeast,Australia Southeast Store 86,2019-07-11,Beauty/Health,Haircare,10,6,47805443
-29,76,Australia Southeast,Australia Southeast Store 86,2019-06-12,Beauty/Health,Skincare,10,6,69051371
-30,76,Australia Southeast,Australia Southeast Store 86,2019-03-22,Clothing,Swimwear,4,25,32695761
-31,35,Australia Southeast,Australia Southeast Store 86,2019-04-09,Electronics,Speakers,1,100,92251282
-32,47,Australia Southeast,Australia Southeast Store 86,2019-03-10,Beauty/Health,Skincare,4,10,67308200
-33,16,Australia Southeast,Australia Southeast Store 86,2019-05-21,Baby,Diaper bags,8,30,87228713
-34,31,Australia Southeast,Australia Southeast Store 86,2019-03-26,Baby,Car seats,2,10,45822075
-35,85,Australia Southeast,Australia Southeast Store 86,2019-07-01,Electronics,Tablets,1,300,30145467
-36,6,Australia Southeast,Australia Southeast Store 86,2019-04-22,Clothing,Womens,8,20,99887710
-37,85,Australia Southeast,Australia Southeast Store 86,2019-03-30,Baby,Diaper bags,1,10,43248973
-38,2,Australia Southeast,Australia Southeast Store 86,2019-03-18,Furniture,Pool furniture,2,30,78730827
-39,60,Australia Southeast,Australia Southeast Store 86,2019-01-09,Baby,Diaper bags,5,10,65660490
-40,54,Australia Southeast,Australia Southeast Store 86,2019-04-28,Baby,Baby toys,7,15,23999011
-41,94,Australia Southeast,Australia Southeast Store 86,2019-05-23,Electronics,Tablets,2,100,90334387
-42,13,Australia Southeast,Australia Southeast Store 86,2019-05-27,Beauty/Health,Haircare,9,6,50856414
-43,2,Australia Southeast,Australia Southeast Store 86,2019-07-14,Furniture,Patio furniture,4,75,13880662
-44,37,Australia Southeast,Australia Southeast Store 86,2019-05-05,Furniture,Patio furniture,7,15,70399354
-45,43,Australia Southeast,Australia Southeast Store 86,2019-03-30,Clothing,Kids,2,25,13974857
-46,47,Australia Southeast,Australia Southeast Store 86,2019-03-29,Clothing,Mens,4,10,80120980
-47,83,Australia Southeast,Australia Southeast Store 86,2019-06-16,Baby,Diaper bags,5,30,35095971
-48,94,Australia Southeast,Australia Southeast Store 86,2019-04-04,Electronics,Tablets,1,200,36870142
-49,71,Australia Southeast,Australia Southeast Store 86,2019-01-12,Baby,Cribs,5,12,74461808
-50,40,Australia Southeast,Australia Southeast Store 86,2019-03-14,Furniture,Beds,1,15,39722103
-51,95,Australia Southeast,Australia Southeast Store 86,2019-01-26,Furniture,Indoor tables,4,15,73920599
-52,55,Australia Southeast,Australia Southeast Store 86,2019-06-19,Baby,Diapers,4,30,72219967
-53,100,Australia Southeast,Australia Southeast Store 86,2019-05-21,Baby,Diapers,8,15,66883347
-54,53,Australia Southeast,Australia Southeast Store 86,2019-01-04,Beauty/Health,Haircare,3,6,93551173
-55,101,Australia Southeast,Australia Southeast Store 86,2019-01-10,Baby,Diapers,2,10,99318659
-56,67,Australia Southeast,Australia Southeast Store 86,2019-03-22,Beauty/Health,Oral care,1,10,57522441
-57,29,Australia Southeast,Australia Southeast Store 86,2019-06-07,Beauty/Health,Haircare,7,10,72809041
-58,49,Australia Southeast,Australia Southeast Store 86,2019-07-01,Beauty/Health,Bath,10,10,93408608
-59,67,Australia Southeast,Australia Southeast Store 86,2019-01-19,Beauty/Health,Feminine Products,5,10,25716184
-60,88,Australia Southeast,Australia Southeast Store 86,2019-05-27,Clothing,Womens,6,13,45199837
-61,23,Australia Southeast,Australia Southeast Store 86,2019-01-07,Furniture,Indoor tables,2,40,33984125
-62,72,Australia Southeast,Australia Southeast Store 86,2019-03-02,Baby,Diapers,1,12,60511539
-63,82,Australia Southeast,Australia Southeast Store 86,2019-04-11,Baby,Strollers,3,12,61387789
-64,46,Australia Southeast,Australia Southeast Store 86,2019-02-18,Furniture,Indoor seating,3,30,56505498
-65,88,Australia Southeast,Australia Southeast Store 86,2019-02-09,Furniture,Indoor tables,3,40,16981368
-66,18,Australia Southeast,Australia Southeast Store 86,2019-01-22,Baby,Diaper bags,1,15,92471466
-67,33,Australia Southeast,Australia Southeast Store 86,2019-04-07,Electronics,Cell Phones,1,100,10669834
-68,22,Australia Southeast,Australia Southeast Store 86,2019-04-16,Clothing,Swimwear,5,20,41476732
-69,82,Australia Southeast,Australia Southeast Store 86,2019-02-06,Electronics,Tablets,1,50,57386666
-70,92,Australia Southeast,Australia Southeast Store 86,2019-01-31,Electronics,Tablets,1,300,50438706
-71,40,Australia Southeast,Australia Southeast Store 86,2019-02-08,Baby,Strollers,2,5,54008165
-72,10,Australia Southeast,Australia Southeast Store 86,2019-05-27,Baby,Baby toys,9,30,12752986
-73,59,Australia Southeast,Australia Southeast Store 86,2019-04-07,Baby,Car seats,4,30,17529220
-74,21,Australia Southeast,Australia Southeast Store 86,2019-07-09,Beauty/Health,Skincare,8,10,66259118
-75,28,Australia Southeast,Australia Southeast Store 86,2019-02-24,Baby,Strollers,4,15,44340291
-76,44,Australia Southeast,Australia Southeast Store 86,2019-02-27,Furniture,Indoor seating,4,30,14230237
-77,73,Australia Southeast,Australia Southeast Store 86,2019-04-20,Furniture,Beds,4,100,60025060
-78,4,Australia Southeast,Australia Southeast Store 86,2019-04-10,Baby,Strollers,7,15,36831664
-79,17,Australia Southeast,Australia Southeast Store 86,2019-02-13,Baby,Strollers,5,10,52385366
-80,42,Australia Southeast,Australia Southeast Store 86,2019-01-13,Baby,Baby toys,3,15,94190248
-81,77,Australia Southeast,Australia Southeast Store 86,2019-07-12,Baby,Car seats,9,30,55437739
-82,31,Australia Southeast,Australia Southeast Store 86,2019-05-05,Furniture,Beds,6,75,91125103
-83,75,Australia Southeast,Australia Southeast Store 86,2019-04-15,Electronics,Speakers,1,200,40191768
-84,14,Australia Southeast,Australia Southeast Store 86,2019-05-10,Furniture,Pool furniture,8,40,87514068
-85,84,Australia Southeast,Australia Southeast Store 86,2019-02-10,Beauty/Health,Oral care,2,10,58499485
-86,40,Australia Southeast,Australia Southeast Store 86,2019-04-28,Clothing,Mens,4,20,66601807
-87,49,Australia Southeast,Australia Southeast Store 86,2019-03-06,Furniture,Pool furniture,3,100,36882609
-88,89,Australia Southeast,Australia Southeast Store 86,2019-04-30,Furniture,Indoor seating,8,15,58818955
-89,16,Australia Southeast,Australia Southeast Store 86,2019-01-31,Clothing,Swimwear,5,10,50448980
-90,14,Australia Southeast,Australia Southeast Store 86,2019-03-22,Baby,Car seats,1,12,21022581
-91,55,Australia Southeast,Australia Southeast Store 86,2019-07-03,Beauty/Health,Haircare,10,10,30837528
-92,22,Australia Southeast,Australia Southeast Store 86,2019-07-14,Furniture,Beds,5,100,13766136
-93,27,Australia Southeast,Australia Southeast Store 86,2019-01-16,Furniture,Beds,5,15,30501540
-94,16,Australia Southeast,Australia Southeast Store 86,2019-02-14,Clothing,Shoes,1,10,14342960
-95,60,Australia Southeast,Australia Southeast Store 86,2019-04-14,Baby,Diapers,7,30,24601784
-96,5,Australia Southeast,Australia Southeast Store 86,2019-07-03,Electronics,Speakers,2,300,97125479
-97,65,Australia Southeast,Australia Southeast Store 86,2019-02-06,Baby,Diaper bags,3,10,69322186
-98,86,Australia Southeast,Australia Southeast Store 86,2019-07-13,Electronics,Computers,2,50,52688368
-99,71,Australia Southeast,Australia Southeast Store 86,2019-03-17,Electronics,Televisions,1,200,47453723
-100,59,Australia Southeast,Australia Southeast Store 86,2019-05-17,Clothing,Shoes,8,25,38328338
-101,79,Australia Southeast,Australia Southeast Store 86,2019-05-17,Clothing,Womens,5,25,66102525
-102,57,Australia Southeast,Australia Southeast Store 86,2019-02-22,Beauty/Health,Feminine Products,2,10,60441201
-103,65,Australia Southeast,Australia Southeast Store 86,2019-05-25,Clothing,Swimwear,7,25,27138946
-104,101,Australia Southeast,Australia Southeast Store 86,2019-06-29,Beauty/Health,Bath,10,10,25339620
-105,87,Australia Southeast,Australia Southeast Store 86,2019-04-24,Baby,Cribs,6,15,90735168
-106,67,Australia Southeast,Australia Southeast Store 86,2019-03-31,Beauty/Health,Skincare,5,10,76312217
-107,3,Australia Southeast,Australia Southeast Store 86,2019-06-07,Baby,Car seats,10,10,93843155
-108,18,Australia Southeast,Australia Southeast Store 86,2019-07-12,Clothing,Swimwear,8,10,50444155
-109,90,Australia Southeast,Australia Southeast Store 86,2019-04-14,Beauty/Health,Feminine Products,10,15,66476174
-110,29,Australia Southeast,Australia Southeast Store 86,2019-04-08,Electronics,Cell Phones,1,50,73168782
-111,83,Australia Southeast,Australia Southeast Store 86,2019-06-29,Beauty/Health,Feminine Products,6,10,30107505
-112,91,Australia Southeast,Australia Southeast Store 86,2019-02-11,Beauty/Health,Bath,5,15,76088619
-113,44,Australia Southeast,Australia Southeast Store 86,2019-06-15,Baby,Baby toys,10,10,19698587
-114,53,Australia Southeast,Australia Southeast Store 86,2019-04-11,Electronics,Tablets,1,100,61920026
-115,18,Australia Southeast,Australia Southeast Store 86,2019-04-03,Clothing,Swimwear,3,25,83056108
-116,32,Australia Southeast,Australia Southeast Store 86,2019-04-09,Beauty/Health,Feminine Products,4,15,58664057
-117,66,Australia Southeast,Australia Southeast Store 86,2019-07-01,Furniture,Indoor seating,3,30,21132847
-118,55,Australia Southeast,Australia Southeast Store 86,2019-02-17,Baby,Diapers,4,10,89875997
-119,7,Australia Southeast,Australia Southeast Store 86,2019-01-12,Beauty/Health,Makeup,4,14,40135100
-120,14,Australia Southeast,Australia Southeast Store 86,2019-02-25,Baby,Baby toys,1,10,72142507
-121,53,Australia Southeast,Australia Southeast Store 86,2019-06-03,Electronics,Cell Phones,1,100,71030855
-122,40,Australia Southeast,Australia Southeast Store 86,2019-02-22,Furniture,Indoor tables,2,15,78516959
-123,52,Australia Southeast,Australia Southeast Store 86,2019-04-16,Clothing,Kids,4,25,20701614
-124,22,Australia Southeast,Australia Southeast Store 86,2019-05-28,Furniture,Patio furniture,3,15,32572101
-125,62,Australia Southeast,Australia Southeast Store 86,2019-01-23,Beauty/Health,Oral care,2,10,82699421
-126,88,Australia Southeast,Australia Southeast Store 86,2019-06-25,Furniture,Pool furniture,4,75,75665766
-127,28,Australia Southeast,Australia Southeast Store 86,2019-03-17,Electronics,Speakers,2,100,60555335
-128,14,Australia Southeast,Australia Southeast Store 86,2019-06-16,Furniture,Patio furniture,4,100,89375633
-129,10,Australia Southeast,Australia Southeast Store 86,2019-03-21,Furniture,Pool furniture,4,40,55660484
-130,72,Australia Southeast,Australia Southeast Store 86,2019-05-13,Clothing,Kids,9,13,95717130
-131,47,Australia Southeast,Australia Southeast Store 86,2019-06-28,Baby,Cribs,4,30,44348107
-132,69,Australia Southeast,Australia Southeast Store 86,2019-05-31,Baby,Strollers,4,5,65676840
-133,23,Australia Southeast,Australia Southeast Store 86,2019-05-25,Clothing,Womens,3,12,35822129
-134,14,Australia Southeast,Australia Southeast Store 86,2019-05-21,Beauty/Health,Oral care,4,10,81616392
-135,49,Australia Southeast,Australia Southeast Store 86,2019-05-25,Beauty/Health,Haircare,3,6,56425300
-136,86,Australia Southeast,Australia Southeast Store 86,2019-07-15,Clothing,Shoes,6,20,31849849
-137,30,Australia Southeast,Australia Southeast Store 86,2019-04-28,Beauty/Health,Fragrances,5,15,62995989
-138,25,Australia Southeast,Australia Southeast Store 86,2019-03-13,Clothing,Baby,2,20,13878987
-139,48,Australia Southeast,Australia Southeast Store 86,2019-04-21,Baby,Cribs,4,30,35319483
-140,25,Australia Southeast,Australia Southeast Store 86,2019-05-25,Baby,Car seats,5,30,24979557
-141,10,Australia Southeast,Australia Southeast Store 86,2019-01-13,Clothing,Swimwear,2,20,44504687
-142,14,Australia Southeast,Australia Southeast Store 86,2019-04-12,Furniture,Indoor seating,5,75,27210512
-143,46,Australia Southeast,Australia Southeast Store 86,2019-04-15,Electronics,Computers,1,100,24388916
-144,74,Australia Southeast,Australia Southeast Store 86,2019-04-07,Beauty/Health,Feminine Products,1,6,54539099
-145,37,Australia Southeast,Australia Southeast Store 86,2019-01-09,Beauty/Health,Skincare,1,15,64781748
-146,56,Australia Southeast,Australia Southeast Store 86,2019-04-25,Beauty/Health,Fragrances,7,15,43219743
-147,62,Australia Southeast,Australia Southeast Store 86,2019-06-06,Furniture,Indoor tables,3,100,81080284
-148,9,Australia Southeast,Australia Southeast Store 86,2019-02-08,Furniture,Patio furniture,4,30,45014561
-149,85,Australia Southeast,Australia Southeast Store 86,2019-03-27,Beauty/Health,Oral care,3,10,34217859
-150,84,Australia Southeast,Australia Southeast Store 86,2019-01-19,Clothing,Kids,1,10,61159365
-151,70,Australia Southeast,Australia Southeast Store 86,2019-05-06,Furniture,Pool furniture,6,15,29527959
-152,32,Australia Southeast,Australia Southeast Store 86,2019-04-04,Baby,Cribs,3,10,15511980
-153,81,Australia Southeast,Australia Southeast Store 86,2019-02-09,Beauty/Health,Bath,4,10,22534081
-154,23,Australia Southeast,Australia Southeast Store 86,2019-06-29,Electronics,Speakers,1,50,76564372
-155,99,Australia Southeast,Australia Southeast Store 86,2019-03-02,Electronics,Tablets,1,200,10669571
-156,92,Australia Southeast,Australia Southeast Store 86,2019-01-18,Electronics,Tablets,1,200,37489059
-157,7,Australia Southeast,Australia Southeast Store 86,2019-07-04,Furniture,Patio furniture,8,30,19163965
-158,55,Australia Southeast,Australia Southeast Store 86,2019-05-06,Baby,Car seats,9,5,32185965
-159,35,Australia Southeast,Australia Southeast Store 86,2019-01-19,Furniture,Beds,5,30,33389917
-160,26,Australia Southeast,Australia Southeast Store 86,2019-06-26,Electronics,Tablets,1,100,36950749
-161,84,Australia Southeast,Australia Southeast Store 86,2019-02-27,Electronics,Speakers,1,300,41504023
-162,74,Australia Southeast,Australia Southeast Store 86,2019-02-12,Beauty/Health,Oral care,4,10,76322549
-163,40,Australia Southeast,Australia Southeast Store 86,2019-01-11,Beauty/Health,Fragrances,1,15,27953568
-164,50,Australia Southeast,Australia Southeast Store 86,2019-05-10,Clothing,Shoes,8,25,25651116
-165,7,Australia Southeast,Australia Southeast Store 86,2019-04-08,Beauty/Health,Feminine Products,4,10,91232523
-166,51,Australia Southeast,Australia Southeast Store 86,2019-01-20,Electronics,Televisions,2,100,99368930
-167,35,Australia Southeast,Australia Southeast Store 86,2019-03-26,Furniture,Indoor tables,1,30,19132919
-168,30,Australia Southeast,Australia Southeast Store 86,2019-03-10,Electronics,Computers,1,100,55708568
-169,83,Australia Southeast,Australia Southeast Store 86,2019-07-14,Electronics,Televisions,2,100,77353138
-170,41,Australia Southeast,Australia Southeast Store 86,2019-03-24,Beauty/Health,Makeup,1,10,18358499
-171,24,Australia Southeast,Australia Southeast Store 86,2019-06-23,Clothing,Kids,5,20,22569123
-172,53,Australia Southeast,Australia Southeast Store 86,2019-05-14,Furniture,Indoor seating,4,75,38808024
-173,80,Australia Southeast,Australia Southeast Store 86,2019-05-07,Electronics,Cell Phones,2,200,79285086
-174,92,Australia Southeast,Australia Southeast Store 86,2019-06-09,Electronics,Headphones,1,50,22415080
-175,33,Australia Southeast,Australia Southeast Store 86,2019-06-22,Clothing,Womens,4,20,92016625
-176,35,Australia Southeast,Australia Southeast Store 86,2019-04-21,Clothing,Swimwear,5,25,19048973
-177,42,Australia Southeast,Australia Southeast Store 86,2019-02-18,Electronics,Cell Phones,1,300,43766454
-178,87,Australia Southeast,Australia Southeast Store 86,2019-01-12,Beauty/Health,Makeup,3,10,43929101
-179,66,Australia Southeast,Australia Southeast Store 86,2019-05-15,Beauty/Health,Skincare,5,14,37319693
-180,33,Australia Southeast,Australia Southeast Store 86,2019-02-13,Baby,Diapers,1,5,75773880
-181,27,Australia Southeast,Australia Southeast Store 86,2019-03-19,Clothing,Shoes,5,13,98808861
-182,72,Australia Southeast,Australia Southeast Store 86,2019-04-21,Beauty/Health,Feminine Products,9,10,83447603
-183,12,Australia Southeast,Australia Southeast Store 86,2019-02-11,Furniture,Indoor seating,4,15,39870825
-184,79,Australia Southeast,Australia Southeast Store 86,2019-07-13,Electronics,Televisions,1,200,67060436
-185,84,Australia Southeast,Australia Southeast Store 86,2019-01-30,Electronics,Cell Phones,1,200,24919436
-186,14,Australia Southeast,Australia Southeast Store 86,2019-06-03,Electronics,Televisions,2,100,56996117
-187,72,Australia Southeast,Australia Southeast Store 86,2019-01-22,Beauty/Health,Haircare,4,6,79182452
-188,31,Australia Southeast,Australia Southeast Store 86,2019-01-16,Clothing,Baby,3,10,18988821
-189,74,Australia Southeast,Australia Southeast Store 86,2019-01-09,Beauty/Health,Skincare,5,14,33938170
-190,15,Australia Southeast,Australia Southeast Store 86,2019-05-25,Furniture,Pool furniture,3,40,97450177
-191,40,Australia Southeast,Australia Southeast Store 86,2019-07-06,Electronics,Tablets,2,50,22984209
-192,18,Australia Southeast,Australia Southeast Store 86,2019-06-27,Baby,Diapers,3,30,90456261
-193,55,Australia Southeast,Australia Southeast Store 86,2019-03-26,Furniture,Indoor tables,4,40,61811187
-194,59,Australia Southeast,Australia Southeast Store 86,2019-03-30,Baby,Cribs,3,5,41925270
-195,25,Australia Southeast,Australia Southeast Store 86,2019-05-21,Baby,Strollers,6,10,68539337
-196,11,Australia Southeast,Australia Southeast Store 86,2019-04-01,Clothing,Mens,2,10,40045805
-197,100,Australia Southeast,Australia Southeast Store 86,2019-01-26,Furniture,Indoor seating,4,30,63401555
-198,45,Australia Southeast,Australia Southeast Store 86,2019-07-13,Baby,Cribs,3,10,70590123
-199,71,Australia Southeast,Australia Southeast Store 86,2019-02-09,Clothing,Kids,1,25,63865982
-200,14,Australia Southeast,Australia Southeast Store 86,2019-01-01,Beauty/Health,Makeup,2,6,62911033
-201,40,Australia Southeast,Australia Southeast Store 86,2019-03-05,Baby,Diaper bags,5,30,40552998
-202,40,Australia Southeast,Australia Southeast Store 86,2019-02-24,Beauty/Health,Feminine Products,2,14,61124468
-203,91,Australia Southeast,Australia Southeast Store 86,2019-03-02,Beauty/Health,Bath,2,10,65925908
-204,65,Australia Southeast,Australia Southeast Store 86,2019-02-08,Beauty/Health,Haircare,5,10,37528098
-205,32,Australia Southeast,Australia Southeast Store 86,2019-06-18,Beauty/Health,Oral care,4,10,71406748
-206,5,Australia Southeast,Australia Southeast Store 86,2019-01-09,Baby,Cribs,4,5,34570080
-207,71,Australia Southeast,Australia Southeast Store 86,2019-03-30,Furniture,Indoor seating,1,40,82811219
-208,16,Australia Southeast,Australia Southeast Store 86,2019-05-24,Beauty/Health,Fragrances,4,15,52943094
-209,101,Australia Southeast,Australia Southeast Store 86,2019-02-15,Clothing,Baby,2,12,22197611
-210,57,Australia Southeast,Australia Southeast Store 86,2019-05-10,Electronics,Computers,2,200,31802194
-211,59,Australia Southeast,Australia Southeast Store 86,2019-04-03,Furniture,Pool furniture,2,15,70661491
-212,59,Australia Southeast,Australia Southeast Store 86,2019-05-07,Baby,Diapers,8,15,91142193
-213,28,Australia Southeast,Australia Southeast Store 86,2019-07-07,Furniture,Patio furniture,10,30,71894778
-214,32,Australia Southeast,Australia Southeast Store 86,2019-07-06,Furniture,Indoor tables,5,75,19364174
-215,69,Australia Southeast,Australia Southeast Store 86,2019-03-22,Furniture,Indoor tables,3,100,87496679
-216,42,Australia Southeast,Australia Southeast Store 86,2019-04-22,Beauty/Health,Feminine Products,7,10,97928422
-217,58,Australia Southeast,Australia Southeast Store 86,2019-06-26,Beauty/Health,Makeup,3,10,78641545
-218,96,Australia Southeast,Australia Southeast Store 86,2019-02-27,Beauty/Health,Skincare,1,10,44327209
-219,91,Australia Southeast,Australia Southeast Store 86,2019-06-15,Baby,Car seats,10,15,66271067
-220,55,Australia Southeast,Australia Southeast Store 86,2019-07-07,Electronics,Tablets,2,100,25818642
-221,27,Australia Southeast,Australia Southeast Store 86,2019-02-28,Electronics,Televisions,2,100,52513408
-222,19,Australia Southeast,Australia Southeast Store 86,2019-03-06,Clothing,Kids,2,20,51508023
-223,56,Australia Southeast,Australia Southeast Store 86,2019-04-02,Furniture,Indoor seating,1,30,83174589
-224,67,Australia Southeast,Australia Southeast Store 86,2019-02-03,Baby,Cribs,2,30,95631415
-225,11,Australia Southeast,Australia Southeast Store 86,2019-06-10,Clothing,Womens,10,25,22675199
-226,94,Australia Southeast,Australia Southeast Store 86,2019-03-07,Clothing,Shoes,2,13,89842482
-227,90,Australia Southeast,Australia Southeast Store 86,2019-05-23,Furniture,Pool furniture,9,40,40977641
-228,49,Australia Southeast,Australia Southeast Store 86,2019-07-02,Furniture,Patio furniture,6,15,34252784
-229,94,Australia Southeast,Australia Southeast Store 86,2019-03-12,Furniture,Indoor seating,2,40,56941394
-230,55,Australia Southeast,Australia Southeast Store 86,2019-04-01,Clothing,Mens,3,25,58530459
-231,49,Australia Southeast,Australia Southeast Store 86,2019-01-25,Clothing,Kids,5,13,93933412
-232,71,Australia Southeast,Australia Southeast Store 86,2019-01-27,Electronics,Speakers,2,200,44745093
-233,90,Australia Southeast,Australia Southeast Store 86,2019-01-02,Electronics,Tablets,1,50,24987394
-234,58,Australia Southeast,Australia Southeast Store 86,2019-02-07,Baby,Diapers,3,30,52765250
-235,97,Australia Southeast,Australia Southeast Store 86,2019-02-07,Furniture,Beds,1,30,44558564
-236,5,Australia Southeast,Australia Southeast Store 86,2019-02-03,Clothing,Mens,5,13,85758614
-237,11,Australia Southeast,Australia Southeast Store 86,2019-01-18,Baby,Strollers,3,10,89372688
-238,44,Australia Southeast,Australia Southeast Store 86,2019-07-14,Clothing,Shoes,7,13,36570303
-239,58,Australia Southeast,Australia Southeast Store 86,2019-03-31,Furniture,Beds,4,75,53251478
-240,37,Australia Southeast,Australia Southeast Store 86,2019-01-10,Beauty/Health,Fragrances,3,10,48565458
-241,57,Australia Southeast,Australia Southeast Store 86,2019-03-29,Electronics,Speakers,2,200,27226881
-242,30,Australia Southeast,Australia Southeast Store 86,2019-07-05,Baby,Diaper bags,10,15,55080981
-243,34,Australia Southeast,Australia Southeast Store 86,2019-06-07,Clothing,Baby,8,13,32876960
-244,16,Australia Southeast,Australia Southeast Store 86,2019-05-28,Clothing,Swimwear,9,20,37184818
-245,23,Australia Southeast,Australia Southeast Store 86,2019-01-16,Clothing,Kids,1,25,66529701
-246,59,Australia Southeast,Australia Southeast Store 86,2019-02-18,Clothing,Kids,2,25,87381338
-247,92,Australia Southeast,Australia Southeast Store 86,2019-05-20,Electronics,Televisions,1,50,40812604
-248,50,Australia Southeast,Australia Southeast Store 86,2019-02-05,Clothing,Kids,5,13,88067589
-249,52,Australia Southeast,Australia Southeast Store 86,2019-02-13,Clothing,Baby,3,25,18590723
-250,55,Australia Southeast,Australia Southeast Store 86,2019-05-17,Beauty/Health,Fragrances,9,10,61945431
-251,70,Australia Southeast,Australia Southeast Store 86,2019-02-04,Baby,Strollers,2,10,43951803
-252,92,Australia Southeast,Australia Southeast Store 86,2019-06-27,Beauty/Health,Makeup,6,14,54290379
-253,27,Australia Southeast,Australia Southeast Store 86,2019-02-17,Electronics,Tablets,2,50,45399087
-254,25,Australia Southeast,Australia Southeast Store 86,2019-04-13,Clothing,Swimwear,6,25,52459310
-255,64,Australia Southeast,Australia Southeast Store 86,2019-02-12,Baby,Cribs,5,10,81687621
-256,27,Australia Southeast,Australia Southeast Store 86,2019-04-06,Electronics,Cell Phones,2,100,29129065
-257,79,Australia Southeast,Australia Southeast Store 86,2019-01-23,Clothing,Shoes,2,10,82695878
-258,77,Australia Southeast,Australia Southeast Store 86,2019-04-07,Beauty/Health,Makeup,1,10,26949363
-259,56,Australia Southeast,Australia Southeast Store 86,2019-02-17,Clothing,Mens,4,20,32331175
-260,74,Australia Southeast,Australia Southeast Store 86,2019-03-09,Beauty/Health,Fragrances,2,6,75335404
-261,25,Australia Southeast,Australia Southeast Store 86,2019-01-16,Beauty/Health,Fragrances,5,10,41447211
-262,43,Australia Southeast,Australia Southeast Store 86,2019-03-04,Baby,Diaper bags,2,30,11344007
-263,16,Australia Southeast,Australia Southeast Store 86,2019-06-22,Beauty/Health,Bath,7,10,36688563
-264,4,Australia Southeast,Australia Southeast Store 86,2019-05-23,Beauty/Health,Makeup,9,15,66566940
-265,41,Australia Southeast,Australia Southeast Store 86,2019-01-15,Baby,Car seats,5,30,22613615
-266,83,Australia Southeast,Australia Southeast Store 86,2019-05-06,Electronics,Tablets,2,100,16638094
-267,95,Australia Southeast,Australia Southeast Store 86,2019-05-14,Beauty/Health,Makeup,4,10,27882080
-268,7,Australia Southeast,Australia Southeast Store 86,2019-05-19,Furniture,Indoor seating,10,75,83050760
-269,80,Australia Southeast,Australia Southeast Store 86,2019-01-22,Electronics,Cell Phones,2,300,81417692
-270,6,Australia Southeast,Australia Southeast Store 86,2019-02-27,Beauty/Health,Oral care,2,10,89698149
-271,24,Australia Southeast,Australia Southeast Store 86,2019-03-16,Furniture,Pool furniture,3,30,37261042
-272,3,Australia Southeast,Australia Southeast Store 86,2019-01-12,Beauty/Health,Oral care,2,15,82414609
-273,70,Australia Southeast,Australia Southeast Store 86,2019-02-03,Clothing,Swimwear,3,10,95913689
-274,86,Australia Southeast,Australia Southeast Store 86,2019-04-25,Beauty/Health,Feminine Products,8,10,35972212
-275,85,Australia Southeast,Australia Southeast Store 86,2019-05-22,Clothing,Womens,6,13,54870349
-276,63,Australia Southeast,Australia Southeast Store 86,2019-01-29,Baby,Baby toys,4,12,38595595
-277,70,Australia Southeast,Australia Southeast Store 86,2019-02-23,Clothing,Kids,1,12,70864524
-278,56,Australia Southeast,Australia Southeast Store 86,2019-04-10,Electronics,Cell Phones,1,50,24278252
-279,34,Australia Southeast,Australia Southeast Store 86,2019-06-15,Electronics,Cell Phones,1,200,68920604
-280,55,Australia Southeast,Australia Southeast Store 86,2019-03-19,Baby,Baby toys,2,5,43611513
-281,29,Australia Southeast,Australia Southeast Store 86,2019-07-11,Clothing,Womens,10,12,88363568
-282,91,Australia Southeast,Australia Southeast Store 86,2019-06-28,Clothing,Womens,7,10,87604274
-283,66,Australia Southeast,Australia Southeast Store 86,2019-01-24,Clothing,Womens,1,12,22292486
-284,4,Australia Southeast,Australia Southeast Store 86,2019-01-15,Furniture,Patio furniture,1,15,78345963
-285,3,Australia Southeast,Australia Southeast Store 86,2019-04-20,Baby,Car seats,4,15,96771098
-286,88,Australia Southeast,Australia Southeast Store 86,2019-06-12,Clothing,Swimwear,3,10,75096526
-287,101,Australia Southeast,Australia Southeast Store 86,2019-04-03,Electronics,Headphones,1,100,53256583
-288,94,Australia Southeast,Australia Southeast Store 86,2019-02-12,Clothing,Swimwear,5,25,46345934
-289,55,Australia Southeast,Australia Southeast Store 86,2019-03-08,Electronics,Headphones,1,200,36290144
-290,89,Australia Southeast,Australia Southeast Store 86,2019-05-26,Beauty/Health,Bath,5,10,57029658
-291,77,Australia Southeast,Australia Southeast Store 86,2019-02-26,Baby,Cribs,3,10,50079381
-292,61,Australia Southeast,Australia Southeast Store 86,2019-07-11,Clothing,Womens,10,12,53697857
-293,75,Australia Southeast,Australia Southeast Store 86,2019-04-24,Clothing,Mens,8,25,63869253
-294,75,Australia Southeast,Australia Southeast Store 86,2019-05-18,Clothing,Kids,5,10,11775335
-295,67,Australia Southeast,Australia Southeast Store 86,2019-04-27,Clothing,Shoes,10,20,18165660
-296,66,Australia Southeast,Australia Southeast Store 86,2019-02-13,Beauty/Health,Bath,4,14,71251671
-297,4,Australia Southeast,Australia Southeast Store 86,2019-06-09,Baby,Baby toys,8,15,48132606
-298,24,Australia Southeast,Australia Southeast Store 86,2019-04-26,Baby,Diaper bags,4,10,77957072
-299,70,Australia Southeast,Australia Southeast Store 86,2019-03-31,Beauty/Health,Skincare,5,10,99108807
-300,1,Australia Southeast,Australia Southeast Store 86,2019-04-11,Clothing,Shoes,7,25,21713629
-301,24,Australia Southeast,Australia Southeast Store 86,2019-02-20,Furniture,Patio furniture,5,75,30244025
-302,90,Australia Southeast,Australia Southeast Store 86,2019-04-17,Furniture,Patio furniture,6,75,47211729
-303,7,Australia Southeast,Australia Southeast Store 86,2019-04-03,Baby,Baby toys,4,30,12350974
-304,74,Australia Southeast,Australia Southeast Store 86,2019-05-15,Beauty/Health,Oral care,7,10,70573712
-305,68,Australia Southeast,Australia Southeast Store 86,2019-02-02,Furniture,Pool furniture,1,40,33557945
-306,67,Australia Southeast,Australia Southeast Store 86,2019-07-02,Electronics,Computers,1,100,82927317
-307,88,Australia Southeast,Australia Southeast Store 86,2019-01-06,Clothing,Womens,3,10,27718427
-308,19,Australia Southeast,Australia Southeast Store 86,2019-06-16,Electronics,Tablets,2,100,64171883
-309,40,Australia Southeast,Australia Southeast Store 86,2019-07-09,Clothing,Swimwear,3,25,89005878
-310,2,Australia Southeast,Australia Southeast Store 86,2019-01-09,Clothing,Mens,4,12,71997346
-311,101,Australia Southeast,Australia Southeast Store 86,2019-05-18,Clothing,Baby,7,25,49195922
-312,101,Australia Southeast,Australia Southeast Store 86,2019-04-13,Clothing,Baby,6,10,21585797
-313,85,Australia Southeast,Australia Southeast Store 86,2019-04-07,Beauty/Health,Oral care,1,14,97803378
-314,17,Australia Southeast,Australia Southeast Store 86,2019-02-08,Furniture,Indoor tables,2,75,95152692
-315,25,Australia Southeast,Australia Southeast Store 86,2019-01-24,Clothing,Womens,2,20,67753587
-316,70,Australia Southeast,Australia Southeast Store 86,2019-02-02,Clothing,Kids,2,25,33665565
-317,44,Australia Southeast,Australia Southeast Store 86,2019-03-31,Clothing,Womens,1,20,27685613
-318,59,Australia Southeast,Australia Southeast Store 86,2019-06-09,Clothing,Shoes,3,25,54933210
-319,1,Australia Southeast,Australia Southeast Store 86,2019-05-12,Electronics,Computers,1,200,98063906
-320,96,Australia Southeast,Australia Southeast Store 86,2019-06-04,Electronics,Headphones,1,100,54100047
-321,55,Australia Southeast,Australia Southeast Store 86,2019-03-31,Clothing,Kids,3,25,65230583
-322,94,Australia Southeast,Australia Southeast Store 86,2019-03-22,Clothing,Kids,4,25,92569341
-323,26,Australia Southeast,Australia Southeast Store 86,2019-04-15,Furniture,Pool furniture,4,75,60611712
-324,15,Australia Southeast,Australia Southeast Store 86,2019-02-16,Furniture,Patio furniture,1,15,75283827
-325,3,Australia Southeast,Australia Southeast Store 86,2019-03-01,Electronics,Speakers,2,100,56405402
-326,69,Australia Southeast,Australia Southeast Store 86,2019-02-19,Baby,Car seats,3,30,99398923
-327,72,Australia Southeast,Australia Southeast Store 86,2019-06-14,Furniture,Indoor tables,3,15,15353476
-328,63,Australia Southeast,Australia Southeast Store 86,2019-03-18,Furniture,Indoor seating,4,30,19272734
-329,54,Australia Southeast,Australia Southeast Store 86,2019-05-29,Electronics,Cell Phones,1,100,74296940
-330,9,Australia Southeast,Australia Southeast Store 86,2019-03-25,Clothing,Swimwear,5,20,33229940
-331,52,Australia Southeast,Australia Southeast Store 86,2019-03-22,Beauty/Health,Skincare,3,14,24751799
-332,16,Australia Southeast,Australia Southeast Store 86,2019-05-20,Furniture,Beds,6,75,74544060
-333,53,Australia Southeast,Australia Southeast Store 86,2019-03-12,Beauty/Health,Oral care,5,14,13677159
-334,70,Australia Southeast,Australia Southeast Store 86,2019-07-14,Electronics,Televisions,1,200,68136379
-335,84,Australia Southeast,Australia Southeast Store 86,2019-04-13,Furniture,Indoor tables,3,30,13139257
-336,4,Australia Southeast,Australia Southeast Store 86,2019-03-05,Furniture,Pool furniture,4,40,24153269
-337,54,Australia Southeast,Australia Southeast Store 86,2019-04-11,Electronics,Tablets,2,200,47323535
-338,48,Australia Southeast,Australia Southeast Store 86,2019-01-08,Beauty/Health,Feminine Products,5,10,91531878
-339,33,Australia Southeast,Australia Southeast Store 86,2019-06-15,Clothing,Shoes,7,10,56425990
-340,51,Australia Southeast,Australia Southeast Store 86,2019-05-11,Electronics,Cell Phones,2,200,20867920
-341,99,Australia Southeast,Australia Southeast Store 86,2019-04-02,Electronics,Televisions,1,200,81788292
-342,74,Australia Southeast,Australia Southeast Store 86,2019-02-23,Electronics,Cell Phones,1,100,48321386
-343,20,Australia Southeast,Australia Southeast Store 86,2019-05-19,Beauty/Health,Oral care,5,10,19141645
-344,80,Australia Southeast,Australia Southeast Store 86,2019-02-16,Clothing,Womens,3,25,19656800
-345,1,Australia Southeast,Australia Southeast Store 86,2019-03-21,Beauty/Health,Bath,5,10,91659245
-346,74,Australia Southeast,Australia Southeast Store 86,2019-01-20,Baby,Diapers,5,5,67287448
-347,81,Australia Southeast,Australia Southeast Store 86,2019-06-18,Clothing,Kids,5,12,43509076
-348,70,Australia Southeast,Australia Southeast Store 86,2019-05-11,Baby,Strollers,6,5,90105727
-349,95,Australia Southeast,Australia Southeast Store 86,2019-03-13,Electronics,Televisions,2,100,72354266
-350,80,Australia Southeast,Australia Southeast Store 86,2019-02-01,Electronics,Tablets,2,100,43589765
-351,55,Australia Southeast,Australia Southeast Store 86,2019-06-26,Furniture,Indoor tables,3,40,41854164
-352,67,Australia Southeast,Australia Southeast Store 86,2019-06-07,Baby,Diaper bags,4,30,97078465
-353,58,Australia Southeast,Australia Southeast Store 86,2019-05-06,Furniture,Patio furniture,8,40,79948179
-354,54,Australia Southeast,Australia Southeast Store 86,2019-07-03,Electronics,Speakers,1,200,25055527
-355,17,Australia Southeast,Australia Southeast Store 86,2019-01-08,Electronics,Computers,1,50,31964643
-356,87,Australia Southeast,Australia Southeast Store 86,2019-06-12,Electronics,Cell Phones,2,300,88105400
-357,13,Australia Southeast,Australia Southeast Store 86,2019-05-05,Electronics,Tablets,1,300,66490225
-358,75,Australia Southeast,Australia Southeast Store 86,2019-06-26,Baby,Car seats,9,15,38825465
-359,3,Australia Southeast,Australia Southeast Store 86,2019-06-21,Furniture,Pool furniture,8,30,62441614
-360,39,Australia Southeast,Australia Southeast Store 86,2019-01-23,Baby,Diapers,1,10,26063883
-361,4,Australia Southeast,Australia Southeast Store 86,2019-01-02,Clothing,Baby,4,25,21395106
-362,50,Australia Southeast,Australia Southeast Store 86,2019-01-31,Clothing,Kids,2,20,89881890
-363,56,Australia Southeast,Australia Southeast Store 86,2019-04-05,Clothing,Kids,4,10,26260305
-364,3,Australia Southeast,Australia Southeast Store 86,2019-03-18,Baby,Car seats,2,15,12296151
-365,25,Australia Southeast,Australia Southeast Store 86,2019-02-10,Furniture,Indoor tables,5,75,12744791
-366,26,Australia Southeast,Australia Southeast Store 86,2019-06-23,Clothing,Womens,10,25,89733521
-367,8,Australia Southeast,Australia Southeast Store 86,2019-05-11,Electronics,Headphones,1,200,55593094
-368,50,Australia Southeast,Australia Southeast Store 86,2019-04-03,Baby,Cribs,1,10,93472708
-369,14,Australia Southeast,Australia Southeast Store 86,2019-03-11,Furniture,Indoor tables,3,75,56829673
-370,2,Australia Southeast,Australia Southeast Store 86,2019-06-13,Clothing,Swimwear,5,10,26070807
-371,74,Australia Southeast,Australia Southeast Store 86,2019-04-25,Furniture,Indoor tables,10,100,10023545
-372,25,Australia Southeast,Australia Southeast Store 86,2019-04-19,Electronics,Headphones,1,50,38219196
-373,54,Australia Southeast,Australia Southeast Store 86,2019-06-20,Electronics,Cell Phones,2,200,39026338
-374,51,Australia Southeast,Australia Southeast Store 86,2019-01-14,Clothing,Mens,1,25,22412735
-375,44,Australia Southeast,Australia Southeast Store 86,2019-01-02,Clothing,Shoes,1,20,43196267
-376,23,Australia Southeast,Australia Southeast Store 86,2019-05-25,Electronics,Computers,1,100,79206739
-377,8,Australia Southeast,Australia Southeast Store 86,2019-02-07,Electronics,Speakers,1,200,55255953
-378,97,Australia Southeast,Australia Southeast Store 86,2019-07-09,Beauty/Health,Haircare,6,10,96718535
-379,74,Australia Southeast,Australia Southeast Store 86,2019-02-08,Clothing,Swimwear,2,25,82314028
-380,82,Australia Southeast,Australia Southeast Store 86,2019-03-31,Clothing,Kids,2,20,15553304
-381,74,Australia Southeast,Australia Southeast Store 86,2019-06-06,Furniture,Beds,4,40,36782100
-382,58,Australia Southeast,Australia Southeast Store 86,2019-07-13,Clothing,Swimwear,4,12,71565866
-383,11,Australia Southeast,Australia Southeast Store 86,2019-06-14,Baby,Car seats,10,30,27901564
-384,71,Australia Southeast,Australia Southeast Store 86,2019-05-24,Baby,Car seats,6,30,13751101
-385,16,Australia Southeast,Australia Southeast Store 86,2019-04-04,Clothing,Baby,2,25,90012637
-386,94,Australia Southeast,Australia Southeast Store 86,2019-06-28,Electronics,Tablets,2,200,55083082
-387,22,Australia Southeast,Australia Southeast Store 86,2019-03-26,Baby,Strollers,4,10,33036508
-388,83,Australia Southeast,Australia Southeast Store 86,2019-03-17,Electronics,Computers,1,50,88263431
-389,77,Australia Southeast,Australia Southeast Store 86,2019-05-19,Baby,Diaper bags,6,5,57881799
-390,26,Australia Southeast,Australia Southeast Store 86,2019-01-27,Furniture,Pool furniture,3,40,75406635
-391,52,Australia Southeast,Australia Southeast Store 86,2019-01-26,Electronics,Tablets,1,100,11264337
-392,25,Australia Southeast,Australia Southeast Store 86,2019-04-16,Beauty/Health,Makeup,5,10,46174092
-393,5,Australia Southeast,Australia Southeast Store 86,2019-03-26,Beauty/Health,Bath,2,10,78284311
-394,60,Australia Southeast,Australia Southeast Store 86,2019-02-16,Clothing,Baby,5,25,53814595
-395,40,Australia Southeast,Australia Southeast Store 86,2019-04-04,Baby,Diapers,4,30,18972535
-396,29,Australia Southeast,Australia Southeast Store 86,2019-06-29,Clothing,Mens,7,20,21512688
-397,96,Australia Southeast,Australia Southeast Store 86,2019-06-13,Beauty/Health,Fragrances,3,6,97307815
-398,14,Australia Southeast,Australia Southeast Store 86,2019-04-26,Furniture,Pool furniture,7,40,30769591
-399,35,Australia Southeast,Australia Southeast Store 86,2019-04-12,Clothing,Baby,5,10,62254458
-400,76,Australia Southeast,Australia Southeast Store 86,2019-03-31,Electronics,Televisions,2,200,11877635
-401,94,Australia Southeast,Australia Southeast Store 86,2019-01-31,Baby,Strollers,2,30,69959511
-402,98,Australia Southeast,Australia Southeast Store 86,2019-06-29,Baby,Car seats,5,10,10844929
-403,92,Australia Southeast,Australia Southeast Store 86,2019-01-12,Baby,Diapers,1,5,95882163
-404,58,Australia Southeast,Australia Southeast Store 86,2019-06-08,Electronics,Cell Phones,2,200,61574465
-405,82,Australia Southeast,Australia Southeast Store 86,2019-02-16,Furniture,Pool furniture,5,40,70702653
-406,66,Australia Southeast,Australia Southeast Store 86,2019-05-14,Baby,Car seats,6,15,35400863
-407,9,Australia Southeast,Australia Southeast Store 86,2019-05-28,Electronics,Headphones,2,50,37053836
-408,91,Australia Southeast,Australia Southeast Store 86,2019-06-02,Furniture,Beds,5,30,70413539
-409,94,Australia Southeast,Australia Southeast Store 86,2019-03-17,Furniture,Beds,1,75,11051377
-410,92,Australia Southeast,Australia Southeast Store 86,2019-04-19,Clothing,Baby,6,10,66327780
-411,2,Australia Southeast,Australia Southeast Store 86,2019-03-11,Baby,Car seats,2,5,65134770
-412,70,Australia Southeast,Australia Southeast Store 86,2019-06-22,Furniture,Indoor tables,5,40,83261834
-413,55,Australia Southeast,Australia Southeast Store 86,2019-03-04,Electronics,Computers,1,50,84553860
-414,64,Australia Southeast,Australia Southeast Store 86,2019-06-22,Beauty/Health,Fragrances,7,10,40405994
-415,58,Australia Southeast,Australia Southeast Store 86,2019-06-01,Electronics,Televisions,1,50,84823366
-416,19,Australia Southeast,Australia Southeast Store 86,2019-01-31,Baby,Baby toys,1,5,36287996
-417,12,Australia Southeast,Australia Southeast Store 86,2019-07-13,Baby,Diapers,4,30,54219402
-418,68,Australia Southeast,Australia Southeast Store 86,2019-06-22,Furniture,Indoor seating,5,40,37016083
-419,86,Australia Southeast,Australia Southeast Store 86,2019-04-03,Beauty/Health,Oral care,1,6,51890341
-420,69,Australia Southeast,Australia Southeast Store 86,2019-03-17,Furniture,Patio furniture,4,30,12731736
-421,31,Australia Southeast,Australia Southeast Store 86,2019-05-03,Clothing,Mens,3,25,16617529
-422,30,Australia Southeast,Australia Southeast Store 86,2019-01-28,Furniture,Beds,5,40,31129063
-423,48,Australia Southeast,Australia Southeast Store 86,2019-01-29,Clothing,Kids,5,13,14737732
-424,39,Australia Southeast,Australia Southeast Store 86,2019-01-28,Electronics,Speakers,1,100,13152506
-425,37,Australia Southeast,Australia Southeast Store 86,2019-04-04,Electronics,Headphones,1,300,60806297
-426,88,Australia Southeast,Australia Southeast Store 86,2019-05-25,Beauty/Health,Fragrances,10,10,36917534
-427,67,Australia Southeast,Australia Southeast Store 86,2019-03-15,Clothing,Shoes,4,25,10834022
-428,96,Australia Southeast,Australia Southeast Store 86,2019-01-05,Baby,Diaper bags,5,15,78307421
-429,89,Australia Southeast,Australia Southeast Store 86,2019-02-26,Baby,Baby toys,1,30,96797353
-430,15,Australia Southeast,Australia Southeast Store 86,2019-01-26,Electronics,Tablets,1,50,88677616
-431,71,Australia Southeast,Australia Southeast Store 86,2019-07-12,Clothing,Womens,8,13,50147993
-432,25,Australia Southeast,Australia Southeast Store 86,2019-06-14,Beauty/Health,Haircare,4,15,65043024
-433,16,Australia Southeast,Australia Southeast Store 86,2019-05-28,Clothing,Womens,3,25,27620998
-434,16,Australia Southeast,Australia Southeast Store 86,2019-06-03,Clothing,Mens,6,20,50505967
-435,79,Australia Southeast,Australia Southeast Store 86,2019-04-22,Furniture,Indoor tables,6,75,18304290
-436,57,Australia Southeast,Australia Southeast Store 86,2019-07-06,Beauty/Health,Oral care,8,6,45529082
-437,33,Australia Southeast,Australia Southeast Store 86,2019-03-05,Electronics,Headphones,2,100,29784299
-438,8,Australia Southeast,Australia Southeast Store 86,2019-01-02,Beauty/Health,Fragrances,2,10,86318301
-439,13,Australia Southeast,Australia Southeast Store 86,2019-03-11,Clothing,Baby,4,10,93444807
-440,1,Australia Southeast,Australia Southeast Store 86,2019-05-10,Furniture,Patio furniture,4,30,35966694
-441,59,Australia Southeast,Australia Southeast Store 86,2019-01-27,Baby,Baby toys,3,30,78543941
-442,93,Australia Southeast,Australia Southeast Store 86,2019-05-10,Beauty/Health,Makeup,4,14,16459356
-443,70,Australia Southeast,Australia Southeast Store 86,2019-05-27,Electronics,Tablets,2,200,50444024
-444,85,Australia Southeast,Australia Southeast Store 86,2019-05-05,Clothing,Baby,7,10,10662944
-445,68,Australia Southeast,Australia Southeast Store 86,2019-06-07,Baby,Diaper bags,6,12,76548160
-446,92,Australia Southeast,Australia Southeast Store 86,2019-06-10,Beauty/Health,Bath,8,6,88367416
-447,85,Australia Southeast,Australia Southeast Store 86,2019-01-08,Baby,Diaper bags,2,30,40116319
-448,92,Australia Southeast,Australia Southeast Store 86,2019-04-21,Furniture,Beds,7,75,91546952
-449,57,Australia Southeast,Australia Southeast Store 86,2019-05-14,Baby,Diapers,8,5,29597918
-450,67,Australia Southeast,Australia Southeast Store 86,2019-01-09,Electronics,Tablets,2,200,41939409
-451,50,Australia Southeast,Australia Southeast Store 86,2019-05-19,Furniture,Patio furniture,5,15,14090061
-452,67,Australia Southeast,Australia Southeast Store 86,2019-01-05,Baby,Baby toys,3,12,72565720
-453,90,Australia Southeast,Australia Southeast Store 86,2019-03-19,Electronics,Televisions,2,100,14348040
-454,98,Australia Southeast,Australia Southeast Store 86,2019-07-04,Beauty/Health,Oral care,3,10,39658983
-455,95,Australia Southeast,Australia Southeast Store 86,2019-05-22,Electronics,Tablets,1,100,58481754
-456,47,Australia Southeast,Australia Southeast Store 86,2019-04-23,Clothing,Swimwear,5,13,88189811
-457,52,Australia Southeast,Australia Southeast Store 86,2019-01-19,Electronics,Cell Phones,2,200,70808061
-458,29,Australia Southeast,Australia Southeast Store 86,2019-02-17,Clothing,Baby,3,20,51776830
-459,88,Australia Southeast,Australia Southeast Store 86,2019-03-02,Electronics,Televisions,1,100,98785792
-460,57,Australia Southeast,Australia Southeast Store 86,2019-03-03,Baby,Diaper bags,3,10,37635640
-461,39,Australia Southeast,Australia Southeast Store 86,2019-04-28,Clothing,Baby,8,10,83215286
-462,45,Australia Southeast,Australia Southeast Store 86,2019-06-06,Beauty/Health,Feminine Products,9,15,76513486
-463,65,Australia Southeast,Australia Southeast Store 86,2019-01-22,Furniture,Patio furniture,4,40,65933391
-464,33,Australia Southeast,Australia Southeast Store 86,2019-03-20,Beauty/Health,Feminine Products,5,10,77085387
-465,47,Australia Southeast,Australia Southeast Store 86,2019-05-14,Electronics,Headphones,2,200,13447810
-466,17,Australia Southeast,Australia Southeast Store 86,2019-02-16,Furniture,Indoor seating,5,15,82433552
-467,65,Australia Southeast,Australia Southeast Store 86,2019-03-15,Furniture,Patio furniture,4,75,74513595
-468,48,Australia Southeast,Australia Southeast Store 86,2019-02-21,Furniture,Pool furniture,1,100,80281828
-469,19,Australia Southeast,Australia Southeast Store 86,2019-01-11,Beauty/Health,Feminine Products,5,10,97488005
-470,101,Australia Southeast,Australia Southeast Store 86,2019-05-04,Electronics,Televisions,1,200,75663043
-471,83,Australia Southeast,Australia Southeast Store 86,2019-07-03,Baby,Diapers,6,15,16894652
-472,89,Australia Southeast,Australia Southeast Store 86,2019-03-26,Baby,Baby toys,2,15,19639809
-473,68,Australia Southeast,Australia Southeast Store 86,2019-05-08,Electronics,Speakers,1,100,77910815
-474,74,Australia Southeast,Australia Southeast Store 86,2019-02-02,Electronics,Headphones,2,100,12393653
-475,95,Australia Southeast,Australia Southeast Store 86,2019-04-12,Furniture,Beds,4,100,17493710
-476,4,Australia Southeast,Australia Southeast Store 86,2019-06-10,Clothing,Swimwear,8,13,95834869
-477,8,Australia Southeast,Australia Southeast Store 86,2019-03-23,Clothing,Shoes,5,10,30286182
-478,24,Australia Southeast,Australia Southeast Store 86,2019-01-15,Furniture,Indoor tables,3,15,21779372
-479,90,Australia Southeast,Australia Southeast Store 86,2019-02-12,Beauty/Health,Feminine Products,1,15,48514470
-480,37,Australia Southeast,Australia Southeast Store 86,2019-07-04,Electronics,Headphones,1,200,88547562
-481,56,Australia Southeast,Australia Southeast Store 86,2019-01-11,Furniture,Beds,5,30,81146639
-482,11,Australia Southeast,Australia Southeast Store 86,2019-04-19,Furniture,Indoor tables,6,40,94262857
-483,64,Australia Southeast,Australia Southeast Store 86,2019-02-27,Baby,Baby toys,4,10,45149281
-484,17,Australia Southeast,Australia Southeast Store 86,2019-01-26,Baby,Cribs,2,12,79539121
-485,38,Australia Southeast,Australia Southeast Store 86,2019-01-01,Electronics,Headphones,1,200,79967388
-486,80,Australia Southeast,Australia Southeast Store 86,2019-07-05,Electronics,Speakers,1,200,45418586
-487,58,Australia Southeast,Australia Southeast Store 86,2019-03-03,Furniture,Indoor tables,2,15,69584449
-488,23,Australia Southeast,Australia Southeast Store 86,2019-05-25,Beauty/Health,Makeup,3,10,33130954
-489,31,Australia Southeast,Australia Southeast Store 86,2019-01-22,Furniture,Indoor tables,2,30,41195208
-490,8,Australia Southeast,Australia Southeast Store 86,2019-03-03,Clothing,Mens,4,20,94916495
-491,42,Australia Southeast,Australia Southeast Store 86,2019-01-02,Beauty/Health,Oral care,1,10,36934042
-492,53,Australia Southeast,Australia Southeast Store 86,2019-05-16,Clothing,Swimwear,5,25,47472255
-493,78,Australia Southeast,Australia Southeast Store 86,2019-02-10,Electronics,Speakers,2,100,43210986
-494,86,Australia Southeast,Australia Southeast Store 86,2019-06-03,Beauty/Health,Skincare,7,15,62753432
-495,37,Australia Southeast,Australia Southeast Store 86,2019-06-27,Electronics,Tablets,1,200,98347664
-496,66,Australia Southeast,Australia Southeast Store 86,2019-03-05,Electronics,Tablets,1,300,51683380
-497,16,Australia Southeast,Australia Southeast Store 86,2019-04-04,Electronics,Headphones,1,100,12302307
-498,91,Australia Southeast,Australia Southeast Store 86,2019-06-07,Furniture,Indoor seating,10,75,84321843
-499,15,Australia Southeast,Australia Southeast Store 86,2019-03-21,Electronics,Cell Phones,2,300,54531434
-500,76,Australia Southeast,Australia Southeast Store 86,2019-06-15,Furniture,Patio furniture,4,100,22980701
-501,30,Australia Southeast,Australia Southeast Store 86,2019-05-29,Furniture,Indoor tables,8,100,66311755
-502,66,Australia Southeast,Australia Southeast Store 86,2019-03-25,Baby,Cribs,5,5,14934200
-503,48,Australia Southeast,Australia Southeast Store 86,2019-07-10,Baby,Baby toys,7,12,72531216
-504,92,Australia Southeast,Australia Southeast Store 86,2019-03-21,Beauty/Health,Fragrances,3,10,60036495
-505,7,Australia Southeast,Australia Southeast Store 86,2019-04-26,Beauty/Health,Bath,6,10,59597989
-506,52,Australia Southeast,Australia Southeast Store 86,2019-06-26,Electronics,Cell Phones,2,200,93024160
-507,17,Australia Southeast,Australia Southeast Store 86,2019-01-17,Electronics,Televisions,1,100,90402734
-508,86,Australia Southeast,Australia Southeast Store 86,2019-06-03,Electronics,Computers,2,300,96356774
-509,39,Australia Southeast,Australia Southeast Store 86,2019-05-03,Clothing,Baby,8,13,25544566
-510,19,Australia Southeast,Australia Southeast Store 86,2019-01-13,Beauty/Health,Bath,3,10,47660545
-511,87,Australia Southeast,Australia Southeast Store 86,2019-04-25,Furniture,Indoor tables,4,75,74300024
-512,92,Australia Southeast,Australia Southeast Store 86,2019-04-04,Baby,Car seats,2,30,32876796
-513,91,Australia Southeast,Australia Southeast Store 86,2019-07-02,Baby,Baby toys,5,12,33475040
-514,5,Australia Southeast,Australia Southeast Store 86,2019-03-27,Furniture,Pool furniture,5,100,97904495
-515,24,Australia Southeast,Australia Southeast Store 86,2019-02-12,Clothing,Swimwear,5,25,84039794
-516,20,Australia Southeast,Australia Southeast Store 86,2019-02-24,Electronics,Speakers,1,300,41818655
-517,16,Australia Southeast,Australia Southeast Store 86,2019-03-02,Clothing,Mens,5,13,35787181
-518,40,Australia Southeast,Australia Southeast Store 86,2019-03-30,Baby,Diapers,4,10,49833274
-519,45,Australia Southeast,Australia Southeast Store 86,2019-01-13,Baby,Car seats,4,15,21894511
-520,101,Australia Southeast,Australia Southeast Store 86,2019-05-06,Clothing,Kids,3,13,17068446
-521,101,Australia Southeast,Australia Southeast Store 86,2019-03-20,Electronics,Speakers,1,100,72524399
-522,53,Australia Southeast,Australia Southeast Store 86,2019-03-16,Electronics,Tablets,2,200,76160924
-523,65,Australia Southeast,Australia Southeast Store 86,2019-02-16,Beauty/Health,Feminine Products,2,14,76807086
-524,3,Australia Southeast,Australia Southeast Store 86,2019-02-07,Clothing,Baby,3,12,17767754
-525,86,Australia Southeast,Australia Southeast Store 86,2019-04-18,Clothing,Mens,10,25,80554288
-526,78,Australia Southeast,Australia Southeast Store 86,2019-07-03,Clothing,Swimwear,8,12,79277934
-527,38,Australia Southeast,Australia Southeast Store 86,2019-04-02,Electronics,Cell Phones,2,50,54267546
-528,60,Australia Southeast,Australia Southeast Store 86,2019-02-09,Beauty/Health,Bath,3,14,52362902
-529,53,Australia Southeast,Australia Southeast Store 86,2019-05-30,Beauty/Health,Fragrances,5,6,64756377
-530,5,Australia Southeast,Australia Southeast Store 86,2019-03-11,Electronics,Computers,2,200,44330851
-531,83,Australia Southeast,Australia Southeast Store 86,2019-01-28,Furniture,Indoor tables,2,15,43676082
-532,30,Australia Southeast,Australia Southeast Store 86,2019-07-11,Beauty/Health,Skincare,8,10,30408839
-533,56,Australia Southeast,Australia Southeast Store 86,2019-01-14,Furniture,Patio furniture,1,75,58724970
-534,74,Australia Southeast,Australia Southeast Store 86,2019-03-07,Clothing,Baby,1,25,34665360
-535,85,Australia Southeast,Australia Southeast Store 86,2019-05-11,Clothing,Shoes,5,10,61399562
-536,8,Australia Southeast,Australia Southeast Store 86,2019-02-12,Electronics,Speakers,2,300,13225635
-537,50,Australia Southeast,Australia Southeast Store 86,2019-04-08,Baby,Cribs,3,15,88928699
-538,96,Australia Southeast,Australia Southeast Store 86,2019-02-21,Beauty/Health,Fragrances,3,10,58514972
-539,66,Australia Southeast,Australia Southeast Store 86,2019-04-02,Electronics,Cell Phones,2,200,26172537
-540,94,Australia Southeast,Australia Southeast Store 86,2019-01-21,Baby,Diaper bags,1,15,56421398
-541,38,Australia Southeast,Australia Southeast Store 86,2019-04-24,Furniture,Pool furniture,8,75,73315849
-542,45,Australia Southeast,Australia Southeast Store 86,2019-03-12,Clothing,Shoes,5,13,11990141
-543,4,Australia Southeast,Australia Southeast Store 86,2019-02-17,Clothing,Baby,1,25,68357934
-544,49,Australia Southeast,Australia Southeast Store 86,2019-05-05,Furniture,Indoor seating,4,30,53319181
-545,18,Australia Southeast,Australia Southeast Store 86,2019-01-06,Baby,Diaper bags,3,5,93966700
-546,40,Australia Southeast,Australia Southeast Store 86,2019-04-06,Beauty/Health,Fragrances,1,10,29050425
-547,94,Australia Southeast,Australia Southeast Store 86,2019-06-24,Baby,Diapers,9,15,58353237
-548,47,Australia Southeast,Australia Southeast Store 86,2019-07-07,Clothing,Baby,8,20,62546233
-549,54,Australia Southeast,Australia Southeast Store 86,2019-04-07,Furniture,Pool furniture,5,15,55446554
-550,57,Australia Southeast,Australia Southeast Store 86,2019-06-07,Clothing,Baby,3,25,63286349
-551,32,Australia Southeast,Australia Southeast Store 86,2019-02-23,Beauty/Health,Skincare,5,10,65261383
-552,78,Australia Southeast,Australia Southeast Store 86,2019-05-18,Baby,Diapers,7,5,74737050
-553,40,Australia Southeast,Australia Southeast Store 86,2019-01-04,Electronics,Speakers,2,50,64202573
-554,10,Australia Southeast,Australia Southeast Store 86,2019-02-12,Clothing,Mens,4,25,96989831
-555,44,Australia Southeast,Australia Southeast Store 86,2019-05-20,Furniture,Beds,4,100,90835854
-556,2,Australia Southeast,Australia Southeast Store 86,2019-02-01,Furniture,Beds,1,75,72631638
-557,75,Australia Southeast,Australia Southeast Store 86,2019-05-27,Baby,Cribs,4,10,83041036
-558,15,Australia Southeast,Australia Southeast Store 86,2019-05-01,Baby,Diaper bags,5,10,47169652
-559,1,Australia Southeast,Australia Southeast Store 86,2019-02-20,Baby,Strollers,2,12,69041211
-560,8,Australia Southeast,Australia Southeast Store 86,2019-01-11,Electronics,Cell Phones,2,200,14843819
-561,50,Australia Southeast,Australia Southeast Store 86,2019-02-19,Furniture,Pool furniture,4,75,19300947
-562,48,Australia Southeast,Australia Southeast Store 86,2019-06-15,Furniture,Beds,9,75,54067824
-563,52,Australia Southeast,Australia Southeast Store 86,2019-05-17,Beauty/Health,Skincare,9,14,21070702
-564,11,Australia Southeast,Australia Southeast Store 86,2019-05-23,Furniture,Pool furniture,6,40,51354983
-565,19,Australia Southeast,Australia Southeast Store 86,2019-01-24,Clothing,Swimwear,4,10,94949784
-566,37,Australia Southeast,Australia Southeast Store 86,2019-04-22,Beauty/Health,Bath,10,14,30991469
-567,54,Australia Southeast,Australia Southeast Store 86,2019-07-10,Beauty/Health,Oral care,6,10,50735964
-568,10,Australia Southeast,Australia Southeast Store 86,2019-07-13,Furniture,Patio furniture,10,40,34421134
-569,70,Australia Southeast,Australia Southeast Store 86,2019-05-21,Electronics,Computers,2,300,23820316
-570,14,Australia Southeast,Australia Southeast Store 86,2019-03-13,Electronics,Televisions,2,50,61572836
-571,57,Australia Southeast,Australia Southeast Store 86,2019-07-04,Beauty/Health,Haircare,8,10,11549774
-572,15,Australia Southeast,Australia Southeast Store 86,2019-04-06,Furniture,Indoor tables,3,75,10810232
-573,61,Australia Southeast,Australia Southeast Store 86,2019-05-22,Electronics,Speakers,2,100,81378269
-574,98,Australia Southeast,Australia Southeast Store 86,2019-02-24,Clothing,Womens,2,10,90640152
-575,51,Australia Southeast,Australia Southeast Store 86,2019-02-18,Baby,Strollers,3,15,17846948
-576,70,Australia Southeast,Australia Southeast Store 86,2019-02-18,Beauty/Health,Skincare,1,14,66292043
-577,3,Australia Southeast,Australia Southeast Store 86,2019-02-23,Baby,Diapers,3,15,67062334
-578,52,Australia Southeast,Australia Southeast Store 86,2019-06-20,Electronics,Speakers,2,200,95093864
-579,37,Australia Southeast,Australia Southeast Store 86,2019-07-09,Clothing,Womens,9,13,63194003
-580,94,Australia Southeast,Australia Southeast Store 86,2019-05-16,Furniture,Pool furniture,6,30,41965390
-581,84,Australia Southeast,Australia Southeast Store 86,2019-07-05,Baby,Cribs,3,30,51497261
-582,20,Australia Southeast,Australia Southeast Store 86,2019-06-09,Clothing,Baby,8,13,25405192
-583,13,Australia Southeast,Australia Southeast Store 86,2019-07-04,Clothing,Mens,5,25,66959776
-584,75,Australia Southeast,Australia Southeast Store 86,2019-03-09,Electronics,Cell Phones,2,200,88209969
-585,49,Australia Southeast,Australia Southeast Store 86,2019-07-15,Clothing,Swimwear,5,10,58483897
-586,48,Australia Southeast,Australia Southeast Store 86,2019-02-12,Clothing,Shoes,5,25,34490290
-587,75,Australia Southeast,Australia Southeast Store 86,2019-04-10,Furniture,Indoor seating,9,75,25444605
-588,32,Australia Southeast,Australia Southeast Store 86,2019-03-06,Furniture,Pool furniture,4,75,84001657
-589,11,Australia Southeast,Australia Southeast Store 86,2019-04-16,Baby,Strollers,6,5,25933044
-590,67,Australia Southeast,Australia Southeast Store 86,2019-03-29,Electronics,Tablets,1,50,74327405
-591,41,Australia Southeast,Australia Southeast Store 86,2019-01-29,Beauty/Health,Makeup,4,6,18188282
-592,37,Australia Southeast,Australia Southeast Store 86,2019-06-11,Clothing,Baby,4,10,44018032
-593,5,Australia Southeast,Australia Southeast Store 86,2019-03-02,Beauty/Health,Oral care,2,10,12762432
-594,27,Australia Southeast,Australia Southeast Store 86,2019-03-03,Beauty/Health,Fragrances,2,10,59812757
-595,45,Australia Southeast,Australia Southeast Store 86,2019-06-20,Furniture,Indoor tables,3,30,61837447
-596,57,Australia Southeast,Australia Southeast Store 86,2019-04-04,Clothing,Mens,2,12,64821075
-597,45,Australia Southeast,Australia Southeast Store 86,2019-05-26,Clothing,Kids,3,12,34154830
-598,83,Australia Southeast,Australia Southeast Store 86,2019-01-29,Baby,Car seats,1,12,84179710
-599,29,Australia Southeast,Australia Southeast Store 86,2019-02-04,Baby,Diaper bags,3,10,67485367
-600,24,Australia Southeast,Australia Southeast Store 86,2019-02-12,Furniture,Patio furniture,1,100,34518745
-601,61,Australia Southeast,Australia Southeast Store 86,2019-03-28,Beauty/Health,Haircare,1,6,52510040
-602,18,Australia Southeast,Australia Southeast Store 86,2019-02-24,Baby,Car seats,2,30,47278147
-603,77,Australia Southeast,Australia Southeast Store 86,2019-01-22,Electronics,Speakers,1,100,46207039
-604,70,Australia Southeast,Australia Southeast Store 86,2019-06-16,Furniture,Indoor seating,7,100,75935030
-605,94,Australia Southeast,Australia Southeast Store 86,2019-07-09,Baby,Strollers,10,12,62803530
-606,73,Australia Southeast,Australia Southeast Store 86,2019-01-28,Electronics,Headphones,1,200,84092287
-607,52,Australia Southeast,Australia Southeast Store 86,2019-07-09,Electronics,Cell Phones,1,50,67708141
-608,2,Australia Southeast,Australia Southeast Store 86,2019-04-12,Furniture,Indoor seating,7,75,99560114
-609,59,Australia Southeast,Australia Southeast Store 86,2019-02-14,Clothing,Womens,4,25,70537214
-610,55,Australia Southeast,Australia Southeast Store 86,2019-01-16,Clothing,Shoes,1,20,21229195
-611,93,Australia Southeast,Australia Southeast Store 86,2019-03-31,Baby,Car seats,2,30,87375127
-612,31,Australia Southeast,Australia Southeast Store 86,2019-03-20,Electronics,Computers,1,50,49509446
-613,23,Australia Southeast,Australia Southeast Store 86,2019-01-27,Clothing,Mens,3,10,20271764
-614,46,Australia Southeast,Australia Southeast Store 86,2019-07-11,Furniture,Indoor seating,10,30,21219152
-615,49,Australia Southeast,Australia Southeast Store 86,2019-01-14,Electronics,Cell Phones,2,200,88077061
-616,98,Australia Southeast,Australia Southeast Store 86,2019-06-09,Beauty/Health,Makeup,4,10,69776041
-617,68,Australia Southeast,Australia Southeast Store 86,2019-04-15,Electronics,Headphones,2,200,47637067
-618,40,Australia Southeast,Australia Southeast Store 86,2019-06-12,Baby,Baby toys,6,30,44996499
-619,93,Australia Southeast,Australia Southeast Store 86,2019-02-28,Clothing,Mens,4,25,34243984
-620,85,Australia Southeast,Australia Southeast Store 86,2019-07-14,Furniture,Indoor tables,8,75,53716852
-621,50,Australia Southeast,Australia Southeast Store 86,2019-07-09,Electronics,Headphones,1,200,54416936
-622,97,Australia Southeast,Australia Southeast Store 86,2019-06-04,Baby,Car seats,5,30,47420730
-623,53,Australia Southeast,Australia Southeast Store 86,2019-06-29,Furniture,Pool furniture,5,100,97828162
-624,101,Australia Southeast,Australia Southeast Store 86,2019-04-18,Clothing,Shoes,3,20,36040923
-625,18,Australia Southeast,Australia Southeast Store 86,2019-05-10,Electronics,Computers,2,100,65269882
-626,4,Australia Southeast,Australia Southeast Store 86,2019-05-27,Baby,Strollers,7,5,21880515
-627,24,Australia Southeast,Australia Southeast Store 86,2019-05-17,Beauty/Health,Makeup,10,6,55587754
-628,17,Australia Southeast,Australia Southeast Store 86,2019-07-11,Clothing,Shoes,10,20,95089809
-629,53,Australia Southeast,Australia Southeast Store 86,2019-06-21,Beauty/Health,Skincare,10,10,37321317
-630,17,Australia Southeast,Australia Southeast Store 86,2019-07-07,Electronics,Tablets,1,100,95532309
-631,58,Australia Southeast,Australia Southeast Store 86,2019-02-16,Furniture,Indoor tables,4,15,51321771
-632,95,Australia Southeast,Australia Southeast Store 86,2019-06-05,Clothing,Mens,3,25,46714164
-633,46,Australia Southeast,Australia Southeast Store 86,2019-02-20,Electronics,Computers,2,200,91226545
-634,35,Australia Southeast,Australia Southeast Store 86,2019-04-24,Furniture,Pool furniture,7,30,66525169
-635,21,Australia Southeast,Australia Southeast Store 86,2019-01-03,Electronics,Headphones,1,200,13362885
-636,97,Australia Southeast,Australia Southeast Store 86,2019-03-09,Clothing,Womens,2,25,69698158
-637,77,Australia Southeast,Australia Southeast Store 86,2019-02-15,Baby,Cribs,3,12,72881530
-638,78,Australia Southeast,Australia Southeast Store 86,2019-02-10,Beauty/Health,Bath,3,10,14201782
-639,90,Australia Southeast,Australia Southeast Store 86,2019-03-24,Baby,Diaper bags,1,10,53205483
-640,85,Australia Southeast,Australia Southeast Store 86,2019-04-01,Furniture,Beds,3,75,52689061
-641,40,Australia Southeast,Australia Southeast Store 86,2019-04-01,Electronics,Speakers,2,200,97215963
-642,71,Australia Southeast,Australia Southeast Store 86,2019-06-09,Electronics,Televisions,1,100,60059606
-643,54,Australia Southeast,Australia Southeast Store 86,2019-02-05,Baby,Car seats,4,10,44564573
-644,80,Australia Southeast,Australia Southeast Store 86,2019-06-10,Baby,Cribs,10,30,42514638
-645,88,Australia Southeast,Australia Southeast Store 86,2019-02-08,Beauty/Health,Skincare,2,14,54152854
-646,45,Australia Southeast,Australia Southeast Store 86,2019-06-19,Furniture,Patio furniture,8,40,90277902
-647,68,Australia Southeast,Australia Southeast Store 86,2019-03-15,Baby,Strollers,1,30,73134137
-648,79,Australia Southeast,Australia Southeast Store 86,2019-04-28,Baby,Baby toys,10,30,62375557
-649,20,Australia Southeast,Australia Southeast Store 86,2019-05-01,Clothing,Shoes,9,25,44068923
-650,52,Australia Southeast,Australia Southeast Store 86,2019-04-16,Electronics,Televisions,1,300,74839442
-651,91,Australia Southeast,Australia Southeast Store 86,2019-01-12,Furniture,Indoor seating,1,40,45662240
-652,44,Australia Southeast,Australia Southeast Store 86,2019-06-15,Furniture,Patio furniture,3,100,48325724
-653,39,Australia Southeast,Australia Southeast Store 86,2019-03-09,Baby,Strollers,4,15,94122608
-654,79,Australia Southeast,Australia Southeast Store 86,2019-07-01,Beauty/Health,Fragrances,8,10,35781384
-655,82,Australia Southeast,Australia Southeast Store 86,2019-01-23,Furniture,Indoor seating,3,15,31136469
-656,60,Australia Southeast,Australia Southeast Store 86,2019-07-04,Furniture,Beds,5,100,77481490
-657,1,Australia Southeast,Australia Southeast Store 86,2019-03-20,Clothing,Mens,2,20,79572193
-658,11,Australia Southeast,Australia Southeast Store 86,2019-05-30,Furniture,Patio furniture,3,40,41149323
-659,28,Australia Southeast,Australia Southeast Store 86,2019-03-28,Furniture,Beds,2,100,80199947
-660,53,Australia Southeast,Australia Southeast Store 86,2019-02-19,Clothing,Mens,1,10,65898563
-661,13,Australia Southeast,Australia Southeast Store 86,2019-04-22,Clothing,Baby,6,25,69399457
-662,63,Australia Southeast,Australia Southeast Store 86,2019-06-10,Electronics,Speakers,2,200,74353571
-663,70,Australia Southeast,Australia Southeast Store 86,2019-04-07,Clothing,Baby,5,13,99767182
-664,14,Australia Southeast,Australia Southeast Store 86,2019-06-06,Clothing,Mens,3,10,14976963
-665,24,Australia Southeast,Australia Southeast Store 86,2019-03-30,Furniture,Patio furniture,3,15,22697217
-666,83,Australia Southeast,Australia Southeast Store 86,2019-01-06,Electronics,Cell Phones,1,200,91375002
-667,98,Australia Southeast,Australia Southeast Store 86,2019-05-15,Baby,Strollers,3,30,38567998
-668,35,Australia Southeast,Australia Southeast Store 86,2019-02-08,Baby,Diapers,3,12,87043991
-669,80,Australia Southeast,Australia Southeast Store 86,2019-05-21,Furniture,Pool furniture,8,30,39892216
-670,61,Australia Southeast,Australia Southeast Store 86,2019-05-08,Baby,Car seats,5,15,69516389
-671,56,Australia Southeast,Australia Southeast Store 86,2019-04-30,Furniture,Beds,4,30,31814598
-672,80,Australia Southeast,Australia Southeast Store 86,2019-03-04,Furniture,Indoor seating,3,100,83475664
-673,81,Australia Southeast,Australia Southeast Store 86,2019-04-22,Electronics,Cell Phones,2,300,75619664
-674,14,Australia Southeast,Australia Southeast Store 86,2019-05-31,Furniture,Indoor tables,5,100,32314894
-675,89,Australia Southeast,Australia Southeast Store 86,2019-07-16,Beauty/Health,Haircare,8,10,78478928
-676,95,Australia Southeast,Australia Southeast Store 86,2019-03-03,Clothing,Swimwear,3,10,33990174
-677,76,Australia Southeast,Australia Southeast Store 86,2019-03-14,Furniture,Pool furniture,5,100,66062237
-678,46,Australia Southeast,Australia Southeast Store 86,2019-07-04,Clothing,Swimwear,5,13,54816841
-679,68,Australia Southeast,Australia Southeast Store 86,2019-04-11,Furniture,Indoor tables,10,75,15242876
-680,12,Australia Southeast,Australia Southeast Store 86,2019-03-18,Clothing,Baby,2,10,99840443
-681,94,Australia Southeast,Australia Southeast Store 86,2019-02-25,Beauty/Health,Fragrances,4,6,54431625
-682,45,Australia Southeast,Australia Southeast Store 86,2019-07-15,Beauty/Health,Makeup,5,6,50777742
-683,39,Australia Southeast,Australia Southeast Store 86,2019-03-31,Clothing,Shoes,1,10,68600640
-684,24,Australia Southeast,Australia Southeast Store 86,2019-03-12,Electronics,Cell Phones,2,200,37769044
-685,79,Australia Southeast,Australia Southeast Store 86,2019-06-10,Electronics,Televisions,1,100,12978399
-686,70,Australia Southeast,Australia Southeast Store 86,2019-07-07,Baby,Cribs,9,15,44335704
-687,65,Australia Southeast,Australia Southeast Store 86,2019-03-22,Furniture,Indoor seating,5,30,40753367
-688,16,Australia Southeast,Australia Southeast Store 86,2019-05-17,Baby,Diapers,9,30,40993211
-689,94,Australia Southeast,Australia Southeast Store 86,2019-02-11,Beauty/Health,Haircare,3,14,19125246
-690,62,Australia Southeast,Australia Southeast Store 86,2019-05-16,Beauty/Health,Haircare,10,14,41143096
-691,87,Australia Southeast,Australia Southeast Store 86,2019-03-20,Furniture,Beds,4,15,38001799
-692,96,Australia Southeast,Australia Southeast Store 86,2019-02-19,Beauty/Health,Makeup,4,14,43014955
-693,65,Australia Southeast,Australia Southeast Store 86,2019-01-05,Electronics,Speakers,2,50,37411755
-694,38,Australia Southeast,Australia Southeast Store 86,2019-06-25,Baby,Strollers,4,10,96927488
-695,31,Australia Southeast,Australia Southeast Store 86,2019-02-08,Furniture,Patio furniture,5,40,29089081
-696,49,Australia Southeast,Australia Southeast Store 86,2019-03-11,Electronics,Headphones,1,300,78432355
-697,53,Australia Southeast,Australia Southeast Store 86,2019-02-01,Clothing,Kids,4,12,28979161
-698,94,Australia Southeast,Australia Southeast Store 86,2019-03-21,Beauty/Health,Feminine Products,5,10,53712133
-699,12,Australia Southeast,Australia Southeast Store 86,2019-01-18,Baby,Car seats,1,15,79345595
-700,58,Australia Southeast,Australia Southeast Store 86,2019-07-16,Clothing,Womens,6,25,95082450
-701,75,Australia Southeast,Australia Southeast Store 86,2019-01-24,Baby,Cribs,3,10,42834228
-702,64,Australia Southeast,Australia Southeast Store 86,2019-01-16,Beauty/Health,Makeup,4,10,89813608
-703,63,Australia Southeast,Australia Southeast Store 86,2019-02-16,Baby,Strollers,5,10,47121584
-704,34,Australia Southeast,Australia Southeast Store 86,2019-06-02,Baby,Strollers,9,15,78484781
-705,56,Australia Southeast,Australia Southeast Store 86,2019-06-10,Beauty/Health,Oral care,4,15,38566659
-706,38,Australia Southeast,Australia Southeast Store 86,2019-05-29,Electronics,Speakers,2,300,85156144
-707,30,Australia Southeast,Australia Southeast Store 86,2019-03-05,Furniture,Indoor seating,3,30,72281869
-708,88,Australia Southeast,Australia Southeast Store 86,2019-06-04,Clothing,Mens,7,10,65300054
-709,95,Australia Southeast,Australia Southeast Store 86,2019-03-17,Furniture,Indoor tables,1,40,70443516
-710,66,Australia Southeast,Australia Southeast Store 86,2019-03-14,Furniture,Patio furniture,3,15,80611271
-711,20,Australia Southeast,Australia Southeast Store 86,2019-07-12,Furniture,Patio furniture,7,100,31227716
-712,4,Australia Southeast,Australia Southeast Store 86,2019-07-07,Baby,Strollers,5,10,78914635
-713,31,Australia Southeast,Australia Southeast Store 86,2019-05-20,Electronics,Speakers,1,200,91857747
-714,52,Australia Southeast,Australia Southeast Store 86,2019-02-27,Clothing,Womens,2,20,14128902
-715,21,Australia Southeast,Australia Southeast Store 86,2019-01-03,Baby,Car seats,2,12,75453196
-716,24,Australia Southeast,Australia Southeast Store 86,2019-07-02,Baby,Baby toys,4,30,67045483
-717,53,Australia Southeast,Australia Southeast Store 86,2019-01-16,Furniture,Beds,2,30,40402080
-718,92,Australia Southeast,Australia Southeast Store 86,2019-07-11,Clothing,Swimwear,10,20,32678130
-719,45,Australia Southeast,Australia Southeast Store 86,2019-06-08,Baby,Diapers,7,12,30855355
-720,47,Australia Southeast,Australia Southeast Store 86,2019-01-08,Furniture,Indoor tables,2,75,13230434
-721,82,Australia Southeast,Australia Southeast Store 86,2019-05-12,Baby,Diaper bags,6,10,86763888
-722,51,Australia Southeast,Australia Southeast Store 86,2019-03-04,Clothing,Swimwear,2,20,20548642
-723,34,Australia Southeast,Australia Southeast Store 86,2019-04-29,Clothing,Swimwear,5,20,23427862
-724,57,Australia Southeast,Australia Southeast Store 86,2019-01-10,Furniture,Beds,2,30,81408188
-725,33,Australia Southeast,Australia Southeast Store 86,2019-07-09,Furniture,Patio furniture,10,15,52817742
-726,88,Australia Southeast,Australia Southeast Store 86,2019-03-08,Furniture,Indoor tables,4,40,53197299
-727,99,Australia Southeast,Australia Southeast Store 86,2019-02-19,Clothing,Womens,5,25,55145423
-728,89,Australia Southeast,Australia Southeast Store 86,2019-01-08,Beauty/Health,Skincare,3,10,10075689
-729,18,Australia Southeast,Australia Southeast Store 86,2019-03-28,Electronics,Speakers,1,50,13975551
-730,36,Australia Southeast,Australia Southeast Store 86,2019-06-16,Electronics,Speakers,1,300,44204625
-731,77,Australia Southeast,Australia Southeast Store 86,2019-02-19,Clothing,Baby,5,12,70508418
-732,13,Australia Southeast,Australia Southeast Store 86,2019-01-24,Electronics,Speakers,1,50,48824468
-733,18,Australia Southeast,Australia Southeast Store 86,2019-07-10,Clothing,Shoes,5,25,19414653
-734,83,Australia Southeast,Australia Southeast Store 86,2019-04-14,Clothing,Swimwear,7,25,75847038
-735,50,Australia Southeast,Australia Southeast Store 86,2019-06-06,Furniture,Patio furniture,10,40,21606173
-736,47,Australia Southeast,Australia Southeast Store 86,2019-03-08,Furniture,Beds,2,100,70258850
-737,17,Australia Southeast,Australia Southeast Store 86,2019-03-30,Baby,Diapers,2,30,36705861
-738,40,Australia Southeast,Australia Southeast Store 86,2019-01-06,Clothing,Womens,4,25,61053419
-739,72,Australia Southeast,Australia Southeast Store 86,2019-04-24,Baby,Cribs,8,30,83924117
-740,90,Australia Southeast,Australia Southeast Store 86,2019-07-13,Baby,Cribs,7,10,83272632
-741,7,Australia Southeast,Australia Southeast Store 86,2019-03-08,Electronics,Televisions,1,200,44384177
-742,56,Australia Southeast,Australia Southeast Store 86,2019-02-06,Baby,Baby toys,2,30,97783853
-743,33,Australia Southeast,Australia Southeast Store 86,2019-07-06,Baby,Diapers,8,30,32062963
-744,32,Australia Southeast,Australia Southeast Store 86,2019-02-14,Clothing,Swimwear,4,12,82235796
-745,91,Australia Southeast,Australia Southeast Store 86,2019-06-29,Baby,Car seats,8,30,78131287
-746,40,Australia Southeast,Australia Southeast Store 86,2019-07-02,Clothing,Kids,9,25,12723487
-747,39,Australia Southeast,Australia Southeast Store 86,2019-05-06,Beauty/Health,Bath,3,10,71163923
-748,29,Australia Southeast,Australia Southeast Store 86,2019-01-19,Beauty/Health,Oral care,4,10,10734252
-749,62,Australia Southeast,Australia Southeast Store 86,2019-06-17,Furniture,Patio furniture,6,40,79597747
-750,89,Australia Southeast,Australia Southeast Store 86,2019-07-02,Furniture,Patio furniture,5,75,61501057
-751,74,Australia Southeast,Australia Southeast Store 86,2019-02-22,Baby,Baby toys,2,30,23583577
-752,63,Australia Southeast,Australia Southeast Store 86,2019-06-18,Furniture,Indoor tables,7,40,57386923
-753,73,Australia Southeast,Australia Southeast Store 86,2019-04-26,Clothing,Swimwear,9,13,35137299
-754,39,Australia Southeast,Australia Southeast Store 86,2019-01-03,Clothing,Swimwear,4,12,77125916
-755,60,Australia Southeast,Australia Southeast Store 86,2019-07-12,Furniture,Beds,5,15,31180872
-756,6,Australia Southeast,Australia Southeast Store 86,2019-04-23,Electronics,Cell Phones,1,50,34598288
-757,57,Australia Southeast,Australia Southeast Store 86,2019-03-26,Electronics,Televisions,1,200,16660756
-758,46,Australia Southeast,Australia Southeast Store 86,2019-03-12,Baby,Car seats,5,15,87692865
-759,29,Australia Southeast,Australia Southeast Store 86,2019-05-11,Beauty/Health,Bath,5,10,89334360
-760,49,Australia Southeast,Australia Southeast Store 86,2019-01-03,Furniture,Indoor tables,2,40,40530097
-761,96,Australia Southeast,Australia Southeast Store 86,2019-05-10,Baby,Car seats,3,5,78948900
-762,1,Australia Southeast,Australia Southeast Store 86,2019-01-31,Beauty/Health,Bath,5,15,98313945
-763,85,Australia Southeast,Australia Southeast Store 86,2019-01-18,Beauty/Health,Makeup,2,6,18857005
-764,22,Australia Southeast,Australia Southeast Store 86,2019-07-05,Baby,Diaper bags,8,15,89939980
-765,60,Australia Southeast,Australia Southeast Store 86,2019-07-04,Beauty/Health,Haircare,7,10,96641140
-766,57,Australia Southeast,Australia Southeast Store 86,2019-01-07,Furniture,Indoor seating,1,40,96792976
-767,94,Australia Southeast,Australia Southeast Store 86,2019-04-12,Furniture,Patio furniture,4,100,56669187
-768,64,Australia Southeast,Australia Southeast Store 86,2019-02-14,Clothing,Shoes,3,10,48518528
-769,24,Australia Southeast,Australia Southeast Store 86,2019-05-01,Baby,Car seats,7,12,14052366
-770,13,Australia Southeast,Australia Southeast Store 86,2019-01-27,Furniture,Indoor tables,3,40,24431452
-771,23,Australia Southeast,Australia Southeast Store 86,2019-02-14,Baby,Strollers,4,5,18442062
-772,15,Australia Southeast,Australia Southeast Store 86,2019-01-09,Clothing,Shoes,3,13,14926660
-773,95,Australia Southeast,Australia Southeast Store 86,2019-02-16,Furniture,Pool furniture,5,40,68816499
-774,30,Australia Southeast,Australia Southeast Store 86,2019-03-05,Baby,Diapers,5,5,86137656
-775,96,Australia Southeast,Australia Southeast Store 86,2019-07-05,Baby,Cribs,10,12,60360473
-776,73,Australia Southeast,Australia Southeast Store 86,2019-03-14,Beauty/Health,Feminine Products,1,15,37724556
-777,41,Australia Southeast,Australia Southeast Store 86,2019-04-06,Baby,Cribs,2,30,58551305
-778,95,Australia Southeast,Australia Southeast Store 86,2019-01-10,Electronics,Televisions,2,200,92931401
-779,27,Australia Southeast,Australia Southeast Store 86,2019-07-01,Beauty/Health,Oral care,8,10,39247823
-780,14,Australia Southeast,Australia Southeast Store 86,2019-05-04,Beauty/Health,Fragrances,9,10,29218863
-781,79,Australia Southeast,Australia Southeast Store 86,2019-02-07,Clothing,Shoes,5,10,43431423
-782,13,Australia Southeast,Australia Southeast Store 86,2019-02-12,Beauty/Health,Skincare,1,14,49278106
-783,78,Australia Southeast,Australia Southeast Store 86,2019-06-18,Electronics,Headphones,2,100,13873225
-784,56,Australia Southeast,Australia Southeast Store 86,2019-01-26,Clothing,Womens,1,20,51464907
-785,66,Australia Southeast,Australia Southeast Store 86,2019-06-25,Clothing,Swimwear,8,25,11116732
-786,73,Australia Southeast,Australia Southeast Store 86,2019-01-05,Furniture,Pool furniture,1,15,99250471
-787,75,Australia Southeast,Australia Southeast Store 86,2019-01-06,Furniture,Beds,4,15,50105233
-788,9,Australia Southeast,Australia Southeast Store 86,2019-06-30,Electronics,Headphones,1,200,21465487
-789,64,Australia Southeast,Australia Southeast Store 86,2019-04-17,Furniture,Indoor seating,7,100,73989681
-790,39,Australia Southeast,Australia Southeast Store 86,2019-06-09,Clothing,Mens,5,13,12507332
-791,11,Australia Southeast,Australia Southeast Store 86,2019-02-27,Electronics,Computers,2,200,90232690
-792,90,Australia Southeast,Australia Southeast Store 86,2019-04-14,Clothing,Kids,4,25,77552449
-793,58,Australia Southeast,Australia Southeast Store 86,2019-04-11,Electronics,Computers,2,200,59681829
-794,89,Australia Southeast,Australia Southeast Store 86,2019-01-25,Beauty/Health,Makeup,2,10,62540993
-795,29,Australia Southeast,Australia Southeast Store 86,2019-06-11,Furniture,Indoor seating,10,100,77422655
-796,19,Australia Southeast,Australia Southeast Store 86,2019-03-01,Electronics,Speakers,2,300,40047044
-797,74,Australia Southeast,Australia Southeast Store 86,2019-03-25,Furniture,Indoor seating,4,100,62769308
-798,14,Australia Southeast,Australia Southeast Store 86,2019-04-26,Electronics,Headphones,1,300,76313234
-799,91,Australia Southeast,Australia Southeast Store 86,2019-06-28,Clothing,Kids,5,25,82498992
-800,76,Australia Southeast,Australia Southeast Store 86,2019-05-05,Furniture,Indoor seating,5,100,65640049
-801,97,Australia Southeast,Australia Southeast Store 86,2019-02-09,Electronics,Computers,2,200,83601163
-802,18,Australia Southeast,Australia Southeast Store 86,2019-03-02,Baby,Diapers,4,30,15606407
-803,65,Australia Southeast,Australia Southeast Store 86,2019-06-14,Beauty/Health,Oral care,8,6,87554254
-804,54,Australia Southeast,Australia Southeast Store 86,2019-04-02,Beauty/Health,Fragrances,1,10,95150685
-805,21,Australia Southeast,Australia Southeast Store 86,2019-03-05,Beauty/Health,Oral care,3,6,46347399
-806,70,Australia Southeast,Australia Southeast Store 86,2019-06-14,Baby,Baby toys,8,30,75614291
-807,60,Australia Southeast,Australia Southeast Store 86,2019-02-24,Electronics,Televisions,1,100,98943837
-808,83,Australia Southeast,Australia Southeast Store 86,2019-03-28,Furniture,Indoor seating,5,100,61227346
-809,13,Australia Southeast,Australia Southeast Store 86,2019-04-17,Furniture,Pool furniture,10,40,50637601
-810,25,Australia Southeast,Australia Southeast Store 86,2019-05-17,Baby,Cribs,9,5,63633993
-811,42,Australia Southeast,Australia Southeast Store 86,2019-07-03,Electronics,Computers,1,200,35105232
-812,2,Australia Southeast,Australia Southeast Store 86,2019-05-20,Baby,Diaper bags,3,10,51039364
-813,32,Australia Southeast,Australia Southeast Store 86,2019-05-17,Baby,Car seats,7,30,52224179
-814,33,Australia Southeast,Australia Southeast Store 86,2019-04-01,Furniture,Beds,4,40,35285685
-815,28,Australia Southeast,Australia Southeast Store 86,2019-03-01,Furniture,Patio furniture,3,40,40935131
-816,88,Australia Southeast,Australia Southeast Store 86,2019-07-14,Electronics,Televisions,2,50,45363267
-817,68,Australia Southeast,Australia Southeast Store 86,2019-05-31,Baby,Baby toys,4,10,78395140
-818,31,Australia Southeast,Australia Southeast Store 86,2019-05-01,Beauty/Health,Feminine Products,9,10,53319927
-819,16,Australia Southeast,Australia Southeast Store 86,2019-06-11,Electronics,Headphones,1,100,72246291
-820,85,Australia Southeast,Australia Southeast Store 86,2019-02-19,Beauty/Health,Oral care,5,14,24268161
-821,29,Australia Southeast,Australia Southeast Store 86,2019-06-15,Clothing,Baby,10,10,29063279
-822,11,Australia Southeast,Australia Southeast Store 86,2019-01-14,Electronics,Speakers,1,200,38587594
-823,48,Australia Southeast,Australia Southeast Store 86,2019-03-06,Baby,Strollers,4,10,37373457
-824,7,Australia Southeast,Australia Southeast Store 86,2019-05-27,Clothing,Kids,10,12,46686988
-825,18,Australia Southeast,Australia Southeast Store 86,2019-02-20,Furniture,Beds,4,100,81580300
-826,18,Australia Southeast,Australia Southeast Store 86,2019-04-23,Beauty/Health,Oral care,4,6,53683150
-827,10,Australia Southeast,Australia Southeast Store 86,2019-04-19,Furniture,Beds,5,15,43117672
-828,86,Australia Southeast,Australia Southeast Store 86,2019-05-25,Baby,Strollers,8,5,30562441
-829,25,Australia Southeast,Australia Southeast Store 86,2019-01-12,Electronics,Headphones,1,200,83532599
-830,92,Australia Southeast,Australia Southeast Store 86,2019-04-30,Clothing,Swimwear,10,12,10668665
-831,33,Australia Southeast,Australia Southeast Store 86,2019-02-25,Beauty/Health,Skincare,4,15,55519395
-832,77,Australia Southeast,Australia Southeast Store 86,2019-06-16,Baby,Strollers,7,30,57668012
-833,75,Australia Southeast,Australia Southeast Store 86,2019-01-19,Baby,Diapers,4,10,71350610
-834,92,Australia Southeast,Australia Southeast Store 86,2019-07-13,Clothing,Mens,8,13,83138832
-835,33,Australia Southeast,Australia Southeast Store 86,2019-04-04,Furniture,Pool furniture,2,40,29152890
-836,62,Australia Southeast,Australia Southeast Store 86,2019-03-16,Furniture,Patio furniture,4,75,38027968
-837,47,Australia Southeast,Australia Southeast Store 86,2019-04-07,Baby,Diapers,3,10,18610185
-838,77,Australia Southeast,Australia Southeast Store 86,2019-06-18,Baby,Strollers,6,10,27695999
-839,52,Australia Southeast,Australia Southeast Store 86,2019-06-20,Beauty/Health,Oral care,6,10,77200542
-840,4,Australia Southeast,Australia Southeast Store 86,2019-02-08,Baby,Cribs,1,5,19311550
-841,14,Australia Southeast,Australia Southeast Store 86,2019-01-11,Beauty/Health,Makeup,1,10,65204454
-842,28,Australia Southeast,Australia Southeast Store 86,2019-06-27,Beauty/Health,Skincare,4,10,17297657
-843,6,Australia Southeast,Australia Southeast Store 86,2019-03-23,Baby,Diapers,5,30,93076064
-844,44,Australia Southeast,Australia Southeast Store 86,2019-02-24,Beauty/Health,Skincare,1,10,80366895
-845,55,Australia Southeast,Australia Southeast Store 86,2019-03-28,Clothing,Swimwear,3,13,39674220
-846,6,Australia Southeast,Australia Southeast Store 86,2019-04-11,Electronics,Speakers,1,100,46442763
-847,42,Australia Southeast,Australia Southeast Store 86,2019-02-14,Electronics,Cell Phones,2,200,11167212
-848,37,Australia Southeast,Australia Southeast Store 86,2019-02-14,Clothing,Shoes,4,25,43228092
-849,90,Australia Southeast,Australia Southeast Store 86,2019-01-15,Baby,Diaper bags,2,10,88563680
-850,88,Australia Southeast,Australia Southeast Store 86,2019-02-15,Beauty/Health,Haircare,1,14,13208488
-851,49,Australia Southeast,Australia Southeast Store 86,2019-05-11,Clothing,Kids,5,10,66283240
-852,59,Australia Southeast,Australia Southeast Store 86,2019-03-23,Beauty/Health,Haircare,3,6,35119709
-853,40,Australia Southeast,Australia Southeast Store 86,2019-05-26,Beauty/Health,Makeup,10,10,62128113
-854,69,Australia Southeast,Australia Southeast Store 86,2019-01-17,Clothing,Swimwear,4,13,50787023
-855,6,Australia Southeast,Australia Southeast Store 86,2019-05-08,Electronics,Cell Phones,2,200,20387800
-856,74,Australia Southeast,Australia Southeast Store 86,2019-04-07,Furniture,Pool furniture,4,15,98199763
-857,13,Australia Southeast,Australia Southeast Store 86,2019-06-25,Baby,Diaper bags,5,5,60167259
-858,25,Australia Southeast,Australia Southeast Store 86,2019-07-01,Furniture,Pool furniture,8,75,38014226
-859,27,Australia Southeast,Australia Southeast Store 86,2019-07-03,Electronics,Computers,2,100,28171725
-860,22,Australia Southeast,Australia Southeast Store 86,2019-07-15,Electronics,Headphones,2,200,29223939
-861,84,Australia Southeast,Australia Southeast Store 86,2019-05-18,Clothing,Kids,9,13,55311397
-862,29,Australia Southeast,Australia Southeast Store 86,2019-01-17,Baby,Baby toys,3,5,85674816
-863,4,Australia Southeast,Australia Southeast Store 86,2019-03-12,Baby,Baby toys,2,15,66295831
-864,56,Australia Southeast,Australia Southeast Store 86,2019-01-09,Clothing,Kids,2,25,99796839
-865,55,Australia Southeast,Australia Southeast Store 86,2019-01-16,Electronics,Headphones,2,300,77748644
-866,67,Australia Southeast,Australia Southeast Store 86,2019-01-29,Electronics,Computers,2,100,93355637
-867,9,Australia Southeast,Australia Southeast Store 86,2019-01-31,Electronics,Cell Phones,2,100,55583545
-868,85,Australia Southeast,Australia Southeast Store 86,2019-04-12,Furniture,Patio furniture,8,30,55978608
-869,64,Australia Southeast,Australia Southeast Store 86,2019-04-11,Beauty/Health,Haircare,7,10,25256335
-870,51,Australia Southeast,Australia Southeast Store 86,2019-05-04,Electronics,Speakers,2,200,82973200
-871,13,Australia Southeast,Australia Southeast Store 86,2019-05-07,Furniture,Beds,10,40,53403906
-872,35,Australia Southeast,Australia Southeast Store 86,2019-05-11,Baby,Diaper bags,3,12,52034412
-873,42,Australia Southeast,Australia Southeast Store 86,2019-02-14,Baby,Diaper bags,4,15,70940187
-874,7,Australia Southeast,Australia Southeast Store 86,2019-06-11,Baby,Baby toys,3,5,72839873
-875,21,Australia Southeast,Australia Southeast Store 86,2019-06-20,Clothing,Kids,6,13,22495016
-876,31,Australia Southeast,Australia Southeast Store 86,2019-01-12,Beauty/Health,Skincare,3,10,57294130
-877,3,Australia Southeast,Australia Southeast Store 86,2019-05-17,Furniture,Beds,8,30,51058556
-878,56,Australia Southeast,Australia Southeast Store 86,2019-02-03,Baby,Baby toys,4,5,52142307
-879,50,Australia Southeast,Australia Southeast Store 86,2019-03-29,Baby,Diapers,4,30,86511887
-880,62,Australia Southeast,Australia Southeast Store 86,2019-07-11,Clothing,Mens,7,25,49893871
-881,63,Australia Southeast,Australia Southeast Store 86,2019-02-04,Clothing,Mens,5,25,69976859
-882,100,Australia Southeast,Australia Southeast Store 86,2019-05-28,Clothing,Shoes,8,13,83287716
-883,12,Australia Southeast,Australia Southeast Store 86,2019-06-10,Beauty/Health,Oral care,4,10,17901025
-884,23,Australia Southeast,Australia Southeast Store 86,2019-04-19,Clothing,Swimwear,4,13,64158954
-885,90,Australia Southeast,Australia Southeast Store 86,2019-02-15,Furniture,Pool furniture,2,40,72416083
-886,55,Australia Southeast,Australia Southeast Store 86,2019-02-24,Furniture,Indoor seating,3,30,51686127
-887,9,Australia Southeast,Australia Southeast Store 86,2019-06-05,Beauty/Health,Skincare,3,10,28412339
-888,42,Australia Southeast,Australia Southeast Store 86,2019-05-27,Clothing,Kids,8,25,71022808
-889,9,Australia Southeast,Australia Southeast Store 86,2019-05-01,Clothing,Swimwear,10,25,69896276
-890,18,Australia Southeast,Australia Southeast Store 86,2019-01-05,Electronics,Computers,1,50,58249681
-891,65,Australia Southeast,Australia Southeast Store 86,2019-07-11,Electronics,Speakers,2,100,70033147
-892,101,Australia Southeast,Australia Southeast Store 86,2019-02-04,Beauty/Health,Oral care,3,15,73191315
-893,95,Australia Southeast,Australia Southeast Store 86,2019-05-11,Electronics,Headphones,2,100,96102182
-894,35,Australia Southeast,Australia Southeast Store 86,2019-05-03,Beauty/Health,Skincare,7,6,74573656
-895,32,Australia Southeast,Australia Southeast Store 86,2019-01-12,Baby,Cribs,3,15,33440699
-896,99,Australia Southeast,Australia Southeast Store 86,2019-03-24,Beauty/Health,Fragrances,3,10,26323217
-897,11,Australia Southeast,Australia Southeast Store 86,2019-02-21,Beauty/Health,Bath,4,10,97212315
-898,72,Australia Southeast,Australia Southeast Store 86,2019-07-05,Clothing,Swimwear,9,10,70248742
-899,100,Australia Southeast,Australia Southeast Store 86,2019-04-17,Furniture,Patio furniture,9,40,63449677
-900,74,Australia Southeast,Australia Southeast Store 86,2019-01-02,Clothing,Womens,3,25,64765229
-901,38,Australia Southeast,Australia Southeast Store 86,2019-03-23,Clothing,Shoes,5,13,45166679
-902,63,Australia Southeast,Australia Southeast Store 86,2019-03-21,Clothing,Womens,3,10,59228888
-903,45,Australia Southeast,Australia Southeast Store 86,2019-01-24,Beauty/Health,Oral care,4,10,61405602
-904,72,Australia Southeast,Australia Southeast Store 86,2019-06-02,Beauty/Health,Haircare,8,10,10419809
-905,36,Australia Southeast,Australia Southeast Store 86,2019-02-07,Beauty/Health,Fragrances,4,10,44354570
-906,78,Australia Southeast,Australia Southeast Store 86,2019-05-03,Baby,Car seats,3,30,68888252
-907,3,Australia Southeast,Australia Southeast Store 86,2019-06-04,Electronics,Tablets,2,50,48724076
-908,100,Australia Southeast,Australia Southeast Store 86,2019-03-02,Electronics,Televisions,2,300,97683219
-909,45,Australia Southeast,Australia Southeast Store 86,2019-02-22,Electronics,Tablets,1,200,94562750
-910,90,Australia Southeast,Australia Southeast Store 86,2019-07-15,Beauty/Health,Haircare,7,14,96889513
-911,61,Australia Southeast,Australia Southeast Store 86,2019-02-12,Electronics,Televisions,2,200,97491813
-912,55,Australia Southeast,Australia Southeast Store 86,2019-07-13,Furniture,Patio furniture,4,15,55638546
-913,12,Australia Southeast,Australia Southeast Store 86,2019-02-09,Clothing,Baby,5,10,41099601
-914,95,Australia Southeast,Australia Southeast Store 86,2019-01-31,Baby,Diapers,1,30,79996788
-915,46,Australia Southeast,Australia Southeast Store 86,2019-03-21,Baby,Car seats,3,15,97073434
-916,32,Australia Southeast,Australia Southeast Store 86,2019-02-05,Electronics,Headphones,1,300,99853314
-917,44,Australia Southeast,Australia Southeast Store 86,2019-04-16,Furniture,Indoor tables,10,30,95507217
-918,55,Australia Southeast,Australia Southeast Store 86,2019-05-04,Furniture,Indoor seating,8,100,74224098
-919,14,Australia Southeast,Australia Southeast Store 86,2019-01-07,Baby,Strollers,4,30,19898440
-920,22,Australia Southeast,Australia Southeast Store 86,2019-04-16,Furniture,Indoor seating,9,75,81715051
-921,90,Australia Southeast,Australia Southeast Store 86,2019-07-06,Electronics,Headphones,1,50,31397418
-922,45,Australia Southeast,Australia Southeast Store 86,2019-05-11,Furniture,Indoor tables,10,30,50984430
-923,42,Australia Southeast,Australia Southeast Store 86,2019-02-19,Beauty/Health,Haircare,2,10,89343012
-924,13,Australia Southeast,Australia Southeast Store 86,2019-03-15,Clothing,Baby,3,25,76401864
-925,52,Australia Southeast,Australia Southeast Store 86,2019-07-11,Clothing,Shoes,5,10,52732513
-926,92,Australia Southeast,Australia Southeast Store 86,2019-02-18,Beauty/Health,Fragrances,4,10,24211740
-927,83,Australia Southeast,Australia Southeast Store 86,2019-06-20,Beauty/Health,Oral care,10,10,84519940
-928,32,Australia Southeast,Australia Southeast Store 86,2019-05-17,Electronics,Headphones,2,300,46879425
-929,46,Australia Southeast,Australia Southeast Store 86,2019-05-10,Clothing,Shoes,9,25,70726191
-930,23,Australia Southeast,Australia Southeast Store 86,2019-06-19,Beauty/Health,Oral care,5,10,14812982
-931,63,Australia Southeast,Australia Southeast Store 86,2019-05-17,Furniture,Patio furniture,4,15,87885667
-932,58,Australia Southeast,Australia Southeast Store 86,2019-05-22,Baby,Baby toys,3,5,63873409
-933,71,Australia Southeast,Australia Southeast Store 86,2019-01-23,Electronics,Televisions,2,300,88203576
-934,22,Australia Southeast,Australia Southeast Store 86,2019-01-17,Baby,Strollers,4,30,75976107
-935,49,Australia Southeast,Australia Southeast Store 86,2019-02-12,Clothing,Swimwear,5,25,29822172
-936,39,Australia Southeast,Australia Southeast Store 86,2019-04-26,Furniture,Indoor seating,9,100,66093319
-937,98,Australia Southeast,Australia Southeast Store 86,2019-01-14,Beauty/Health,Fragrances,2,14,82733961
-938,10,Australia Southeast,Australia Southeast Store 86,2019-06-23,Beauty/Health,Skincare,4,10,75379996
-939,26,Australia Southeast,Australia Southeast Store 86,2019-01-13,Clothing,Baby,2,10,99050084
-940,59,Australia Southeast,Australia Southeast Store 86,2019-03-25,Baby,Car seats,5,15,73672440
-941,78,Australia Southeast,Australia Southeast Store 86,2019-07-13,Furniture,Indoor seating,3,40,83860001
-942,66,Australia Southeast,Australia Southeast Store 86,2019-04-06,Furniture,Indoor tables,4,15,91139061
-943,65,Australia Southeast,Australia Southeast Store 86,2019-02-19,Clothing,Kids,3,25,55275328
-944,10,Australia Southeast,Australia Southeast Store 86,2019-07-16,Beauty/Health,Bath,6,6,79335829
-945,61,Australia Southeast,Australia Southeast Store 86,2019-03-13,Electronics,Computers,1,50,41908055
-946,79,Australia Southeast,Australia Southeast Store 86,2019-01-21,Beauty/Health,Feminine Products,2,10,70506183
-947,35,Australia Southeast,Australia Southeast Store 86,2019-02-13,Beauty/Health,Fragrances,4,14,16164503
-948,91,Australia Southeast,Australia Southeast Store 86,2019-04-26,Clothing,Kids,8,25,48885718
-949,21,Australia Southeast,Australia Southeast Store 86,2019-04-17,Furniture,Indoor tables,6,15,24030287
-950,97,Australia Southeast,Australia Southeast Store 86,2019-05-07,Furniture,Pool furniture,10,100,68216209
-951,79,Australia Southeast,Australia Southeast Store 86,2019-01-02,Furniture,Beds,1,15,45481690
-952,98,Australia Southeast,Australia Southeast Store 86,2019-05-07,Beauty/Health,Makeup,5,14,72666084
-953,80,Australia Southeast,Australia Southeast Store 86,2019-01-18,Baby,Cribs,5,10,43263081
-954,83,Australia Southeast,Australia Southeast Store 86,2019-06-26,Furniture,Indoor seating,4,40,39257100
-955,72,Australia Southeast,Australia Southeast Store 86,2019-01-22,Beauty/Health,Feminine Products,3,10,61412214
-956,52,Australia Southeast,Australia Southeast Store 86,2019-07-14,Beauty/Health,Feminine Products,10,15,39178028
-957,100,Australia Southeast,Australia Southeast Store 86,2019-01-14,Clothing,Baby,3,20,40361247
-958,61,Australia Southeast,Australia Southeast Store 86,2019-01-03,Baby,Cribs,3,10,99570350
-959,43,Australia Southeast,Australia Southeast Store 86,2019-04-12,Clothing,Mens,6,25,16172341
-960,25,Australia Southeast,Australia Southeast Store 86,2019-01-28,Beauty/Health,Fragrances,1,14,65684930
-961,81,Australia Southeast,Australia Southeast Store 86,2019-04-27,Baby,Strollers,3,15,16558719
-962,65,Australia Southeast,Australia Southeast Store 86,2019-05-29,Baby,Car seats,5,30,93096833
-963,64,Australia Southeast,Australia Southeast Store 86,2019-05-09,Baby,Diaper bags,6,10,46368079
-964,24,Australia Southeast,Australia Southeast Store 86,2019-07-07,Beauty/Health,Fragrances,3,10,66139426
-965,55,Australia Southeast,Australia Southeast Store 86,2019-01-15,Furniture,Pool furniture,5,40,45656441
-966,49,Australia Southeast,Australia Southeast Store 86,2019-07-14,Clothing,Baby,8,25,49327034
-967,76,Australia Southeast,Australia Southeast Store 86,2019-01-27,Baby,Diaper bags,4,15,66748181
-968,41,Australia Southeast,Australia Southeast Store 86,2019-04-01,Furniture,Patio furniture,4,30,20745881
-969,22,Australia Southeast,Australia Southeast Store 86,2019-05-09,Clothing,Shoes,7,25,86936480
-970,87,Australia Southeast,Australia Southeast Store 86,2019-07-06,Beauty/Health,Oral care,6,10,74297784
-971,26,Australia Southeast,Australia Southeast Store 86,2019-02-20,Beauty/Health,Skincare,1,15,67080821
-972,43,Australia Southeast,Australia Southeast Store 86,2019-04-12,Baby,Baby toys,6,12,10784423
-973,24,Australia Southeast,Australia Southeast Store 86,2019-01-09,Furniture,Indoor tables,3,40,28875926
-974,82,Australia Southeast,Australia Southeast Store 86,2019-04-22,Electronics,Tablets,2,200,78914142
-975,100,Australia Southeast,Australia Southeast Store 86,2019-03-27,Furniture,Indoor tables,1,15,77752699
-976,6,Australia Southeast,Australia Southeast Store 86,2019-04-20,Beauty/Health,Feminine Products,8,6,24786089
-977,35,Australia Southeast,Australia Southeast Store 86,2019-01-15,Beauty/Health,Makeup,5,6,20721982
-978,36,Australia Southeast,Australia Southeast Store 86,2019-04-21,Clothing,Swimwear,4,25,78030090
-979,46,Australia Southeast,Australia Southeast Store 86,2019-04-28,Electronics,Tablets,2,300,44111149
-980,10,Australia Southeast,Australia Southeast Store 86,2019-05-09,Furniture,Indoor seating,3,30,96619620
-981,46,Australia Southeast,Australia Southeast Store 86,2019-06-28,Clothing,Mens,5,25,56087664
-982,30,Australia Southeast,Australia Southeast Store 86,2019-04-04,Electronics,Tablets,1,50,48005040
-983,34,Australia Southeast,Australia Southeast Store 86,2019-01-14,Electronics,Headphones,2,100,31584494
-984,82,Australia Southeast,Australia Southeast Store 86,2019-01-01,Beauty/Health,Feminine Products,1,15,80419581
-985,50,Australia Southeast,Australia Southeast Store 86,2019-03-12,Furniture,Indoor tables,3,75,97969092
-986,28,Australia Southeast,Australia Southeast Store 86,2019-03-18,Beauty/Health,Oral care,4,6,55914362
-987,27,Australia Southeast,Australia Southeast Store 86,2019-02-28,Baby,Baby toys,4,5,19831378
-988,84,Australia Southeast,Australia Southeast Store 86,2019-03-29,Baby,Diapers,1,12,89204959
-989,43,Australia Southeast,Australia Southeast Store 86,2019-02-28,Furniture,Indoor seating,2,100,15775144
-990,83,Australia Southeast,Australia Southeast Store 86,2019-02-26,Furniture,Indoor seating,4,100,63731775
-991,64,Australia Southeast,Australia Southeast Store 86,2019-04-15,Clothing,Shoes,10,13,92197117
-992,50,Australia Southeast,Australia Southeast Store 86,2019-02-03,Furniture,Patio furniture,3,15,31868264
-993,89,Australia Southeast,Australia Southeast Store 86,2019-05-28,Electronics,Headphones,1,100,77011468
-994,76,Australia Southeast,Australia Southeast Store 86,2019-06-11,Electronics,Cell Phones,1,300,22751247
-995,76,Australia Southeast,Australia Southeast Store 86,2019-02-25,Electronics,Computers,1,100,63505548
-996,33,Australia Southeast,Australia Southeast Store 86,2019-03-05,Clothing,Baby,5,25,95249871
-997,73,Australia Southeast,Australia Southeast Store 86,2019-06-14,Baby,Diaper bags,4,10,97364092
-998,94,Australia Southeast,Australia Southeast Store 86,2019-02-21,Clothing,Kids,5,10,80454560
-999,86,Australia Southeast,Australia Southeast Store 86,2019-06-04,Baby,Diapers,6,15,60834760
-1000,5,Australia Southeast,Australia Southeast Store 86,2019-02-18,Beauty/Health,Haircare,5,10,22757246
-1001,62,Australia Southeast,Australia Southeast Store 86,2019-05-28,Clothing,Womens,10,25,46557355
-1002,101,Australia Southeast,Australia Southeast Store 86,2019-07-04,Electronics,Televisions,1,200,18357645
-1003,28,Australia Southeast,Australia Southeast Store 86,2019-04-13,Baby,Diapers,8,5,42203376
-1004,53,Australia Southeast,Australia Southeast Store 86,2019-05-24,Baby,Strollers,8,10,29386964
-1005,35,Australia Southeast,Australia Southeast Store 86,2019-04-25,Electronics,Computers,1,50,79227443
-1006,36,Australia Southeast,Australia Southeast Store 86,2019-03-12,Baby,Diaper bags,3,5,28961082
-1007,81,Australia Southeast,Australia Southeast Store 86,2019-05-06,Beauty/Health,Bath,9,10,32226687
-1008,58,Australia Southeast,Australia Southeast Store 86,2019-07-03,Furniture,Indoor tables,9,75,25424104
-1009,100,Australia Southeast,Australia Southeast Store 86,2019-06-29,Electronics,Speakers,2,50,67473301
-1010,79,Australia Southeast,Australia Southeast Store 86,2019-06-16,Clothing,Shoes,10,12,57207085
-1011,96,Australia Southeast,Australia Southeast Store 86,2019-06-26,Baby,Strollers,7,30,19787563
-1012,10,Australia Southeast,Australia Southeast Store 86,2019-02-13,Clothing,Swimwear,4,12,33019482
-1013,82,Australia Southeast,Australia Southeast Store 86,2019-03-24,Electronics,Cell Phones,2,50,67154398
-1014,91,Australia Southeast,Australia Southeast Store 86,2019-06-15,Furniture,Indoor tables,7,30,51589667
-1015,100,Australia Southeast,Australia Southeast Store 86,2019-04-25,Clothing,Womens,6,10,38793764
-1016,39,Australia Southeast,Australia Southeast Store 86,2019-06-28,Clothing,Shoes,3,10,71440276
-1017,3,Australia Southeast,Australia Southeast Store 86,2019-04-08,Beauty/Health,Haircare,5,10,86038071
-1018,69,Australia Southeast,Australia Southeast Store 86,2019-06-19,Electronics,Televisions,1,300,91245624
+ordernum,region,store,saledate,dep,item,unitsold,unitprice,employeeID,customerID,loyalty,firstpurchase,freq
+0,West US,West US Store 86,2019-04-10,Electronics,Cell Phones,16,50,44152662,63960716,True,2019-04-10,1
+1,West US,West US Store 86,2019-02-19,Electronics,Televisions,10,200,37982120,15558012,False,2019-02-19,1
+2,West US,West US Store 86,2019-04-04,Electronics,Cell Phones,15,100,24665912,9075507,False,2019-04-04,1
+3,West US,West US Store 86,2019-08-08,Baby,Car seats,29,12,18018402,84272565,True,2019-08-08,1
+4,West US,West US Store 86,2019-04-26,Baby,Diapers,21,5,28020515,35005527,False,2019-04-26,1
+5,West US,West US Store 86,2019-06-24,Furniture,Indoor seating,25,40,67236303,61367714,True,2019-06-24,1
+6,West US,West US Store 86,2019-04-11,Clothing,Shoes,15,20,76977723,77357893,True,2019-04-11,1
+7,West US,West US Store 86,2019-07-14,Baby,Baby toys,26,15,59205054,38895030,True,2019-07-14,1
+8,West US,West US Store 86,2019-07-17,Baby,Diapers,30,30,24755454,84272565,True,2019-08-08,2
+9,West US,West US Store 86,2019-07-13,Electronics,Cell Phones,24,50,78585319,4753837,False,2019-07-13,1
+10,West US,West US Store 86,2019-01-04,Furniture,Patio furniture,6,15,69139418,60071213,True,2019-01-04,1
+11,West US,West US Store 86,2019-08-01,Baby,Car seats,30,12,11447493,31980358,False,2019-08-01,1
+12,West US,West US Store 86,2019-04-07,Furniture,Indoor seating,16,75,31288501,60503380,True,2019-04-07,1
+13,West US,West US Store 86,2019-06-16,Clothing,Shoes,24,25,61831600,35869861,False,2019-06-16,1
+14,West US,West US Store 86,2019-02-16,Beauty/Health,Fragrances,11,10,63403486,57910378,True,2019-02-16,1
+15,West US,West US Store 86,2019-05-05,Beauty/Health,Bath,23,6,19872058,57046044,True,2019-05-05,1
+16,West US,West US Store 86,2019-06-09,Beauty/Health,Skincare,24,14,50666258,30251690,False,2019-06-09,1
+17,West US,West US Store 86,2019-04-05,Electronics,Computers,16,200,61449500,12100676,False,2019-04-05,1
+18,West US,West US Store 86,2019-07-01,Electronics,Speakers,25,300,85763887,64392883,True,2019-07-01,1
+19,West US,West US Store 86,2019-03-18,Furniture,Indoor tables,13,40,99046868,73900557,True,2019-03-18,1
+20,West US,West US Store 86,2019-06-30,Furniture,Indoor seating,26,100,29649525,4321670,False,2019-06-30,1
+21,West US,West US Store 86,2019-04-07,Baby,Car seats,16,15,27606789,75197058,True,2019-04-07,1
+22,West US,West US Store 86,2019-05-15,Electronics,Speakers,19,200,55365355,31548191,False,2019-05-15,1
+23,West US,West US Store 86,2019-05-21,Clothing,Kids,20,25,42335629,81679563,True,2019-05-21,1
+24,West US,West US Store 86,2019-06-20,Electronics,Computers,21,100,72271043,40623698,True,2019-06-20,1
+25,West US,West US Store 86,2019-02-11,Baby,Baby toys,11,10,16895391,57910378,True,2019-02-16,2
+26,West US,West US Store 86,2019-01-14,Clothing,Swimwear,6,13,34766666,25065686,False,2019-01-14,1
+27,West US,West US Store 86,2019-01-06,Electronics,Speakers,6,200,27647458,49699205,True,2019-01-06,1
+28,West US,West US Store 86,2019-03-28,Clothing,Womens,13,10,88093632,80815229,True,2019-03-28,1
+29,West US,West US Store 86,2019-03-19,Beauty/Health,Bath,12,10,59575957,33709026,False,2019-03-19,1
+30,West US,West US Store 86,2019-02-24,Furniture,Pool furniture,10,30,36719779,78222227,True,2019-02-24,1
+31,West US,West US Store 86,2019-05-15,Electronics,Computers,18,300,39570923,22904851,False,2019-05-15,1
+32,West US,West US Store 86,2019-05-12,Beauty/Health,Feminine Products,24,10,38162671,83408231,True,2019-05-12,1
+33,West US,West US Store 86,2019-07-12,Electronics,Speakers,24,50,43485008,34141193,False,2019-07-12,1
+34,West US,West US Store 86,2019-02-14,Beauty/Health,Feminine Products,9,14,64794908,54020875,True,2019-02-14,1
+35,West US,West US Store 86,2019-06-16,Furniture,Pool furniture,26,15,47640494,36734195,False,2019-06-16,1
+36,West US,West US Store 86,2019-01-18,Baby,Car seats,6,10,82118295,55749543,True,2019-01-18,1
+37,West US,West US Store 86,2019-04-18,Clothing,Womens,15,20,94883937,44945368,True,2019-04-18,1
+38,West US,West US Store 86,2019-04-30,Beauty/Health,Haircare,20,10,47379462,13829344,False,2019-04-30,1
+39,West US,West US Store 86,2019-06-29,Clothing,Swimwear,27,25,47269108,83840398,True,2019-06-29,1
+40,West US,West US Store 86,2019-04-28,Baby,Diaper bags,21,5,15802252,32844692,False,2019-04-28,1
+41,West US,West US Store 86,2019-05-13,Electronics,Headphones,19,100,28246427,88594235,True,2019-05-13,1
+42,West US,West US Store 86,2019-07-07,Furniture,Beds,28,100,80360578,20311849,False,2019-07-07,1
+43,West US,West US Store 86,2019-08-12,Clothing,Baby,32,25,78870048,53588708,True,2019-08-12,1
+44,West US,West US Store 86,2019-04-11,Furniture,Indoor seating,16,75,64239846,34573360,False,2019-04-11,1
+45,West US,West US Store 86,2019-04-20,Beauty/Health,Haircare,15,10,63454263,13397177,False,2019-04-20,1
+46,West US,West US Store 86,2019-03-15,Furniture,Beds,13,75,22733005,3889503,False,2019-03-15,1
+47,West US,West US Store 86,2019-07-22,Furniture,Indoor tables,30,15,84612055,17718847,False,2019-07-22,1
+48,West US,West US Store 86,2019-08-03,Beauty/Health,Bath,31,14,25876902,25497853,False,2019-08-03,1
+49,West US,West US Store 86,2019-08-07,Electronics,Tablets,28,200,37425949,33276859,False,2019-08-07,1
+50,West US,West US Store 86,2019-01-15,Clothing,Swimwear,7,13,80440684,41920199,True,2019-01-15,1
+51,West US,West US Store 86,2019-06-23,Baby,Baby toys,25,15,81980532,35005527,False,2019-04-26,2
+52,West US,West US Store 86,2019-08-12,Furniture,Pool furniture,30,40,77429533,70011054,True,2019-08-12,1
+53,West US,West US Store 86,2019-04-22,Furniture,Patio furniture,17,75,79489253,15558012,False,2019-02-19,2
+54,West US,West US Store 86,2019-05-30,Furniture,Indoor seating,24,30,25944499,34141193,False,2019-07-12,2
+55,West US,West US Store 86,2019-03-18,Clothing,Womens,14,25,79540161,7779006,False,2019-03-18,1
+56,West US,West US Store 86,2019-06-04,Beauty/Health,Bath,27,10,28825835,70875388,True,2019-06-04,1
+57,West US,West US Store 86,2019-04-13,Beauty/Health,Haircare,16,6,19731678,65257217,True,2019-04-13,1
+58,West US,West US Store 86,2019-02-21,Baby,Car seats,11,15,59492159,41920199,True,2019-01-15,2
+59,West US,West US Store 86,2019-01-26,Electronics,Speakers,7,200,15175921,30251690,False,2019-06-09,2
+60,West US,West US Store 86,2019-01-02,Electronics,Speakers,6,200,56942622,35869861,False,2019-06-16,2
+61,West US,West US Store 86,2019-03-18,Baby,Car seats,14,12,42296623,55317376,True,2019-03-18,1
+62,West US,West US Store 86,2019-05-30,Furniture,Beds,22,15,38999339,6914672,False,2019-05-30,1
+63,West US,West US Store 86,2019-01-26,Beauty/Health,Oral care,8,10,28220726,58774712,True,2019-01-26,1
+64,West US,West US Store 86,2019-05-19,Electronics,Headphones,19,50,38111233,80383062,True,2019-05-19,1
+65,West US,West US Store 86,2019-07-18,Beauty/Health,Skincare,30,10,58856802,42784533,True,2019-07-18,1
+66,West US,West US Store 86,2019-02-09,Beauty/Health,Makeup,11,6,98818108,38030696,False,2019-02-09,1
+67,West US,West US Store 86,2019-02-25,Beauty/Health,Oral care,9,10,77733790,72171889,True,2019-02-25,1
+68,West US,West US Store 86,2019-02-10,Clothing,Kids,11,25,70111309,81247396,True,2019-02-10,1
+69,West US,West US Store 86,2019-08-15,Baby,Baby toys,31,12,70895938,25930020,False,2019-08-15,1
+70,West US,West US Store 86,2019-02-14,Furniture,Pool furniture,11,75,44370969,54020875,True,2019-02-14,2
+71,West US,West US Store 86,2019-05-13,Beauty/Health,Fragrances,22,10,72744443,15125845,False,2019-05-13,1
+72,West US,West US Store 86,2019-01-26,Clothing,Swimwear,7,13,29105534,41488032,True,2019-01-26,1
+73,West US,West US Store 86,2019-07-06,Furniture,Patio furniture,28,15,59278309,5618171,False,2019-07-06,1
+74,West US,West US Store 86,2019-02-12,Furniture,Indoor seating,11,100,76539007,72171889,True,2019-02-25,2
+75,West US,West US Store 86,2019-04-25,Beauty/Health,Bath,20,10,18982783,32412525,False,2019-04-25,1
+76,West US,West US Store 86,2019-01-29,Furniture,Beds,6,100,63023434,77357893,True,2019-04-11,2
+77,West US,West US Store 86,2019-04-12,Baby,Baby toys,15,12,76542239,36302028,False,2019-04-12,1
+78,West US,West US Store 86,2019-06-16,Electronics,Televisions,21,50,47160009,28090855,False,2019-06-16,1
+79,West US,West US Store 86,2019-07-29,Furniture,Patio furniture,28,30,38198478,15990179,False,2019-07-29,1
+80,West US,West US Store 86,2019-01-11,Furniture,Beds,6,100,16179378,75629225,True,2019-01-11,1
+81,West US,West US Store 86,2019-07-21,Beauty/Health,Haircare,28,10,11928713,36734195,False,2019-06-16,2
+82,West US,West US Store 86,2019-01-17,Beauty/Health,Skincare,7,10,76653077,56613877,True,2019-01-17,1
+83,West US,West US Store 86,2019-04-17,Electronics,Cell Phones,15,100,49722356,71739722,True,2019-04-17,1
+84,West US,West US Store 86,2019-02-05,Electronics,Speakers,10,100,54213242,27658688,False,2019-02-05,1
+85,West US,West US Store 86,2019-06-21,Furniture,Beds,27,100,72502321,38462863,False,2019-06-21,1
+86,West US,West US Store 86,2019-01-20,Beauty/Health,Skincare,8,15,36697961,29819523,False,2019-01-20,1
+87,West US,West US Store 86,2019-03-26,Beauty/Health,Bath,13,6,51578461,44513201,True,2019-03-26,1
+88,West US,West US Store 86,2019-06-29,Electronics,Televisions,22,200,47884743,44945368,True,2019-04-18,2
+89,West US,West US Store 86,2019-01-06,Clothing,Mens,6,25,83085105,42784533,True,2019-07-18,2
+90,West US,West US Store 86,2019-04-25,Electronics,Computers,16,300,83872757,41920199,True,2019-01-15,3
+91,West US,West US Store 86,2019-03-31,Baby,Diapers,13,30,91967988,70875388,True,2019-06-04,2
+92,West US,West US Store 86,2019-01-16,Furniture,Indoor tables,7,30,71182438,38895030,True,2019-07-14,2
+93,West US,West US Store 86,2019-07-02,Furniture,Beds,28,100,88647423,78654394,True,2019-07-02,1
+94,West US,West US Store 86,2019-01-19,Electronics,Computers,6,50,80738107,60935547,True,2019-01-19,1
+95,West US,West US Store 86,2019-06-15,Electronics,Tablets,22,200,21467996,36302028,False,2019-04-12,2
+96,West US,West US Store 86,2019-02-15,Baby,Car seats,11,5,89427932,73900557,True,2019-03-18,2
+97,West US,West US Store 86,2019-07-12,Clothing,Shoes,27,25,40765128,66985885,True,2019-07-12,1
+98,West US,West US Store 86,2019-04-06,Electronics,Tablets,16,100,39731460,76493559,True,2019-04-06,1
+99,West US,West US Store 86,2019-01-08,Electronics,Televisions,7,200,13017046,52292207,True,2019-01-08,1
+100,West US,West US Store 86,2019-05-23,Baby,Strollers,24,12,64115274,11668509,False,2019-05-23,1
+101,West US,West US Store 86,2019-03-25,Furniture,Indoor seating,12,15,84703797,67850219,True,2019-03-25,1
+102,West US,West US Store 86,2019-01-25,Baby,Diapers,8,15,15067083,41920199,True,2019-01-15,4
+103,West US,West US Store 86,2019-06-13,Furniture,Beds,25,40,99879297,75629225,True,2019-01-11,2
+104,West US,West US Store 86,2019-05-14,Beauty/Health,Oral care,22,10,40974820,87729901,True,2019-05-14,1
+105,West US,West US Store 86,2019-04-19,Baby,Car seats,16,30,19744230,38462863,False,2019-06-21,2
+106,West US,West US Store 86,2019-02-05,Furniture,Pool furniture,11,30,81599448,83840398,True,2019-06-29,2
+107,West US,West US Store 86,2019-03-24,Electronics,Cell Phones,12,300,96125348,38462863,False,2019-06-21,3
+108,West US,West US Store 86,2019-04-02,Clothing,Kids,17,20,66829781,75629225,True,2019-01-11,3
+109,West US,West US Store 86,2019-04-26,Beauty/Health,Makeup,19,10,31338917,87729901,True,2019-05-14,2
+110,West US,West US Store 86,2019-02-12,Beauty/Health,Bath,9,6,35161392,6482505,False,2019-02-12,1
+111,West US,West US Store 86,2019-01-06,Furniture,Pool furniture,6,100,20686866,29819523,False,2019-01-20,2
+112,West US,West US Store 86,2019-04-30,Baby,Strollers,17,30,25491088,11236342,False,2019-04-30,1
+113,West US,West US Store 86,2019-03-14,Electronics,Televisions,13,50,12838160,34141193,False,2019-07-12,3
+114,West US,West US Store 86,2019-06-18,Clothing,Shoes,24,10,38372255,81247396,True,2019-02-10,2
+115,West US,West US Store 86,2019-01-02,Beauty/Health,Makeup,6,6,18899535,41920199,True,2019-01-15,5
+116,West US,West US Store 86,2019-05-17,Furniture,Pool furniture,21,15,74785801,40623698,True,2019-06-20,2
+117,West US,West US Store 86,2019-06-16,Clothing,Baby,24,25,15553599,70875388,True,2019-06-04,3
+118,West US,West US Store 86,2019-07-06,Furniture,Patio furniture,26,75,98227118,16422346,False,2019-07-06,1
+119,West US,West US Store 86,2019-06-06,Furniture,Patio furniture,24,40,85681197,61799881,True,2019-06-06,1
+120,West US,West US Store 86,2019-01-29,Furniture,Indoor seating,8,15,49170386,48834871,True,2019-01-29,1
+121,West US,West US Store 86,2019-03-05,Beauty/Health,Oral care,12,10,70542436,55749543,True,2019-01-18,2
+122,West US,West US Store 86,2019-05-18,Beauty/Health,Feminine Products,24,15,16783147,65257217,True,2019-04-13,2
+123,West US,West US Store 86,2019-03-25,Electronics,Tablets,13,100,12001610,39327197,True,2019-03-25,1
+124,West US,West US Store 86,2019-01-25,Furniture,Pool furniture,8,100,29189575,24201352,False,2019-01-25,1
+125,West US,West US Store 86,2019-04-29,Electronics,Speakers,16,200,34483593,79950895,True,2019-04-29,1
+126,West US,West US Store 86,2019-01-21,Electronics,Headphones,7,100,55978630,74332724,True,2019-01-21,1
+127,West US,West US Store 86,2019-04-19,Clothing,Womens,17,10,37412097,26362187,False,2019-04-19,1
+128,West US,West US Store 86,2019-07-16,Electronics,Speakers,25,200,10412528,63096382,True,2019-07-16,1
+129,West US,West US Store 86,2019-07-12,Furniture,Patio furniture,27,15,72168580,79518728,True,2019-07-12,1
+130,West US,West US Store 86,2019-06-08,Furniture,Indoor tables,25,40,78536364,74764891,True,2019-06-08,1
+131,West US,West US Store 86,2019-07-27,Clothing,Kids,28,25,51802072,9075507,False,2019-04-04,2
+132,West US,West US Store 86,2019-01-20,Beauty/Health,Makeup,6,10,34656031,54020875,True,2019-02-14,3
+133,West US,West US Store 86,2019-07-25,Beauty/Health,Haircare,26,10,20451158,13397177,False,2019-04-20,2
+134,West US,West US Store 86,2019-07-18,Beauty/Health,Makeup,29,14,61947813,60935547,True,2019-01-19,2
+135,West US,West US Store 86,2019-02-18,Baby,Baby toys,10,10,41021571,69146720,True,2019-02-18,1
+136,West US,West US Store 86,2019-05-28,Baby,Diaper bags,23,5,29685979,29387356,False,2019-05-28,1
+137,West US,West US Store 86,2019-05-25,Furniture,Pool furniture,22,100,61370420,40623698,True,2019-06-20,3
+138,West US,West US Store 86,2019-04-28,Beauty/Health,Oral care,19,10,75732903,66985885,True,2019-07-12,2
+139,West US,West US Store 86,2019-04-12,Beauty/Health,Skincare,15,10,24997284,6050338,False,2019-04-12,1
+140,West US,West US Store 86,2019-04-08,Beauty/Health,Fragrances,17,10,40169004,60503380,True,2019-04-07,2
+141,West US,West US Store 86,2019-06-12,Baby,Cribs,26,10,52046054,84272565,True,2019-08-08,3
+142,West US,West US Store 86,2019-02-11,Baby,Cribs,9,15,89875882,37166362,False,2019-02-11,1
+143,West US,West US Store 86,2019-06-01,Clothing,Kids,26,10,75027560,49267038,True,2019-06-01,1
+144,West US,West US Store 86,2019-05-11,Beauty/Health,Bath,23,10,73813159,82111730,True,2019-05-11,1
+145,West US,West US Store 86,2019-02-02,Beauty/Health,Haircare,9,15,83368712,67418052,True,2019-02-02,1
+146,West US,West US Store 86,2019-06-15,Electronics,Televisions,22,100,39665944,62664215,True,2019-06-15,1
+147,West US,West US Store 86,2019-01-08,Baby,Car seats,6,12,61643600,76061392,True,2019-01-08,1
+148,West US,West US Store 86,2019-04-12,Beauty/Health,Haircare,16,6,70977443,24633519,False,2019-04-12,1
+149,West US,West US Store 86,2019-07-17,Beauty/Health,Skincare,29,14,89843702,75629225,True,2019-01-11,4
+150,West US,West US Store 86,2019-02-27,Electronics,Cell Phones,10,200,84438145,85136899,True,2019-02-27,1
+151,West US,West US Store 86,2019-03-23,Beauty/Health,Fragrances,14,10,44511806,71739722,True,2019-04-17,2
+152,West US,West US Store 86,2019-03-08,Beauty/Health,Skincare,14,10,53339965,50131372,True,2019-03-08,1
+153,West US,West US Store 86,2019-02-18,Beauty/Health,Bath,11,10,89648029,27226521,False,2019-02-18,1
+154,West US,West US Store 86,2019-03-07,Clothing,Swimwear,13,20,66116641,43216700,True,2019-03-07,1
+155,West US,West US Store 86,2019-02-25,Beauty/Health,Skincare,10,10,19486600,84704732,True,2019-02-25,1
+156,West US,West US Store 86,2019-07-27,Furniture,Indoor seating,30,40,97638532,51860040,True,2019-07-27,1
+157,West US,West US Store 86,2019-08-03,Baby,Car seats,30,30,17376114,14261511,False,2019-08-03,1
+158,West US,West US Store 86,2019-06-06,Baby,Diaper bags,24,10,53229992,78654394,True,2019-07-02,2
+159,West US,West US Store 86,2019-05-13,Electronics,Headphones,19,300,22524954,36734195,False,2019-06-16,3
+160,West US,West US Store 86,2019-01-20,Baby,Baby toys,8,15,13709044,59206879,True,2019-01-20,1
+161,West US,West US Store 86,2019-03-01,Electronics,Televisions,12,50,69857940,75629225,True,2019-01-11,5
+162,West US,West US Store 86,2019-03-05,Furniture,Indoor seating,14,30,96883600,35005527,False,2019-04-26,3
+163,West US,West US Store 86,2019-03-16,Baby,Baby toys,12,5,12673652,43216700,True,2019-03-07,2
+164,West US,West US Store 86,2019-06-15,Beauty/Health,Bath,24,10,46106009,50995706,True,2019-06-15,1
+165,West US,West US Store 86,2019-02-08,Beauty/Health,Haircare,9,10,66723132,50131372,True,2019-03-08,2
+166,West US,West US Store 86,2019-02-11,Baby,Strollers,9,30,79875011,11668509,False,2019-05-23,2
+167,West US,West US Store 86,2019-07-10,Clothing,Mens,27,20,19907489,56613877,True,2019-01-17,2
+168,West US,West US Store 86,2019-02-05,Furniture,Indoor tables,9,100,23668038,3025169,False,2019-02-05,1
+169,West US,West US Store 86,2019-04-26,Clothing,Swimwear,18,10,99323766,54020875,True,2019-02-14,4
+170,West US,West US Store 86,2019-06-19,Clothing,Shoes,26,25,49959317,24633519,False,2019-04-12,2
+171,West US,West US Store 86,2019-06-29,Electronics,Computers,22,100,52968556,11668509,False,2019-05-23,3
+172,West US,West US Store 86,2019-01-17,Baby,Strollers,7,15,66097328,84272565,True,2019-08-08,4
+173,West US,West US Store 86,2019-03-03,Electronics,Cell Phones,13,200,88932816,37598529,False,2019-03-03,1
+174,West US,West US Store 86,2019-06-08,Baby,Baby toys,24,15,52817172,81247396,True,2019-02-10,3
+175,West US,West US Store 86,2019-03-25,Clothing,Womens,14,20,93040612,43648867,True,2019-03-25,1
+176,West US,West US Store 86,2019-01-29,Baby,Diaper bags,6,12,15222511,80815229,True,2019-03-28,2
+177,West US,West US Store 86,2019-08-15,Clothing,Kids,29,20,67728539,6482505,False,2019-02-12,2
+178,West US,West US Store 86,2019-05-17,Baby,Baby toys,22,15,58682903,50131372,True,2019-03-08,3
+179,West US,West US Store 86,2019-01-17,Furniture,Pool furniture,8,15,21986347,71307555,True,2019-01-17,1
+180,West US,West US Store 86,2019-04-27,Furniture,Pool furniture,19,40,21515759,3025169,False,2019-02-05,2
+181,West US,West US Store 86,2019-05-02,Furniture,Indoor seating,23,40,61689989,59639046,True,2019-05-02,1
+182,West US,West US Store 86,2019-05-18,Baby,Diaper bags,22,5,46866405,28523022,False,2019-05-18,1
+183,West US,West US Store 86,2019-08-02,Furniture,Indoor tables,30,40,61543285,42352366,True,2019-08-02,1
+184,West US,West US Store 86,2019-02-19,Clothing,Baby,11,25,37781631,30251690,False,2019-06-09,3
+185,West US,West US Store 86,2019-04-29,Beauty/Health,Skincare,19,10,60927743,6482505,False,2019-02-12,3
+186,West US,West US Store 86,2019-08-01,Beauty/Health,Oral care,32,6,15407095,71739722,True,2019-04-17,3
+187,West US,West US Store 86,2019-05-21,Baby,Cribs,22,30,42286269,64825050,True,2019-05-21,1
+188,West US,West US Store 86,2019-02-21,Baby,Cribs,9,15,90949174,31548191,False,2019-05-15,2
+189,West US,West US Store 86,2019-07-26,Baby,Diapers,30,15,91638907,55749543,True,2019-01-18,3
+190,West US,West US Store 86,2019-02-07,Furniture,Indoor seating,9,100,91347202,61367714,True,2019-06-24,2
+191,West US,West US Store 86,2019-08-14,Baby,Strollers,32,30,94079785,81247396,True,2019-02-10,4
+192,West US,West US Store 86,2019-04-29,Clothing,Shoes,21,20,35351539,25497853,False,2019-08-03,2
+193,West US,West US Store 86,2019-06-04,Clothing,Womens,24,25,92575835,63096382,True,2019-07-16,2
+194,West US,West US Store 86,2019-03-17,Furniture,Pool furniture,13,15,52818737,25497853,False,2019-08-03,3
+195,West US,West US Store 86,2019-02-07,Clothing,Kids,9,25,72827757,82543897,True,2019-02-07,1
+196,West US,West US Store 86,2019-05-04,Beauty/Health,Haircare,22,10,25050577,43216700,True,2019-03-07,3
+197,West US,West US Store 86,2019-03-03,Electronics,Computers,12,300,52191467,3025169,False,2019-02-05,3
+198,West US,West US Store 86,2019-02-15,Baby,Baby toys,10,30,93483682,82111730,True,2019-05-11,2
+199,West US,West US Store 86,2019-05-18,Electronics,Speakers,19,300,62742596,48402704,True,2019-05-18,1
+200,West US,West US Store 86,2019-02-27,Furniture,Patio furniture,9,15,62856132,80383062,True,2019-05-19,2
+201,West US,West US Store 86,2019-01-29,Beauty/Health,Feminine Products,8,15,36458516,26362187,False,2019-04-19,2
+202,West US,West US Store 86,2019-07-01,Beauty/Health,Haircare,29,15,19472340,14693678,False,2019-07-01,1
+203,West US,West US Store 86,2019-04-17,Furniture,Indoor tables,17,30,22531715,76061392,True,2019-01-08,2
+204,West US,West US Store 86,2019-01-31,Clothing,Swimwear,8,25,83777033,68714553,True,2019-01-31,1
+205,West US,West US Store 86,2019-06-02,Baby,Strollers,26,30,78212988,30251690,False,2019-06-09,4
+206,West US,West US Store 86,2019-05-19,Beauty/Health,Skincare,22,10,73777367,66121551,True,2019-05-19,1
+207,West US,West US Store 86,2019-02-01,Beauty/Health,Oral care,11,14,39127603,23337018,False,2019-02-01,1
+208,West US,West US Store 86,2019-04-02,Baby,Car seats,17,15,33121573,39327197,True,2019-03-25,2
+209,West US,West US Store 86,2019-07-10,Furniture,Pool furniture,30,40,15038742,43648867,True,2019-03-25,2
+210,West US,West US Store 86,2019-03-25,Furniture,Indoor tables,12,30,59160616,29819523,False,2019-01-20,3
+211,West US,West US Store 86,2019-08-14,Baby,Diapers,30,15,21590125,54453042,True,2019-08-14,1
+212,West US,West US Store 86,2019-05-27,Baby,Baby toys,24,30,98256083,55317376,True,2019-03-18,2
+213,West US,West US Store 86,2019-05-27,Clothing,Baby,21,25,64160044,35437694,False,2019-05-27,1
+214,West US,West US Store 86,2019-07-16,Electronics,Televisions,24,100,57983188,77790060,True,2019-07-16,1
+215,West US,West US Store 86,2019-04-23,Clothing,Baby,15,25,95541969,50563539,True,2019-04-23,1
+216,West US,West US Store 86,2019-06-14,Baby,Diaper bags,23,10,27737883,30251690,False,2019-06-09,5
+217,West US,West US Store 86,2019-07-11,Clothing,Mens,26,25,58980865,82543897,True,2019-02-07,2
+218,West US,West US Store 86,2019-07-04,Baby,Cribs,28,15,30989162,41055865,True,2019-07-04,1
+219,West US,West US Store 86,2019-05-12,Baby,Strollers,22,30,16645263,52724374,True,2019-05-12,1
+220,West US,West US Store 86,2019-07-20,Furniture,Indoor tables,28,15,59107109,64825050,True,2019-05-21,2
+221,West US,West US Store 86,2019-05-23,Electronics,Computers,19,100,75334791,55749543,True,2019-01-18,4
+222,West US,West US Store 86,2019-07-19,Clothing,Womens,28,13,17689224,57046044,True,2019-05-05,2
+223,West US,West US Store 86,2019-02-18,Clothing,Kids,11,12,14731815,45809702,True,2019-02-18,1
+224,West US,West US Store 86,2019-01-16,Electronics,Speakers,7,200,49179789,52724374,True,2019-05-12,2
+225,West US,West US Store 86,2019-08-15,Baby,Diapers,29,30,42257174,70011054,True,2019-08-12,2
+226,West US,West US Store 86,2019-05-09,Furniture,Patio furniture,23,100,29757713,74332724,True,2019-01-21,2
+227,West US,West US Store 86,2019-05-07,Beauty/Health,Makeup,24,10,17016318,54453042,True,2019-08-14,2
+228,West US,West US Store 86,2019-08-05,Electronics,Televisions,28,100,67402805,73900557,True,2019-03-18,3
+229,West US,West US Store 86,2019-02-10,Beauty/Health,Makeup,9,15,53253735,14261511,False,2019-08-03,2
+230,West US,West US Store 86,2019-04-30,Baby,Car seats,21,15,80560483,41488032,True,2019-01-26,2
+231,West US,West US Store 86,2019-07-18,Furniture,Patio furniture,27,40,80263140,61367714,True,2019-06-24,3
+232,West US,West US Store 86,2019-06-08,Clothing,Mens,27,10,21263607,48834871,True,2019-01-29,2
+233,West US,West US Store 86,2019-03-10,Furniture,Beds,12,30,80825084,58342545,True,2019-03-10,1
+234,West US,West US Store 86,2019-07-20,Furniture,Pool furniture,30,100,70754364,46674036,True,2019-07-20,1
+235,West US,West US Store 86,2019-06-01,Furniture,Indoor tables,24,75,19541761,52292207,True,2019-01-08,2
+236,West US,West US Store 86,2019-07-20,Baby,Baby toys,26,15,86008208,34141193,False,2019-07-12,4
+237,West US,West US Store 86,2019-06-20,Baby,Baby toys,23,5,63124079,45809702,True,2019-02-18,2
+238,West US,West US Store 86,2019-07-30,Baby,Cribs,26,5,68279548,69146720,True,2019-02-18,2
+239,West US,West US Store 86,2019-04-05,Electronics,Cell Phones,16,100,94330433,85136899,True,2019-02-27,2
+240,West US,West US Store 86,2019-01-30,Baby,Baby toys,6,12,27875886,31980358,False,2019-08-01,2
+241,West US,West US Store 86,2019-01-03,Baby,Diaper bags,6,12,29735666,38462863,False,2019-06-21,4
+242,West US,West US Store 86,2019-02-02,Baby,Diapers,11,30,39820374,39759364,True,2019-02-02,1
+243,West US,West US Store 86,2019-08-07,Electronics,Cell Phones,28,100,84044867,44081034,True,2019-08-07,1
+244,West US,West US Store 86,2019-02-19,Electronics,Tablets,9,200,86993116,35869861,False,2019-06-16,3
+245,West US,West US Store 86,2019-03-19,Baby,Diaper bags,14,12,44132156,81247396,True,2019-02-10,5
+246,West US,West US Store 86,2019-07-15,Clothing,Kids,26,20,37561284,11236342,False,2019-04-30,2
+247,West US,West US Store 86,2019-01-13,Beauty/Health,Oral care,8,10,58515758,80815229,True,2019-03-28,3
+248,West US,West US Store 86,2019-01-06,Baby,Diaper bags,7,10,28112456,82543897,True,2019-02-07,3
+249,West US,West US Store 86,2019-06-25,Beauty/Health,Fragrances,27,15,10559655,22904851,False,2019-05-15,2
+250,West US,West US Store 86,2019-04-09,Clothing,Mens,16,10,28052682,58774712,True,2019-01-26,2
+251,West US,West US Store 86,2019-04-13,Furniture,Indoor tables,15,40,61316351,74764891,True,2019-06-08,2
+252,West US,West US Store 86,2019-05-14,Clothing,Mens,23,25,12066280,49699205,True,2019-01-06,2
+253,West US,West US Store 86,2019-03-22,Baby,Car seats,12,5,95595293,69146720,True,2019-02-18,3
+254,West US,West US Store 86,2019-05-24,Baby,Car seats,23,10,54285590,44081034,True,2019-08-07,2
+255,West US,West US Store 86,2019-04-12,Baby,Diapers,17,12,22563417,85136899,True,2019-02-27,3
+256,West US,West US Store 86,2019-08-07,Baby,Strollers,31,12,81366289,40191531,True,2019-08-07,1
+257,West US,West US Store 86,2019-02-27,Clothing,Swimwear,11,12,55397361,60503380,True,2019-04-07,3
+258,West US,West US Store 86,2019-01-08,Beauty/Health,Oral care,7,6,30271162,49699205,True,2019-01-06,3
+259,West US,West US Store 86,2019-04-19,Beauty/Health,Bath,17,14,73004545,80815229,True,2019-03-28,4
+260,West US,West US Store 86,2019-07-25,Clothing,Womens,28,10,35281069,47538370,True,2019-07-25,1
+261,West US,West US Store 86,2019-05-10,Furniture,Pool furniture,24,40,61749390,44945368,True,2019-04-18,3
+262,West US,West US Store 86,2019-07-30,Baby,Strollers,27,5,60335419,76061392,True,2019-01-08,3
+263,West US,West US Store 86,2019-02-17,Beauty/Health,Feminine Products,11,14,91089410,76925726,True,2019-02-17,1
+264,West US,West US Store 86,2019-02-06,Beauty/Health,Haircare,11,10,63526676,59639046,True,2019-05-02,2
+265,West US,West US Store 86,2019-04-18,Electronics,Televisions,15,200,90670000,41055865,True,2019-07-04,2
+266,West US,West US Store 86,2019-02-01,Clothing,Shoes,11,20,39410165,59639046,True,2019-05-02,3
+267,West US,West US Store 86,2019-03-09,Beauty/Health,Haircare,14,10,92199901,54885209,True,2019-03-09,1
+268,West US,West US Store 86,2019-02-23,Furniture,Indoor seating,11,15,10050613,79950895,True,2019-04-29,2
+269,West US,West US Store 86,2019-07-05,Furniture,Patio furniture,26,15,72378928,65257217,True,2019-04-13,3
+270,West US,West US Store 86,2019-05-21,Beauty/Health,Haircare,21,10,20236959,67418052,True,2019-02-02,2
+271,West US,West US Store 86,2019-05-18,Furniture,Indoor seating,20,100,40855135,41055865,True,2019-07-04,3
+272,West US,West US Store 86,2019-02-17,Beauty/Health,Haircare,9,14,88652448,9939841,False,2019-02-17,1
+273,West US,West US Store 86,2019-02-01,Electronics,Tablets,10,200,68343602,63528549,True,2019-02-01,1
+274,West US,West US Store 86,2019-04-10,Furniture,Indoor seating,16,100,26055066,49267038,True,2019-06-01,2
+275,West US,West US Store 86,2019-06-15,Electronics,Computers,22,50,35478121,61367714,True,2019-06-24,4
+276,West US,West US Store 86,2019-01-15,Electronics,Televisions,6,300,17180679,54453042,True,2019-08-14,3
+277,West US,West US Store 86,2019-07-11,Furniture,Pool furniture,27,75,85557598,71739722,True,2019-04-17,4
+278,West US,West US Store 86,2019-05-03,Beauty/Health,Oral care,24,15,69747044,73468390,True,2019-05-03,1
+279,West US,West US Store 86,2019-06-02,Furniture,Indoor tables,24,30,98531985,28523022,False,2019-05-18,2
+280,West US,West US Store 86,2019-06-18,Beauty/Health,Makeup,24,10,38153532,76061392,True,2019-01-08,4
+281,West US,West US Store 86,2019-05-25,Electronics,Headphones,19,100,36493866,35005527,False,2019-04-26,4
+282,West US,West US Store 86,2019-05-10,Clothing,Mens,23,25,29649514,46241869,True,2019-05-10,1
+283,West US,West US Store 86,2019-01-17,Furniture,Indoor seating,8,15,19634824,20311849,False,2019-07-07,2
+284,West US,West US Store 86,2019-02-28,Clothing,Kids,10,25,60311515,57046044,True,2019-05-05,3
+285,West US,West US Store 86,2019-03-05,Furniture,Indoor seating,12,100,82425257,22040517,False,2019-03-05,1
+286,West US,West US Store 86,2019-01-16,Baby,Cribs,8,30,43309086,58774712,True,2019-01-26,3
+287,West US,West US Store 86,2019-02-16,Clothing,Mens,10,25,38057217,60935547,True,2019-01-19,3
+288,West US,West US Store 86,2019-04-20,Clothing,Mens,17,20,23553900,28090855,False,2019-06-16,2
+289,West US,West US Store 86,2019-01-12,Furniture,Pool furniture,7,75,75642661,58342545,True,2019-03-10,2
+290,West US,West US Store 86,2019-07-21,Baby,Diaper bags,30,30,88786943,60935547,True,2019-01-19,4
+291,West US,West US Store 86,2019-06-06,Furniture,Patio furniture,23,40,71793068,53588708,True,2019-08-12,2
+292,West US,West US Store 86,2019-03-24,Clothing,Baby,12,12,54496621,71307555,True,2019-01-17,2
+293,West US,West US Store 86,2019-06-11,Beauty/Health,Haircare,27,10,76916025,80815229,True,2019-03-28,5
+294,West US,West US Store 86,2019-03-02,Beauty/Health,Makeup,13,10,56345069,40623698,True,2019-06-20,4
+295,West US,West US Store 86,2019-04-30,Baby,Baby toys,18,30,42059367,81679563,True,2019-05-21,2
+296,West US,West US Store 86,2019-07-18,Baby,Car seats,30,30,28935519,50131372,True,2019-03-08,4
+297,West US,West US Store 86,2019-07-28,Baby,Cribs,28,10,11951870,59639046,True,2019-05-02,4
+298,West US,West US Store 86,2019-03-08,Furniture,Patio furniture,14,100,57735837,57046044,True,2019-05-05,4
+299,West US,West US Store 86,2019-03-18,Furniture,Beds,13,30,24678976,74332724,True,2019-01-21,3
+300,West US,West US Store 86,2019-05-20,Baby,Car seats,21,15,86550072,63528549,True,2019-02-01,2
+301,West US,West US Store 86,2019-01-17,Clothing,Womens,6,25,63170471,6482505,False,2019-02-12,4
+302,West US,West US Store 86,2019-01-24,Furniture,Indoor seating,7,40,28308985,35869861,False,2019-06-16,4
+303,West US,West US Store 86,2019-02-02,Electronics,Computers,9,50,26833681,77357893,True,2019-04-11,3
+304,West US,West US Store 86,2019-05-18,Clothing,Baby,24,25,46433598,56613877,True,2019-01-17,3
+305,West US,West US Store 86,2019-07-20,Electronics,Tablets,24,200,33694842,59206879,True,2019-01-20,2
+306,West US,West US Store 86,2019-01-14,Furniture,Indoor tables,8,30,87782805,86001233,True,2019-01-14,1
+307,West US,West US Store 86,2019-01-29,Electronics,Tablets,7,200,17346037,46674036,True,2019-07-20,2
+308,West US,West US Store 86,2019-04-06,Electronics,Headphones,16,200,20982321,32412525,False,2019-04-25,2
+309,West US,West US Store 86,2019-08-02,Clothing,Mens,29,20,44963027,67850219,True,2019-03-25,2
+310,West US,West US Store 86,2019-05-20,Beauty/Health,Fragrances,23,10,32810142,50995706,True,2019-06-15,2
+311,West US,West US Store 86,2019-05-07,Baby,Diapers,20,15,46317151,45377535,True,2019-05-07,1
+312,West US,West US Store 86,2019-05-04,Clothing,Shoes,20,20,57849206,34141193,False,2019-07-12,5
+313,West US,West US Store 86,2019-06-24,Beauty/Health,Fragrances,27,6,66844103,47970537,True,2019-06-24,1
+314,West US,West US Store 86,2019-08-10,Clothing,Shoes,30,10,75131587,61799881,True,2019-06-06,2
+315,West US,West US Store 86,2019-06-11,Baby,Diapers,23,30,64547878,56613877,True,2019-01-17,4
+316,West US,West US Store 86,2019-02-18,Furniture,Indoor tables,9,75,77262663,12965010,False,2019-02-18,1
+317,West US,West US Store 86,2019-08-12,Furniture,Patio furniture,29,30,83596776,38895030,True,2019-07-14,3
+318,West US,West US Store 86,2019-03-06,Furniture,Beds,13,30,82549516,69146720,True,2019-02-18,4
+319,West US,West US Store 86,2019-08-09,Furniture,Indoor seating,29,40,13763747,83408231,True,2019-05-12,2
+320,West US,West US Store 86,2019-06-23,Electronics,Computers,21,50,83082683,51427873,True,2019-06-23,1
+321,West US,West US Store 86,2019-06-14,Clothing,Swimwear,25,25,48587890,51860040,True,2019-07-27,2
+322,West US,West US Store 86,2019-04-25,Beauty/Health,Feminine Products,18,6,44143709,61799881,True,2019-06-06,3
+323,West US,West US Store 86,2019-02-08,Furniture,Patio furniture,10,30,37856196,67418052,True,2019-02-02,3
+324,West US,West US Store 86,2019-06-18,Electronics,Speakers,22,300,91259731,80383062,True,2019-05-19,3
+325,West US,West US Store 86,2019-05-18,Electronics,Headphones,18,300,16568378,30251690,False,2019-06-09,6
+326,West US,West US Store 86,2019-06-05,Furniture,Indoor seating,23,30,31108891,79086561,True,2019-06-05,1
+327,West US,West US Store 86,2019-07-30,Furniture,Beds,30,40,75851112,52724374,True,2019-05-12,3
+328,West US,West US Store 86,2019-05-07,Clothing,Mens,21,20,60700978,65689384,True,2019-05-07,1
+329,West US,West US Store 86,2019-07-30,Furniture,Indoor tables,29,100,11370678,75629225,True,2019-01-11,6
+330,West US,West US Store 86,2019-07-26,Clothing,Kids,27,20,66252156,50131372,True,2019-03-08,5
+331,West US,West US Store 86,2019-04-11,Clothing,Baby,17,25,69212732,47538370,True,2019-07-25,2
+332,West US,West US Store 86,2019-07-18,Clothing,Baby,30,25,70540286,5618171,False,2019-07-06,2
+333,West US,West US Store 86,2019-04-10,Electronics,Televisions,16,200,54333144,40191531,True,2019-08-07,2
+334,West US,West US Store 86,2019-02-16,Beauty/Health,Haircare,9,10,93829989,50563539,True,2019-04-23,2
+335,West US,West US Store 86,2019-01-05,Beauty/Health,Skincare,7,10,77321628,71307555,True,2019-01-17,3
+336,West US,West US Store 86,2019-07-02,Clothing,Swimwear,28,25,31676252,49267038,True,2019-06-01,3
+337,West US,West US Store 86,2019-03-12,Baby,Diaper bags,12,30,37066089,48402704,True,2019-05-18,2
+338,West US,West US Store 86,2019-07-05,Electronics,Speakers,24,100,87646917,26794354,False,2019-07-05,1
+339,West US,West US Store 86,2019-01-12,Clothing,Mens,6,25,19985929,59639046,True,2019-05-02,5
+340,West US,West US Store 86,2019-02-10,Electronics,Headphones,10,50,52250121,63960716,True,2019-04-10,2
+341,West US,West US Store 86,2019-04-02,Beauty/Health,Fragrances,16,14,98142367,6914672,False,2019-05-30,2
+342,West US,West US Store 86,2019-07-04,Electronics,Headphones,24,200,20856056,63960716,True,2019-04-10,3
+343,West US,West US Store 86,2019-07-02,Clothing,Baby,28,20,16860333,50995706,True,2019-06-15,3
+344,West US,West US Store 86,2019-08-13,Furniture,Pool furniture,32,30,11619364,39759364,True,2019-02-02,2
+345,West US,West US Store 86,2019-04-27,Baby,Diaper bags,21,10,47294951,56181710,True,2019-04-27,1
+346,West US,West US Store 86,2019-04-13,Electronics,Computers,15,100,90975305,47970537,True,2019-06-24,2
+347,West US,West US Store 86,2019-02-10,Furniture,Indoor seating,9,100,80148655,25930020,False,2019-08-15,2
+348,West US,West US Store 86,2019-01-20,Clothing,Kids,6,20,97236881,48834871,True,2019-01-29,3
+349,West US,West US Store 86,2019-03-12,Furniture,Indoor seating,14,30,62208849,76493559,True,2019-04-06,2
+350,West US,West US Store 86,2019-05-02,Clothing,Shoes,23,20,42740164,60935547,True,2019-01-19,5
+351,West US,West US Store 86,2019-01-17,Clothing,Shoes,6,20,47860633,55317376,True,2019-03-18,3
+352,West US,West US Store 86,2019-05-04,Furniture,Pool furniture,20,40,12309802,54020875,True,2019-02-14,5
+353,West US,West US Store 86,2019-06-02,Furniture,Beds,27,100,44381531,86865567,True,2019-06-02,1
+354,West US,West US Store 86,2019-06-23,Electronics,Tablets,21,300,60824544,12100676,False,2019-04-05,2
+355,West US,West US Store 86,2019-01-11,Electronics,Televisions,7,100,92178564,35437694,False,2019-05-27,2
+356,West US,West US Store 86,2019-02-16,Electronics,Speakers,9,300,76817548,38895030,True,2019-07-14,4
+357,West US,West US Store 86,2019-06-01,Electronics,Headphones,21,100,45448156,78654394,True,2019-07-02,3
+358,West US,West US Store 86,2019-06-10,Clothing,Kids,27,12,91677990,41488032,True,2019-01-26,3
+359,West US,West US Store 86,2019-01-21,Electronics,Headphones,7,300,56771836,69146720,True,2019-02-18,5
+360,West US,West US Store 86,2019-02-02,Electronics,Computers,9,200,89558916,63096382,True,2019-07-16,3
+361,West US,West US Store 86,2019-04-18,Furniture,Pool furniture,15,100,11417161,38030696,False,2019-02-09,2
+362,West US,West US Store 86,2019-05-06,Baby,Diapers,21,12,23661709,62232048,True,2019-05-06,1
+363,West US,West US Store 86,2019-03-27,Electronics,Televisions,13,200,58074771,27226521,False,2019-02-18,2
+364,West US,West US Store 86,2019-08-07,Electronics,Speakers,28,50,82261253,34141193,False,2019-07-12,6
+365,West US,West US Store 86,2019-01-24,Baby,Diaper bags,7,15,73154999,12100676,False,2019-04-05,3
+366,West US,West US Store 86,2019-08-12,Beauty/Health,Feminine Products,31,10,41449682,25065686,False,2019-01-14,2
+367,West US,West US Store 86,2019-07-09,Clothing,Swimwear,29,12,25937141,64392883,True,2019-07-01,2
+368,West US,West US Store 86,2019-04-15,Furniture,Patio furniture,17,100,60106627,75629225,True,2019-01-11,7
+369,West US,West US Store 86,2019-04-17,Electronics,Cell Phones,16,100,35560918,36734195,False,2019-06-16,4
+370,West US,West US Store 86,2019-06-25,Clothing,Shoes,23,25,40641750,25930020,False,2019-08-15,3
+371,West US,West US Store 86,2019-04-11,Clothing,Swimwear,17,10,87157353,68714553,True,2019-01-31,2
+372,West US,West US Store 86,2019-05-26,Electronics,Televisions,19,100,19313160,54885209,True,2019-03-09,2
+373,West US,West US Store 86,2019-08-01,Furniture,Beds,33,40,96291996,55317376,True,2019-03-18,4
+374,West US,West US Store 86,2019-05-28,Electronics,Cell Phones,19,300,94768041,55749543,True,2019-01-18,5
+375,West US,West US Store 86,2019-02-17,Electronics,Televisions,10,100,79603547,64825050,True,2019-05-21,3
+376,West US,West US Store 86,2019-01-10,Clothing,Swimwear,7,20,15075018,73036223,True,2019-01-10,1
+377,West US,West US Store 86,2019-05-11,Furniture,Indoor seating,21,100,14162195,24201352,False,2019-01-25,2
+378,West US,West US Store 86,2019-01-29,Beauty/Health,Bath,7,15,56143913,4753837,False,2019-07-13,2
+379,West US,West US Store 86,2019-02-08,Clothing,Shoes,11,20,32457998,78222227,True,2019-02-24,2
+380,West US,West US Store 86,2019-03-11,Beauty/Health,Fragrances,13,14,19568069,86433400,True,2019-03-11,1
+381,West US,West US Store 86,2019-06-02,Furniture,Indoor tables,26,30,56949207,46241869,True,2019-05-10,2
+382,West US,West US Store 86,2019-07-05,Clothing,Kids,27,25,60379122,70011054,True,2019-08-12,3
+383,West US,West US Store 86,2019-08-02,Beauty/Health,Haircare,29,10,86642501,28523022,False,2019-05-18,3
+384,West US,West US Store 86,2019-04-04,Electronics,Cell Phones,16,300,50370575,54885209,True,2019-03-09,3
+385,West US,West US Store 86,2019-06-28,Baby,Diaper bags,24,30,84501473,63960716,True,2019-04-10,4
+386,West US,West US Store 86,2019-04-11,Clothing,Womens,17,12,96626629,63528549,True,2019-02-01,3
+387,West US,West US Store 86,2019-07-07,Baby,Diapers,30,30,38151997,47106203,True,2019-07-07,1
+388,West US,West US Store 86,2019-06-04,Baby,Car seats,27,15,99585090,76925726,True,2019-02-17,2
+389,West US,West US Store 86,2019-03-30,Electronics,Speakers,12,50,46673837,67418052,True,2019-02-02,4
+390,West US,West US Store 86,2019-06-03,Furniture,Indoor seating,26,15,69087443,54020875,True,2019-02-14,6
+391,West US,West US Store 86,2019-06-29,Beauty/Health,Fragrances,26,10,17145290,60935547,True,2019-01-19,6
+392,West US,West US Store 86,2019-01-05,Electronics,Headphones,7,200,87489221,50995706,True,2019-06-15,4
+393,West US,West US Store 86,2019-03-26,Clothing,Baby,14,25,35106445,48402704,True,2019-05-18,3
+394,West US,West US Store 86,2019-02-17,Clothing,Baby,11,20,28962812,26794354,False,2019-07-05,2
+395,West US,West US Store 86,2019-05-07,Clothing,Shoes,21,25,66416010,87729901,True,2019-05-14,3
+396,West US,West US Store 86,2019-05-15,Baby,Baby toys,24,5,45360960,26362187,False,2019-04-19,3
+397,West US,West US Store 86,2019-04-04,Baby,Baby toys,15,30,66312232,3025169,False,2019-02-05,4
+398,West US,West US Store 86,2019-02-10,Clothing,Shoes,11,12,82237695,48402704,True,2019-05-18,4
+399,West US,West US Store 86,2019-05-15,Electronics,Headphones,19,100,32849767,7779006,False,2019-03-18,2
+400,West US,West US Store 86,2019-07-08,Electronics,Tablets,24,200,65684538,48402704,True,2019-05-18,5
+401,West US,West US Store 86,2019-07-08,Baby,Diapers,29,30,86172247,27226521,False,2019-02-18,3
+402,West US,West US Store 86,2019-02-21,Baby,Strollers,10,10,77052443,6050338,False,2019-04-12,2
+403,West US,West US Store 86,2019-01-16,Electronics,Cell Phones,7,300,13894281,76493559,True,2019-04-06,3
+404,West US,West US Store 86,2019-08-05,Beauty/Health,Bath,30,15,81085601,35869861,False,2019-06-16,5
+405,West US,West US Store 86,2019-03-11,Furniture,Beds,12,100,17588797,80383062,True,2019-05-19,4
+406,West US,West US Store 86,2019-01-07,Baby,Diapers,8,12,16831253,52292207,True,2019-01-08,3
+407,West US,West US Store 86,2019-03-20,Clothing,Baby,13,25,33361235,45809702,True,2019-02-18,3
+408,West US,West US Store 86,2019-05-28,Furniture,Beds,21,75,14441618,66553718,True,2019-05-28,1
+409,West US,West US Store 86,2019-07-25,Clothing,Shoes,28,10,73780104,34141193,False,2019-07-12,7
+410,West US,West US Store 86,2019-04-18,Clothing,Swimwear,16,20,22683875,61367714,True,2019-06-24,5
+411,West US,West US Store 86,2019-03-07,Furniture,Beds,13,40,35717440,75629225,True,2019-01-11,8
+412,West US,West US Store 86,2019-01-19,Clothing,Baby,7,20,26220467,24201352,False,2019-01-25,3
+413,West US,West US Store 86,2019-05-28,Clothing,Baby,22,25,23109068,60503380,True,2019-04-07,4
+414,West US,West US Store 86,2019-04-17,Clothing,Swimwear,16,20,57348042,62232048,True,2019-05-06,2
+415,West US,West US Store 86,2019-04-07,Clothing,Womens,17,12,31772787,40623698,True,2019-06-20,5
+416,West US,West US Store 86,2019-05-07,Furniture,Patio furniture,20,30,24944092,87297734,True,2019-05-07,1
+417,West US,West US Store 86,2019-03-22,Electronics,Computers,12,200,19162650,17718847,False,2019-07-22,2
+418,West US,West US Store 86,2019-04-03,Baby,Strollers,16,5,76612519,85569066,True,2019-04-03,1
+419,West US,West US Store 86,2019-01-01,Furniture,Indoor seating,8,75,16862237,41055865,True,2019-07-04,4
+420,West US,West US Store 86,2019-03-04,Clothing,Kids,13,20,19821218,62232048,True,2019-05-06,3
+421,West US,West US Store 86,2019-05-14,Beauty/Health,Fragrances,21,10,86331205,85569066,True,2019-04-03,2
+422,West US,West US Store 86,2019-02-21,Baby,Cribs,9,5,23170195,61367714,True,2019-06-24,6
+423,West US,West US Store 86,2019-07-28,Furniture,Indoor tables,26,100,21206438,77790060,True,2019-07-16,2
+424,West US,West US Store 86,2019-02-05,Electronics,Tablets,9,300,73148984,84704732,True,2019-02-25,2
+425,West US,West US Store 86,2019-02-11,Furniture,Indoor tables,9,75,42687779,40191531,True,2019-08-07,3
+426,West US,West US Store 86,2019-05-25,Electronics,Computers,18,100,67861140,59639046,True,2019-05-02,6
+427,West US,West US Store 86,2019-06-21,Electronics,Cell Phones,21,100,77464675,80383062,True,2019-05-19,5
+428,West US,West US Store 86,2019-02-27,Baby,Baby toys,9,12,28673938,40191531,True,2019-08-07,4
+429,West US,West US Store 86,2019-07-13,Furniture,Beds,26,30,30812381,65257217,True,2019-04-13,4
+430,West US,West US Store 86,2019-08-07,Electronics,Computers,27,200,59083919,35869861,False,2019-06-16,6
+431,West US,West US Store 86,2019-06-24,Electronics,Speakers,22,100,98711556,81679563,True,2019-05-21,3
+432,West US,West US Store 86,2019-08-14,Beauty/Health,Feminine Products,33,14,21453040,50131372,True,2019-03-08,6
+433,West US,West US Store 86,2019-07-02,Electronics,Cell Phones,25,200,50987716,72171889,True,2019-02-25,3
+434,West US,West US Store 86,2019-04-15,Clothing,Womens,16,10,95319835,19879682,False,2019-04-15,1
+435,West US,West US Store 86,2019-06-09,Baby,Baby toys,24,15,84288431,51860040,True,2019-07-27,3
+436,West US,West US Store 86,2019-07-15,Furniture,Indoor tables,28,100,42251794,82543897,True,2019-02-07,4
+437,West US,West US Store 86,2019-03-16,Electronics,Tablets,13,200,65203855,12100676,False,2019-04-05,4
+438,West US,West US Store 86,2019-05-19,Electronics,Televisions,19,200,69975173,14261511,False,2019-08-03,3
+439,West US,West US Store 86,2019-01-08,Electronics,Computers,6,100,93420753,8643340,False,2019-01-08,1
+440,West US,West US Store 86,2019-01-21,Electronics,Tablets,6,50,88793826,62232048,True,2019-05-06,4
+441,West US,West US Store 86,2019-03-14,Beauty/Health,Fragrances,12,10,21211985,63528549,True,2019-02-01,4
+442,West US,West US Store 86,2019-04-12,Clothing,Shoes,15,25,17470158,79518728,True,2019-07-12,2
+443,West US,West US Store 86,2019-03-15,Furniture,Patio furniture,12,100,79199985,67850219,True,2019-03-25,3
+444,West US,West US Store 86,2019-07-08,Furniture,Pool furniture,30,30,68695373,44513201,True,2019-03-26,2
+445,West US,West US Store 86,2019-04-17,Clothing,Shoes,15,20,42212369,68282386,True,2019-04-17,1
+446,West US,West US Store 86,2019-01-24,Clothing,Kids,7,12,72574944,47106203,True,2019-07-07,2
+447,West US,West US Store 86,2019-08-07,Clothing,Womens,29,12,57791701,77357893,True,2019-04-11,4
+448,West US,West US Store 86,2019-05-16,Beauty/Health,Fragrances,24,10,41562802,4753837,False,2019-07-13,3
+449,West US,West US Store 86,2019-06-12,Electronics,Speakers,21,200,75868154,61799881,True,2019-06-06,4
+450,West US,West US Store 86,2019-03-18,Furniture,Patio furniture,14,75,27957182,87297734,True,2019-05-07,2
+451,West US,West US Store 86,2019-05-02,Electronics,Computers,19,50,65902818,52292207,True,2019-01-08,4
+452,West US,West US Store 86,2019-07-15,Baby,Strollers,30,30,76672408,37166362,False,2019-02-11,2
+453,West US,West US Store 86,2019-03-21,Electronics,Computers,13,100,15709470,49699205,True,2019-01-06,4
+454,West US,West US Store 86,2019-01-31,Baby,Cribs,6,15,73983773,82543897,True,2019-02-07,5
+455,West US,West US Store 86,2019-07-09,Furniture,Beds,26,100,92731288,60503380,True,2019-04-07,5
+456,West US,West US Store 86,2019-07-17,Electronics,Headphones,25,300,81900168,35869861,False,2019-06-16,7
+457,West US,West US Store 86,2019-02-08,Beauty/Health,Skincare,10,10,51754001,29819523,False,2019-01-20,4
+458,West US,West US Store 86,2019-01-30,Beauty/Health,Makeup,7,14,38246093,61799881,True,2019-06-06,5
+459,West US,West US Store 86,2019-07-14,Beauty/Health,Fragrances,26,10,92605562,41920199,True,2019-01-15,6
+460,West US,West US Store 86,2019-04-19,Baby,Diaper bags,17,5,27699992,63096382,True,2019-07-16,4
+461,West US,West US Store 86,2019-02-20,Baby,Cribs,9,5,67423480,48402704,True,2019-05-18,6
+462,West US,West US Store 86,2019-05-12,Beauty/Health,Fragrances,21,10,90429625,27226521,False,2019-02-18,4
+463,West US,West US Store 86,2019-05-19,Baby,Car seats,21,30,69730387,82111730,True,2019-05-11,3
+464,West US,West US Store 86,2019-04-24,Beauty/Health,Oral care,21,14,50334159,68282386,True,2019-04-17,2
+465,West US,West US Store 86,2019-07-19,Electronics,Headphones,24,200,37857534,26794354,False,2019-07-05,3
+466,West US,West US Store 86,2019-03-24,Clothing,Womens,12,12,23542986,33709026,False,2019-03-19,2
+467,West US,West US Store 86,2019-04-30,Baby,Diapers,17,30,42218346,36302028,False,2019-04-12,3
+468,West US,West US Store 86,2019-03-13,Furniture,Patio furniture,13,40,22260271,51860040,True,2019-07-27,4
+469,West US,West US Store 86,2019-05-30,Baby,Diaper bags,20,30,42648883,49699205,True,2019-01-06,5
+470,West US,West US Store 86,2019-01-10,Furniture,Patio furniture,8,75,98112835,55317376,True,2019-03-18,5
+471,West US,West US Store 86,2019-01-01,Baby,Strollers,8,12,47432160,71739722,True,2019-04-17,5
+472,West US,West US Store 86,2019-04-16,Beauty/Health,Bath,17,10,42760956,63528549,True,2019-02-01,5
+473,West US,West US Store 86,2019-01-11,Beauty/Health,Haircare,6,10,26769107,79086561,True,2019-06-05,2
+474,West US,West US Store 86,2019-03-18,Clothing,Mens,12,20,19982682,55317376,True,2019-03-18,6
+475,West US,West US Store 86,2019-01-10,Electronics,Speakers,6,200,84064776,66553718,True,2019-05-28,2
+476,West US,West US Store 86,2019-07-18,Clothing,Swimwear,27,13,47753906,51860040,True,2019-07-27,5
+477,West US,West US Store 86,2019-07-01,Clothing,Shoes,26,25,93080381,16422346,False,2019-07-06,2
+478,West US,West US Store 86,2019-05-10,Beauty/Health,Haircare,23,10,95995063,57478211,True,2019-05-10,1
+479,West US,West US Store 86,2019-04-08,Furniture,Patio furniture,15,15,90756882,85569066,True,2019-04-03,3
+480,West US,West US Store 86,2019-01-05,Clothing,Kids,6,20,83533464,58342545,True,2019-03-10,3
+481,West US,West US Store 86,2019-03-01,Beauty/Health,Fragrances,14,15,31236315,82543897,True,2019-02-07,6
+482,West US,West US Store 86,2019-01-21,Baby,Car seats,8,5,96955840,37166362,False,2019-02-11,3
+483,West US,West US Store 86,2019-04-23,Furniture,Indoor tables,16,15,26143114,49267038,True,2019-06-01,4
+484,West US,West US Store 86,2019-06-08,Furniture,Indoor tables,25,100,31368234,78222227,True,2019-02-24,3
+485,West US,West US Store 86,2019-08-12,Clothing,Womens,29,25,78412402,42352366,True,2019-08-02,2
+486,West US,West US Store 86,2019-01-13,Beauty/Health,Bath,8,10,50576419,13829344,False,2019-04-30,2
+487,West US,West US Store 86,2019-07-26,Beauty/Health,Fragrances,28,10,72959806,32412525,False,2019-04-25,3
+488,West US,West US Store 86,2019-05-13,Furniture,Pool furniture,21,40,95500883,75629225,True,2019-01-11,9
+489,West US,West US Store 86,2019-04-05,Furniture,Indoor seating,17,15,99092012,28955189,False,2019-04-05,1
+490,West US,West US Store 86,2019-07-30,Electronics,Cell Phones,25,100,94632032,41055865,True,2019-07-04,5
+491,West US,West US Store 86,2019-07-21,Electronics,Tablets,24,200,61864198,13397177,False,2019-04-20,3
+492,West US,West US Store 86,2019-04-02,Clothing,Kids,15,20,56004884,50131372,True,2019-03-08,7
+493,West US,West US Store 86,2019-02-22,Electronics,Headphones,10,100,56793260,64825050,True,2019-05-21,4
+494,West US,West US Store 86,2019-04-23,Electronics,Headphones,16,200,54582357,5618171,False,2019-07-06,3
+495,West US,West US Store 86,2019-03-12,Beauty/Health,Skincare,14,10,18884410,66553718,True,2019-05-28,3
+496,West US,West US Store 86,2019-03-24,Baby,Diapers,14,10,19602330,86001233,True,2019-01-14,2
+497,West US,West US Store 86,2019-05-29,Clothing,Womens,22,20,70672046,22472684,False,2019-05-29,1
+498,West US,West US Store 86,2019-07-13,Baby,Diaper bags,28,15,71053213,60935547,True,2019-01-19,7
+499,West US,West US Store 86,2019-03-08,Clothing,Shoes,14,12,12436951,25065686,False,2019-01-14,3
+500,West US,West US Store 86,2019-01-15,Furniture,Indoor seating,8,40,82339057,52292207,True,2019-01-08,5
+501,West US,West US Store 86,2019-07-04,Beauty/Health,Fragrances,28,10,94478407,31980358,False,2019-08-01,3
+502,West US,West US Store 86,2019-02-04,Clothing,Kids,11,25,83026719,70011054,True,2019-08-12,4
+503,West US,West US Store 86,2019-06-06,Beauty/Health,Makeup,23,14,46957349,30251690,False,2019-06-09,7
+504,West US,West US Store 86,2019-05-27,Furniture,Beds,22,40,81033909,75629225,True,2019-01-11,10
+505,West US,West US Store 86,2019-03-30,Furniture,Indoor seating,14,40,12345005,2160835,False,2019-03-30,1
+506,West US,West US Store 86,2019-03-03,Beauty/Health,Haircare,14,14,29254898,38030696,False,2019-02-09,3
+507,West US,West US Store 86,2019-05-20,Electronics,Cell Phones,18,200,35354250,44081034,True,2019-08-07,3
+508,West US,West US Store 86,2019-04-23,Clothing,Womens,15,25,54737280,24201352,False,2019-01-25,4
+509,West US,West US Store 86,2019-04-26,Clothing,Womens,20,25,45685345,57046044,True,2019-05-05,5
+510,West US,West US Store 86,2019-01-31,Beauty/Health,Makeup,7,10,47958811,47106203,True,2019-07-07,3
+511,West US,West US Store 86,2019-07-16,Beauty/Health,Oral care,30,10,10487617,53588708,True,2019-08-12,3
+512,West US,West US Store 86,2019-05-16,Baby,Diaper bags,24,12,68498021,61367714,True,2019-06-24,7
+513,West US,West US Store 86,2019-03-12,Clothing,Baby,12,10,34168994,66553718,True,2019-05-28,4
+514,West US,West US Store 86,2019-05-13,Baby,Diaper bags,23,12,95962316,9939841,False,2019-02-17,2
+515,West US,West US Store 86,2019-05-03,Furniture,Pool furniture,22,100,33435495,83840398,True,2019-06-29,3
+516,West US,West US Store 86,2019-06-14,Beauty/Health,Oral care,26,10,53891967,29387356,False,2019-05-28,2
+517,West US,West US Store 86,2019-07-17,Baby,Baby toys,30,15,75709328,28090855,False,2019-06-16,3
+518,West US,West US Store 86,2019-07-01,Clothing,Mens,26,25,19850097,77790060,True,2019-07-16,3
+519,West US,West US Store 86,2019-06-28,Electronics,Speakers,22,300,21788804,71307555,True,2019-01-17,4
+520,West US,West US Store 86,2019-02-16,Clothing,Mens,9,20,37358587,85136899,True,2019-02-27,4
+521,West US,West US Store 86,2019-01-14,Electronics,Speakers,6,200,48502410,47970537,True,2019-06-24,3
+522,West US,West US Store 86,2019-03-06,Clothing,Mens,13,10,94231825,25930020,False,2019-08-15,4
+523,West US,West US Store 86,2019-02-07,Furniture,Beds,9,75,87009710,11668509,False,2019-05-23,4
+524,West US,West US Store 86,2019-07-31,Furniture,Indoor seating,28,75,27711856,55317376,True,2019-03-18,7
+525,West US,West US Store 86,2019-07-29,Furniture,Beds,27,15,87598025,58774712,True,2019-01-26,4
+526,West US,West US Store 86,2019-06-21,Baby,Baby toys,26,30,56749145,70011054,True,2019-08-12,5
+527,West US,West US Store 86,2019-05-20,Beauty/Health,Haircare,24,10,32536915,32412525,False,2019-04-25,4
+528,West US,West US Store 86,2019-02-22,Beauty/Health,Haircare,10,10,78399352,80383062,True,2019-05-19,6
+529,West US,West US Store 86,2019-05-15,Beauty/Health,Bath,23,6,81158234,21608350,False,2019-05-15,1
+530,West US,West US Store 86,2019-07-16,Baby,Cribs,30,30,31142845,9939841,False,2019-02-17,3
+531,West US,West US Store 86,2019-05-07,Furniture,Beds,22,75,64647728,87297734,True,2019-05-07,3
+532,West US,West US Store 86,2019-06-15,Clothing,Baby,25,13,89602705,80383062,True,2019-05-19,7
+533,West US,West US Store 86,2019-05-03,Beauty/Health,Makeup,20,10,92340391,72604056,True,2019-05-03,1
+534,West US,West US Store 86,2019-07-27,Electronics,Cell Phones,24,200,27435479,55749543,True,2019-01-18,6
+535,West US,West US Store 86,2019-04-11,Clothing,Shoes,17,10,29843349,86001233,True,2019-01-14,3
+536,West US,West US Store 86,2019-04-22,Beauty/Health,Feminine Products,16,14,11914106,9075507,False,2019-04-04,3
+537,West US,West US Store 86,2019-01-27,Furniture,Beds,6,30,39491898,1728668,False,2019-01-27,1
+538,West US,West US Store 86,2019-02-08,Baby,Cribs,9,5,10705278,7346839,False,2019-02-08,1
+539,West US,West US Store 86,2019-03-19,Clothing,Kids,12,25,88667608,44081034,True,2019-08-07,4
+540,West US,West US Store 86,2019-02-15,Furniture,Indoor seating,9,30,39535507,14261511,False,2019-08-03,4
+541,West US,West US Store 86,2019-07-08,Baby,Baby toys,29,30,56002064,46674036,True,2019-07-20,3
+542,West US,West US Store 86,2019-05-13,Furniture,Indoor seating,22,75,15932520,33709026,False,2019-03-19,3
+543,West US,West US Store 86,2019-01-20,Clothing,Shoes,7,25,45639748,21608350,False,2019-05-15,2
+544,West US,West US Store 86,2019-03-15,Furniture,Patio furniture,14,40,99656593,25065686,False,2019-01-14,4
+545,West US,West US Store 86,2019-02-25,Electronics,Cell Phones,10,200,43424515,53156541,True,2019-02-25,1
+546,West US,West US Store 86,2019-06-25,Baby,Diapers,24,5,24942902,77357893,True,2019-04-11,5
+547,West US,West US Store 86,2019-07-04,Baby,Baby toys,28,15,87536766,27658688,False,2019-02-05,2
+548,West US,West US Store 86,2019-04-11,Furniture,Indoor seating,17,100,52248764,69146720,True,2019-02-18,6
+549,West US,West US Store 86,2019-06-19,Clothing,Baby,25,25,20039351,47538370,True,2019-07-25,3
+550,West US,West US Store 86,2019-01-03,Baby,Diapers,8,15,30022668,21608350,False,2019-05-15,3
+551,West US,West US Store 86,2019-04-19,Clothing,Baby,16,10,28353473,37598529,False,2019-03-03,2
+552,West US,West US Store 86,2019-04-29,Electronics,Computers,15,200,35618945,78222227,True,2019-02-24,4
+553,West US,West US Store 86,2019-06-08,Beauty/Health,Oral care,24,10,19316200,3457336,False,2019-06-08,1
+554,West US,West US Store 86,2019-04-27,Clothing,Shoes,19,25,72471868,60071213,True,2019-01-04,2
+555,West US,West US Store 86,2019-05-18,Electronics,Computers,18,200,88031827,22040517,False,2019-03-05,2
+556,West US,West US Store 86,2019-01-10,Baby,Baby toys,8,15,16593866,76925726,True,2019-02-17,3
+557,West US,West US Store 86,2019-07-10,Clothing,Shoes,27,20,47745536,15125845,False,2019-05-13,2
+558,West US,West US Store 86,2019-06-13,Beauty/Health,Fragrances,27,6,47065234,41488032,True,2019-01-26,4
+559,West US,West US Store 86,2019-04-26,Baby,Diaper bags,18,15,36075127,87297734,True,2019-05-07,4
+560,West US,West US Store 86,2019-03-07,Clothing,Kids,12,10,23548617,30683857,False,2019-03-07,1
+561,West US,West US Store 86,2019-02-21,Beauty/Health,Makeup,9,10,74897672,53588708,True,2019-08-12,4
+562,West US,West US Store 86,2019-05-13,Electronics,Speakers,19,200,29088332,27658688,False,2019-02-05,3
+563,West US,West US Store 86,2019-07-10,Furniture,Pool furniture,26,30,57780751,69146720,True,2019-02-18,7
+564,West US,West US Store 86,2019-04-30,Electronics,Computers,15,200,42474426,69578887,True,2019-04-30,1
+565,West US,West US Store 86,2019-08-12,Furniture,Pool furniture,29,15,81463693,30683857,False,2019-03-07,2
+566,West US,West US Store 86,2019-03-20,Clothing,Baby,12,10,20328494,62664215,True,2019-06-15,2
+567,West US,West US Store 86,2019-04-10,Clothing,Womens,16,25,51619632,34141193,False,2019-07-12,8
+568,West US,West US Store 86,2019-06-09,Electronics,Computers,22,200,50459385,7346839,False,2019-02-08,2
+569,West US,West US Store 86,2019-03-21,Baby,Diaper bags,13,30,94494819,44513201,True,2019-03-26,3
+570,West US,West US Store 86,2019-08-12,Clothing,Swimwear,33,25,73073066,35437694,False,2019-05-27,3
+571,West US,West US Store 86,2019-06-16,Baby,Baby toys,25,5,26242388,85569066,True,2019-04-03,4
+572,West US,West US Store 86,2019-07-15,Electronics,Cell Phones,25,200,73226615,49267038,True,2019-06-01,5
+573,West US,West US Store 86,2019-03-04,Electronics,Tablets,12,200,78154438,68282386,True,2019-04-17,3
+574,West US,West US Store 86,2019-06-30,Furniture,Pool furniture,23,30,25616077,69146720,True,2019-02-18,8
+575,West US,West US Store 86,2019-05-24,Beauty/Health,Feminine Products,22,15,22481770,42352366,True,2019-08-02,3
+576,West US,West US Store 86,2019-07-18,Furniture,Beds,26,30,26259762,33709026,False,2019-03-19,4
+577,West US,West US Store 86,2019-03-10,Baby,Diapers,14,15,91069817,25930020,False,2019-08-15,5
+578,West US,West US Store 86,2019-01-10,Furniture,Pool furniture,6,30,83410642,3025169,False,2019-02-05,5
+579,West US,West US Store 86,2019-02-28,Baby,Diaper bags,11,5,79960284,50131372,True,2019-03-08,8
+580,West US,West US Store 86,2019-06-29,Baby,Car seats,25,15,27975499,42352366,True,2019-08-02,4
+581,West US,West US Store 86,2019-01-15,Beauty/Health,Skincare,7,10,67716175,34141193,False,2019-07-12,9
+582,West US,West US Store 86,2019-02-24,Baby,Diaper bags,11,30,83348516,24201352,False,2019-01-25,5
+583,West US,West US Store 86,2019-02-12,Clothing,Mens,9,10,46050902,86865567,True,2019-06-02,2
+584,West US,West US Store 86,2019-06-06,Baby,Diapers,24,30,75364712,31548191,False,2019-05-15,3
+585,West US,West US Store 86,2019-01-14,Beauty/Health,Skincare,7,14,25334998,62664215,True,2019-06-15,3
+586,West US,West US Store 86,2019-04-02,Baby,Diaper bags,15,30,66770674,79950895,True,2019-04-29,3
+587,West US,West US Store 86,2019-04-27,Electronics,Televisions,16,300,63784401,51427873,True,2019-06-23,2
+588,West US,West US Store 86,2019-01-23,Baby,Cribs,7,12,49035911,63528549,True,2019-02-01,6
+589,West US,West US Store 86,2019-03-23,Electronics,Headphones,13,100,60230828,39759364,True,2019-02-02,3
+590,West US,West US Store 86,2019-03-17,Beauty/Health,Oral care,13,10,86839626,57478211,True,2019-05-10,2
+591,West US,West US Store 86,2019-02-24,Clothing,Shoes,9,10,56581623,18151014,False,2019-02-24,1
+592,West US,West US Store 86,2019-02-07,Clothing,Shoes,11,25,82990439,76925726,True,2019-02-17,4
+593,West US,West US Store 86,2019-05-05,Beauty/Health,Bath,23,15,55019989,26794354,False,2019-07-05,4
+594,West US,West US Store 86,2019-05-30,Beauty/Health,Feminine Products,21,14,93442098,58342545,True,2019-03-10,4
+595,West US,West US Store 86,2019-06-03,Electronics,Tablets,22,50,98675151,77790060,True,2019-07-16,4
+596,West US,West US Store 86,2019-08-12,Clothing,Mens,32,25,56337661,41488032,True,2019-01-26,5
+597,West US,West US Store 86,2019-01-26,Clothing,Shoes,8,13,85237843,37598529,False,2019-03-03,3
+598,West US,West US Store 86,2019-03-26,Clothing,Mens,14,13,58649803,36734195,False,2019-06-16,5
+599,West US,West US Store 86,2019-07-31,Electronics,Tablets,24,100,81100464,76493559,True,2019-04-06,4
+600,West US,West US Store 86,2019-05-21,Furniture,Pool furniture,20,100,61985592,3457336,False,2019-06-08,2
+601,West US,West US Store 86,2019-06-02,Baby,Baby toys,24,30,66292420,23337018,False,2019-02-01,2
+602,West US,West US Store 86,2019-01-05,Furniture,Indoor tables,6,15,61618798,25065686,False,2019-01-14,5
+603,West US,West US Store 86,2019-05-25,Beauty/Health,Makeup,22,14,19628883,72604056,True,2019-05-03,2
+604,West US,West US Store 86,2019-04-02,Clothing,Kids,17,13,64525209,70875388,True,2019-06-04,4
+605,West US,West US Store 86,2019-07-19,Furniture,Beds,27,15,72988009,45377535,True,2019-05-07,2
+606,West US,West US Store 86,2019-05-13,Baby,Diapers,21,15,33434454,29387356,False,2019-05-28,3
+607,West US,West US Store 86,2019-08-04,Furniture,Indoor tables,33,75,87308216,28955189,False,2019-04-05,2
+608,West US,West US Store 86,2019-01-31,Furniture,Patio furniture,8,40,53971437,84704732,True,2019-02-25,3
+609,West US,West US Store 86,2019-06-11,Furniture,Beds,23,40,95516101,42352366,True,2019-08-02,5
+610,West US,West US Store 86,2019-05-02,Baby,Cribs,21,10,60374498,86433400,True,2019-03-11,2
+611,West US,West US Store 86,2019-06-02,Baby,Diaper bags,27,30,23016627,38462863,False,2019-06-21,5
+612,West US,West US Store 86,2019-02-14,Clothing,Swimwear,10,10,69261145,33276859,False,2019-08-07,2
+613,West US,West US Store 86,2019-04-28,Baby,Baby toys,17,30,51139435,56181710,True,2019-04-27,2
+614,West US,West US Store 86,2019-06-23,Furniture,Indoor tables,26,40,97329355,51427873,True,2019-06-23,3
+615,West US,West US Store 86,2019-03-25,Beauty/Health,Makeup,14,10,35564269,26794354,False,2019-07-05,5
+616,West US,West US Store 86,2019-03-09,Electronics,Speakers,13,300,80608192,46241869,True,2019-05-10,3
+617,West US,West US Store 86,2019-01-27,Electronics,Televisions,7,50,80523647,76061392,True,2019-01-08,5
+618,West US,West US Store 86,2019-07-04,Electronics,Speakers,24,200,46535819,89026402,True,2019-07-04,1
+619,West US,West US Store 86,2019-07-23,Baby,Diaper bags,26,30,95752636,72171889,True,2019-02-25,4
+620,West US,West US Store 86,2019-07-20,Beauty/Health,Oral care,27,10,89091006,59639046,True,2019-05-02,7
+621,West US,West US Store 86,2019-02-11,Baby,Car seats,11,5,73974792,9939841,False,2019-02-17,4
+622,West US,West US Store 86,2019-03-14,Clothing,Shoes,13,25,91225863,83840398,True,2019-06-29,4
+623,West US,West US Store 86,2019-01-25,Electronics,Headphones,6,200,74309785,9939841,False,2019-02-17,5
+624,West US,West US Store 86,2019-07-06,Beauty/Health,Bath,29,10,65114772,54885209,True,2019-03-09,4
+625,West US,West US Store 86,2019-04-17,Furniture,Pool furniture,17,100,84153316,51427873,True,2019-06-23,4
+626,West US,West US Store 86,2019-05-28,Baby,Diaper bags,21,30,29334811,47970537,True,2019-06-24,4
+627,West US,West US Store 86,2019-01-24,Electronics,Computers,7,200,71750555,52292207,True,2019-01-08,6
+628,West US,West US Store 86,2019-06-30,Clothing,Womens,27,13,88121815,26794354,False,2019-07-05,6
+629,West US,West US Store 86,2019-03-15,Furniture,Patio furniture,14,30,67608001,69578887,True,2019-04-30,2
+630,West US,West US Store 86,2019-07-19,Furniture,Patio furniture,30,75,97314368,23337018,False,2019-02-01,3
+631,West US,West US Store 86,2019-03-13,Baby,Cribs,14,30,94687240,61799881,True,2019-06-06,6
+632,West US,West US Store 86,2019-04-10,Baby,Diapers,17,10,59809032,82111730,True,2019-05-11,4
+633,West US,West US Store 86,2019-07-03,Furniture,Beds,29,40,53585765,51860040,True,2019-07-27,6
+634,West US,West US Store 86,2019-06-23,Electronics,Headphones,22,100,14828051,24201352,False,2019-01-25,6
+635,West US,West US Store 86,2019-02-01,Baby,Strollers,10,5,68908940,85569066,True,2019-04-03,5
+636,West US,West US Store 86,2019-03-16,Beauty/Health,Feminine Products,14,10,24089037,76925726,True,2019-02-17,5
+637,West US,West US Store 86,2019-07-17,Beauty/Health,Haircare,26,6,33493562,26794354,False,2019-07-05,7
+638,West US,West US Store 86,2019-05-03,Clothing,Swimwear,20,13,52068978,47538370,True,2019-07-25,4
+639,West US,West US Store 86,2019-05-01,Electronics,Computers,18,100,73971807,38030696,False,2019-02-09,4
+640,West US,West US Store 86,2019-04-23,Clothing,Shoes,15,10,99486400,46674036,True,2019-07-20,4
+641,West US,West US Store 86,2019-05-11,Beauty/Health,Fragrances,23,14,71343719,56613877,True,2019-01-17,5
+642,West US,West US Store 86,2019-06-21,Baby,Cribs,24,30,84723522,80383062,True,2019-05-19,8
+643,West US,West US Store 86,2019-05-11,Beauty/Health,Makeup,22,10,34651158,67418052,True,2019-02-02,5
+644,West US,West US Store 86,2019-07-12,Beauty/Health,Skincare,26,14,38048404,6914672,False,2019-05-30,3
+645,West US,West US Store 86,2019-03-14,Electronics,Speakers,12,100,45728441,13397177,False,2019-04-20,4
+646,West US,West US Store 86,2019-05-27,Furniture,Indoor seating,23,15,82076380,78654394,True,2019-07-02,4
+647,West US,West US Store 86,2019-06-17,Baby,Strollers,25,15,50425816,8643340,False,2019-01-08,2
+648,West US,West US Store 86,2019-01-29,Furniture,Indoor seating,6,15,62559340,57046044,True,2019-05-05,6
+649,West US,West US Store 86,2019-02-08,Baby,Diapers,10,5,17038534,8643340,False,2019-01-08,3
+650,West US,West US Store 86,2019-01-16,Beauty/Health,Haircare,8,14,23489533,15125845,False,2019-05-13,3
+651,West US,West US Store 86,2019-08-09,Furniture,Indoor seating,30,40,42400918,53156541,True,2019-02-25,2
+652,West US,West US Store 86,2019-02-10,Baby,Diaper bags,10,5,26070972,55317376,True,2019-03-18,8
+653,West US,West US Store 86,2019-04-10,Furniture,Pool furniture,17,40,43527552,25065686,False,2019-01-14,6
+654,West US,West US Store 86,2019-06-09,Beauty/Health,Oral care,23,10,14942483,52724374,True,2019-05-12,4
+655,West US,West US Store 86,2019-01-01,Baby,Baby toys,6,10,23070235,51427873,True,2019-06-23,5
+656,West US,West US Store 86,2019-06-13,Clothing,Kids,23,12,37350224,15125845,False,2019-05-13,4
+657,West US,West US Store 86,2019-04-20,Baby,Cribs,16,30,55519116,9507674,False,2019-04-20,1
+658,West US,West US Store 86,2019-04-22,Clothing,Kids,17,12,54516361,39759364,True,2019-02-02,4
+659,West US,West US Store 86,2019-04-10,Baby,Baby toys,15,15,65591449,55749543,True,2019-01-18,7
+660,West US,West US Store 86,2019-07-11,Clothing,Mens,29,25,63078939,86433400,True,2019-03-11,3
+661,West US,West US Store 86,2019-07-12,Baby,Diapers,26,30,49179691,41055865,True,2019-07-04,6
+662,West US,West US Store 86,2019-04-25,Furniture,Indoor tables,21,30,58205666,35437694,False,2019-05-27,4
+663,West US,West US Store 86,2019-06-01,Baby,Diapers,26,10,66948392,27226521,False,2019-02-18,5
+664,West US,West US Store 86,2019-04-08,Electronics,Televisions,16,100,28097499,19447515,False,2019-04-08,1
+665,West US,West US Store 86,2019-02-28,Furniture,Indoor tables,9,15,24005004,87297734,True,2019-05-07,5
+666,West US,West US Store 86,2019-08-01,Beauty/Health,Feminine Products,30,10,36902217,28090855,False,2019-06-16,4
+667,West US,West US Store 86,2019-05-31,Electronics,Tablets,18,200,99276959,58774712,True,2019-01-26,5
+668,West US,West US Store 86,2019-07-04,Beauty/Health,Haircare,28,15,25710377,57910378,True,2019-02-16,3
+669,West US,West US Store 86,2019-01-04,Beauty/Health,Oral care,8,10,32055696,56181710,True,2019-04-27,3
+670,West US,West US Store 86,2019-01-10,Furniture,Beds,8,30,28247427,62664215,True,2019-06-15,4
+671,West US,West US Store 86,2019-02-16,Baby,Strollers,9,10,32940361,12100676,False,2019-04-05,5
+672,West US,West US Store 86,2019-08-05,Clothing,Shoes,31,25,51277005,46241869,True,2019-05-10,4
+673,West US,West US Store 86,2019-07-01,Baby,Baby toys,30,10,39562965,89458569,True,2019-07-01,1
+674,West US,West US Store 86,2019-05-27,Baby,Cribs,23,5,76556688,6914672,False,2019-05-30,4
+675,West US,West US Store 86,2019-06-26,Furniture,Beds,25,30,95563453,79950895,True,2019-04-29,4
+676,West US,West US Store 86,2019-02-26,Beauty/Health,Fragrances,10,15,69328033,36302028,False,2019-04-12,4
+677,West US,West US Store 86,2019-06-21,Beauty/Health,Oral care,25,10,61638886,62232048,True,2019-05-06,5
+678,West US,West US Store 86,2019-06-09,Beauty/Health,Skincare,24,10,47246400,72171889,True,2019-02-25,5
+679,West US,West US Store 86,2019-03-23,Furniture,Beds,13,15,99982253,83840398,True,2019-06-29,5
+680,West US,West US Store 86,2019-02-16,Baby,Baby toys,10,15,98664329,57046044,True,2019-05-05,7
+681,West US,West US Store 86,2019-03-09,Furniture,Pool furniture,12,30,91622832,18151014,False,2019-02-24,2
+682,West US,West US Store 86,2019-05-22,Electronics,Computers,19,100,37242066,47970537,True,2019-06-24,5
+683,West US,West US Store 86,2019-03-30,Clothing,Mens,13,10,18691827,79950895,True,2019-04-29,5
+684,West US,West US Store 86,2019-01-15,Beauty/Health,Feminine Products,6,10,82056352,72604056,True,2019-05-03,3
+685,West US,West US Store 86,2019-07-04,Furniture,Pool furniture,27,15,85879982,71307555,True,2019-01-17,5
+686,West US,West US Store 86,2019-02-21,Clothing,Mens,10,13,52422406,36734195,False,2019-06-16,6
+687,West US,West US Store 86,2019-04-30,Electronics,Televisions,15,300,13948682,3457336,False,2019-06-08,3
+688,West US,West US Store 86,2019-03-10,Baby,Baby toys,12,5,70737548,43216700,True,2019-03-07,4
+689,West US,West US Store 86,2019-06-04,Baby,Car seats,23,5,48394836,42352366,True,2019-08-02,6
+690,West US,West US Store 86,2019-01-06,Beauty/Health,Bath,8,14,12710845,25065686,False,2019-01-14,7
+691,West US,West US Store 86,2019-05-12,Electronics,Speakers,18,300,46193685,20311849,False,2019-07-07,3
+692,West US,West US Store 86,2019-04-02,Clothing,Swimwear,15,25,84228315,62664215,True,2019-06-15,5
+693,West US,West US Store 86,2019-04-05,Clothing,Baby,17,13,18972730,38462863,False,2019-06-21,6
+694,West US,West US Store 86,2019-01-27,Electronics,Computers,6,50,49641464,79950895,True,2019-04-29,6
+695,West US,West US Store 86,2019-06-23,Beauty/Health,Feminine Products,23,10,20673850,45809702,True,2019-02-18,4
+696,West US,West US Store 86,2019-08-15,Beauty/Health,Fragrances,30,10,90666173,85136899,True,2019-02-27,5
+697,West US,West US Store 86,2019-02-25,Beauty/Health,Fragrances,11,15,87515324,83840398,True,2019-06-29,6
+698,West US,West US Store 86,2019-04-12,Furniture,Indoor seating,15,75,88971984,44513201,True,2019-03-26,4
+699,West US,West US Store 86,2019-08-02,Electronics,Speakers,27,50,98772027,77790060,True,2019-07-16,5
+700,West US,West US Store 86,2019-07-31,Furniture,Indoor seating,26,100,88455758,21176183,False,2019-07-31,1
+701,West US,West US Store 86,2019-01-20,Clothing,Swimwear,6,25,28226954,50563539,True,2019-04-23,3
+702,West US,West US Store 86,2019-03-13,Baby,Strollers,13,5,55481134,57910378,True,2019-02-16,4
+703,West US,West US Store 86,2019-01-03,Baby,Car seats,6,30,84189351,27658688,False,2019-02-05,4
+704,West US,West US Store 86,2019-04-29,Electronics,Televisions,15,200,15221026,12532843,False,2019-04-29,1
+705,West US,West US Store 86,2019-05-22,Beauty/Health,Feminine Products,23,10,26726094,35869861,False,2019-06-16,8
+706,West US,West US Store 86,2019-01-13,Furniture,Indoor tables,7,75,24630156,37166362,False,2019-02-11,4
+707,West US,West US Store 86,2019-01-25,Electronics,Cell Phones,7,300,34400882,10372008,False,2019-01-25,1
+708,West US,West US Store 86,2019-07-23,Furniture,Pool furniture,27,100,26228705,41488032,True,2019-01-26,6
+709,West US,West US Store 86,2019-06-16,Electronics,Speakers,21,50,30702849,31116024,False,2019-06-16,1
+710,West US,West US Store 86,2019-01-24,Furniture,Patio furniture,7,15,80174941,41055865,True,2019-07-04,7
+711,West US,West US Store 86,2019-03-05,Electronics,Televisions,12,100,81677158,64825050,True,2019-05-21,5
+712,West US,West US Store 86,2019-07-19,Beauty/Health,Skincare,30,10,43663923,47538370,True,2019-07-25,5
+713,West US,West US Store 86,2019-06-16,Beauty/Health,Makeup,25,15,66000425,57478211,True,2019-05-10,3
+714,West US,West US Store 86,2019-04-18,Electronics,Televisions,15,300,71214765,60503380,True,2019-04-07,6
+715,West US,West US Store 86,2019-03-03,Baby,Car seats,13,12,33432566,64392883,True,2019-07-01,3
+716,West US,West US Store 86,2019-08-05,Beauty/Health,Feminine Products,29,14,82098221,44513201,True,2019-03-26,5
+717,West US,West US Store 86,2019-04-29,Furniture,Indoor tables,21,100,76489835,33276859,False,2019-08-07,3
+718,West US,West US Store 86,2019-06-16,Electronics,Speakers,21,50,18343426,88594235,True,2019-05-13,2
+719,West US,West US Store 86,2019-02-24,Furniture,Patio furniture,11,30,41640540,56613877,True,2019-01-17,6
+720,West US,West US Store 86,2019-05-15,Clothing,Womens,24,25,47912682,64392883,True,2019-07-01,4
+721,West US,West US Store 86,2019-05-06,Furniture,Beds,21,30,23191392,78654394,True,2019-07-02,5
+722,West US,West US Store 86,2019-06-07,Beauty/Health,Skincare,27,14,15997466,44081034,True,2019-08-07,5
+723,West US,West US Store 86,2019-04-23,Furniture,Indoor seating,17,75,53371971,9075507,False,2019-04-04,4
+724,West US,West US Store 86,2019-03-11,Baby,Car seats,12,5,69918505,44513201,True,2019-03-26,6
+725,West US,West US Store 86,2019-05-09,Clothing,Swimwear,24,20,35847703,24201352,False,2019-01-25,7
+726,West US,West US Store 86,2019-03-11,Baby,Baby toys,14,5,72225964,24633519,False,2019-04-12,3
+727,West US,West US Store 86,2019-06-03,Electronics,Computers,21,200,14723763,87297734,True,2019-05-07,6
+728,West US,West US Store 86,2019-04-24,Furniture,Pool furniture,18,30,13139936,52292207,True,2019-01-08,7
+729,West US,West US Store 86,2019-05-04,Clothing,Mens,23,25,40421027,20744016,False,2019-05-04,1
+730,West US,West US Store 86,2019-07-16,Clothing,Kids,28,25,58108355,38030696,False,2019-02-09,5
+731,West US,West US Store 86,2019-06-22,Furniture,Indoor tables,25,40,55037127,25930020,False,2019-08-15,6
+732,West US,West US Store 86,2019-04-30,Electronics,Tablets,15,100,70037289,51427873,True,2019-06-23,6
+733,West US,West US Store 86,2019-05-17,Baby,Car seats,22,12,31099124,27226521,False,2019-02-18,6
+734,West US,West US Store 86,2019-03-29,Electronics,Tablets,12,200,51984837,30251690,False,2019-06-09,8
+735,West US,West US Store 86,2019-05-28,Clothing,Baby,23,20,53907259,53588708,True,2019-08-12,5
+736,West US,West US Store 86,2019-07-08,Beauty/Health,Oral care,29,10,73804216,14261511,False,2019-08-03,5
+737,West US,West US Store 86,2019-06-11,Furniture,Pool furniture,25,100,51885432,15558012,False,2019-02-19,3
+738,West US,West US Store 86,2019-02-28,Beauty/Health,Fragrances,9,14,19458273,40191531,True,2019-08-07,5
+739,West US,West US Store 86,2019-08-03,Furniture,Beds,30,30,72256875,28523022,False,2019-05-18,4
+740,West US,West US Store 86,2019-04-27,Clothing,Womens,20,20,77776061,56181710,True,2019-04-27,4
+741,West US,West US Store 86,2019-01-06,Electronics,Speakers,6,50,46914382,85136899,True,2019-02-27,6
+742,West US,West US Store 86,2019-06-29,Clothing,Shoes,23,25,57325143,42352366,True,2019-08-02,7
+743,West US,West US Store 86,2019-04-30,Clothing,Mens,21,20,38859987,64825050,True,2019-05-21,6
+744,West US,West US Store 86,2019-01-16,Clothing,Swimwear,6,12,70661800,58342545,True,2019-03-10,5
+745,West US,West US Store 86,2019-02-03,Electronics,Cell Phones,10,200,83548107,18583181,False,2019-02-03,1
+746,West US,West US Store 86,2019-07-09,Clothing,Womens,26,25,87886630,32844692,False,2019-04-28,2
+747,West US,West US Store 86,2019-01-05,Electronics,Cell Phones,7,50,56969066,70011054,True,2019-08-12,6
+748,West US,West US Store 86,2019-05-28,Beauty/Health,Fragrances,21,15,36079503,37166362,False,2019-02-11,5
+749,West US,West US Store 86,2019-06-05,Furniture,Indoor tables,25,75,12567170,41488032,True,2019-01-26,7
+750,West US,West US Store 86,2019-03-23,Furniture,Beds,12,100,52344126,45809702,True,2019-02-18,5
+751,West US,West US Store 86,2019-05-28,Furniture,Indoor seating,20,40,50442704,54885209,True,2019-03-09,5
+752,West US,West US Store 86,2019-01-27,Electronics,Tablets,6,200,57530498,83840398,True,2019-06-29,7
+753,West US,West US Store 86,2019-08-11,Clothing,Womens,30,12,22930264,54453042,True,2019-08-14,4
+754,West US,West US Store 86,2019-07-03,Baby,Diaper bags,29,30,68614168,38895030,True,2019-07-14,5
+755,West US,West US Store 86,2019-08-15,Beauty/Health,Feminine Products,30,14,33452730,53156541,True,2019-02-25,3
+756,West US,West US Store 86,2019-04-17,Clothing,Womens,16,25,39707231,21176183,False,2019-07-31,2
+757,West US,West US Store 86,2019-02-19,Clothing,Swimwear,9,13,26711036,79950895,True,2019-04-29,7
+758,West US,West US Store 86,2019-04-30,Furniture,Indoor tables,17,15,54612898,55317376,True,2019-03-18,9
+759,West US,West US Store 86,2019-07-09,Electronics,Televisions,25,200,91487777,86865567,True,2019-06-02,3
+760,West US,West US Store 86,2019-01-05,Beauty/Health,Makeup,6,10,85667217,63096382,True,2019-07-16,5
+761,West US,West US Store 86,2019-01-05,Furniture,Patio furniture,7,30,40201819,70011054,True,2019-08-12,7
+762,West US,West US Store 86,2019-08-05,Electronics,Headphones,28,200,48033520,77357893,True,2019-04-11,6
+763,West US,West US Store 86,2019-04-25,Beauty/Health,Haircare,19,14,40707347,19447515,False,2019-04-08,2
+764,West US,West US Store 86,2019-01-18,Electronics,Headphones,7,200,94793485,74332724,True,2019-01-21,4
+765,West US,West US Store 86,2019-01-07,Electronics,Tablets,7,100,87455377,49267038,True,2019-06-01,6
+766,West US,West US Store 86,2019-02-02,Beauty/Health,Oral care,9,10,39246424,30683857,False,2019-03-07,3
+767,West US,West US Store 86,2019-04-14,Baby,Strollers,16,30,16757436,69146720,True,2019-02-18,9
+768,West US,West US Store 86,2019-06-09,Electronics,Tablets,21,300,27703655,60503380,True,2019-04-07,7
+769,West US,West US Store 86,2019-04-23,Beauty/Health,Bath,16,10,21597125,64825050,True,2019-05-21,7
+770,West US,West US Store 86,2019-04-01,Clothing,Swimwear,17,10,90659177,13397177,False,2019-04-20,5
+771,West US,West US Store 86,2019-03-30,Clothing,Mens,14,12,72029023,26794354,False,2019-07-05,8
+772,West US,West US Store 86,2019-01-26,Furniture,Patio furniture,8,30,79851332,51427873,True,2019-06-23,7
+773,West US,West US Store 86,2019-08-05,Baby,Baby toys,29,15,55282028,28955189,False,2019-04-05,3
+774,West US,West US Store 86,2019-05-30,Baby,Cribs,22,12,43417039,82111730,True,2019-05-11,5
+775,West US,West US Store 86,2019-06-02,Beauty/Health,Makeup,23,10,48029804,27226521,False,2019-02-18,7
+776,West US,West US Store 86,2019-08-03,Clothing,Shoes,29,12,37581638,24633519,False,2019-04-12,4
+777,West US,West US Store 86,2019-04-01,Electronics,Televisions,16,300,53558392,60071213,True,2019-01-04,3
+778,West US,West US Store 86,2019-05-20,Clothing,Mens,21,10,44934852,82543897,True,2019-02-07,7
+779,West US,West US Store 86,2019-05-19,Furniture,Indoor seating,24,15,13731602,25065686,False,2019-01-14,8
+780,West US,West US Store 86,2019-03-04,Clothing,Womens,13,10,78358229,31548191,False,2019-05-15,4
+781,West US,West US Store 86,2019-05-22,Electronics,Speakers,19,200,61807205,52724374,True,2019-05-12,5
+782,West US,West US Store 86,2019-01-10,Baby,Baby toys,6,30,14837410,10372008,False,2019-01-25,2
+783,West US,West US Store 86,2019-04-09,Clothing,Swimwear,17,12,14921025,65257217,True,2019-04-13,5
+784,West US,West US Store 86,2019-01-08,Baby,Diapers,6,15,92116402,82543897,True,2019-02-07,8
+785,West US,West US Store 86,2019-05-14,Electronics,Televisions,19,200,11015098,30251690,False,2019-06-09,9
+786,West US,West US Store 86,2019-08-09,Furniture,Pool furniture,29,15,36193356,32412525,False,2019-04-25,5
+787,West US,West US Store 86,2019-06-06,Furniture,Patio furniture,24,15,42039373,41055865,True,2019-07-04,8
+788,West US,West US Store 86,2019-05-03,Furniture,Pool furniture,24,15,77184930,64392883,True,2019-07-01,5
+789,West US,West US Store 86,2019-04-29,Clothing,Womens,21,10,35327739,47970537,True,2019-06-24,6
+790,West US,West US Store 86,2019-04-05,Furniture,Indoor tables,16,30,75269644,81679563,True,2019-05-21,4
+791,West US,West US Store 86,2019-02-24,Electronics,Speakers,9,300,41633685,48834871,True,2019-01-29,4
+792,West US,West US Store 86,2019-02-28,Clothing,Baby,10,25,72457356,55317376,True,2019-03-18,10
+793,West US,West US Store 86,2019-04-04,Beauty/Health,Fragrances,16,10,83334604,13397177,False,2019-04-20,6
+794,West US,West US Store 86,2019-01-23,Beauty/Health,Skincare,8,6,65065233,31980358,False,2019-08-01,4
+795,West US,West US Store 86,2019-07-09,Beauty/Health,Skincare,26,15,14667847,52724374,True,2019-05-12,6
+796,West US,West US Store 86,2019-01-04,Furniture,Beds,8,40,75389837,66985885,True,2019-07-12,3
+797,West US,West US Store 86,2019-05-23,Beauty/Health,Makeup,23,10,87366642,50131372,True,2019-03-08,9
+798,West US,West US Store 86,2019-06-09,Beauty/Health,Skincare,27,15,31201931,60071213,True,2019-01-04,4
+799,West US,West US Store 86,2019-06-15,Electronics,Televisions,22,100,72171983,35437694,False,2019-05-27,5
+800,West US,West US Store 86,2019-06-26,Beauty/Health,Bath,25,14,75534139,66985885,True,2019-07-12,4
+801,West US,West US Store 86,2019-02-26,Furniture,Patio furniture,10,100,16726113,51427873,True,2019-06-23,8
+802,West US,West US Store 86,2019-04-13,Electronics,Televisions,15,200,43268718,21176183,False,2019-07-31,3
+803,West US,West US Store 86,2019-07-21,Clothing,Baby,29,25,29195335,73900557,True,2019-03-18,4
+804,West US,West US Store 86,2019-03-11,Furniture,Indoor tables,12,75,53142433,46674036,True,2019-07-20,5
+805,West US,West US Store 86,2019-04-30,Electronics,Tablets,16,100,17275870,68714553,True,2019-01-31,3
+806,West US,West US Store 86,2019-04-09,Baby,Car seats,16,5,94762701,81679563,True,2019-05-21,5
+807,West US,West US Store 86,2019-08-06,Beauty/Health,Makeup,30,10,32169860,17286680,False,2019-08-06,1
+808,West US,West US Store 86,2019-05-21,Electronics,Headphones,18,200,69152916,16422346,False,2019-07-06,3
+809,West US,West US Store 86,2019-03-11,Baby,Diapers,12,30,96117869,46241869,True,2019-05-10,5
+810,West US,West US Store 86,2019-02-21,Furniture,Beds,11,100,14735461,34573360,False,2019-04-11,2
+811,West US,West US Store 86,2019-07-23,Furniture,Indoor seating,29,40,26400052,19015348,False,2019-07-23,1
+812,West US,West US Store 86,2019-05-12,Furniture,Beds,22,15,66697734,33276859,False,2019-08-07,4
+813,West US,West US Store 86,2019-06-23,Electronics,Speakers,21,50,15315990,23337018,False,2019-02-01,4
+814,West US,West US Store 86,2019-01-31,Beauty/Health,Feminine Products,8,10,10308054,68714553,True,2019-01-31,4
+815,West US,West US Store 86,2019-08-05,Beauty/Health,Skincare,32,6,13186030,68282386,True,2019-04-17,4
+816,West US,West US Store 86,2019-04-04,Clothing,Baby,17,12,61356408,45809702,True,2019-02-18,6
+817,West US,West US Store 86,2019-06-25,Furniture,Indoor seating,27,40,24481577,73900557,True,2019-03-18,5
+818,West US,West US Store 86,2019-02-07,Baby,Cribs,9,10,72132601,5618171,False,2019-07-06,4
+819,West US,West US Store 86,2019-03-09,Clothing,Shoes,12,20,59188275,19015348,False,2019-07-23,2
+820,West US,West US Store 86,2019-02-04,Baby,Cribs,11,30,80597914,74764891,True,2019-06-08,3
+821,West US,West US Store 86,2019-01-15,Electronics,Televisions,6,300,15422926,55749543,True,2019-01-18,8
+822,West US,West US Store 86,2019-01-13,Electronics,Headphones,7,50,59137712,85569066,True,2019-04-03,6
+823,West US,West US Store 86,2019-02-12,Furniture,Indoor seating,10,40,19841552,23769185,False,2019-02-12,1
+824,West US,West US Store 86,2019-06-17,Clothing,Kids,26,10,34514425,4321670,False,2019-06-30,2
+825,West US,West US Store 86,2019-02-18,Baby,Diapers,9,12,86215447,27226521,False,2019-02-18,8
+826,West US,West US Store 86,2019-05-26,Furniture,Beds,20,15,66168227,68714553,True,2019-01-31,5
+827,West US,West US Store 86,2019-01-26,Clothing,Mens,7,13,66444962,25497853,False,2019-08-03,4
+828,West US,West US Store 86,2019-02-17,Baby,Diapers,10,10,31463569,25497853,False,2019-08-03,5
+829,West US,West US Store 86,2019-06-08,Baby,Diapers,25,30,68714642,47106203,True,2019-07-07,4
+830,West US,West US Store 86,2019-02-28,Clothing,Shoes,9,10,19549810,45809702,True,2019-02-18,7
+831,West US,West US Store 86,2019-08-07,Electronics,Televisions,28,100,86639629,9507674,False,2019-04-20,2
+832,West US,West US Store 86,2019-02-07,Electronics,Tablets,10,200,51821046,56613877,True,2019-01-17,7
+833,West US,West US Store 86,2019-01-10,Beauty/Health,Fragrances,6,6,39060153,80815229,True,2019-03-28,6
+834,West US,West US Store 86,2019-07-19,Beauty/Health,Haircare,27,10,19372181,75629225,True,2019-01-11,11
+835,West US,West US Store 86,2019-06-14,Baby,Strollers,23,30,90263708,77790060,True,2019-07-16,6
+836,West US,West US Store 86,2019-06-05,Beauty/Health,Fragrances,26,10,10173172,53588708,True,2019-08-12,6
+837,West US,West US Store 86,2019-08-13,Beauty/Health,Skincare,30,10,16910043,69578887,True,2019-04-30,3
+838,West US,West US Store 86,2019-05-17,Baby,Cribs,20,15,39298729,69578887,True,2019-04-30,4
+839,West US,West US Store 86,2019-08-02,Baby,Strollers,30,30,84501082,50995706,True,2019-06-15,5
+840,West US,West US Store 86,2019-02-03,Beauty/Health,Feminine Products,11,15,50132787,25930020,False,2019-08-15,7
+841,West US,West US Store 86,2019-05-17,Electronics,Tablets,18,100,77793068,51427873,True,2019-06-23,9
+842,West US,West US Store 86,2019-05-22,Furniture,Indoor tables,23,75,43654055,64825050,True,2019-05-21,8
+843,West US,West US Store 86,2019-07-06,Clothing,Mens,26,10,50361644,79950895,True,2019-04-29,8
+844,West US,West US Store 86,2019-04-05,Furniture,Indoor seating,17,30,25130008,78222227,True,2019-02-24,5
+845,West US,West US Store 86,2019-03-10,Baby,Diaper bags,14,30,55730665,3457336,False,2019-06-08,4
+846,West US,West US Store 86,2019-04-21,Furniture,Beds,16,15,69735113,25065686,False,2019-01-14,9
+847,West US,West US Store 86,2019-03-11,Beauty/Health,Bath,12,6,76445850,78222227,True,2019-02-24,6
+848,West US,West US Store 86,2019-01-03,Furniture,Indoor tables,8,30,92196005,60503380,True,2019-04-07,8
+849,West US,West US Store 86,2019-04-25,Baby,Cribs,17,30,72233453,9075507,False,2019-04-04,5
+850,West US,West US Store 86,2019-07-28,Clothing,Kids,26,12,50971036,82543897,True,2019-02-07,9
+851,West US,West US Store 86,2019-03-24,Beauty/Health,Oral care,13,10,74055866,65689384,True,2019-05-07,2
+852,West US,West US Store 86,2019-03-02,Beauty/Health,Feminine Products,12,15,61733724,48834871,True,2019-01-29,5
+853,West US,West US Store 86,2019-02-07,Electronics,Televisions,10,50,83724755,55317376,True,2019-03-18,11
+854,West US,West US Store 86,2019-01-02,Electronics,Tablets,6,200,59433309,9075507,False,2019-04-04,6
+855,West US,West US Store 86,2019-05-12,Baby,Cribs,22,12,21505595,73468390,True,2019-05-03,2
+856,West US,West US Store 86,2019-06-23,Baby,Strollers,26,12,90893737,38030696,False,2019-02-09,6
+857,West US,West US Store 86,2019-07-14,Baby,Car seats,30,10,67738353,8643340,False,2019-01-08,4
+858,West US,West US Store 86,2019-08-08,Beauty/Health,Oral care,29,15,33852867,38895030,True,2019-07-14,6
+859,West US,West US Store 86,2019-06-06,Electronics,Televisions,22,200,12958088,49267038,True,2019-06-01,7
+860,West US,West US Store 86,2019-06-12,Electronics,Headphones,21,50,90610715,25497853,False,2019-08-03,6
+861,West US,West US Store 86,2019-05-04,Furniture,Patio furniture,23,100,73911561,66553718,True,2019-05-28,5
+862,West US,West US Store 86,2019-01-05,Furniture,Beds,6,40,87326830,40191531,True,2019-08-07,6
+863,West US,West US Store 86,2019-03-05,Beauty/Health,Bath,14,15,80033136,7779006,False,2019-03-18,3
+864,West US,West US Store 86,2019-07-09,Furniture,Indoor seating,28,15,54760365,57046044,True,2019-05-05,8
+865,West US,West US Store 86,2019-05-22,Clothing,Womens,22,25,88147157,84704732,True,2019-02-25,4
+866,West US,West US Store 86,2019-06-22,Electronics,Tablets,21,100,35425569,73468390,True,2019-05-03,3
+867,West US,West US Store 86,2019-01-07,Electronics,Computers,6,200,43196694,85136899,True,2019-02-27,7
+868,West US,West US Store 86,2019-05-25,Baby,Strollers,24,15,63738027,81247396,True,2019-02-10,6
+869,West US,West US Store 86,2019-05-25,Clothing,Swimwear,23,20,22762711,49267038,True,2019-06-01,8
+870,West US,West US Store 86,2019-05-08,Electronics,Speakers,18,300,14724503,78222227,True,2019-02-24,7
+871,West US,West US Store 86,2019-04-25,Beauty/Health,Oral care,20,6,23211853,65689384,True,2019-05-07,3
+872,West US,West US Store 86,2019-07-16,Clothing,Mens,30,20,50064009,41920199,True,2019-01-15,7
+873,West US,West US Store 86,2019-06-12,Clothing,Baby,25,13,49439301,29387356,False,2019-05-28,4
+874,West US,West US Store 86,2019-01-16,Furniture,Indoor tables,7,40,75996515,29387356,False,2019-05-28,5
+875,West US,West US Store 86,2019-02-17,Electronics,Computers,10,100,11920289,51427873,True,2019-06-23,10
+876,West US,West US Store 86,2019-04-16,Baby,Car seats,16,5,99669127,25497853,False,2019-08-03,7
+877,West US,West US Store 86,2019-07-31,Beauty/Health,Oral care,29,10,44285257,5186004,False,2019-07-31,1
+878,West US,West US Store 86,2019-05-20,Baby,Baby toys,24,15,71054801,15558012,False,2019-02-19,4
+879,West US,West US Store 86,2019-04-08,Furniture,Patio furniture,15,100,45981416,46674036,True,2019-07-20,6
+880,West US,West US Store 86,2019-06-29,Baby,Baby toys,25,30,74269974,48402704,True,2019-05-18,7
+881,West US,West US Store 86,2019-06-30,Electronics,Televisions,22,200,19628275,60935547,True,2019-01-19,8
+882,West US,West US Store 86,2019-06-29,Furniture,Pool furniture,25,30,47163817,7346839,False,2019-02-08,3
+883,West US,West US Store 86,2019-07-05,Baby,Cribs,30,30,26798462,61799881,True,2019-06-06,7
+884,West US,West US Store 86,2019-03-01,Electronics,Tablets,13,200,76792939,52292207,True,2019-01-08,8
+885,West US,West US Store 86,2019-06-22,Beauty/Health,Makeup,26,6,72575062,81247396,True,2019-02-10,7
+886,West US,West US Store 86,2019-03-10,Clothing,Swimwear,13,12,19475182,76925726,True,2019-02-17,6
+887,West US,West US Store 86,2019-06-13,Clothing,Swimwear,26,10,91235248,29819523,False,2019-01-20,5
+888,West US,West US Store 86,2019-01-01,Electronics,Televisions,7,300,60214791,56181710,True,2019-04-27,5
+889,West US,West US Store 86,2019-05-01,Clothing,Shoes,24,13,21376728,85136899,True,2019-02-27,8
+890,West US,West US Store 86,2019-07-01,Clothing,Baby,30,12,31080256,68282386,True,2019-04-17,5
+891,West US,West US Store 86,2019-04-23,Electronics,Televisions,15,100,43795154,46241869,True,2019-05-10,6
+892,West US,West US Store 86,2019-04-17,Baby,Car seats,16,30,10781662,39759364,True,2019-02-02,5
+893,West US,West US Store 86,2019-06-21,Electronics,Computers,21,50,86391747,80815229,True,2019-03-28,7
+894,West US,West US Store 86,2019-03-26,Clothing,Kids,14,13,99490128,70875388,True,2019-06-04,5
+895,West US,West US Store 86,2019-02-12,Beauty/Health,Bath,11,14,93659549,11236342,False,2019-04-30,3
+896,West US,West US Store 86,2019-07-05,Furniture,Beds,27,15,41589762,46241869,True,2019-05-10,7
+897,West US,West US Store 86,2019-03-20,Furniture,Indoor seating,13,100,55160861,66553718,True,2019-05-28,6
+898,West US,West US Store 86,2019-04-16,Electronics,Tablets,15,200,26232122,55317376,True,2019-03-18,12
+899,West US,West US Store 86,2019-02-11,Electronics,Computers,9,50,20836250,71739722,True,2019-04-17,6
+900,West US,West US Store 86,2019-03-05,Beauty/Health,Bath,13,10,35132760,60071213,True,2019-01-04,5
+901,West US,West US Store 86,2019-06-30,Beauty/Health,Oral care,27,10,56029462,42784533,True,2019-07-18,3

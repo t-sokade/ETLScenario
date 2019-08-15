@@ -75,8 +75,12 @@ Next we will create a service principal with Storage Blob Data Contributor permi
 
 ```
 . ./scripts/serviceprincipal.sh
-# Obtain the access token for ADLS Gen2 REST API requests
+```
+```
+# Obtain the access token for ADLS Gen2 REST API requests and create a FileSystem
+
 ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded" --data-urlencode "client_id=$CLIENT_ID" --data-urlencode "client_secret=$CLIENT_SECRET" --data-urlencode "scope=https://storage.azure.com/.default" --data-urlencode "grant_type=client_credentials" "https://login.microsoftonline.com/$TENANT_NAME/oauth2/v2.0/token" | jq -r ".access_token")
+
 ```
 Before proceeding, ensure that an ACCESS_TOKEN was obtained by running. If it returns null, try running the above command again. 
 ```
@@ -92,7 +96,7 @@ echo $blobStorageName
 echo $ADLSGen2StorageName
 ```
 ### Trigger the Pipeline
-You can either trigger the ADF pipeline by changing the cloudshell to PowerShell mode and executing the following command: 
+You can either trigger the ADF pipeline by changing the cloudshell to PowerShell mode and executing the following command or manually as described below: 
 
 ```powershell
 Invoke-AzDataFactoryV2Pipeline -DataFactory "<DATA FACTORY NAME>" -PipelineName "IngestAndTransform" 
@@ -119,7 +123,7 @@ Next, create a file that will contain the Hive query to create a table.
 ```
 nano query.hql
 ```
-Copy the contents below into `query.hql` and substitute your storage account name in the angle brackets. 
+Copy the contents below into `query.hql` and make sure to substitute your storage account name in the angle brackets. 
 ```
 DROP TABLE sales_raw;
 -- Creates an external table over the csv file
@@ -167,7 +171,7 @@ beeline -u 'jdbc:hive2://localhost:10001/;transportMode=http' -f query.hql
 
 This script will create a table on the Interactive Query cluster that you can access from Power BI. 
 
-Open up Power BI Desktop and select Get Data. Search for HDInsight Interactive Query cluster and paste the URI for your cluster there. It should be in the format `https://<LLAP CLUSTER NAME>.azurehdinsight.net` Type `default` for the database. 
+Open up Power BI Desktop and select Get Data. Search for HDInsight Interactive Query cluster and paste the URI for your cluster there. It should be in the format `https://<LLAP CLUSTER NAME>.azurehdinsight.net` Type `default` for the database. Input username:`admin` and password when prompted. 
 
 Once the data is loaded, you can experiment with the dashboard you would like to create. Here is an example dashboard with the given data. 
 

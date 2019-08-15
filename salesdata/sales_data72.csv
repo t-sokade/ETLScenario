@@ -1,1204 +1,851 @@
-ordernum,quant,region,store,saledate,dep,item,unitsold,unitprice,employeeID
-0,4,Central US,Central US Store 72,2019-01-31,Clothing,Swimwear,5,25,93637550
-1,27,Central US,Central US Store 72,2019-03-15,Furniture,Pool furniture,5,75,60326482
-2,40,Central US,Central US Store 72,2019-07-13,Furniture,Indoor tables,8,40,88580283
-3,72,Central US,Central US Store 72,2019-06-17,Beauty/Health,Skincare,5,10,87460415
-4,73,Central US,Central US Store 72,2019-01-01,Furniture,Patio furniture,7,15,33604026
-5,36,Central US,Central US Store 72,2019-04-18,Baby,Baby toys,5,10,33327378
-6,74,Central US,Central US Store 72,2019-03-30,Baby,Diaper bags,3,5,97879636
-7,65,Central US,Central US Store 72,2019-04-21,Baby,Strollers,5,10,14330273
-8,12,Central US,Central US Store 72,2019-03-06,Furniture,Indoor seating,7,100,31567106
-9,41,Central US,Central US Store 72,2019-06-01,Beauty/Health,Feminine Products,8,15,41245929
-10,63,Central US,Central US Store 72,2019-02-23,Beauty/Health,Feminine Products,6,10,33840213
-11,84,Central US,Central US Store 72,2019-02-21,Furniture,Beds,6,30,35978771
-12,6,Central US,Central US Store 72,2019-04-02,Beauty/Health,Makeup,4,10,63014733
-13,95,Central US,Central US Store 72,2019-03-07,Baby,Diaper bags,4,30,85434641
-14,20,Central US,Central US Store 72,2019-06-19,Electronics,Speakers,4,100,58326027
-15,59,Central US,Central US Store 72,2019-05-21,Beauty/Health,Fragrances,10,10,10792610
-16,79,Central US,Central US Store 72,2019-02-24,Beauty/Health,Fragrances,3,10,12056687
-17,84,Central US,Central US Store 72,2019-04-01,Electronics,Televisions,3,200,66809088
-18,96,Central US,Central US Store 72,2019-05-21,Beauty/Health,Feminine Products,6,10,44128573
-19,71,Central US,Central US Store 72,2019-03-15,Baby,Cribs,7,10,55368075
-20,35,Central US,Central US Store 72,2019-06-11,Clothing,Kids,7,25,85475883
-21,64,Central US,Central US Store 72,2019-07-01,Electronics,Tablets,4,50,46475424
-22,14,Central US,Central US Store 72,2019-05-18,Beauty/Health,Skincare,8,10,16131459
-23,92,Central US,Central US Store 72,2019-03-15,Beauty/Health,Makeup,4,10,18486214
-24,27,Central US,Central US Store 72,2019-06-25,Baby,Baby toys,12,10,82498584
-25,79,Central US,Central US Store 72,2019-03-28,Electronics,Televisions,3,50,74343235
-26,50,Central US,Central US Store 72,2019-02-18,Furniture,Indoor tables,5,40,79701475
-27,33,Central US,Central US Store 72,2019-01-09,Beauty/Health,Bath,3,14,92070391
-28,27,Central US,Central US Store 72,2019-05-07,Beauty/Health,Skincare,9,10,71055822
-29,26,Central US,Central US Store 72,2019-05-30,Electronics,Cell Phones,3,300,58608629
-30,85,Central US,Central US Store 72,2019-02-14,Furniture,Pool furniture,7,100,28694879
-31,45,Central US,Central US Store 72,2019-02-01,Baby,Car seats,7,30,98075107
-32,20,Central US,Central US Store 72,2019-04-25,Baby,Strollers,11,5,76528891
-33,91,Central US,Central US Store 72,2019-05-27,Electronics,Speakers,4,200,63651488
-34,12,Central US,Central US Store 72,2019-04-21,Clothing,Kids,8,20,81779051
-35,101,Central US,Central US Store 72,2019-02-10,Beauty/Health,Haircare,7,10,86888417
-36,84,Central US,Central US Store 72,2019-02-09,Clothing,Swimwear,5,12,66355980
-37,15,Central US,Central US Store 72,2019-04-05,Baby,Car seats,5,15,69101259
-38,4,Central US,Central US Store 72,2019-03-10,Clothing,Swimwear,4,25,76784076
-39,4,Central US,Central US Store 72,2019-01-04,Furniture,Beds,4,40,14556218
-40,96,Central US,Central US Store 72,2019-02-05,Beauty/Health,Oral care,6,10,82747250
-41,4,Central US,Central US Store 72,2019-07-16,Clothing,Womens,5,10,39599764
-42,7,Central US,Central US Store 72,2019-01-28,Furniture,Indoor tables,3,40,38566325
-43,72,Central US,Central US Store 72,2019-01-01,Beauty/Health,Fragrances,6,10,43742198
-44,39,Central US,Central US Store 72,2019-07-09,Furniture,Indoor tables,6,75,59968046
-45,42,Central US,Central US Store 72,2019-03-20,Electronics,Speakers,4,200,51961298
-46,70,Central US,Central US Store 72,2019-02-10,Clothing,Kids,6,13,87777699
-47,97,Central US,Central US Store 72,2019-02-12,Electronics,Cell Phones,4,200,94050101
-48,22,Central US,Central US Store 72,2019-04-03,Baby,Diapers,5,10,38605160
-49,48,Central US,Central US Store 72,2019-03-05,Clothing,Womens,3,20,74054439
-50,86,Central US,Central US Store 72,2019-07-07,Electronics,Cell Phones,4,100,41637044
-51,50,Central US,Central US Store 72,2019-07-08,Electronics,Speakers,4,300,19482966
-52,63,Central US,Central US Store 72,2019-05-21,Furniture,Indoor seating,9,40,54543639
-53,97,Central US,Central US Store 72,2019-03-02,Clothing,Mens,6,25,33593567
-54,94,Central US,Central US Store 72,2019-05-06,Furniture,Patio furniture,6,15,84094600
-55,63,Central US,Central US Store 72,2019-04-30,Baby,Strollers,5,12,85549898
-56,89,Central US,Central US Store 72,2019-05-22,Baby,Cribs,8,30,41427561
-57,13,Central US,Central US Store 72,2019-07-05,Electronics,Televisions,3,300,15476346
-58,2,Central US,Central US Store 72,2019-02-05,Clothing,Mens,7,25,46180343
-59,11,Central US,Central US Store 72,2019-05-01,Baby,Baby toys,7,30,84927203
-60,55,Central US,Central US Store 72,2019-05-16,Furniture,Indoor tables,11,100,59780685
-61,84,Central US,Central US Store 72,2019-02-06,Clothing,Mens,6,20,31414915
-62,62,Central US,Central US Store 72,2019-06-28,Baby,Baby toys,8,5,31883056
-63,43,Central US,Central US Store 72,2019-05-29,Baby,Diapers,8,12,15507742
-64,99,Central US,Central US Store 72,2019-06-29,Clothing,Womens,11,10,65804897
-65,36,Central US,Central US Store 72,2019-01-04,Beauty/Health,Oral care,7,15,42178067
-66,14,Central US,Central US Store 72,2019-05-22,Clothing,Mens,10,12,97675853
-67,100,Central US,Central US Store 72,2019-04-22,Electronics,Televisions,3,300,99563275
-68,66,Central US,Central US Store 72,2019-03-29,Furniture,Indoor seating,7,15,45045159
-69,20,Central US,Central US Store 72,2019-06-18,Beauty/Health,Feminine Products,10,15,95641036
-70,45,Central US,Central US Store 72,2019-01-17,Furniture,Indoor seating,6,100,24614723
-71,45,Central US,Central US Store 72,2019-04-03,Beauty/Health,Haircare,6,15,29863478
-72,18,Central US,Central US Store 72,2019-02-13,Baby,Car seats,4,5,77635452
-73,40,Central US,Central US Store 72,2019-02-10,Clothing,Baby,4,20,24257241
-74,51,Central US,Central US Store 72,2019-02-22,Electronics,Televisions,4,100,95020707
-75,72,Central US,Central US Store 72,2019-05-14,Clothing,Baby,7,13,36950766
-76,87,Central US,Central US Store 72,2019-01-28,Baby,Cribs,4,30,26044681
-77,64,Central US,Central US Store 72,2019-01-27,Baby,Strollers,3,5,19809881
-78,57,Central US,Central US Store 72,2019-01-31,Furniture,Beds,5,100,36033102
-79,50,Central US,Central US Store 72,2019-01-18,Clothing,Mens,7,13,79704917
-80,28,Central US,Central US Store 72,2019-07-16,Beauty/Health,Skincare,6,10,34946932
-81,42,Central US,Central US Store 72,2019-02-26,Beauty/Health,Oral care,6,10,35559227
-82,34,Central US,Central US Store 72,2019-01-18,Clothing,Baby,5,25,77050725
-83,59,Central US,Central US Store 72,2019-04-20,Furniture,Beds,5,40,74177839
-84,30,Central US,Central US Store 72,2019-06-26,Electronics,Tablets,4,200,91223989
-85,53,Central US,Central US Store 72,2019-06-03,Electronics,Cell Phones,3,300,69849284
-86,56,Central US,Central US Store 72,2019-02-10,Clothing,Baby,5,20,98205138
-87,60,Central US,Central US Store 72,2019-01-16,Electronics,Computers,3,200,38849322
-88,8,Central US,Central US Store 72,2019-06-27,Furniture,Indoor tables,5,40,83783232
-89,85,Central US,Central US Store 72,2019-01-28,Furniture,Indoor seating,4,40,17304612
-90,87,Central US,Central US Store 72,2019-07-05,Beauty/Health,Feminine Products,7,15,37652852
-91,84,Central US,Central US Store 72,2019-02-11,Baby,Car seats,5,5,24820777
-92,47,Central US,Central US Store 72,2019-03-14,Electronics,Televisions,3,200,13409713
-93,88,Central US,Central US Store 72,2019-07-01,Electronics,Tablets,4,50,56810463
-94,57,Central US,Central US Store 72,2019-01-26,Baby,Diaper bags,3,30,21397316
-95,94,Central US,Central US Store 72,2019-06-14,Clothing,Swimwear,8,25,30900603
-96,71,Central US,Central US Store 72,2019-06-05,Electronics,Cell Phones,4,100,12492991
-97,11,Central US,Central US Store 72,2019-02-20,Beauty/Health,Bath,4,15,79877663
-98,37,Central US,Central US Store 72,2019-02-12,Beauty/Health,Oral care,3,10,24630164
-99,96,Central US,Central US Store 72,2019-06-20,Furniture,Pool furniture,5,30,84505397
-100,36,Central US,Central US Store 72,2019-01-12,Beauty/Health,Oral care,7,10,20790697
-101,31,Central US,Central US Store 72,2019-02-06,Baby,Diaper bags,3,12,78781729
-102,82,Central US,Central US Store 72,2019-04-26,Beauty/Health,Fragrances,8,14,54324392
-103,37,Central US,Central US Store 72,2019-02-22,Clothing,Shoes,7,12,11010293
-104,51,Central US,Central US Store 72,2019-02-27,Baby,Diaper bags,6,5,53712819
-105,31,Central US,Central US Store 72,2019-04-19,Electronics,Headphones,4,50,66365706
-106,22,Central US,Central US Store 72,2019-02-11,Furniture,Pool furniture,4,75,40170479
-107,63,Central US,Central US Store 72,2019-01-18,Beauty/Health,Fragrances,3,15,76304233
-108,32,Central US,Central US Store 72,2019-04-29,Furniture,Indoor seating,12,75,12193256
-109,41,Central US,Central US Store 72,2019-05-08,Baby,Strollers,8,12,68703848
-110,21,Central US,Central US Store 72,2019-01-12,Furniture,Indoor seating,5,75,54705816
-111,24,Central US,Central US Store 72,2019-06-26,Baby,Diaper bags,11,12,46650930
-112,1,Central US,Central US Store 72,2019-05-08,Furniture,Indoor tables,8,40,30485106
-113,87,Central US,Central US Store 72,2019-01-27,Electronics,Cell Phones,4,100,39452284
-114,45,Central US,Central US Store 72,2019-02-19,Clothing,Shoes,4,25,20477684
-115,6,Central US,Central US Store 72,2019-03-31,Baby,Diapers,7,15,45827759
-116,45,Central US,Central US Store 72,2019-02-17,Furniture,Beds,5,100,50600664
-117,85,Central US,Central US Store 72,2019-03-05,Electronics,Cell Phones,4,200,45555118
-118,6,Central US,Central US Store 72,2019-03-19,Baby,Cribs,4,10,21220753
-119,58,Central US,Central US Store 72,2019-02-27,Baby,Diapers,4,5,35133935
-120,77,Central US,Central US Store 72,2019-06-07,Beauty/Health,Makeup,10,10,37774074
-121,100,Central US,Central US Store 72,2019-07-05,Furniture,Indoor seating,5,100,92556425
-122,32,Central US,Central US Store 72,2019-05-06,Baby,Strollers,5,30,31577917
-123,21,Central US,Central US Store 72,2019-06-04,Electronics,Computers,4,300,99761824
-124,69,Central US,Central US Store 72,2019-03-13,Furniture,Pool furniture,5,100,83091448
-125,58,Central US,Central US Store 72,2019-04-21,Electronics,Speakers,4,50,66751228
-126,45,Central US,Central US Store 72,2019-04-05,Baby,Strollers,5,15,72584054
-127,26,Central US,Central US Store 72,2019-06-13,Electronics,Computers,4,100,14869237
-128,64,Central US,Central US Store 72,2019-03-26,Electronics,Computers,3,300,60433221
-129,14,Central US,Central US Store 72,2019-07-14,Furniture,Pool furniture,6,15,88431936
-130,33,Central US,Central US Store 72,2019-04-06,Baby,Diapers,7,30,45977357
-131,90,Central US,Central US Store 72,2019-02-08,Furniture,Indoor tables,3,40,38775485
-132,82,Central US,Central US Store 72,2019-04-19,Baby,Strollers,5,12,81907480
-133,15,Central US,Central US Store 72,2019-03-11,Clothing,Mens,4,20,15442388
-134,27,Central US,Central US Store 72,2019-05-31,Electronics,Speakers,4,200,59842241
-135,11,Central US,Central US Store 72,2019-05-22,Baby,Car seats,10,10,53299901
-136,32,Central US,Central US Store 72,2019-01-25,Electronics,Computers,3,100,37367917
-137,37,Central US,Central US Store 72,2019-04-23,Furniture,Indoor seating,5,100,58594334
-138,95,Central US,Central US Store 72,2019-04-23,Clothing,Shoes,5,25,44455628
-139,93,Central US,Central US Store 72,2019-04-13,Furniture,Pool furniture,9,15,70905892
-140,91,Central US,Central US Store 72,2019-06-16,Furniture,Patio furniture,10,40,15885479
-141,99,Central US,Central US Store 72,2019-03-20,Baby,Diaper bags,4,5,96727282
-142,45,Central US,Central US Store 72,2019-02-17,Beauty/Health,Makeup,6,10,35296445
-143,46,Central US,Central US Store 72,2019-06-18,Clothing,Kids,10,25,19340678
-144,15,Central US,Central US Store 72,2019-02-04,Furniture,Patio furniture,4,75,57881154
-145,8,Central US,Central US Store 72,2019-05-12,Electronics,Tablets,3,100,43914414
-146,77,Central US,Central US Store 72,2019-03-28,Electronics,Computers,3,100,77499050
-147,16,Central US,Central US Store 72,2019-04-09,Electronics,Computers,4,200,50325431
-148,45,Central US,Central US Store 72,2019-07-05,Clothing,Baby,10,12,57921126
-149,21,Central US,Central US Store 72,2019-04-27,Beauty/Health,Oral care,8,10,71153888
-150,86,Central US,Central US Store 72,2019-01-28,Beauty/Health,Bath,6,10,15516632
-151,57,Central US,Central US Store 72,2019-06-13,Furniture,Indoor tables,7,15,88234190
-152,97,Central US,Central US Store 72,2019-07-09,Electronics,Tablets,4,300,31385835
-153,14,Central US,Central US Store 72,2019-03-12,Baby,Car seats,3,5,60340400
-154,81,Central US,Central US Store 72,2019-06-09,Clothing,Baby,7,25,66004645
-155,26,Central US,Central US Store 72,2019-06-27,Electronics,Cell Phones,4,100,49185259
-156,84,Central US,Central US Store 72,2019-04-08,Baby,Cribs,7,15,73549407
-157,4,Central US,Central US Store 72,2019-02-02,Electronics,Televisions,4,100,13621397
-158,22,Central US,Central US Store 72,2019-01-30,Furniture,Pool furniture,7,15,62810799
-159,40,Central US,Central US Store 72,2019-01-16,Clothing,Mens,6,25,78938562
-160,32,Central US,Central US Store 72,2019-04-08,Electronics,Headphones,3,200,87951122
-161,71,Central US,Central US Store 72,2019-05-14,Clothing,Shoes,10,12,89821317
-162,2,Central US,Central US Store 72,2019-01-21,Furniture,Indoor seating,3,100,54740328
-163,71,Central US,Central US Store 72,2019-04-28,Electronics,Headphones,3,100,68185065
-164,38,Central US,Central US Store 72,2019-06-28,Clothing,Shoes,5,20,68839101
-165,41,Central US,Central US Store 72,2019-01-02,Baby,Cribs,6,5,46385072
-166,51,Central US,Central US Store 72,2019-04-30,Baby,Diaper bags,7,15,38346325
-167,79,Central US,Central US Store 72,2019-07-15,Beauty/Health,Feminine Products,6,14,62054898
-168,15,Central US,Central US Store 72,2019-06-02,Clothing,Mens,9,25,18469496
-169,72,Central US,Central US Store 72,2019-06-27,Baby,Diaper bags,9,15,20119947
-170,29,Central US,Central US Store 72,2019-05-23,Clothing,Swimwear,11,13,24247114
-171,47,Central US,Central US Store 72,2019-06-21,Electronics,Computers,4,200,47964725
-172,99,Central US,Central US Store 72,2019-01-06,Clothing,Mens,6,13,27960394
-173,33,Central US,Central US Store 72,2019-03-14,Furniture,Beds,7,75,20046813
-174,14,Central US,Central US Store 72,2019-07-10,Furniture,Pool furniture,8,100,55898968
-175,33,Central US,Central US Store 72,2019-02-27,Beauty/Health,Fragrances,4,10,45931604
-176,58,Central US,Central US Store 72,2019-02-14,Beauty/Health,Bath,3,10,45524657
-177,98,Central US,Central US Store 72,2019-03-04,Clothing,Baby,4,25,91339937
-178,75,Central US,Central US Store 72,2019-02-09,Beauty/Health,Skincare,7,10,88124914
-179,60,Central US,Central US Store 72,2019-04-25,Clothing,Mens,11,13,62855440
-180,13,Central US,Central US Store 72,2019-05-18,Baby,Baby toys,5,30,63489278
-181,21,Central US,Central US Store 72,2019-03-05,Clothing,Kids,6,10,13494666
-182,27,Central US,Central US Store 72,2019-05-10,Clothing,Womens,8,12,41697333
-183,71,Central US,Central US Store 72,2019-06-27,Baby,Cribs,11,12,39739596
-184,98,Central US,Central US Store 72,2019-04-16,Clothing,Shoes,7,10,46555792
-185,30,Central US,Central US Store 72,2019-05-11,Clothing,Shoes,11,12,87772304
-186,56,Central US,Central US Store 72,2019-04-10,Baby,Diapers,7,10,55270664
-187,74,Central US,Central US Store 72,2019-04-16,Beauty/Health,Skincare,8,10,70250054
-188,55,Central US,Central US Store 72,2019-03-19,Baby,Baby toys,3,5,86848075
-189,64,Central US,Central US Store 72,2019-05-28,Baby,Cribs,9,15,17676661
-190,83,Central US,Central US Store 72,2019-02-10,Beauty/Health,Skincare,7,10,71123748
-191,91,Central US,Central US Store 72,2019-03-05,Furniture,Indoor tables,3,30,12622084
-192,101,Central US,Central US Store 72,2019-04-30,Beauty/Health,Haircare,7,15,47932062
-193,98,Central US,Central US Store 72,2019-05-12,Clothing,Kids,5,10,73993428
-194,94,Central US,Central US Store 72,2019-02-28,Furniture,Beds,5,30,86159734
-195,20,Central US,Central US Store 72,2019-02-12,Clothing,Mens,6,12,49384181
-196,70,Central US,Central US Store 72,2019-02-16,Electronics,Computers,3,100,24450145
-197,8,Central US,Central US Store 72,2019-03-05,Clothing,Kids,7,25,88213811
-198,91,Central US,Central US Store 72,2019-05-15,Electronics,Televisions,3,300,70814763
-199,18,Central US,Central US Store 72,2019-06-22,Beauty/Health,Feminine Products,12,14,32890554
-200,66,Central US,Central US Store 72,2019-04-22,Baby,Cribs,9,30,29658566
-201,24,Central US,Central US Store 72,2019-05-03,Baby,Diaper bags,12,30,86017834
-202,54,Central US,Central US Store 72,2019-06-10,Furniture,Patio furniture,7,40,39802001
-203,19,Central US,Central US Store 72,2019-04-05,Beauty/Health,Oral care,6,15,13671710
-204,8,Central US,Central US Store 72,2019-03-08,Furniture,Patio furniture,5,75,48981636
-205,91,Central US,Central US Store 72,2019-06-09,Baby,Car seats,11,30,25914747
-206,50,Central US,Central US Store 72,2019-01-08,Beauty/Health,Makeup,7,14,87033364
-207,67,Central US,Central US Store 72,2019-02-23,Furniture,Indoor seating,3,15,38063439
-208,25,Central US,Central US Store 72,2019-01-13,Baby,Strollers,6,30,36782447
-209,11,Central US,Central US Store 72,2019-04-13,Furniture,Indoor tables,7,15,84922748
-210,66,Central US,Central US Store 72,2019-01-10,Furniture,Indoor seating,5,30,98325446
-211,29,Central US,Central US Store 72,2019-04-30,Baby,Diaper bags,5,30,63493542
-212,97,Central US,Central US Store 72,2019-05-09,Electronics,Speakers,4,50,99693834
-213,68,Central US,Central US Store 72,2019-05-28,Beauty/Health,Makeup,10,10,23239637
-214,34,Central US,Central US Store 72,2019-03-05,Baby,Diapers,5,12,98944653
-215,52,Central US,Central US Store 72,2019-02-21,Furniture,Indoor seating,4,75,17405037
-216,7,Central US,Central US Store 72,2019-01-07,Furniture,Indoor seating,4,40,90561382
-217,13,Central US,Central US Store 72,2019-01-11,Beauty/Health,Feminine Products,4,15,21832226
-218,13,Central US,Central US Store 72,2019-01-10,Furniture,Pool furniture,7,100,23250052
-219,68,Central US,Central US Store 72,2019-02-26,Beauty/Health,Fragrances,3,10,12067855
-220,23,Central US,Central US Store 72,2019-04-27,Clothing,Womens,9,25,24594942
-221,70,Central US,Central US Store 72,2019-04-10,Electronics,Tablets,4,50,73707836
-222,47,Central US,Central US Store 72,2019-06-03,Electronics,Speakers,4,50,17789314
-223,28,Central US,Central US Store 72,2019-04-17,Furniture,Indoor tables,7,75,95503099
-224,11,Central US,Central US Store 72,2019-03-04,Electronics,Headphones,3,200,71061507
-225,24,Central US,Central US Store 72,2019-03-08,Baby,Strollers,7,30,98652175
-226,45,Central US,Central US Store 72,2019-06-23,Furniture,Indoor seating,12,100,55129618
-227,70,Central US,Central US Store 72,2019-01-29,Electronics,Computers,4,100,54782950
-228,25,Central US,Central US Store 72,2019-02-21,Clothing,Womens,7,10,41459898
-229,39,Central US,Central US Store 72,2019-02-02,Electronics,Headphones,4,100,37358974
-230,13,Central US,Central US Store 72,2019-02-22,Beauty/Health,Skincare,4,10,21496948
-231,79,Central US,Central US Store 72,2019-03-27,Furniture,Indoor seating,4,75,44459647
-232,52,Central US,Central US Store 72,2019-02-06,Beauty/Health,Fragrances,5,6,18697359
-233,43,Central US,Central US Store 72,2019-04-11,Furniture,Indoor tables,10,100,32259744
-234,31,Central US,Central US Store 72,2019-01-09,Furniture,Indoor tables,4,30,26275413
-235,27,Central US,Central US Store 72,2019-06-26,Furniture,Indoor tables,6,75,65011521
-236,64,Central US,Central US Store 72,2019-01-17,Clothing,Mens,4,10,18493274
-237,54,Central US,Central US Store 72,2019-04-21,Beauty/Health,Oral care,11,10,53456410
-238,63,Central US,Central US Store 72,2019-05-14,Electronics,Speakers,4,200,81808512
-239,94,Central US,Central US Store 72,2019-05-23,Baby,Diapers,11,10,59775189
-240,17,Central US,Central US Store 72,2019-04-24,Baby,Diapers,5,5,35242942
-241,50,Central US,Central US Store 72,2019-04-30,Furniture,Indoor tables,7,40,82908148
-242,46,Central US,Central US Store 72,2019-02-23,Clothing,Mens,7,12,43425668
-243,98,Central US,Central US Store 72,2019-01-15,Furniture,Patio furniture,7,40,67182651
-244,39,Central US,Central US Store 72,2019-01-10,Electronics,Headphones,3,300,62063999
-245,93,Central US,Central US Store 72,2019-01-26,Furniture,Indoor seating,3,75,12632216
-246,45,Central US,Central US Store 72,2019-01-22,Clothing,Swimwear,6,25,77236915
-247,9,Central US,Central US Store 72,2019-07-14,Clothing,Womens,11,13,67265580
-248,36,Central US,Central US Store 72,2019-07-02,Clothing,Mens,6,13,79877325
-249,22,Central US,Central US Store 72,2019-02-25,Furniture,Patio furniture,4,40,59264500
-250,28,Central US,Central US Store 72,2019-03-04,Clothing,Kids,7,10,39068356
-251,58,Central US,Central US Store 72,2019-06-14,Clothing,Womens,6,13,54139443
-252,36,Central US,Central US Store 72,2019-07-10,Baby,Diaper bags,7,10,22056142
-253,17,Central US,Central US Store 72,2019-02-23,Clothing,Womens,5,25,96260963
-254,62,Central US,Central US Store 72,2019-06-05,Beauty/Health,Feminine Products,8,6,34706132
-255,41,Central US,Central US Store 72,2019-01-10,Clothing,Womens,5,25,24910398
-256,94,Central US,Central US Store 72,2019-03-18,Furniture,Indoor tables,3,100,49611809
-257,50,Central US,Central US Store 72,2019-06-17,Clothing,Kids,8,10,84227944
-258,20,Central US,Central US Store 72,2019-05-24,Beauty/Health,Haircare,6,10,58062839
-259,55,Central US,Central US Store 72,2019-05-24,Electronics,Headphones,3,300,73925039
-260,41,Central US,Central US Store 72,2019-05-17,Clothing,Kids,8,20,76525956
-261,67,Central US,Central US Store 72,2019-06-25,Baby,Cribs,12,30,69749466
-262,28,Central US,Central US Store 72,2019-06-13,Furniture,Patio furniture,9,30,77178123
-263,17,Central US,Central US Store 72,2019-06-30,Furniture,Beds,10,30,90911849
-264,35,Central US,Central US Store 72,2019-02-13,Electronics,Speakers,3,200,96545992
-265,55,Central US,Central US Store 72,2019-02-24,Baby,Cribs,3,30,14882952
-266,37,Central US,Central US Store 72,2019-02-10,Electronics,Tablets,3,100,75842817
-267,50,Central US,Central US Store 72,2019-06-19,Beauty/Health,Skincare,6,10,84230737
-268,2,Central US,Central US Store 72,2019-07-01,Beauty/Health,Oral care,11,15,69580524
-269,100,Central US,Central US Store 72,2019-03-31,Clothing,Shoes,4,10,45818555
-270,91,Central US,Central US Store 72,2019-01-02,Clothing,Baby,6,12,62126407
-271,93,Central US,Central US Store 72,2019-04-06,Clothing,Swimwear,7,25,24142736
-272,89,Central US,Central US Store 72,2019-05-21,Clothing,Swimwear,5,20,53790733
-273,13,Central US,Central US Store 72,2019-05-22,Baby,Baby toys,11,5,37418940
-274,88,Central US,Central US Store 72,2019-05-07,Clothing,Swimwear,10,25,57229158
-275,12,Central US,Central US Store 72,2019-02-26,Baby,Cribs,6,30,56898212
-276,31,Central US,Central US Store 72,2019-04-06,Electronics,Televisions,4,100,21637401
-277,99,Central US,Central US Store 72,2019-06-28,Furniture,Indoor seating,10,30,48366424
-278,24,Central US,Central US Store 72,2019-02-04,Beauty/Health,Oral care,7,10,39608549
-279,14,Central US,Central US Store 72,2019-04-23,Electronics,Tablets,3,200,44640845
-280,49,Central US,Central US Store 72,2019-03-26,Clothing,Swimwear,4,10,70166525
-281,48,Central US,Central US Store 72,2019-04-18,Clothing,Mens,6,20,54858797
-282,30,Central US,Central US Store 72,2019-05-01,Furniture,Pool furniture,8,75,88061292
-283,62,Central US,Central US Store 72,2019-01-06,Clothing,Swimwear,4,20,60600152
-284,24,Central US,Central US Store 72,2019-02-28,Furniture,Pool furniture,5,75,40348205
-285,57,Central US,Central US Store 72,2019-03-02,Beauty/Health,Skincare,7,14,67184019
-286,90,Central US,Central US Store 72,2019-06-25,Electronics,Tablets,4,50,11802571
-287,23,Central US,Central US Store 72,2019-06-29,Beauty/Health,Feminine Products,9,10,20369067
-288,83,Central US,Central US Store 72,2019-04-05,Furniture,Indoor tables,4,30,12677309
-289,33,Central US,Central US Store 72,2019-05-09,Baby,Strollers,7,10,48206424
-290,94,Central US,Central US Store 72,2019-03-19,Baby,Baby toys,6,30,43646289
-291,58,Central US,Central US Store 72,2019-05-10,Furniture,Indoor tables,11,15,39289159
-292,30,Central US,Central US Store 72,2019-06-04,Furniture,Patio furniture,9,40,45567961
-293,63,Central US,Central US Store 72,2019-03-07,Clothing,Mens,6,25,59140910
-294,64,Central US,Central US Store 72,2019-03-22,Clothing,Kids,3,12,77553641
-295,23,Central US,Central US Store 72,2019-02-07,Electronics,Televisions,4,50,27047481
-296,75,Central US,Central US Store 72,2019-07-05,Baby,Cribs,7,12,50107230
-297,4,Central US,Central US Store 72,2019-07-13,Beauty/Health,Bath,11,10,53069821
-298,33,Central US,Central US Store 72,2019-06-05,Electronics,Tablets,3,200,60256609
-299,2,Central US,Central US Store 72,2019-03-10,Clothing,Shoes,5,13,34755496
-300,16,Central US,Central US Store 72,2019-07-04,Furniture,Beds,8,15,94761547
-301,82,Central US,Central US Store 72,2019-02-28,Baby,Car seats,4,30,42897223
-302,14,Central US,Central US Store 72,2019-06-27,Baby,Strollers,5,10,75844451
-303,9,Central US,Central US Store 72,2019-04-04,Furniture,Indoor seating,4,40,32792758
-304,21,Central US,Central US Store 72,2019-04-22,Furniture,Pool furniture,11,30,42736599
-305,11,Central US,Central US Store 72,2019-01-10,Clothing,Swimwear,3,25,42139649
-306,72,Central US,Central US Store 72,2019-06-02,Furniture,Indoor seating,11,40,34981888
-307,16,Central US,Central US Store 72,2019-06-26,Furniture,Beds,7,30,62962408
-308,18,Central US,Central US Store 72,2019-01-10,Baby,Diaper bags,4,30,47961544
-309,19,Central US,Central US Store 72,2019-06-20,Clothing,Baby,8,20,30395847
-310,18,Central US,Central US Store 72,2019-02-25,Beauty/Health,Bath,3,10,27860842
-311,101,Central US,Central US Store 72,2019-06-02,Baby,Baby toys,8,15,28752367
-312,9,Central US,Central US Store 72,2019-03-27,Beauty/Health,Haircare,6,14,56244612
-313,23,Central US,Central US Store 72,2019-02-24,Electronics,Cell Phones,3,200,42370137
-314,92,Central US,Central US Store 72,2019-03-14,Baby,Diaper bags,5,30,17590975
-315,10,Central US,Central US Store 72,2019-05-16,Clothing,Shoes,6,25,68336327
-316,46,Central US,Central US Store 72,2019-01-09,Furniture,Pool furniture,7,100,26287612
-317,73,Central US,Central US Store 72,2019-06-27,Electronics,Computers,4,200,53630617
-318,92,Central US,Central US Store 72,2019-06-20,Clothing,Shoes,6,13,66886449
-319,47,Central US,Central US Store 72,2019-06-29,Baby,Strollers,8,12,65087029
-320,29,Central US,Central US Store 72,2019-01-11,Beauty/Health,Oral care,5,10,81457988
-321,25,Central US,Central US Store 72,2019-05-21,Electronics,Headphones,4,50,45882534
-322,12,Central US,Central US Store 72,2019-06-07,Clothing,Swimwear,8,10,45248388
-323,6,Central US,Central US Store 72,2019-02-13,Furniture,Beds,3,75,94268326
-324,48,Central US,Central US Store 72,2019-06-12,Furniture,Pool furniture,12,40,15659147
-325,25,Central US,Central US Store 72,2019-02-08,Clothing,Shoes,7,13,92651165
-326,15,Central US,Central US Store 72,2019-01-13,Beauty/Health,Oral care,5,6,80274373
-327,29,Central US,Central US Store 72,2019-03-14,Furniture,Indoor tables,4,75,58075698
-328,39,Central US,Central US Store 72,2019-02-06,Baby,Baby toys,7,10,89700763
-329,73,Central US,Central US Store 72,2019-03-02,Baby,Diapers,4,5,72938914
-330,82,Central US,Central US Store 72,2019-05-22,Baby,Diapers,10,5,46026178
-331,86,Central US,Central US Store 72,2019-06-10,Furniture,Indoor tables,12,100,80818136
-332,97,Central US,Central US Store 72,2019-05-19,Beauty/Health,Haircare,5,10,30866441
-333,20,Central US,Central US Store 72,2019-03-10,Beauty/Health,Bath,5,14,43132139
-334,82,Central US,Central US Store 72,2019-01-12,Electronics,Speakers,3,300,85425636
-335,54,Central US,Central US Store 72,2019-02-14,Clothing,Mens,3,20,58945398
-336,92,Central US,Central US Store 72,2019-06-02,Baby,Baby toys,8,12,83647896
-337,9,Central US,Central US Store 72,2019-04-19,Electronics,Speakers,3,50,41522032
-338,46,Central US,Central US Store 72,2019-01-03,Baby,Strollers,4,5,78855617
-339,93,Central US,Central US Store 72,2019-02-25,Baby,Cribs,5,12,13277697
-340,45,Central US,Central US Store 72,2019-02-17,Electronics,Speakers,3,100,88102149
-341,23,Central US,Central US Store 72,2019-04-09,Baby,Baby toys,8,10,54619220
-342,65,Central US,Central US Store 72,2019-04-12,Electronics,Headphones,4,200,68587660
-343,63,Central US,Central US Store 72,2019-05-19,Furniture,Indoor tables,7,40,85380350
-344,21,Central US,Central US Store 72,2019-04-30,Electronics,Speakers,4,300,40880326
-345,85,Central US,Central US Store 72,2019-06-02,Baby,Strollers,6,30,22007995
-346,91,Central US,Central US Store 72,2019-03-12,Baby,Strollers,6,12,26878375
-347,39,Central US,Central US Store 72,2019-02-12,Baby,Diaper bags,7,5,50797102
-348,7,Central US,Central US Store 72,2019-02-25,Electronics,Computers,3,100,65044860
-349,39,Central US,Central US Store 72,2019-06-15,Beauty/Health,Fragrances,12,10,19627563
-350,10,Central US,Central US Store 72,2019-01-28,Electronics,Cell Phones,3,50,60099697
-351,63,Central US,Central US Store 72,2019-03-27,Clothing,Swimwear,5,12,22130142
-352,83,Central US,Central US Store 72,2019-05-08,Furniture,Beds,7,100,90952318
-353,54,Central US,Central US Store 72,2019-01-09,Baby,Diapers,4,5,12512327
-354,34,Central US,Central US Store 72,2019-02-17,Baby,Cribs,7,10,42733253
-355,22,Central US,Central US Store 72,2019-03-05,Clothing,Mens,5,13,43909305
-356,80,Central US,Central US Store 72,2019-02-13,Clothing,Womens,4,13,86202619
-357,94,Central US,Central US Store 72,2019-02-23,Furniture,Indoor tables,4,100,21278533
-358,7,Central US,Central US Store 72,2019-01-09,Clothing,Shoes,5,20,97657298
-359,79,Central US,Central US Store 72,2019-03-07,Electronics,Televisions,3,300,79005479
-360,84,Central US,Central US Store 72,2019-02-14,Electronics,Cell Phones,4,300,70992339
-361,91,Central US,Central US Store 72,2019-04-23,Clothing,Swimwear,5,20,43783746
-362,29,Central US,Central US Store 72,2019-06-29,Electronics,Headphones,3,200,65915335
-363,2,Central US,Central US Store 72,2019-02-13,Furniture,Indoor seating,6,40,74336735
-364,19,Central US,Central US Store 72,2019-03-16,Electronics,Speakers,3,100,70850797
-365,19,Central US,Central US Store 72,2019-07-07,Beauty/Health,Fragrances,9,10,34346190
-366,39,Central US,Central US Store 72,2019-07-03,Baby,Strollers,10,10,18073639
-367,28,Central US,Central US Store 72,2019-01-22,Clothing,Kids,6,25,63166929
-368,74,Central US,Central US Store 72,2019-02-21,Furniture,Beds,7,15,51589708
-369,7,Central US,Central US Store 72,2019-01-05,Furniture,Pool furniture,7,30,54349219
-370,15,Central US,Central US Store 72,2019-02-09,Baby,Diaper bags,4,30,11127647
-371,20,Central US,Central US Store 72,2019-05-27,Baby,Baby toys,11,15,31462733
-372,11,Central US,Central US Store 72,2019-02-21,Furniture,Indoor tables,7,75,41251534
-373,2,Central US,Central US Store 72,2019-04-15,Clothing,Kids,5,20,59910424
-374,2,Central US,Central US Store 72,2019-04-06,Baby,Diaper bags,4,10,65971209
-375,81,Central US,Central US Store 72,2019-04-01,Electronics,Televisions,4,200,85091296
-376,48,Central US,Central US Store 72,2019-02-15,Clothing,Swimwear,6,20,77123151
-377,33,Central US,Central US Store 72,2019-05-21,Beauty/Health,Oral care,8,10,59264839
-378,91,Central US,Central US Store 72,2019-02-18,Electronics,Tablets,3,300,84858529
-379,77,Central US,Central US Store 72,2019-04-05,Furniture,Indoor seating,4,75,25161231
-380,99,Central US,Central US Store 72,2019-06-02,Electronics,Speakers,4,100,53321554
-381,30,Central US,Central US Store 72,2019-04-06,Electronics,Televisions,4,300,70590602
-382,7,Central US,Central US Store 72,2019-02-01,Baby,Baby toys,7,30,39708480
-383,3,Central US,Central US Store 72,2019-06-20,Clothing,Swimwear,5,25,23845267
-384,11,Central US,Central US Store 72,2019-03-12,Beauty/Health,Feminine Products,7,10,89602390
-385,57,Central US,Central US Store 72,2019-05-04,Clothing,Kids,6,20,94112635
-386,86,Central US,Central US Store 72,2019-03-24,Beauty/Health,Oral care,6,10,21846841
-387,70,Central US,Central US Store 72,2019-04-30,Electronics,Headphones,4,300,97535281
-388,16,Central US,Central US Store 72,2019-05-23,Baby,Car seats,5,15,51049707
-389,5,Central US,Central US Store 72,2019-03-29,Beauty/Health,Fragrances,4,10,10166565
-390,68,Central US,Central US Store 72,2019-07-04,Furniture,Pool furniture,9,15,93315377
-391,29,Central US,Central US Store 72,2019-01-20,Clothing,Shoes,3,20,82981738
-392,85,Central US,Central US Store 72,2019-06-11,Clothing,Kids,12,25,97598256
-393,28,Central US,Central US Store 72,2019-06-18,Furniture,Indoor seating,5,100,95300380
-394,85,Central US,Central US Store 72,2019-04-08,Baby,Car seats,7,15,80208316
-395,50,Central US,Central US Store 72,2019-05-14,Clothing,Swimwear,12,25,98305960
-396,35,Central US,Central US Store 72,2019-02-03,Clothing,Baby,6,20,60542584
-397,90,Central US,Central US Store 72,2019-02-03,Baby,Baby toys,3,12,84290281
-398,12,Central US,Central US Store 72,2019-01-12,Furniture,Patio furniture,3,30,89762678
-399,8,Central US,Central US Store 72,2019-03-07,Electronics,Headphones,3,100,11572261
-400,47,Central US,Central US Store 72,2019-03-10,Clothing,Baby,6,13,78067866
-401,86,Central US,Central US Store 72,2019-03-17,Furniture,Pool furniture,7,30,61725395
-402,73,Central US,Central US Store 72,2019-07-12,Beauty/Health,Oral care,10,14,75917187
-403,101,Central US,Central US Store 72,2019-07-16,Clothing,Mens,12,12,77760933
-404,10,Central US,Central US Store 72,2019-01-28,Beauty/Health,Skincare,4,10,42220927
-405,21,Central US,Central US Store 72,2019-06-19,Furniture,Indoor seating,5,40,54619660
-406,18,Central US,Central US Store 72,2019-01-21,Furniture,Patio furniture,7,40,38454259
-407,90,Central US,Central US Store 72,2019-02-26,Baby,Car seats,7,30,10025196
-408,13,Central US,Central US Store 72,2019-05-17,Electronics,Cell Phones,3,200,21496892
-409,74,Central US,Central US Store 72,2019-04-13,Furniture,Indoor tables,5,15,68555255
-410,57,Central US,Central US Store 72,2019-05-26,Furniture,Indoor seating,8,40,74797210
-411,73,Central US,Central US Store 72,2019-03-28,Furniture,Pool furniture,6,40,61184209
-412,84,Central US,Central US Store 72,2019-04-21,Electronics,Computers,4,200,81346674
-413,82,Central US,Central US Store 72,2019-01-03,Baby,Diapers,4,5,11823050
-414,56,Central US,Central US Store 72,2019-05-26,Clothing,Kids,11,20,77236879
-415,87,Central US,Central US Store 72,2019-03-17,Baby,Cribs,4,10,10851820
-416,16,Central US,Central US Store 72,2019-05-16,Electronics,Cell Phones,4,50,20231689
-417,78,Central US,Central US Store 72,2019-05-02,Electronics,Tablets,3,300,56484988
-418,100,Central US,Central US Store 72,2019-04-13,Furniture,Indoor tables,6,40,21922669
-419,24,Central US,Central US Store 72,2019-06-19,Beauty/Health,Makeup,10,10,43685397
-420,87,Central US,Central US Store 72,2019-05-14,Furniture,Patio furniture,9,30,17841025
-421,71,Central US,Central US Store 72,2019-03-26,Baby,Car seats,4,30,96555600
-422,44,Central US,Central US Store 72,2019-02-11,Beauty/Health,Skincare,5,10,68989911
-423,59,Central US,Central US Store 72,2019-02-27,Baby,Cribs,4,10,85932152
-424,11,Central US,Central US Store 72,2019-01-01,Baby,Car seats,4,30,88856698
-425,86,Central US,Central US Store 72,2019-03-27,Beauty/Health,Skincare,4,10,30678640
-426,5,Central US,Central US Store 72,2019-06-23,Baby,Cribs,12,15,95965884
-427,98,Central US,Central US Store 72,2019-02-12,Clothing,Kids,5,25,82983088
-428,85,Central US,Central US Store 72,2019-07-10,Beauty/Health,Fragrances,6,10,51806188
-429,94,Central US,Central US Store 72,2019-05-08,Baby,Diapers,10,5,89612280
-430,94,Central US,Central US Store 72,2019-06-17,Beauty/Health,Feminine Products,11,6,15000227
-431,19,Central US,Central US Store 72,2019-02-03,Clothing,Kids,6,20,65179888
-432,33,Central US,Central US Store 72,2019-05-13,Beauty/Health,Feminine Products,9,10,23615228
-433,64,Central US,Central US Store 72,2019-01-24,Electronics,Tablets,3,100,88096388
-434,46,Central US,Central US Store 72,2019-06-23,Clothing,Shoes,6,25,37045576
-435,24,Central US,Central US Store 72,2019-06-30,Clothing,Womens,11,10,78129600
-436,49,Central US,Central US Store 72,2019-06-09,Beauty/Health,Makeup,12,15,80628227
-437,21,Central US,Central US Store 72,2019-04-12,Baby,Baby toys,5,30,89867855
-438,86,Central US,Central US Store 72,2019-06-02,Baby,Cribs,5,12,39456629
-439,62,Central US,Central US Store 72,2019-03-09,Beauty/Health,Skincare,5,10,82498800
-440,18,Central US,Central US Store 72,2019-06-03,Clothing,Shoes,7,25,93504917
-441,34,Central US,Central US Store 72,2019-03-06,Clothing,Shoes,3,25,48379384
-442,67,Central US,Central US Store 72,2019-05-07,Furniture,Indoor seating,9,75,49591975
-443,52,Central US,Central US Store 72,2019-05-17,Furniture,Patio furniture,6,100,37313813
-444,6,Central US,Central US Store 72,2019-02-12,Beauty/Health,Skincare,7,14,94381936
-445,68,Central US,Central US Store 72,2019-02-02,Furniture,Indoor tables,6,30,80294398
-446,7,Central US,Central US Store 72,2019-05-02,Electronics,Headphones,4,100,90446272
-447,53,Central US,Central US Store 72,2019-07-09,Electronics,Televisions,4,50,25216329
-448,77,Central US,Central US Store 72,2019-04-14,Electronics,Headphones,3,300,79567818
-449,83,Central US,Central US Store 72,2019-02-26,Baby,Strollers,5,10,65421593
-450,87,Central US,Central US Store 72,2019-06-08,Clothing,Kids,6,12,30040976
-451,2,Central US,Central US Store 72,2019-03-21,Furniture,Patio furniture,4,75,29652670
-452,61,Central US,Central US Store 72,2019-06-12,Clothing,Mens,12,10,45552925
-453,67,Central US,Central US Store 72,2019-05-22,Beauty/Health,Makeup,9,15,99432990
-454,17,Central US,Central US Store 72,2019-07-03,Beauty/Health,Feminine Products,10,14,22964352
-455,36,Central US,Central US Store 72,2019-03-04,Electronics,Headphones,4,100,36642009
-456,9,Central US,Central US Store 72,2019-01-08,Electronics,Tablets,3,200,76332027
-457,37,Central US,Central US Store 72,2019-05-10,Electronics,Headphones,3,50,46901099
-458,3,Central US,Central US Store 72,2019-04-12,Clothing,Swimwear,10,25,78681855
-459,4,Central US,Central US Store 72,2019-03-04,Furniture,Indoor seating,3,15,14671187
-460,91,Central US,Central US Store 72,2019-06-28,Beauty/Health,Haircare,6,10,70057668
-461,34,Central US,Central US Store 72,2019-05-20,Baby,Cribs,7,10,79754683
-462,90,Central US,Central US Store 72,2019-03-09,Beauty/Health,Feminine Products,3,14,57090605
-463,7,Central US,Central US Store 72,2019-02-04,Baby,Baby toys,7,12,64659672
-464,76,Central US,Central US Store 72,2019-05-21,Electronics,Televisions,3,200,44742728
-465,96,Central US,Central US Store 72,2019-07-15,Clothing,Swimwear,10,20,10107574
-466,90,Central US,Central US Store 72,2019-02-19,Baby,Strollers,4,30,77096467
-467,28,Central US,Central US Store 72,2019-02-04,Furniture,Beds,6,15,63605113
-468,57,Central US,Central US Store 72,2019-02-19,Electronics,Televisions,4,100,60073963
-469,25,Central US,Central US Store 72,2019-05-05,Electronics,Computers,3,200,88666347
-470,98,Central US,Central US Store 72,2019-06-07,Baby,Baby toys,11,12,83765538
-471,56,Central US,Central US Store 72,2019-01-02,Beauty/Health,Fragrances,7,15,27903778
-472,93,Central US,Central US Store 72,2019-06-30,Baby,Strollers,7,15,18871078
-473,31,Central US,Central US Store 72,2019-04-14,Baby,Baby toys,5,30,68739700
-474,2,Central US,Central US Store 72,2019-07-12,Electronics,Speakers,3,100,66310777
-475,95,Central US,Central US Store 72,2019-05-26,Baby,Strollers,7,10,58708916
-476,17,Central US,Central US Store 72,2019-06-20,Electronics,Headphones,3,300,30120058
-477,89,Central US,Central US Store 72,2019-05-16,Beauty/Health,Fragrances,10,10,69837144
-478,28,Central US,Central US Store 72,2019-06-16,Beauty/Health,Skincare,11,6,15389417
-479,56,Central US,Central US Store 72,2019-01-23,Furniture,Patio furniture,5,75,11617331
-480,98,Central US,Central US Store 72,2019-03-07,Furniture,Patio furniture,3,15,58893140
-481,9,Central US,Central US Store 72,2019-03-26,Furniture,Patio furniture,4,100,35450253
-482,35,Central US,Central US Store 72,2019-06-14,Baby,Car seats,11,10,22452740
-483,22,Central US,Central US Store 72,2019-06-20,Electronics,Televisions,3,300,33922465
-484,37,Central US,Central US Store 72,2019-02-27,Furniture,Beds,5,40,30755741
-485,72,Central US,Central US Store 72,2019-05-08,Baby,Diaper bags,8,30,31824354
-486,81,Central US,Central US Store 72,2019-02-16,Baby,Strollers,5,5,70439498
-487,50,Central US,Central US Store 72,2019-06-21,Electronics,Headphones,3,50,64290240
-488,43,Central US,Central US Store 72,2019-04-04,Furniture,Patio furniture,3,40,34111602
-489,46,Central US,Central US Store 72,2019-03-01,Baby,Baby toys,4,5,81946674
-490,82,Central US,Central US Store 72,2019-03-22,Beauty/Health,Makeup,7,6,42139160
-491,75,Central US,Central US Store 72,2019-06-21,Beauty/Health,Makeup,7,10,92513104
-492,42,Central US,Central US Store 72,2019-07-13,Baby,Car seats,11,5,44166151
-493,19,Central US,Central US Store 72,2019-07-07,Electronics,Speakers,4,100,71928977
-494,61,Central US,Central US Store 72,2019-04-16,Furniture,Indoor seating,10,40,97716544
-495,24,Central US,Central US Store 72,2019-04-01,Clothing,Mens,5,13,62669801
-496,33,Central US,Central US Store 72,2019-06-29,Electronics,Cell Phones,4,200,56344327
-497,16,Central US,Central US Store 72,2019-01-17,Baby,Diaper bags,3,15,77670438
-498,69,Central US,Central US Store 72,2019-01-31,Baby,Baby toys,6,5,85480896
-499,20,Central US,Central US Store 72,2019-06-22,Baby,Baby toys,7,30,17495791
-500,73,Central US,Central US Store 72,2019-02-16,Clothing,Kids,5,25,95002442
-501,69,Central US,Central US Store 72,2019-07-07,Beauty/Health,Bath,6,15,98711031
-502,52,Central US,Central US Store 72,2019-01-27,Beauty/Health,Bath,3,15,12057021
-503,24,Central US,Central US Store 72,2019-04-17,Furniture,Indoor seating,8,30,85925495
-504,59,Central US,Central US Store 72,2019-04-29,Electronics,Headphones,4,200,47924307
-505,57,Central US,Central US Store 72,2019-03-10,Beauty/Health,Oral care,5,14,20801633
-506,74,Central US,Central US Store 72,2019-02-07,Beauty/Health,Oral care,6,15,29512580
-507,100,Central US,Central US Store 72,2019-04-25,Beauty/Health,Oral care,8,10,66100445
-508,96,Central US,Central US Store 72,2019-06-12,Clothing,Womens,6,25,75414888
-509,80,Central US,Central US Store 72,2019-03-12,Furniture,Beds,4,15,14644360
-510,12,Central US,Central US Store 72,2019-05-24,Furniture,Patio furniture,9,15,11013823
-511,65,Central US,Central US Store 72,2019-02-27,Beauty/Health,Makeup,3,15,73154945
-512,35,Central US,Central US Store 72,2019-05-09,Baby,Car seats,7,15,60890201
-513,78,Central US,Central US Store 72,2019-06-20,Clothing,Shoes,12,20,49020099
-514,12,Central US,Central US Store 72,2019-06-06,Baby,Cribs,10,10,68755076
-515,29,Central US,Central US Store 72,2019-05-23,Electronics,Tablets,3,200,33269685
-516,91,Central US,Central US Store 72,2019-06-13,Beauty/Health,Oral care,9,14,64669742
-517,80,Central US,Central US Store 72,2019-02-03,Furniture,Indoor tables,3,40,71539602
-518,5,Central US,Central US Store 72,2019-02-11,Baby,Baby toys,3,10,96476128
-519,72,Central US,Central US Store 72,2019-03-11,Baby,Diaper bags,6,30,15749099
-520,94,Central US,Central US Store 72,2019-02-09,Baby,Diaper bags,4,30,18270228
-521,63,Central US,Central US Store 72,2019-02-18,Clothing,Baby,6,20,91481070
-522,7,Central US,Central US Store 72,2019-03-29,Beauty/Health,Fragrances,6,10,97213191
-523,53,Central US,Central US Store 72,2019-06-08,Clothing,Swimwear,12,25,80063091
-524,70,Central US,Central US Store 72,2019-04-02,Clothing,Shoes,7,25,14745214
-525,10,Central US,Central US Store 72,2019-03-07,Furniture,Patio furniture,3,75,74594372
-526,54,Central US,Central US Store 72,2019-01-29,Furniture,Indoor tables,6,15,66486235
-527,20,Central US,Central US Store 72,2019-01-06,Baby,Diapers,3,10,46244348
-528,98,Central US,Central US Store 72,2019-04-12,Electronics,Speakers,3,200,68500440
-529,7,Central US,Central US Store 72,2019-03-04,Electronics,Headphones,3,50,78692263
-530,100,Central US,Central US Store 72,2019-03-31,Clothing,Kids,7,13,35567217
-531,98,Central US,Central US Store 72,2019-05-25,Baby,Car seats,7,12,46262237
-532,20,Central US,Central US Store 72,2019-01-20,Beauty/Health,Haircare,3,10,66243301
-533,68,Central US,Central US Store 72,2019-05-16,Clothing,Shoes,12,20,63847456
-534,93,Central US,Central US Store 72,2019-04-15,Furniture,Patio furniture,9,30,29278264
-535,12,Central US,Central US Store 72,2019-02-21,Electronics,Headphones,4,200,83655258
-536,19,Central US,Central US Store 72,2019-04-18,Beauty/Health,Skincare,12,10,62335963
-537,90,Central US,Central US Store 72,2019-07-13,Electronics,Tablets,4,100,83579443
-538,64,Central US,Central US Store 72,2019-02-07,Baby,Diaper bags,4,30,21186201
-539,42,Central US,Central US Store 72,2019-02-03,Baby,Diaper bags,4,5,43648088
-540,79,Central US,Central US Store 72,2019-06-01,Baby,Strollers,11,15,88596969
-541,98,Central US,Central US Store 72,2019-06-27,Clothing,Shoes,10,20,39074089
-542,28,Central US,Central US Store 72,2019-05-20,Electronics,Televisions,4,50,65958835
-543,85,Central US,Central US Store 72,2019-03-01,Baby,Strollers,4,15,82975526
-544,90,Central US,Central US Store 72,2019-07-09,Clothing,Swimwear,11,10,64038168
-545,58,Central US,Central US Store 72,2019-04-18,Electronics,Headphones,3,100,89907848
-546,8,Central US,Central US Store 72,2019-01-11,Baby,Strollers,6,10,18035233
-547,32,Central US,Central US Store 72,2019-01-01,Electronics,Computers,4,100,47968827
-548,100,Central US,Central US Store 72,2019-03-28,Clothing,Womens,3,25,63138755
-549,36,Central US,Central US Store 72,2019-01-15,Beauty/Health,Feminine Products,3,10,58671958
-550,83,Central US,Central US Store 72,2019-02-10,Baby,Car seats,6,12,46153436
-551,94,Central US,Central US Store 72,2019-02-21,Clothing,Swimwear,4,20,31960846
-552,55,Central US,Central US Store 72,2019-03-09,Baby,Strollers,4,30,24317847
-553,52,Central US,Central US Store 72,2019-06-01,Electronics,Speakers,3,300,20557101
-554,76,Central US,Central US Store 72,2019-01-06,Electronics,Headphones,4,200,42654666
-555,23,Central US,Central US Store 72,2019-04-17,Baby,Strollers,8,10,47935767
-556,57,Central US,Central US Store 72,2019-04-27,Electronics,Cell Phones,3,200,36549845
-557,54,Central US,Central US Store 72,2019-03-11,Furniture,Indoor seating,3,100,29514002
-558,95,Central US,Central US Store 72,2019-05-18,Baby,Car seats,9,12,30924131
-559,22,Central US,Central US Store 72,2019-05-07,Clothing,Womens,10,10,84936665
-560,20,Central US,Central US Store 72,2019-04-15,Furniture,Indoor tables,9,15,62413218
-561,73,Central US,Central US Store 72,2019-04-17,Furniture,Indoor tables,8,40,33466241
-562,60,Central US,Central US Store 72,2019-06-02,Electronics,Cell Phones,3,100,66975123
-563,60,Central US,Central US Store 72,2019-06-17,Electronics,Televisions,4,200,26990480
-564,61,Central US,Central US Store 72,2019-03-29,Clothing,Womens,4,12,26970892
-565,24,Central US,Central US Store 72,2019-07-06,Clothing,Womens,11,10,74663100
-566,18,Central US,Central US Store 72,2019-04-09,Beauty/Health,Bath,7,14,99251041
-567,23,Central US,Central US Store 72,2019-02-26,Clothing,Baby,6,25,83502381
-568,85,Central US,Central US Store 72,2019-04-22,Baby,Car seats,11,5,53921976
-569,75,Central US,Central US Store 72,2019-03-06,Beauty/Health,Makeup,4,10,22656912
-570,44,Central US,Central US Store 72,2019-05-31,Baby,Diaper bags,6,30,14978710
-571,27,Central US,Central US Store 72,2019-06-10,Beauty/Health,Haircare,11,6,49272016
-572,1,Central US,Central US Store 72,2019-02-26,Furniture,Indoor tables,5,75,88536098
-573,48,Central US,Central US Store 72,2019-01-26,Beauty/Health,Fragrances,4,10,45507805
-574,3,Central US,Central US Store 72,2019-03-12,Beauty/Health,Makeup,7,10,97262030
-575,69,Central US,Central US Store 72,2019-07-09,Clothing,Baby,10,10,92464073
-576,84,Central US,Central US Store 72,2019-05-12,Furniture,Indoor tables,10,15,69678087
-577,71,Central US,Central US Store 72,2019-04-17,Clothing,Kids,11,12,41174365
-578,31,Central US,Central US Store 72,2019-06-18,Beauty/Health,Haircare,12,10,80333876
-579,29,Central US,Central US Store 72,2019-02-07,Furniture,Indoor tables,4,75,51851287
-580,81,Central US,Central US Store 72,2019-05-23,Beauty/Health,Skincare,12,10,47907421
-581,93,Central US,Central US Store 72,2019-04-18,Furniture,Indoor seating,6,40,46471333
-582,20,Central US,Central US Store 72,2019-02-04,Beauty/Health,Feminine Products,6,15,55354026
-583,81,Central US,Central US Store 72,2019-04-28,Electronics,Headphones,3,200,14975712
-584,5,Central US,Central US Store 72,2019-07-08,Clothing,Swimwear,12,25,39577679
-585,7,Central US,Central US Store 72,2019-04-30,Clothing,Shoes,11,25,94050854
-586,9,Central US,Central US Store 72,2019-05-02,Baby,Strollers,8,12,73382131
-587,19,Central US,Central US Store 72,2019-05-09,Beauty/Health,Oral care,12,15,17598472
-588,36,Central US,Central US Store 72,2019-05-28,Baby,Diaper bags,7,30,20230670
-589,31,Central US,Central US Store 72,2019-05-08,Furniture,Patio furniture,11,100,15033687
-590,62,Central US,Central US Store 72,2019-01-25,Baby,Car seats,6,15,82927606
-591,6,Central US,Central US Store 72,2019-04-10,Electronics,Televisions,3,300,70445358
-592,86,Central US,Central US Store 72,2019-01-22,Furniture,Pool furniture,4,75,77541675
-593,19,Central US,Central US Store 72,2019-04-17,Baby,Diaper bags,7,15,27162480
-594,52,Central US,Central US Store 72,2019-07-02,Electronics,Headphones,4,100,18927542
-595,33,Central US,Central US Store 72,2019-01-21,Clothing,Baby,4,12,70419341
-596,28,Central US,Central US Store 72,2019-06-26,Clothing,Baby,5,13,65297764
-597,81,Central US,Central US Store 72,2019-05-02,Electronics,Headphones,4,100,22371705
-598,87,Central US,Central US Store 72,2019-02-19,Baby,Diapers,5,5,29023312
-599,70,Central US,Central US Store 72,2019-05-30,Furniture,Indoor seating,11,100,72924205
-600,54,Central US,Central US Store 72,2019-03-29,Clothing,Shoes,3,13,78300610
-601,57,Central US,Central US Store 72,2019-05-21,Electronics,Computers,3,300,62497202
-602,16,Central US,Central US Store 72,2019-01-17,Clothing,Mens,3,12,83845033
-603,19,Central US,Central US Store 72,2019-06-07,Furniture,Beds,12,40,80712357
-604,98,Central US,Central US Store 72,2019-04-02,Clothing,Shoes,4,12,29699779
-605,91,Central US,Central US Store 72,2019-07-16,Beauty/Health,Feminine Products,5,6,98996355
-606,43,Central US,Central US Store 72,2019-02-06,Furniture,Patio furniture,5,75,89364933
-607,21,Central US,Central US Store 72,2019-04-11,Baby,Strollers,5,30,63212527
-608,22,Central US,Central US Store 72,2019-02-11,Furniture,Pool furniture,5,15,70850231
-609,45,Central US,Central US Store 72,2019-07-07,Clothing,Swimwear,5,25,31500171
-610,20,Central US,Central US Store 72,2019-01-04,Baby,Car seats,5,30,13677990
-611,49,Central US,Central US Store 72,2019-04-10,Beauty/Health,Makeup,7,10,21540293
-612,74,Central US,Central US Store 72,2019-06-30,Furniture,Patio furniture,9,100,43268333
-613,6,Central US,Central US Store 72,2019-02-04,Beauty/Health,Feminine Products,6,14,99932286
-614,14,Central US,Central US Store 72,2019-02-18,Electronics,Televisions,3,300,63945523
-615,31,Central US,Central US Store 72,2019-01-21,Electronics,Computers,3,300,57680544
-616,35,Central US,Central US Store 72,2019-04-09,Furniture,Patio furniture,11,30,66117419
-617,56,Central US,Central US Store 72,2019-03-01,Clothing,Mens,5,13,27370059
-618,98,Central US,Central US Store 72,2019-07-14,Baby,Strollers,6,10,24880433
-619,52,Central US,Central US Store 72,2019-04-08,Beauty/Health,Fragrances,5,6,20675049
-620,97,Central US,Central US Store 72,2019-04-24,Baby,Baby toys,7,10,72893308
-621,41,Central US,Central US Store 72,2019-02-18,Clothing,Mens,3,13,83089169
-622,78,Central US,Central US Store 72,2019-05-30,Clothing,Shoes,11,20,91111452
-623,73,Central US,Central US Store 72,2019-04-26,Electronics,Headphones,3,100,23655113
-624,1,Central US,Central US Store 72,2019-02-09,Clothing,Kids,6,12,13367360
-625,62,Central US,Central US Store 72,2019-06-27,Electronics,Cell Phones,3,300,43412410
-626,64,Central US,Central US Store 72,2019-01-17,Clothing,Baby,3,10,32830990
-627,21,Central US,Central US Store 72,2019-01-14,Clothing,Swimwear,5,10,59116974
-628,3,Central US,Central US Store 72,2019-03-09,Baby,Diapers,7,5,21600454
-629,23,Central US,Central US Store 72,2019-05-15,Clothing,Mens,6,13,33466266
-630,86,Central US,Central US Store 72,2019-04-16,Baby,Diaper bags,11,12,49662541
-631,35,Central US,Central US Store 72,2019-02-09,Clothing,Swimwear,7,10,30804824
-632,74,Central US,Central US Store 72,2019-01-31,Clothing,Shoes,3,13,87074659
-633,97,Central US,Central US Store 72,2019-06-23,Furniture,Indoor tables,5,15,86641174
-634,35,Central US,Central US Store 72,2019-06-06,Beauty/Health,Haircare,7,6,25544208
-635,76,Central US,Central US Store 72,2019-01-17,Beauty/Health,Fragrances,3,10,48954069
-636,26,Central US,Central US Store 72,2019-05-26,Baby,Strollers,9,10,13662711
-637,27,Central US,Central US Store 72,2019-04-25,Electronics,Computers,4,200,91015679
-638,3,Central US,Central US Store 72,2019-06-13,Clothing,Womens,10,20,56816359
-639,38,Central US,Central US Store 72,2019-04-10,Baby,Diaper bags,12,5,46894858
-640,92,Central US,Central US Store 72,2019-02-06,Baby,Car seats,6,30,19581732
-641,53,Central US,Central US Store 72,2019-05-13,Clothing,Swimwear,5,13,72836019
-642,14,Central US,Central US Store 72,2019-02-12,Baby,Cribs,4,30,62577607
-643,52,Central US,Central US Store 72,2019-05-28,Beauty/Health,Fragrances,9,14,46262762
-644,45,Central US,Central US Store 72,2019-04-11,Clothing,Kids,9,13,58430633
-645,5,Central US,Central US Store 72,2019-03-02,Furniture,Patio furniture,6,15,62194146
-646,58,Central US,Central US Store 72,2019-04-22,Clothing,Baby,5,25,87146050
-647,28,Central US,Central US Store 72,2019-02-08,Electronics,Computers,3,300,91622199
-648,4,Central US,Central US Store 72,2019-06-02,Clothing,Baby,5,25,65496289
-649,6,Central US,Central US Store 72,2019-07-09,Baby,Cribs,9,30,89654760
-650,55,Central US,Central US Store 72,2019-04-02,Furniture,Indoor tables,6,40,60676948
-651,50,Central US,Central US Store 72,2019-06-14,Electronics,Computers,4,100,40767692
-652,55,Central US,Central US Store 72,2019-07-09,Furniture,Indoor seating,6,15,43364508
-653,4,Central US,Central US Store 72,2019-03-08,Beauty/Health,Skincare,3,6,81593519
-654,2,Central US,Central US Store 72,2019-05-30,Electronics,Televisions,4,200,95323552
-655,77,Central US,Central US Store 72,2019-02-11,Baby,Car seats,5,12,95250826
-656,31,Central US,Central US Store 72,2019-05-14,Furniture,Indoor tables,11,40,67620298
-657,96,Central US,Central US Store 72,2019-02-08,Clothing,Shoes,6,10,11581577
-658,79,Central US,Central US Store 72,2019-03-22,Beauty/Health,Makeup,7,10,14675418
-659,34,Central US,Central US Store 72,2019-04-20,Baby,Baby toys,5,15,85804246
-660,68,Central US,Central US Store 72,2019-01-29,Baby,Diapers,3,12,16087446
-661,99,Central US,Central US Store 72,2019-04-10,Furniture,Pool furniture,7,15,98958549
-662,66,Central US,Central US Store 72,2019-05-08,Beauty/Health,Makeup,5,10,39096890
-663,92,Central US,Central US Store 72,2019-02-25,Baby,Baby toys,6,15,90198948
-664,90,Central US,Central US Store 72,2019-01-23,Electronics,Headphones,3,100,46036820
-665,39,Central US,Central US Store 72,2019-01-18,Furniture,Patio furniture,5,15,28571322
-666,67,Central US,Central US Store 72,2019-07-06,Furniture,Indoor seating,10,75,60104900
-667,21,Central US,Central US Store 72,2019-06-25,Clothing,Shoes,5,13,43520199
-668,33,Central US,Central US Store 72,2019-02-10,Beauty/Health,Skincare,7,6,39232909
-669,50,Central US,Central US Store 72,2019-03-10,Beauty/Health,Skincare,6,6,53703040
-670,80,Central US,Central US Store 72,2019-04-30,Electronics,Televisions,3,300,16771197
-671,19,Central US,Central US Store 72,2019-02-17,Electronics,Headphones,4,100,71303893
-672,101,Central US,Central US Store 72,2019-04-03,Furniture,Beds,6,75,51310103
-673,57,Central US,Central US Store 72,2019-04-15,Electronics,Speakers,3,50,30682895
-674,2,Central US,Central US Store 72,2019-03-01,Baby,Diapers,7,30,55764275
-675,15,Central US,Central US Store 72,2019-05-20,Clothing,Kids,6,25,11884120
-676,14,Central US,Central US Store 72,2019-07-11,Beauty/Health,Feminine Products,8,14,34630606
-677,81,Central US,Central US Store 72,2019-03-05,Clothing,Shoes,4,25,42289210
-678,36,Central US,Central US Store 72,2019-01-07,Beauty/Health,Skincare,6,10,14910540
-679,99,Central US,Central US Store 72,2019-06-28,Baby,Car seats,12,5,49806463
-680,82,Central US,Central US Store 72,2019-01-18,Beauty/Health,Makeup,6,10,25947910
-681,9,Central US,Central US Store 72,2019-07-04,Baby,Diapers,10,12,39472928
-682,19,Central US,Central US Store 72,2019-05-28,Electronics,Cell Phones,3,100,16168725
-683,83,Central US,Central US Store 72,2019-04-01,Beauty/Health,Makeup,7,14,61083948
-684,93,Central US,Central US Store 72,2019-05-24,Beauty/Health,Feminine Products,10,15,75847961
-685,4,Central US,Central US Store 72,2019-06-12,Electronics,Cell Phones,4,300,73070243
-686,84,Central US,Central US Store 72,2019-01-03,Beauty/Health,Skincare,6,6,25080264
-687,15,Central US,Central US Store 72,2019-03-04,Baby,Cribs,7,30,36393750
-688,36,Central US,Central US Store 72,2019-03-28,Electronics,Computers,3,50,69654307
-689,42,Central US,Central US Store 72,2019-03-14,Beauty/Health,Feminine Products,4,10,35910182
-690,68,Central US,Central US Store 72,2019-01-06,Beauty/Health,Bath,5,10,66130402
-691,77,Central US,Central US Store 72,2019-03-21,Beauty/Health,Haircare,3,10,81413875
-692,70,Central US,Central US Store 72,2019-03-27,Electronics,Headphones,3,200,54537634
-693,75,Central US,Central US Store 72,2019-02-24,Baby,Strollers,4,12,58778707
-694,74,Central US,Central US Store 72,2019-03-14,Electronics,Speakers,3,300,60192748
-695,74,Central US,Central US Store 72,2019-03-17,Clothing,Mens,6,12,52681118
-696,79,Central US,Central US Store 72,2019-01-15,Beauty/Health,Makeup,4,6,15641104
-697,56,Central US,Central US Store 72,2019-04-15,Furniture,Beds,6,100,75044184
-698,18,Central US,Central US Store 72,2019-01-14,Electronics,Televisions,3,200,69544589
-699,7,Central US,Central US Store 72,2019-03-10,Baby,Car seats,4,30,29255090
-700,33,Central US,Central US Store 72,2019-07-12,Furniture,Indoor tables,9,15,42029244
-701,21,Central US,Central US Store 72,2019-06-18,Furniture,Pool furniture,6,100,24152425
-702,101,Central US,Central US Store 72,2019-03-11,Electronics,Headphones,3,100,98118765
-703,51,Central US,Central US Store 72,2019-06-01,Baby,Car seats,5,15,14416548
-704,21,Central US,Central US Store 72,2019-06-28,Baby,Cribs,11,30,46484448
-705,51,Central US,Central US Store 72,2019-06-21,Furniture,Pool furniture,10,15,39562762
-706,28,Central US,Central US Store 72,2019-02-13,Beauty/Health,Feminine Products,4,10,63067258
-707,88,Central US,Central US Store 72,2019-05-06,Electronics,Computers,4,200,89491190
-708,35,Central US,Central US Store 72,2019-07-16,Baby,Baby toys,9,12,70054513
-709,75,Central US,Central US Store 72,2019-03-07,Furniture,Indoor tables,5,75,90019449
-710,83,Central US,Central US Store 72,2019-02-23,Clothing,Shoes,3,12,53990626
-711,6,Central US,Central US Store 72,2019-02-16,Baby,Cribs,5,30,63491463
-712,58,Central US,Central US Store 72,2019-01-20,Electronics,Speakers,4,200,52079544
-713,43,Central US,Central US Store 72,2019-07-15,Furniture,Beds,8,30,75143723
-714,63,Central US,Central US Store 72,2019-01-11,Clothing,Kids,7,20,58677600
-715,46,Central US,Central US Store 72,2019-04-21,Beauty/Health,Fragrances,6,15,52521381
-716,26,Central US,Central US Store 72,2019-04-07,Beauty/Health,Haircare,3,10,52951211
-717,69,Central US,Central US Store 72,2019-04-21,Baby,Diapers,10,10,95604309
-718,36,Central US,Central US Store 72,2019-05-15,Clothing,Kids,5,12,53709906
-719,97,Central US,Central US Store 72,2019-06-17,Baby,Diapers,12,10,42506928
-720,4,Central US,Central US Store 72,2019-04-06,Clothing,Baby,7,13,81182745
-721,3,Central US,Central US Store 72,2019-01-09,Clothing,Womens,3,25,85535994
-722,90,Central US,Central US Store 72,2019-05-07,Furniture,Indoor seating,9,30,70567435
-723,47,Central US,Central US Store 72,2019-01-06,Beauty/Health,Bath,7,14,67533610
-724,54,Central US,Central US Store 72,2019-04-17,Electronics,Headphones,3,100,43202800
-725,25,Central US,Central US Store 72,2019-04-09,Baby,Car seats,8,30,29349239
-726,42,Central US,Central US Store 72,2019-06-26,Baby,Diaper bags,10,15,96729975
-727,36,Central US,Central US Store 72,2019-01-10,Clothing,Swimwear,6,25,66229165
-728,38,Central US,Central US Store 72,2019-02-13,Baby,Diapers,7,30,79548847
-729,82,Central US,Central US Store 72,2019-05-02,Beauty/Health,Bath,11,10,90981798
-730,30,Central US,Central US Store 72,2019-06-21,Clothing,Womens,11,20,48569488
-731,77,Central US,Central US Store 72,2019-07-16,Beauty/Health,Fragrances,10,10,25096561
-732,57,Central US,Central US Store 72,2019-04-12,Clothing,Shoes,12,12,13032522
-733,13,Central US,Central US Store 72,2019-04-24,Clothing,Swimwear,9,25,11310190
-734,69,Central US,Central US Store 72,2019-04-12,Baby,Strollers,5,30,76540620
-735,41,Central US,Central US Store 72,2019-04-03,Electronics,Speakers,4,100,78673107
-736,60,Central US,Central US Store 72,2019-07-10,Electronics,Speakers,4,50,12976232
-737,57,Central US,Central US Store 72,2019-06-06,Electronics,Televisions,4,200,28495867
-738,100,Central US,Central US Store 72,2019-07-02,Electronics,Cell Phones,3,300,87458491
-739,4,Central US,Central US Store 72,2019-05-22,Furniture,Beds,11,100,85925343
-740,92,Central US,Central US Store 72,2019-04-16,Clothing,Mens,6,13,10183856
-741,6,Central US,Central US Store 72,2019-01-13,Furniture,Indoor tables,7,75,65826873
-742,26,Central US,Central US Store 72,2019-06-03,Baby,Strollers,9,10,46588754
-743,97,Central US,Central US Store 72,2019-05-23,Electronics,Computers,3,300,90281274
-744,34,Central US,Central US Store 72,2019-03-23,Electronics,Headphones,4,200,10910088
-745,61,Central US,Central US Store 72,2019-01-04,Electronics,Speakers,3,200,92481569
-746,97,Central US,Central US Store 72,2019-03-25,Beauty/Health,Skincare,3,10,43057751
-747,21,Central US,Central US Store 72,2019-07-10,Baby,Diapers,10,30,45841129
-748,51,Central US,Central US Store 72,2019-05-20,Baby,Diapers,6,10,55728245
-749,34,Central US,Central US Store 72,2019-01-24,Clothing,Swimwear,5,25,82711414
-750,62,Central US,Central US Store 72,2019-04-02,Electronics,Speakers,4,200,62798596
-751,72,Central US,Central US Store 72,2019-06-18,Electronics,Televisions,4,100,79311913
-752,51,Central US,Central US Store 72,2019-04-04,Clothing,Mens,5,25,59889292
-753,61,Central US,Central US Store 72,2019-05-03,Clothing,Swimwear,7,10,13902947
-754,73,Central US,Central US Store 72,2019-02-15,Electronics,Televisions,4,100,75425852
-755,45,Central US,Central US Store 72,2019-05-19,Clothing,Mens,12,25,67242025
-756,2,Central US,Central US Store 72,2019-06-03,Electronics,Tablets,3,100,36545521
-757,72,Central US,Central US Store 72,2019-05-27,Furniture,Patio furniture,9,15,23220525
-758,57,Central US,Central US Store 72,2019-06-08,Clothing,Shoes,10,10,41152986
-759,26,Central US,Central US Store 72,2019-02-17,Furniture,Indoor tables,6,40,51578419
-760,76,Central US,Central US Store 72,2019-05-05,Electronics,Cell Phones,3,200,45490398
-761,59,Central US,Central US Store 72,2019-05-19,Clothing,Mens,7,25,75823743
-762,49,Central US,Central US Store 72,2019-02-23,Electronics,Headphones,4,50,53686268
-763,6,Central US,Central US Store 72,2019-01-21,Beauty/Health,Feminine Products,3,10,53436296
-764,62,Central US,Central US Store 72,2019-03-10,Furniture,Indoor seating,6,15,43693662
-765,91,Central US,Central US Store 72,2019-04-18,Furniture,Pool furniture,7,30,52614701
-766,26,Central US,Central US Store 72,2019-05-23,Electronics,Tablets,3,300,60293776
-767,24,Central US,Central US Store 72,2019-01-02,Electronics,Cell Phones,3,100,17485027
-768,64,Central US,Central US Store 72,2019-01-07,Baby,Strollers,7,12,54917235
-769,50,Central US,Central US Store 72,2019-05-21,Baby,Car seats,9,12,89400685
-770,33,Central US,Central US Store 72,2019-05-29,Furniture,Indoor tables,10,15,89934057
-771,101,Central US,Central US Store 72,2019-06-17,Furniture,Indoor tables,12,100,80365334
-772,57,Central US,Central US Store 72,2019-05-23,Furniture,Beds,5,75,54227585
-773,27,Central US,Central US Store 72,2019-03-20,Electronics,Televisions,4,100,17583361
-774,33,Central US,Central US Store 72,2019-07-08,Electronics,Televisions,4,200,98549771
-775,95,Central US,Central US Store 72,2019-05-24,Electronics,Televisions,3,100,43513479
-776,49,Central US,Central US Store 72,2019-05-05,Electronics,Headphones,4,100,20738053
-777,3,Central US,Central US Store 72,2019-03-07,Furniture,Indoor tables,3,40,52284883
-778,50,Central US,Central US Store 72,2019-02-12,Electronics,Computers,3,200,41928048
-779,37,Central US,Central US Store 72,2019-01-04,Beauty/Health,Fragrances,4,6,64272182
-780,80,Central US,Central US Store 72,2019-02-20,Beauty/Health,Bath,5,10,18720477
-781,68,Central US,Central US Store 72,2019-03-25,Electronics,Tablets,3,200,18523134
-782,16,Central US,Central US Store 72,2019-01-13,Clothing,Swimwear,7,13,88358381
-783,14,Central US,Central US Store 72,2019-01-17,Electronics,Speakers,3,300,17212999
-784,95,Central US,Central US Store 72,2019-04-08,Furniture,Pool furniture,5,100,89779571
-785,35,Central US,Central US Store 72,2019-03-29,Electronics,Tablets,4,50,70972421
-786,5,Central US,Central US Store 72,2019-01-15,Furniture,Indoor tables,6,15,98225205
-787,86,Central US,Central US Store 72,2019-02-01,Furniture,Indoor seating,6,40,43442016
-788,36,Central US,Central US Store 72,2019-03-28,Electronics,Cell Phones,4,300,88286293
-789,47,Central US,Central US Store 72,2019-01-03,Baby,Car seats,5,30,73846040
-790,46,Central US,Central US Store 72,2019-06-14,Baby,Strollers,7,30,27549751
-791,77,Central US,Central US Store 72,2019-03-16,Beauty/Health,Makeup,4,15,26524676
-792,72,Central US,Central US Store 72,2019-03-16,Baby,Car seats,3,15,28444383
-793,36,Central US,Central US Store 72,2019-01-13,Beauty/Health,Fragrances,4,15,73191394
-794,12,Central US,Central US Store 72,2019-01-07,Beauty/Health,Bath,5,6,81936388
-795,28,Central US,Central US Store 72,2019-06-25,Furniture,Indoor seating,5,15,34757973
-796,19,Central US,Central US Store 72,2019-06-28,Baby,Car seats,12,15,55417243
-797,3,Central US,Central US Store 72,2019-01-28,Clothing,Kids,6,10,21261431
-798,62,Central US,Central US Store 72,2019-01-02,Furniture,Beds,6,40,97407183
-799,2,Central US,Central US Store 72,2019-02-20,Baby,Strollers,4,30,45506719
-800,6,Central US,Central US Store 72,2019-06-28,Beauty/Health,Bath,11,15,30239198
-801,64,Central US,Central US Store 72,2019-02-15,Electronics,Cell Phones,4,300,89060167
-802,12,Central US,Central US Store 72,2019-01-26,Furniture,Indoor tables,6,30,58829953
-803,75,Central US,Central US Store 72,2019-01-28,Baby,Diapers,7,12,58556872
-804,73,Central US,Central US Store 72,2019-06-17,Electronics,Speakers,3,100,46025715
-805,94,Central US,Central US Store 72,2019-02-24,Furniture,Indoor seating,6,40,58972567
-806,44,Central US,Central US Store 72,2019-07-09,Clothing,Mens,11,20,18887812
-807,21,Central US,Central US Store 72,2019-01-25,Furniture,Indoor tables,4,40,22143736
-808,30,Central US,Central US Store 72,2019-05-18,Electronics,Speakers,3,100,69976113
-809,78,Central US,Central US Store 72,2019-06-05,Electronics,Computers,3,100,16658573
-810,36,Central US,Central US Store 72,2019-05-01,Furniture,Patio furniture,7,100,37759344
-811,5,Central US,Central US Store 72,2019-05-13,Furniture,Indoor seating,6,100,84787358
-812,100,Central US,Central US Store 72,2019-04-15,Beauty/Health,Oral care,11,10,65827719
-813,77,Central US,Central US Store 72,2019-03-06,Beauty/Health,Feminine Products,5,10,88052275
-814,68,Central US,Central US Store 72,2019-02-08,Beauty/Health,Oral care,7,14,17535095
-815,42,Central US,Central US Store 72,2019-05-26,Beauty/Health,Bath,10,10,13228350
-816,35,Central US,Central US Store 72,2019-06-06,Beauty/Health,Haircare,8,14,10555022
-817,31,Central US,Central US Store 72,2019-06-01,Baby,Baby toys,10,15,36019265
-818,21,Central US,Central US Store 72,2019-03-03,Clothing,Swimwear,5,25,13314947
-819,33,Central US,Central US Store 72,2019-04-07,Baby,Baby toys,7,10,93568288
-820,20,Central US,Central US Store 72,2019-03-25,Clothing,Mens,7,25,12831386
-821,79,Central US,Central US Store 72,2019-03-05,Baby,Diapers,5,30,64357268
-822,25,Central US,Central US Store 72,2019-04-11,Clothing,Womens,6,12,96756621
-823,40,Central US,Central US Store 72,2019-06-04,Clothing,Womens,7,10,26636912
-824,64,Central US,Central US Store 72,2019-04-14,Clothing,Kids,8,20,70612940
-825,64,Central US,Central US Store 72,2019-07-09,Baby,Diapers,9,30,16295301
-826,59,Central US,Central US Store 72,2019-01-01,Beauty/Health,Oral care,4,10,19044167
-827,97,Central US,Central US Store 72,2019-06-25,Beauty/Health,Oral care,8,14,72318969
-828,70,Central US,Central US Store 72,2019-04-09,Clothing,Baby,6,10,55103648
-829,80,Central US,Central US Store 72,2019-02-26,Clothing,Mens,3,12,26296567
-830,79,Central US,Central US Store 72,2019-04-11,Baby,Cribs,12,30,74471127
-831,2,Central US,Central US Store 72,2019-07-03,Baby,Cribs,7,15,61207649
-832,54,Central US,Central US Store 72,2019-05-09,Furniture,Patio furniture,12,15,34708056
-833,21,Central US,Central US Store 72,2019-04-01,Clothing,Swimwear,5,20,81400990
-834,18,Central US,Central US Store 72,2019-03-04,Clothing,Baby,7,10,78676871
-835,101,Central US,Central US Store 72,2019-05-08,Furniture,Indoor seating,5,30,65307245
-836,34,Central US,Central US Store 72,2019-02-01,Baby,Strollers,4,30,75851584
-837,13,Central US,Central US Store 72,2019-02-01,Baby,Diaper bags,4,10,95052581
-838,72,Central US,Central US Store 72,2019-05-26,Clothing,Kids,9,25,36845807
-839,42,Central US,Central US Store 72,2019-03-04,Beauty/Health,Oral care,5,10,13922341
-840,75,Central US,Central US Store 72,2019-07-03,Electronics,Televisions,3,200,62547950
-841,19,Central US,Central US Store 72,2019-01-07,Baby,Strollers,3,5,51612215
-842,18,Central US,Central US Store 72,2019-02-16,Baby,Diaper bags,4,5,63739119
-843,48,Central US,Central US Store 72,2019-04-18,Baby,Baby toys,10,10,44351107
-844,8,Central US,Central US Store 72,2019-02-03,Electronics,Speakers,4,300,74017523
-845,52,Central US,Central US Store 72,2019-02-19,Baby,Car seats,7,15,82373680
-846,65,Central US,Central US Store 72,2019-05-28,Furniture,Indoor seating,6,75,44432947
-847,2,Central US,Central US Store 72,2019-06-23,Beauty/Health,Makeup,7,10,58769443
-848,82,Central US,Central US Store 72,2019-01-28,Beauty/Health,Oral care,7,6,37109739
-849,57,Central US,Central US Store 72,2019-03-06,Furniture,Patio furniture,7,15,98795956
-850,18,Central US,Central US Store 72,2019-06-14,Furniture,Indoor seating,5,30,25704114
-851,97,Central US,Central US Store 72,2019-07-09,Baby,Diaper bags,7,5,60304281
-852,84,Central US,Central US Store 72,2019-01-03,Electronics,Televisions,4,100,40428815
-853,101,Central US,Central US Store 72,2019-06-30,Baby,Car seats,9,15,17692147
-854,66,Central US,Central US Store 72,2019-01-24,Beauty/Health,Makeup,6,10,15046861
-855,44,Central US,Central US Store 72,2019-02-04,Beauty/Health,Bath,7,10,49871221
-856,9,Central US,Central US Store 72,2019-05-04,Baby,Cribs,8,5,70341175
-857,71,Central US,Central US Store 72,2019-02-12,Electronics,Headphones,4,200,25792154
-858,2,Central US,Central US Store 72,2019-02-12,Electronics,Speakers,3,200,37215409
-859,51,Central US,Central US Store 72,2019-07-11,Furniture,Pool furniture,5,75,88840963
-860,65,Central US,Central US Store 72,2019-07-02,Clothing,Shoes,7,25,83692060
-861,13,Central US,Central US Store 72,2019-05-27,Beauty/Health,Bath,9,6,34206079
-862,88,Central US,Central US Store 72,2019-03-23,Clothing,Baby,7,25,85020237
-863,58,Central US,Central US Store 72,2019-04-16,Beauty/Health,Makeup,6,10,94281286
-864,52,Central US,Central US Store 72,2019-05-10,Baby,Baby toys,5,12,94398115
-865,101,Central US,Central US Store 72,2019-05-23,Electronics,Headphones,4,100,85822229
-866,6,Central US,Central US Store 72,2019-04-12,Furniture,Beds,11,30,43163488
-867,45,Central US,Central US Store 72,2019-05-26,Furniture,Beds,8,40,57377301
-868,87,Central US,Central US Store 72,2019-04-25,Beauty/Health,Oral care,10,15,60788175
-869,46,Central US,Central US Store 72,2019-01-03,Baby,Car seats,4,12,23471930
-870,40,Central US,Central US Store 72,2019-01-17,Furniture,Indoor seating,3,75,67224795
-871,41,Central US,Central US Store 72,2019-05-29,Furniture,Pool furniture,7,30,53641844
-872,101,Central US,Central US Store 72,2019-01-23,Baby,Car seats,5,5,97602403
-873,26,Central US,Central US Store 72,2019-07-13,Electronics,Headphones,4,100,49309095
-874,80,Central US,Central US Store 72,2019-03-19,Furniture,Patio furniture,3,15,68493572
-875,56,Central US,Central US Store 72,2019-04-04,Clothing,Baby,4,10,62472202
-876,74,Central US,Central US Store 72,2019-04-28,Baby,Strollers,9,10,17646810
-877,8,Central US,Central US Store 72,2019-02-22,Clothing,Womens,6,20,65460656
-878,89,Central US,Central US Store 72,2019-01-26,Furniture,Indoor seating,3,40,57316572
-879,44,Central US,Central US Store 72,2019-04-27,Clothing,Baby,5,12,38835949
-880,54,Central US,Central US Store 72,2019-05-30,Furniture,Indoor tables,8,100,28120923
-881,75,Central US,Central US Store 72,2019-04-05,Furniture,Beds,4,30,70848134
-882,58,Central US,Central US Store 72,2019-06-16,Beauty/Health,Oral care,10,10,35568604
-883,32,Central US,Central US Store 72,2019-06-12,Baby,Strollers,8,30,33608450
-884,33,Central US,Central US Store 72,2019-06-10,Baby,Strollers,12,15,64653904
-885,82,Central US,Central US Store 72,2019-04-02,Baby,Cribs,5,10,39615961
-886,51,Central US,Central US Store 72,2019-04-13,Beauty/Health,Makeup,12,10,90354522
-887,7,Central US,Central US Store 72,2019-02-22,Beauty/Health,Makeup,5,10,37412745
-888,49,Central US,Central US Store 72,2019-06-30,Clothing,Womens,10,10,59096686
-889,101,Central US,Central US Store 72,2019-05-27,Clothing,Mens,7,25,56841873
-890,6,Central US,Central US Store 72,2019-05-21,Clothing,Shoes,12,13,58601340
-891,66,Central US,Central US Store 72,2019-06-19,Furniture,Beds,12,75,81869840
-892,73,Central US,Central US Store 72,2019-03-02,Clothing,Shoes,6,25,48739628
-893,20,Central US,Central US Store 72,2019-02-28,Baby,Cribs,4,10,36980243
-894,27,Central US,Central US Store 72,2019-05-28,Furniture,Pool furniture,6,40,97495005
-895,21,Central US,Central US Store 72,2019-05-23,Baby,Diapers,11,30,72898447
-896,71,Central US,Central US Store 72,2019-01-04,Electronics,Headphones,3,50,22623545
-897,90,Central US,Central US Store 72,2019-07-12,Beauty/Health,Makeup,10,6,96728326
-898,28,Central US,Central US Store 72,2019-04-21,Electronics,Computers,3,100,18490164
-899,87,Central US,Central US Store 72,2019-07-12,Beauty/Health,Feminine Products,9,10,91505809
-900,96,Central US,Central US Store 72,2019-06-22,Baby,Diaper bags,5,12,45206501
-901,96,Central US,Central US Store 72,2019-07-11,Baby,Diapers,12,10,83609135
-902,23,Central US,Central US Store 72,2019-04-15,Electronics,Tablets,4,300,28480045
-903,7,Central US,Central US Store 72,2019-01-14,Electronics,Computers,4,100,86312582
-904,83,Central US,Central US Store 72,2019-05-17,Clothing,Baby,7,25,97674087
-905,67,Central US,Central US Store 72,2019-05-03,Baby,Car seats,12,15,85019112
-906,2,Central US,Central US Store 72,2019-05-10,Baby,Strollers,6,30,29354914
-907,10,Central US,Central US Store 72,2019-05-04,Baby,Cribs,7,30,26250526
-908,72,Central US,Central US Store 72,2019-05-18,Electronics,Speakers,4,200,66161426
-909,20,Central US,Central US Store 72,2019-04-09,Clothing,Shoes,8,25,15497216
-910,5,Central US,Central US Store 72,2019-07-06,Electronics,Computers,4,300,40745800
-911,57,Central US,Central US Store 72,2019-01-10,Clothing,Baby,7,20,91254978
-912,53,Central US,Central US Store 72,2019-06-04,Beauty/Health,Bath,10,6,18681983
-913,2,Central US,Central US Store 72,2019-01-04,Clothing,Kids,4,10,72452996
-914,90,Central US,Central US Store 72,2019-03-11,Electronics,Computers,4,200,49271121
-915,27,Central US,Central US Store 72,2019-04-13,Clothing,Shoes,6,25,49760022
-916,44,Central US,Central US Store 72,2019-01-26,Beauty/Health,Feminine Products,6,10,32055205
-917,25,Central US,Central US Store 72,2019-05-24,Furniture,Pool furniture,11,15,94015932
-918,47,Central US,Central US Store 72,2019-04-11,Beauty/Health,Oral care,11,10,20707208
-919,86,Central US,Central US Store 72,2019-05-31,Clothing,Mens,7,25,17146119
-920,19,Central US,Central US Store 72,2019-02-24,Beauty/Health,Fragrances,7,10,46369010
-921,74,Central US,Central US Store 72,2019-03-14,Baby,Diapers,6,30,27278230
-922,15,Central US,Central US Store 72,2019-04-06,Electronics,Televisions,3,300,82785846
-923,99,Central US,Central US Store 72,2019-02-13,Clothing,Womens,4,10,24711946
-924,18,Central US,Central US Store 72,2019-03-11,Furniture,Pool furniture,4,75,75037940
-925,44,Central US,Central US Store 72,2019-01-17,Baby,Diapers,5,30,30032818
-926,53,Central US,Central US Store 72,2019-01-24,Beauty/Health,Makeup,3,6,26266891
-927,3,Central US,Central US Store 72,2019-03-12,Baby,Diapers,4,15,52209744
-928,37,Central US,Central US Store 72,2019-07-10,Clothing,Kids,12,13,17254355
-929,42,Central US,Central US Store 72,2019-05-02,Baby,Strollers,5,10,97935862
-930,21,Central US,Central US Store 72,2019-03-23,Furniture,Patio furniture,6,15,84718259
-931,74,Central US,Central US Store 72,2019-07-01,Beauty/Health,Bath,10,15,48402110
-932,85,Central US,Central US Store 72,2019-04-19,Beauty/Health,Fragrances,7,6,61496161
-933,20,Central US,Central US Store 72,2019-01-24,Furniture,Patio furniture,7,40,87612922
-934,101,Central US,Central US Store 72,2019-01-28,Electronics,Headphones,3,300,59888451
-935,31,Central US,Central US Store 72,2019-03-09,Baby,Baby toys,7,15,85270219
-936,43,Central US,Central US Store 72,2019-05-15,Beauty/Health,Haircare,5,6,44924392
-937,72,Central US,Central US Store 72,2019-01-03,Beauty/Health,Bath,6,6,89601522
-938,84,Central US,Central US Store 72,2019-06-18,Furniture,Indoor seating,5,15,78169411
-939,6,Central US,Central US Store 72,2019-05-01,Furniture,Patio furniture,12,40,41404148
-940,10,Central US,Central US Store 72,2019-06-17,Baby,Strollers,10,30,93667032
-941,9,Central US,Central US Store 72,2019-01-22,Furniture,Beds,5,15,45976642
-942,59,Central US,Central US Store 72,2019-03-04,Electronics,Cell Phones,3,100,76166206
-943,52,Central US,Central US Store 72,2019-04-30,Electronics,Headphones,4,200,79497094
-944,51,Central US,Central US Store 72,2019-03-16,Beauty/Health,Haircare,6,6,81304007
-945,56,Central US,Central US Store 72,2019-01-19,Baby,Strollers,4,30,76068535
-946,39,Central US,Central US Store 72,2019-03-18,Clothing,Baby,3,10,71283570
-947,63,Central US,Central US Store 72,2019-05-27,Furniture,Beds,8,100,10997614
-948,44,Central US,Central US Store 72,2019-03-31,Clothing,Womens,6,20,29017789
-949,26,Central US,Central US Store 72,2019-02-06,Electronics,Televisions,4,100,56055013
-950,15,Central US,Central US Store 72,2019-03-20,Baby,Baby toys,5,30,87036253
-951,15,Central US,Central US Store 72,2019-01-20,Baby,Car seats,5,12,61123835
-952,32,Central US,Central US Store 72,2019-04-03,Beauty/Health,Makeup,7,14,82546313
-953,31,Central US,Central US Store 72,2019-02-01,Clothing,Baby,5,20,10984439
-954,28,Central US,Central US Store 72,2019-06-27,Baby,Cribs,9,15,89092717
-955,14,Central US,Central US Store 72,2019-07-14,Beauty/Health,Feminine Products,9,10,34841090
-956,66,Central US,Central US Store 72,2019-01-29,Clothing,Womens,6,10,91101614
-957,36,Central US,Central US Store 72,2019-01-25,Beauty/Health,Feminine Products,4,6,46837387
-958,88,Central US,Central US Store 72,2019-01-22,Electronics,Tablets,4,300,38180423
-959,87,Central US,Central US Store 72,2019-06-16,Electronics,Cell Phones,4,100,27050526
-960,5,Central US,Central US Store 72,2019-04-25,Beauty/Health,Haircare,12,10,42775094
-961,54,Central US,Central US Store 72,2019-04-16,Beauty/Health,Makeup,7,10,43905971
-962,20,Central US,Central US Store 72,2019-01-25,Electronics,Televisions,3,300,98511513
-963,49,Central US,Central US Store 72,2019-01-24,Electronics,Speakers,4,200,90143144
-964,25,Central US,Central US Store 72,2019-01-14,Beauty/Health,Skincare,5,15,86572432
-965,68,Central US,Central US Store 72,2019-06-10,Beauty/Health,Fragrances,12,10,50037732
-966,63,Central US,Central US Store 72,2019-01-30,Electronics,Speakers,4,50,42070842
-967,55,Central US,Central US Store 72,2019-04-29,Baby,Baby toys,9,12,35770667
-968,67,Central US,Central US Store 72,2019-06-27,Electronics,Cell Phones,3,200,91416585
-969,82,Central US,Central US Store 72,2019-04-08,Baby,Strollers,6,30,69706496
-970,72,Central US,Central US Store 72,2019-05-13,Electronics,Tablets,4,300,81070685
-971,69,Central US,Central US Store 72,2019-06-16,Furniture,Patio furniture,7,40,21315375
-972,71,Central US,Central US Store 72,2019-05-20,Electronics,Tablets,3,100,61814209
-973,59,Central US,Central US Store 72,2019-01-16,Beauty/Health,Bath,5,14,99846058
-974,32,Central US,Central US Store 72,2019-06-25,Beauty/Health,Fragrances,5,6,77693285
-975,28,Central US,Central US Store 72,2019-07-02,Furniture,Indoor tables,5,75,29896066
-976,47,Central US,Central US Store 72,2019-01-06,Electronics,Headphones,3,100,61120491
-977,16,Central US,Central US Store 72,2019-05-11,Clothing,Swimwear,11,10,49646055
-978,56,Central US,Central US Store 72,2019-02-26,Beauty/Health,Oral care,3,10,97929279
-979,1,Central US,Central US Store 72,2019-01-30,Furniture,Indoor seating,3,15,52612767
-980,91,Central US,Central US Store 72,2019-03-26,Baby,Cribs,4,15,52960898
-981,52,Central US,Central US Store 72,2019-04-28,Electronics,Tablets,3,100,92330451
-982,88,Central US,Central US Store 72,2019-02-11,Baby,Baby toys,3,5,14702883
-983,84,Central US,Central US Store 72,2019-06-24,Furniture,Indoor seating,6,100,95027395
-984,29,Central US,Central US Store 72,2019-05-22,Electronics,Headphones,3,100,59574497
-985,86,Central US,Central US Store 72,2019-01-15,Furniture,Indoor seating,6,40,14411072
-986,71,Central US,Central US Store 72,2019-07-10,Beauty/Health,Makeup,8,10,23849957
-987,53,Central US,Central US Store 72,2019-03-04,Beauty/Health,Makeup,3,10,16346742
-988,1,Central US,Central US Store 72,2019-05-20,Furniture,Patio furniture,11,75,42140727
-989,58,Central US,Central US Store 72,2019-03-06,Clothing,Swimwear,7,10,30746750
-990,39,Central US,Central US Store 72,2019-04-02,Clothing,Kids,5,12,62697574
-991,74,Central US,Central US Store 72,2019-04-08,Clothing,Swimwear,3,12,45671127
-992,84,Central US,Central US Store 72,2019-07-03,Baby,Car seats,9,5,83245933
-993,29,Central US,Central US Store 72,2019-02-14,Beauty/Health,Skincare,6,14,42965991
-994,59,Central US,Central US Store 72,2019-01-30,Baby,Cribs,5,12,73426865
-995,47,Central US,Central US Store 72,2019-01-22,Beauty/Health,Oral care,3,10,41762585
-996,23,Central US,Central US Store 72,2019-06-23,Clothing,Womens,9,25,10081132
-997,58,Central US,Central US Store 72,2019-03-29,Beauty/Health,Fragrances,7,15,69187927
-998,82,Central US,Central US Store 72,2019-06-19,Furniture,Patio furniture,12,40,47304472
-999,2,Central US,Central US Store 72,2019-06-17,Clothing,Womens,6,12,75587341
-1000,1,Central US,Central US Store 72,2019-04-12,Clothing,Mens,7,13,11313894
-1001,78,Central US,Central US Store 72,2019-05-13,Furniture,Indoor tables,5,30,45073643
-1002,92,Central US,Central US Store 72,2019-03-28,Baby,Cribs,5,30,14034406
-1003,55,Central US,Central US Store 72,2019-04-10,Clothing,Shoes,12,10,89459223
-1004,23,Central US,Central US Store 72,2019-04-23,Baby,Diaper bags,5,5,94499841
-1005,76,Central US,Central US Store 72,2019-04-28,Beauty/Health,Fragrances,6,6,42798660
-1006,100,Central US,Central US Store 72,2019-02-10,Electronics,Cell Phones,4,50,72677230
-1007,69,Central US,Central US Store 72,2019-03-28,Baby,Cribs,5,12,51606820
-1008,39,Central US,Central US Store 72,2019-06-19,Clothing,Mens,11,12,94072764
-1009,80,Central US,Central US Store 72,2019-04-06,Baby,Diapers,5,15,64381719
-1010,84,Central US,Central US Store 72,2019-01-11,Beauty/Health,Oral care,3,14,34307396
-1011,5,Central US,Central US Store 72,2019-02-05,Beauty/Health,Feminine Products,4,10,87437282
-1012,67,Central US,Central US Store 72,2019-07-02,Clothing,Baby,10,10,46113069
-1013,30,Central US,Central US Store 72,2019-06-07,Beauty/Health,Fragrances,10,15,76573941
-1014,65,Central US,Central US Store 72,2019-04-24,Beauty/Health,Haircare,7,10,27748502
-1015,89,Central US,Central US Store 72,2019-01-17,Baby,Diapers,6,15,65201378
-1016,42,Central US,Central US Store 72,2019-06-14,Beauty/Health,Haircare,12,15,62863820
-1017,42,Central US,Central US Store 72,2019-06-22,Electronics,Speakers,4,300,76387687
-1018,95,Central US,Central US Store 72,2019-05-21,Beauty/Health,Fragrances,8,6,83615001
-1019,3,Central US,Central US Store 72,2019-06-29,Clothing,Mens,6,20,40914398
-1020,21,Central US,Central US Store 72,2019-01-19,Beauty/Health,Bath,5,6,93465997
-1021,35,Central US,Central US Store 72,2019-02-15,Furniture,Pool furniture,4,100,64559635
-1022,52,Central US,Central US Store 72,2019-02-03,Furniture,Beds,6,40,83568812
-1023,30,Central US,Central US Store 72,2019-01-15,Beauty/Health,Oral care,6,10,46811498
-1024,53,Central US,Central US Store 72,2019-02-21,Furniture,Indoor seating,6,40,89473000
-1025,62,Central US,Central US Store 72,2019-06-14,Beauty/Health,Haircare,12,10,17731012
-1026,37,Central US,Central US Store 72,2019-01-12,Beauty/Health,Skincare,4,6,37021155
-1027,66,Central US,Central US Store 72,2019-03-24,Electronics,Tablets,3,100,31114273
-1028,22,Central US,Central US Store 72,2019-05-21,Clothing,Shoes,10,20,29235116
-1029,21,Central US,Central US Store 72,2019-01-29,Baby,Baby toys,5,12,31951323
-1030,90,Central US,Central US Store 72,2019-07-10,Furniture,Patio furniture,10,40,38415316
-1031,15,Central US,Central US Store 72,2019-05-17,Beauty/Health,Makeup,12,10,81366302
-1032,94,Central US,Central US Store 72,2019-03-28,Furniture,Indoor tables,4,15,63506907
-1033,37,Central US,Central US Store 72,2019-06-15,Beauty/Health,Oral care,11,6,41506377
-1034,89,Central US,Central US Store 72,2019-06-08,Beauty/Health,Haircare,7,10,76462288
-1035,18,Central US,Central US Store 72,2019-01-04,Clothing,Baby,3,12,92304593
-1036,52,Central US,Central US Store 72,2019-06-04,Beauty/Health,Skincare,6,10,41595730
-1037,40,Central US,Central US Store 72,2019-01-12,Beauty/Health,Fragrances,4,10,21919624
-1038,36,Central US,Central US Store 72,2019-07-05,Electronics,Speakers,3,50,28984492
-1039,37,Central US,Central US Store 72,2019-06-22,Furniture,Patio furniture,9,40,14218074
-1040,13,Central US,Central US Store 72,2019-03-15,Baby,Cribs,3,15,23352285
-1041,95,Central US,Central US Store 72,2019-04-20,Baby,Diapers,10,30,62400189
-1042,98,Central US,Central US Store 72,2019-06-12,Furniture,Beds,7,100,17285361
-1043,71,Central US,Central US Store 72,2019-04-05,Furniture,Indoor tables,6,15,98356993
-1044,80,Central US,Central US Store 72,2019-05-29,Beauty/Health,Bath,9,10,63426879
-1045,47,Central US,Central US Store 72,2019-03-08,Beauty/Health,Fragrances,7,10,89181920
-1046,46,Central US,Central US Store 72,2019-01-28,Electronics,Computers,3,200,18522153
-1047,58,Central US,Central US Store 72,2019-06-15,Baby,Diapers,5,12,68246046
-1048,10,Central US,Central US Store 72,2019-01-07,Beauty/Health,Haircare,3,6,19824430
-1049,30,Central US,Central US Store 72,2019-03-04,Beauty/Health,Bath,6,15,85568913
-1050,99,Central US,Central US Store 72,2019-02-28,Electronics,Cell Phones,4,200,23424688
-1051,100,Central US,Central US Store 72,2019-03-28,Clothing,Swimwear,3,12,42334258
-1052,75,Central US,Central US Store 72,2019-05-28,Electronics,Tablets,3,200,77970562
-1053,27,Central US,Central US Store 72,2019-04-19,Electronics,Headphones,3,200,97080160
-1054,4,Central US,Central US Store 72,2019-06-26,Furniture,Indoor tables,12,15,44000258
-1055,56,Central US,Central US Store 72,2019-06-13,Clothing,Womens,8,10,41849703
-1056,34,Central US,Central US Store 72,2019-01-06,Baby,Cribs,4,10,16034486
-1057,35,Central US,Central US Store 72,2019-05-10,Clothing,Shoes,8,12,17341021
-1058,37,Central US,Central US Store 72,2019-01-07,Baby,Cribs,5,30,88676941
-1059,7,Central US,Central US Store 72,2019-07-13,Electronics,Speakers,3,100,74668264
-1060,64,Central US,Central US Store 72,2019-03-14,Furniture,Beds,7,75,96792395
-1061,69,Central US,Central US Store 72,2019-01-27,Baby,Diapers,7,30,53408726
-1062,84,Central US,Central US Store 72,2019-02-02,Furniture,Patio furniture,7,30,67519497
-1063,59,Central US,Central US Store 72,2019-01-24,Beauty/Health,Fragrances,7,10,10326789
-1064,98,Central US,Central US Store 72,2019-05-14,Clothing,Mens,7,25,89685639
-1065,36,Central US,Central US Store 72,2019-04-10,Beauty/Health,Fragrances,11,10,23629351
-1066,83,Central US,Central US Store 72,2019-07-08,Clothing,Kids,10,25,68736554
-1067,46,Central US,Central US Store 72,2019-02-14,Furniture,Indoor tables,3,75,93980372
-1068,17,Central US,Central US Store 72,2019-01-04,Baby,Baby toys,4,30,86888626
-1069,42,Central US,Central US Store 72,2019-01-16,Clothing,Mens,5,20,96771596
-1070,88,Central US,Central US Store 72,2019-05-19,Furniture,Patio furniture,7,40,93509391
-1071,10,Central US,Central US Store 72,2019-06-04,Clothing,Shoes,12,13,72569623
-1072,29,Central US,Central US Store 72,2019-07-08,Clothing,Mens,8,12,67722249
-1073,57,Central US,Central US Store 72,2019-04-14,Furniture,Indoor seating,6,100,29744936
-1074,68,Central US,Central US Store 72,2019-06-05,Beauty/Health,Bath,5,6,34088609
-1075,77,Central US,Central US Store 72,2019-01-08,Clothing,Womens,3,10,97439331
-1076,58,Central US,Central US Store 72,2019-03-16,Clothing,Shoes,5,25,26262523
-1077,3,Central US,Central US Store 72,2019-04-15,Baby,Diaper bags,9,30,19098805
-1078,37,Central US,Central US Store 72,2019-06-15,Electronics,Speakers,4,100,85339884
-1079,71,Central US,Central US Store 72,2019-07-14,Furniture,Patio furniture,7,100,96661633
-1080,55,Central US,Central US Store 72,2019-04-22,Electronics,Speakers,3,200,29513065
-1081,37,Central US,Central US Store 72,2019-04-09,Beauty/Health,Makeup,7,6,48139661
-1082,57,Central US,Central US Store 72,2019-06-17,Clothing,Shoes,10,13,11214373
-1083,29,Central US,Central US Store 72,2019-04-03,Beauty/Health,Fragrances,6,15,61608452
-1084,19,Central US,Central US Store 72,2019-07-15,Beauty/Health,Makeup,5,15,45716841
-1085,99,Central US,Central US Store 72,2019-03-22,Baby,Strollers,3,12,17318584
-1086,71,Central US,Central US Store 72,2019-02-11,Clothing,Shoes,6,20,55460624
-1087,40,Central US,Central US Store 72,2019-07-08,Beauty/Health,Skincare,11,10,43395230
-1088,92,Central US,Central US Store 72,2019-03-01,Baby,Cribs,7,12,97894588
-1089,49,Central US,Central US Store 72,2019-05-13,Electronics,Cell Phones,4,200,10764733
-1090,46,Central US,Central US Store 72,2019-04-21,Clothing,Mens,7,13,92103281
-1091,35,Central US,Central US Store 72,2019-06-04,Electronics,Computers,3,50,98990759
-1092,33,Central US,Central US Store 72,2019-02-11,Electronics,Computers,4,300,95630893
-1093,28,Central US,Central US Store 72,2019-03-24,Baby,Baby toys,5,5,52468110
-1094,26,Central US,Central US Store 72,2019-02-07,Furniture,Beds,7,75,11230925
-1095,37,Central US,Central US Store 72,2019-07-12,Clothing,Womens,10,20,56857802
-1096,23,Central US,Central US Store 72,2019-06-18,Baby,Baby toys,9,5,31769775
-1097,4,Central US,Central US Store 72,2019-01-07,Clothing,Swimwear,3,12,95752091
-1098,5,Central US,Central US Store 72,2019-04-26,Baby,Baby toys,11,15,47090652
-1099,8,Central US,Central US Store 72,2019-02-02,Furniture,Pool furniture,5,75,72707148
-1100,6,Central US,Central US Store 72,2019-03-14,Baby,Diaper bags,7,12,11787369
-1101,101,Central US,Central US Store 72,2019-07-06,Baby,Cribs,12,12,40345704
-1102,46,Central US,Central US Store 72,2019-03-12,Electronics,Tablets,3,200,23280796
-1103,45,Central US,Central US Store 72,2019-01-01,Furniture,Patio furniture,6,40,57335208
-1104,92,Central US,Central US Store 72,2019-05-19,Electronics,Headphones,3,100,58300868
-1105,54,Central US,Central US Store 72,2019-04-01,Electronics,Televisions,4,300,78221125
-1106,10,Central US,Central US Store 72,2019-02-28,Clothing,Swimwear,5,10,79498974
-1107,94,Central US,Central US Store 72,2019-03-18,Beauty/Health,Oral care,3,15,94417464
-1108,99,Central US,Central US Store 72,2019-04-12,Clothing,Kids,8,25,58433169
-1109,98,Central US,Central US Store 72,2019-02-12,Beauty/Health,Makeup,7,15,22246400
-1110,88,Central US,Central US Store 72,2019-04-04,Baby,Car seats,6,30,81504104
-1111,72,Central US,Central US Store 72,2019-06-03,Baby,Diaper bags,12,30,63224959
-1112,57,Central US,Central US Store 72,2019-04-29,Furniture,Patio furniture,6,30,29226630
-1113,61,Central US,Central US Store 72,2019-03-27,Electronics,Tablets,3,300,21551337
-1114,7,Central US,Central US Store 72,2019-03-21,Baby,Diapers,3,15,50104540
-1115,47,Central US,Central US Store 72,2019-02-15,Clothing,Baby,7,10,86700867
-1116,40,Central US,Central US Store 72,2019-03-27,Electronics,Cell Phones,4,50,48527027
-1117,47,Central US,Central US Store 72,2019-05-13,Beauty/Health,Haircare,9,6,79435600
-1118,80,Central US,Central US Store 72,2019-05-25,Electronics,Televisions,4,200,24237289
-1119,38,Central US,Central US Store 72,2019-07-09,Baby,Diaper bags,9,15,33802164
-1120,86,Central US,Central US Store 72,2019-05-12,Clothing,Mens,7,20,70424008
-1121,54,Central US,Central US Store 72,2019-01-15,Electronics,Cell Phones,4,300,62842439
-1122,41,Central US,Central US Store 72,2019-06-06,Baby,Diapers,5,15,54783924
-1123,22,Central US,Central US Store 72,2019-02-28,Beauty/Health,Fragrances,6,10,25150161
-1124,52,Central US,Central US Store 72,2019-03-24,Furniture,Patio furniture,5,75,74006914
-1125,64,Central US,Central US Store 72,2019-01-30,Electronics,Speakers,3,300,84075420
-1126,15,Central US,Central US Store 72,2019-04-03,Electronics,Cell Phones,4,200,86062656
-1127,62,Central US,Central US Store 72,2019-04-03,Baby,Diaper bags,5,10,84763393
-1128,63,Central US,Central US Store 72,2019-01-03,Furniture,Pool furniture,6,100,73290967
-1129,27,Central US,Central US Store 72,2019-01-10,Clothing,Swimwear,5,20,36449174
-1130,4,Central US,Central US Store 72,2019-01-30,Baby,Strollers,3,30,66731728
-1131,6,Central US,Central US Store 72,2019-01-30,Beauty/Health,Oral care,5,6,19145542
-1132,81,Central US,Central US Store 72,2019-05-01,Furniture,Beds,10,75,44767655
-1133,55,Central US,Central US Store 72,2019-05-14,Electronics,Computers,3,200,98150607
-1134,28,Central US,Central US Store 72,2019-03-28,Baby,Cribs,3,5,54778504
-1135,94,Central US,Central US Store 72,2019-07-05,Clothing,Shoes,7,20,35003569
-1136,83,Central US,Central US Store 72,2019-03-17,Clothing,Womens,3,13,69988296
-1137,29,Central US,Central US Store 72,2019-06-01,Beauty/Health,Oral care,6,10,87091401
-1138,8,Central US,Central US Store 72,2019-06-06,Furniture,Indoor tables,11,75,58331095
-1139,6,Central US,Central US Store 72,2019-03-11,Beauty/Health,Skincare,7,10,16387182
-1140,7,Central US,Central US Store 72,2019-05-16,Electronics,Headphones,3,200,92725952
-1141,41,Central US,Central US Store 72,2019-06-03,Furniture,Beds,5,30,92038880
-1142,6,Central US,Central US Store 72,2019-06-03,Clothing,Swimwear,9,10,62203840
-1143,47,Central US,Central US Store 72,2019-03-14,Furniture,Beds,3,15,44743308
-1144,98,Central US,Central US Store 72,2019-02-13,Clothing,Womens,5,10,51811568
-1145,31,Central US,Central US Store 72,2019-05-26,Electronics,Televisions,4,300,76269470
-1146,38,Central US,Central US Store 72,2019-06-17,Electronics,Computers,3,200,27389419
-1147,21,Central US,Central US Store 72,2019-02-10,Baby,Diaper bags,6,30,76659695
-1148,84,Central US,Central US Store 72,2019-07-13,Electronics,Computers,3,50,79563981
-1149,2,Central US,Central US Store 72,2019-02-18,Furniture,Indoor tables,7,100,61352538
-1150,30,Central US,Central US Store 72,2019-05-21,Furniture,Patio furniture,7,15,45958078
-1151,48,Central US,Central US Store 72,2019-06-28,Beauty/Health,Bath,9,10,43502911
-1152,37,Central US,Central US Store 72,2019-05-29,Baby,Diaper bags,10,30,72881310
-1153,7,Central US,Central US Store 72,2019-03-02,Electronics,Cell Phones,4,100,80480185
-1154,53,Central US,Central US Store 72,2019-01-17,Beauty/Health,Makeup,5,10,59007096
-1155,62,Central US,Central US Store 72,2019-03-15,Baby,Cribs,6,30,24245223
-1156,45,Central US,Central US Store 72,2019-05-24,Baby,Cribs,10,12,76450314
-1157,25,Central US,Central US Store 72,2019-02-22,Beauty/Health,Bath,5,14,99750680
-1158,95,Central US,Central US Store 72,2019-04-21,Furniture,Patio furniture,8,40,42336618
-1159,79,Central US,Central US Store 72,2019-01-14,Furniture,Beds,7,30,72536569
-1160,70,Central US,Central US Store 72,2019-01-17,Baby,Car seats,6,30,44030798
-1161,18,Central US,Central US Store 72,2019-05-06,Clothing,Kids,10,10,91620005
-1162,52,Central US,Central US Store 72,2019-05-24,Baby,Car seats,11,30,50579326
-1163,100,Central US,Central US Store 72,2019-03-25,Beauty/Health,Fragrances,6,10,85497473
-1164,22,Central US,Central US Store 72,2019-04-13,Baby,Diapers,8,15,39945692
-1165,31,Central US,Central US Store 72,2019-05-22,Baby,Strollers,9,30,82367791
-1166,48,Central US,Central US Store 72,2019-02-21,Electronics,Televisions,3,300,91451557
-1167,6,Central US,Central US Store 72,2019-03-04,Electronics,Televisions,4,200,98660664
-1168,15,Central US,Central US Store 72,2019-06-20,Baby,Diapers,5,12,88960508
-1169,88,Central US,Central US Store 72,2019-01-08,Furniture,Beds,4,100,86242263
-1170,88,Central US,Central US Store 72,2019-04-13,Baby,Strollers,5,30,99899600
-1171,32,Central US,Central US Store 72,2019-07-03,Baby,Diapers,12,15,55385015
-1172,65,Central US,Central US Store 72,2019-06-14,Beauty/Health,Oral care,9,10,38889962
-1173,66,Central US,Central US Store 72,2019-01-12,Furniture,Indoor tables,3,100,30516988
-1174,56,Central US,Central US Store 72,2019-06-12,Furniture,Pool furniture,10,15,82130057
-1175,74,Central US,Central US Store 72,2019-02-01,Clothing,Baby,4,12,45125205
-1176,55,Central US,Central US Store 72,2019-02-09,Baby,Car seats,3,30,38600840
-1177,73,Central US,Central US Store 72,2019-03-07,Electronics,Headphones,3,200,21132614
-1178,22,Central US,Central US Store 72,2019-02-27,Clothing,Shoes,4,12,35250078
-1179,51,Central US,Central US Store 72,2019-03-01,Beauty/Health,Bath,5,10,18378262
-1180,62,Central US,Central US Store 72,2019-02-08,Baby,Strollers,4,30,83995923
-1181,3,Central US,Central US Store 72,2019-07-10,Electronics,Tablets,3,200,94563124
-1182,60,Central US,Central US Store 72,2019-05-10,Baby,Strollers,10,5,49088009
-1183,84,Central US,Central US Store 72,2019-03-16,Clothing,Kids,5,20,34968372
-1184,89,Central US,Central US Store 72,2019-07-12,Electronics,Speakers,4,200,38736406
-1185,47,Central US,Central US Store 72,2019-01-02,Electronics,Speakers,3,200,12876652
-1186,33,Central US,Central US Store 72,2019-07-15,Electronics,Speakers,4,300,96202453
-1187,55,Central US,Central US Store 72,2019-03-29,Furniture,Indoor seating,5,75,58047477
-1188,4,Central US,Central US Store 72,2019-06-10,Clothing,Kids,9,25,46178312
-1189,100,Central US,Central US Store 72,2019-07-12,Clothing,Baby,8,12,31775546
-1190,11,Central US,Central US Store 72,2019-04-10,Electronics,Cell Phones,4,200,26744368
-1191,70,Central US,Central US Store 72,2019-05-20,Clothing,Mens,12,12,43005740
-1192,55,Central US,Central US Store 72,2019-02-13,Beauty/Health,Fragrances,6,14,77017141
-1193,100,Central US,Central US Store 72,2019-01-05,Clothing,Kids,7,25,16652655
-1194,55,Central US,Central US Store 72,2019-04-12,Electronics,Cell Phones,4,300,86143448
-1195,7,Central US,Central US Store 72,2019-01-05,Electronics,Tablets,3,300,40121197
-1196,1,Central US,Central US Store 72,2019-01-20,Baby,Diapers,4,10,98045414
-1197,25,Central US,Central US Store 72,2019-03-27,Electronics,Headphones,4,100,48283105
-1198,67,Central US,Central US Store 72,2019-04-19,Beauty/Health,Fragrances,10,6,96263341
-1199,50,Central US,Central US Store 72,2019-02-21,Electronics,Speakers,3,50,23165727
-1200,76,Central US,Central US Store 72,2019-01-10,Furniture,Indoor seating,3,30,89694245
-1201,88,Central US,Central US Store 72,2019-06-02,Beauty/Health,Feminine Products,10,15,20437812
-1202,76,Central US,Central US Store 72,2019-01-19,Furniture,Indoor seating,5,100,17860814
+ordernum,region,store,saledate,dep,item,unitsold,unitprice,employeeID,customerID,loyalty,firstpurchase,freq
+0,Central US,Central US Store 72,2019-01-02,Baby,Car seats,8,5,85064609,14693678,False,2019-01-02,1
+1,Central US,Central US Store 72,2019-07-10,Beauty/Health,Haircare,27,14,27655791,41920199,True,2019-07-10,1
+2,Central US,Central US Store 72,2019-06-14,Beauty/Health,Skincare,23,14,46013775,74764891,True,2019-06-14,1
+3,Central US,Central US Store 72,2019-06-09,Furniture,Pool furniture,27,100,71164016,20744016,False,2019-06-09,1
+4,Central US,Central US Store 72,2019-05-24,Baby,Car seats,22,30,46003687,82543897,True,2019-05-24,1
+5,Central US,Central US Store 72,2019-06-02,Electronics,Computers,22,200,14993920,58342545,True,2019-06-02,1
+6,Central US,Central US Store 72,2019-01-12,Clothing,Swimwear,8,25,29787178,71307555,True,2019-01-12,1
+7,Central US,Central US Store 72,2019-01-08,Clothing,Womens,6,20,87222292,50995706,True,2019-01-08,1
+8,Central US,Central US Store 72,2019-04-11,Clothing,Kids,15,25,46541174,24201352,False,2019-04-11,1
+9,Central US,Central US Store 72,2019-03-19,Baby,Diaper bags,14,10,63514935,46241869,True,2019-03-19,1
+10,Central US,Central US Store 72,2019-03-01,Beauty/Health,Makeup,14,10,99227093,22472684,False,2019-03-01,1
+11,Central US,Central US Store 72,2019-03-27,Beauty/Health,Skincare,13,14,63458523,19879682,False,2019-03-27,1
+12,Central US,Central US Store 72,2019-01-06,Baby,Strollers,6,15,47104034,47970537,True,2019-01-06,1
+13,Central US,Central US Store 72,2019-08-09,Baby,Diaper bags,33,5,12555790,67850219,True,2019-08-09,1
+14,Central US,Central US Store 72,2019-07-25,Furniture,Indoor tables,26,30,91812963,66121551,True,2019-07-25,1
+15,Central US,Central US Store 72,2019-04-17,Electronics,Headphones,16,100,64226810,60935547,True,2019-04-17,1
+16,Central US,Central US Store 72,2019-04-25,Furniture,Pool furniture,21,75,36066086,79518728,True,2019-04-25,1
+17,Central US,Central US Store 72,2019-06-18,Clothing,Kids,23,12,85882335,86001233,True,2019-06-18,1
+18,Central US,Central US Store 72,2019-05-08,Furniture,Indoor seating,21,75,21745663,33276859,False,2019-05-08,1
+19,Central US,Central US Store 72,2019-05-19,Baby,Diapers,22,30,28756712,50131372,True,2019-05-19,1
+20,Central US,Central US Store 72,2019-05-24,Furniture,Beds,23,15,84319932,29819523,False,2019-05-24,1
+21,Central US,Central US Store 72,2019-03-27,Baby,Baby toys,12,12,33868540,44513201,True,2019-03-27,1
+22,Central US,Central US Store 72,2019-01-29,Electronics,Headphones,7,100,42386719,65689384,True,2019-01-29,1
+23,Central US,Central US Store 72,2019-04-21,Baby,Cribs,17,12,76651205,28955189,False,2019-04-21,1
+24,Central US,Central US Store 72,2019-01-04,Clothing,Swimwear,6,13,74704657,64392883,True,2019-01-04,1
+25,Central US,Central US Store 72,2019-02-15,Beauty/Health,Haircare,10,10,29299548,26362187,False,2019-02-15,1
+26,Central US,Central US Store 72,2019-03-09,Clothing,Shoes,14,13,87101061,46674036,True,2019-03-09,1
+27,Central US,Central US Store 72,2019-04-16,Electronics,Computers,16,300,13474398,53156541,True,2019-04-16,1
+28,Central US,Central US Store 72,2019-04-04,Baby,Strollers,15,30,45640519,22040517,False,2019-04-04,1
+29,Central US,Central US Store 72,2019-01-23,Beauty/Health,Oral care,6,10,29575929,35869861,False,2019-01-23,1
+30,Central US,Central US Store 72,2019-05-22,Electronics,Speakers,18,50,89882730,26362187,False,2019-02-15,2
+31,Central US,Central US Store 72,2019-06-22,Furniture,Indoor seating,27,100,67371609,29387356,False,2019-06-22,1
+32,Central US,Central US Store 72,2019-06-13,Furniture,Indoor seating,23,40,75793249,80815229,True,2019-06-13,1
+33,Central US,Central US Store 72,2019-04-14,Clothing,Kids,15,10,43787778,30251690,False,2019-04-14,1
+34,Central US,Central US Store 72,2019-02-14,Beauty/Health,Fragrances,9,10,74719124,48402704,True,2019-02-14,1
+35,Central US,Central US Store 72,2019-02-25,Beauty/Health,Haircare,11,10,19588361,47106203,True,2019-02-25,1
+36,Central US,Central US Store 72,2019-05-22,Furniture,Pool furniture,20,15,67806951,31980358,False,2019-05-22,1
+37,Central US,Central US Store 72,2019-08-04,Electronics,Cell Phones,27,100,55558545,40623698,True,2019-08-04,1
+38,Central US,Central US Store 72,2019-03-06,Electronics,Computers,13,300,89805237,33276859,False,2019-05-08,2
+39,Central US,Central US Store 72,2019-03-23,Clothing,Baby,12,10,28014660,48402704,True,2019-02-14,2
+40,Central US,Central US Store 72,2019-03-05,Electronics,Computers,13,300,69589128,5186004,False,2019-03-05,1
+41,Central US,Central US Store 72,2019-01-21,Baby,Baby toys,6,5,27931665,81679563,True,2019-01-21,1
+42,Central US,Central US Store 72,2019-07-01,Clothing,Baby,30,25,16930755,38462863,False,2019-07-01,1
+43,Central US,Central US Store 72,2019-08-01,Clothing,Swimwear,30,13,26997975,51860040,True,2019-08-01,1
+44,Central US,Central US Store 72,2019-03-03,Electronics,Speakers,13,50,97872502,51860040,True,2019-08-01,2
+45,Central US,Central US Store 72,2019-06-27,Furniture,Indoor seating,23,30,28391391,17286680,False,2019-06-27,1
+46,Central US,Central US Store 72,2019-07-07,Furniture,Beds,26,40,91927909,40191531,True,2019-07-07,1
+47,Central US,Central US Store 72,2019-02-19,Electronics,Tablets,10,200,87707815,31980358,False,2019-05-22,2
+48,Central US,Central US Store 72,2019-03-21,Clothing,Mens,12,25,97197895,87297734,True,2019-03-21,1
+49,Central US,Central US Store 72,2019-01-09,Furniture,Indoor tables,6,100,94176225,52292207,True,2019-01-09,1
+50,Central US,Central US Store 72,2019-03-18,Baby,Diaper bags,12,30,75032748,61367714,True,2019-03-18,1
+51,Central US,Central US Store 72,2019-05-10,Furniture,Pool furniture,20,75,69669532,36302028,False,2019-05-10,1
+52,Central US,Central US Store 72,2019-06-25,Baby,Diapers,27,5,17846577,54453042,True,2019-06-25,1
+53,Central US,Central US Store 72,2019-01-15,Baby,Baby toys,7,12,76859410,35869861,False,2019-01-23,2
+54,Central US,Central US Store 72,2019-06-20,Electronics,Speakers,21,200,76186008,39327197,True,2019-06-20,1
+55,Central US,Central US Store 72,2019-06-21,Furniture,Indoor tables,24,40,32525937,36302028,False,2019-05-10,2
+56,Central US,Central US Store 72,2019-08-09,Clothing,Baby,29,13,75123334,66985885,True,2019-08-09,1
+57,Central US,Central US Store 72,2019-03-07,Electronics,Computers,12,100,65984466,60935547,True,2019-04-17,2
+58,Central US,Central US Store 72,2019-05-18,Electronics,Computers,19,100,88138474,43216700,True,2019-05-18,1
+59,Central US,Central US Store 72,2019-05-31,Beauty/Health,Haircare,23,10,95154333,67418052,True,2019-05-31,1
+60,Central US,Central US Store 72,2019-06-14,Clothing,Swimwear,24,25,35715006,73468390,True,2019-06-14,1
+61,Central US,Central US Store 72,2019-07-03,Baby,Strollers,29,15,10024939,78654394,True,2019-07-03,1
+62,Central US,Central US Store 72,2019-04-09,Beauty/Health,Feminine Products,15,14,84660809,85569066,True,2019-04-09,1
+63,Central US,Central US Store 72,2019-02-12,Baby,Diaper bags,11,5,88990541,83408231,True,2019-02-12,1
+64,Central US,Central US Store 72,2019-01-28,Clothing,Womens,7,25,22903249,35005527,False,2019-01-28,1
+65,Central US,Central US Store 72,2019-03-28,Clothing,Kids,13,10,46598468,3025169,False,2019-03-28,1
+66,Central US,Central US Store 72,2019-01-24,Electronics,Tablets,7,100,32978689,61367714,True,2019-03-18,2
+67,Central US,Central US Store 72,2019-03-06,Electronics,Speakers,13,300,70638860,76061392,True,2019-03-06,1
+68,Central US,Central US Store 72,2019-05-29,Electronics,Speakers,19,100,72898014,86865567,True,2019-05-29,1
+69,Central US,Central US Store 72,2019-05-29,Electronics,Speakers,19,100,55612414,33276859,False,2019-05-08,3
+70,Central US,Central US Store 72,2019-04-19,Clothing,Swimwear,16,12,83803715,45809702,True,2019-04-19,1
+71,Central US,Central US Store 72,2019-03-23,Clothing,Womens,13,25,24940843,60503380,True,2019-03-23,1
+72,Central US,Central US Store 72,2019-05-31,Electronics,Televisions,18,100,52138090,39759364,True,2019-05-31,1
+73,Central US,Central US Store 72,2019-07-17,Baby,Cribs,28,5,23613892,10372008,False,2019-07-17,1
+74,Central US,Central US Store 72,2019-03-11,Furniture,Patio furniture,12,30,34036144,62664215,True,2019-03-11,1
+75,Central US,Central US Store 72,2019-08-04,Baby,Diaper bags,31,5,79144590,76061392,True,2019-03-06,2
+76,Central US,Central US Store 72,2019-03-21,Clothing,Mens,13,25,41302278,20311849,False,2019-03-21,1
+77,Central US,Central US Store 72,2019-01-20,Beauty/Health,Haircare,6,10,93747792,62232048,True,2019-01-20,1
+78,Central US,Central US Store 72,2019-02-28,Beauty/Health,Skincare,9,6,53795581,1296501,False,2019-02-28,1
+79,Central US,Central US Store 72,2019-04-04,Furniture,Beds,16,40,54196240,64825050,True,2019-04-04,1
+80,Central US,Central US Store 72,2019-01-24,Clothing,Swimwear,8,10,76543141,38462863,False,2019-07-01,2
+81,Central US,Central US Store 72,2019-08-01,Clothing,Swimwear,29,25,33669703,79518728,True,2019-04-25,2
+82,Central US,Central US Store 72,2019-04-25,Beauty/Health,Feminine Products,21,10,52451266,54885209,True,2019-04-25,1
+83,Central US,Central US Store 72,2019-05-16,Clothing,Mens,22,25,45367266,83840398,True,2019-05-16,1
+84,Central US,Central US Store 72,2019-08-04,Beauty/Health,Skincare,29,6,36934511,87729901,True,2019-08-04,1
+85,Central US,Central US Store 72,2019-05-19,Beauty/Health,Oral care,21,6,79883573,82976064,True,2019-05-19,1
+86,Central US,Central US Store 72,2019-06-10,Beauty/Health,Skincare,24,15,52402851,56613877,True,2019-06-10,1
+87,Central US,Central US Store 72,2019-01-09,Clothing,Shoes,7,25,65603683,44081034,True,2019-01-09,1
+88,Central US,Central US Store 72,2019-02-28,Electronics,Speakers,10,100,31194094,87297734,True,2019-03-21,2
+89,Central US,Central US Store 72,2019-05-28,Clothing,Kids,22,25,93910869,36734195,False,2019-05-28,1
+90,Central US,Central US Store 72,2019-04-18,Electronics,Computers,15,100,57047135,68282386,True,2019-04-18,1
+91,Central US,Central US Store 72,2019-03-23,Baby,Diaper bags,13,12,11412007,11668509,False,2019-03-23,1
+92,Central US,Central US Store 72,2019-07-05,Clothing,Swimwear,27,20,13333024,64392883,True,2019-01-04,2
+93,Central US,Central US Store 72,2019-07-09,Clothing,Shoes,29,10,37395203,4321670,False,2019-07-09,1
+94,Central US,Central US Store 72,2019-03-23,Furniture,Indoor seating,12,30,90547104,56613877,True,2019-06-10,2
+95,Central US,Central US Store 72,2019-02-17,Furniture,Patio furniture,11,40,73879351,40191531,True,2019-07-07,2
+96,Central US,Central US Store 72,2019-01-13,Baby,Baby toys,7,15,57590220,67850219,True,2019-08-09,2
+97,Central US,Central US Store 72,2019-02-19,Furniture,Patio furniture,10,100,80064160,35005527,False,2019-01-28,2
+98,Central US,Central US Store 72,2019-03-13,Furniture,Indoor seating,12,75,98637617,85136899,True,2019-03-13,1
+99,Central US,Central US Store 72,2019-05-10,Beauty/Health,Fragrances,23,6,58320285,51860040,True,2019-08-01,3
+100,Central US,Central US Store 72,2019-04-12,Beauty/Health,Haircare,16,15,16784220,53588708,True,2019-04-12,1
+101,Central US,Central US Store 72,2019-08-10,Electronics,Computers,27,50,24684866,64392883,True,2019-01-04,3
+102,Central US,Central US Store 72,2019-02-03,Clothing,Kids,11,25,51225008,73036223,True,2019-02-03,1
+103,Central US,Central US Store 72,2019-01-09,Clothing,Swimwear,7,25,92947565,33276859,False,2019-05-08,4
+104,Central US,Central US Store 72,2019-03-28,Clothing,Kids,12,25,26071413,35005527,False,2019-01-28,3
+105,Central US,Central US Store 72,2019-02-17,Electronics,Tablets,10,100,48288266,62664215,True,2019-03-11,2
+106,Central US,Central US Store 72,2019-08-09,Beauty/Health,Bath,31,15,50186025,68714553,True,2019-08-09,1
+107,Central US,Central US Store 72,2019-02-13,Baby,Diapers,10,30,96957401,29387356,False,2019-06-22,2
+108,Central US,Central US Store 72,2019-06-21,Beauty/Health,Skincare,24,10,99185652,62232048,True,2019-01-20,2
+109,Central US,Central US Store 72,2019-06-14,Furniture,Pool furniture,23,40,92377517,28090855,False,2019-06-14,1
+110,Central US,Central US Store 72,2019-07-27,Beauty/Health,Feminine Products,30,10,91803696,35005527,False,2019-01-28,4
+111,Central US,Central US Store 72,2019-05-22,Baby,Diapers,24,30,56522544,35869861,False,2019-01-23,3
+112,Central US,Central US Store 72,2019-03-24,Baby,Diaper bags,12,30,73234757,64392883,True,2019-01-04,4
+113,Central US,Central US Store 72,2019-03-28,Beauty/Health,Haircare,13,6,66870424,56181710,True,2019-03-28,1
+114,Central US,Central US Store 72,2019-03-23,Baby,Diaper bags,13,30,33483532,69578887,True,2019-03-23,1
+115,Central US,Central US Store 72,2019-02-06,Electronics,Tablets,10,50,73820598,55317376,True,2019-02-06,1
+116,Central US,Central US Store 72,2019-05-03,Electronics,Speakers,18,300,41325742,61367714,True,2019-03-18,3
+117,Central US,Central US Store 72,2019-07-09,Beauty/Health,Oral care,29,10,21862812,25930020,False,2019-07-09,1
+118,Central US,Central US Store 72,2019-02-16,Electronics,Cell Phones,9,100,50666533,61367714,True,2019-03-18,4
+119,Central US,Central US Store 72,2019-03-28,Furniture,Indoor tables,13,100,42870446,19879682,False,2019-03-27,2
+120,Central US,Central US Store 72,2019-04-04,Electronics,Speakers,16,100,37472323,78222227,True,2019-04-04,1
+121,Central US,Central US Store 72,2019-02-25,Baby,Diapers,9,15,53211705,62664215,True,2019-03-11,3
+122,Central US,Central US Store 72,2019-01-04,Clothing,Swimwear,6,13,27728508,53588708,True,2019-04-12,2
+123,Central US,Central US Store 72,2019-02-07,Clothing,Baby,10,25,48231642,22904851,False,2019-02-07,1
+124,Central US,Central US Store 72,2019-02-22,Baby,Diaper bags,11,15,11466890,76925726,True,2019-02-22,1
+125,Central US,Central US Store 72,2019-08-14,Electronics,Cell Phones,27,200,27172853,26362187,False,2019-02-15,3
+126,Central US,Central US Store 72,2019-04-25,Beauty/Health,Oral care,17,15,68750092,79086561,True,2019-04-25,1
+127,Central US,Central US Store 72,2019-03-28,Clothing,Swimwear,13,13,33883140,85569066,True,2019-04-09,2
+128,Central US,Central US Store 72,2019-02-27,Furniture,Pool furniture,10,100,63060300,80383062,True,2019-02-27,1
+129,Central US,Central US Store 72,2019-01-19,Electronics,Televisions,6,50,28833855,48834871,True,2019-01-19,1
+130,Central US,Central US Store 72,2019-03-16,Baby,Car seats,13,15,82332052,63528549,True,2019-03-16,1
+131,Central US,Central US Store 72,2019-05-19,Electronics,Cell Phones,18,200,17304977,29387356,False,2019-06-22,3
+132,Central US,Central US Store 72,2019-02-17,Beauty/Health,Feminine Products,10,14,64265218,39327197,True,2019-06-20,2
+133,Central US,Central US Store 72,2019-04-21,Furniture,Beds,17,40,97485136,10372008,False,2019-07-17,2
+134,Central US,Central US Store 72,2019-04-30,Furniture,Indoor seating,20,75,51588401,35005527,False,2019-01-28,5
+135,Central US,Central US Store 72,2019-01-12,Furniture,Indoor seating,7,15,51864670,54453042,True,2019-06-25,2
+136,Central US,Central US Store 72,2019-05-28,Baby,Cribs,24,30,72482630,34573360,False,2019-05-28,1
+137,Central US,Central US Store 72,2019-05-03,Beauty/Health,Feminine Products,21,15,40541978,58774712,True,2019-05-03,1
+138,Central US,Central US Store 72,2019-01-26,Electronics,Cell Phones,7,50,86565964,29819523,False,2019-05-24,2
+139,Central US,Central US Store 72,2019-06-01,Baby,Diaper bags,26,12,65149527,55749543,True,2019-06-01,1
+140,Central US,Central US Store 72,2019-02-21,Furniture,Beds,11,75,14001562,24633519,False,2019-02-21,1
+141,Central US,Central US Store 72,2019-08-15,Furniture,Indoor seating,32,15,37676843,55317376,True,2019-02-06,2
+142,Central US,Central US Store 72,2019-08-09,Electronics,Headphones,28,50,77964076,80815229,True,2019-06-13,2
+143,Central US,Central US Store 72,2019-01-11,Furniture,Indoor seating,6,15,76789074,56181710,True,2019-03-28,2
+144,Central US,Central US Store 72,2019-03-07,Electronics,Computers,12,300,92585717,54020875,True,2019-03-07,1
+145,Central US,Central US Store 72,2019-06-30,Baby,Baby toys,27,30,61078778,25930020,False,2019-07-09,2
+146,Central US,Central US Store 72,2019-05-16,Beauty/Health,Haircare,20,10,31730807,25497853,False,2019-05-16,1
+147,Central US,Central US Store 72,2019-07-09,Furniture,Patio furniture,29,100,90353009,88594235,True,2019-07-09,1
+148,Central US,Central US Store 72,2019-06-29,Electronics,Televisions,21,200,80574705,30683857,False,2019-06-29,1
+149,Central US,Central US Store 72,2019-08-08,Furniture,Indoor tables,33,30,85848238,4321670,False,2019-07-09,2
+150,Central US,Central US Store 72,2019-03-26,Beauty/Health,Feminine Products,14,15,10919054,40623698,True,2019-08-04,2
+151,Central US,Central US Store 72,2019-06-14,Clothing,Kids,24,12,17697129,32844692,False,2019-06-14,1
+152,Central US,Central US Store 72,2019-05-23,Beauty/Health,Haircare,20,10,19285241,27226521,False,2019-05-23,1
+153,Central US,Central US Store 72,2019-06-16,Beauty/Health,Feminine Products,24,10,26043036,30251690,False,2019-04-14,2
+154,Central US,Central US Store 72,2019-01-03,Electronics,Televisions,7,200,33135102,72604056,True,2019-01-03,1
+155,Central US,Central US Store 72,2019-04-01,Baby,Baby toys,16,12,97367804,24633519,False,2019-02-21,2
+156,Central US,Central US Store 72,2019-01-20,Furniture,Patio furniture,8,15,76563055,42352366,True,2019-01-20,1
+157,Central US,Central US Store 72,2019-05-28,Beauty/Health,Haircare,22,6,93656539,57478211,True,2019-05-28,1
+158,Central US,Central US Store 72,2019-06-04,Furniture,Pool furniture,24,40,41109806,31980358,False,2019-05-22,3
+159,Central US,Central US Store 72,2019-04-05,Beauty/Health,Makeup,15,10,61913732,76061392,True,2019-03-06,3
+160,Central US,Central US Store 72,2019-06-12,Clothing,Swimwear,23,20,22747176,38462863,False,2019-07-01,3
+161,Central US,Central US Store 72,2019-04-29,Furniture,Beds,18,75,65154506,32412525,False,2019-04-29,1
+162,Central US,Central US Store 72,2019-02-21,Electronics,Headphones,10,50,53450610,76061392,True,2019-03-06,4
+163,Central US,Central US Store 72,2019-03-01,Beauty/Health,Skincare,14,10,63598523,61799881,True,2019-03-01,1
+164,Central US,Central US Store 72,2019-08-04,Baby,Strollers,29,10,84402638,29819523,False,2019-05-24,3
+165,Central US,Central US Store 72,2019-05-09,Furniture,Beds,20,30,88386954,49267038,True,2019-05-09,1
+166,Central US,Central US Store 72,2019-07-24,Furniture,Indoor seating,28,75,39111223,58342545,True,2019-06-02,2
+167,Central US,Central US Store 72,2019-04-21,Electronics,Tablets,15,200,49054957,66553718,True,2019-04-21,1
+168,Central US,Central US Store 72,2019-01-02,Clothing,Swimwear,6,25,30055424,42352366,True,2019-01-20,2
+169,Central US,Central US Store 72,2019-04-05,Beauty/Health,Bath,16,15,52689412,22904851,False,2019-02-07,2
+170,Central US,Central US Store 72,2019-01-28,Beauty/Health,Fragrances,8,14,67288325,8643340,False,2019-01-28,1
+171,Central US,Central US Store 72,2019-04-14,Baby,Diapers,17,12,77904121,40623698,True,2019-08-04,3
+172,Central US,Central US Store 72,2019-06-21,Baby,Diaper bags,24,30,71644181,22472684,False,2019-03-01,2
+173,Central US,Central US Store 72,2019-02-22,Furniture,Pool furniture,11,100,55670360,36302028,False,2019-05-10,3
+174,Central US,Central US Store 72,2019-07-19,Furniture,Pool furniture,30,100,58714334,30683857,False,2019-06-29,2
+175,Central US,Central US Store 72,2019-05-20,Electronics,Cell Phones,18,200,67836463,83408231,True,2019-02-12,2
+176,Central US,Central US Store 72,2019-02-26,Beauty/Health,Haircare,10,6,39989584,65689384,True,2019-01-29,2
+177,Central US,Central US Store 72,2019-06-07,Furniture,Beds,26,100,77151477,50131372,True,2019-05-19,2
+178,Central US,Central US Store 72,2019-08-10,Clothing,Mens,30,10,39814793,47106203,True,2019-02-25,2
+179,Central US,Central US Store 72,2019-08-02,Beauty/Health,Makeup,30,10,78059715,50995706,True,2019-01-08,2
+180,Central US,Central US Store 72,2019-02-06,Baby,Baby toys,10,30,20728654,70875388,True,2019-02-06,1
+181,Central US,Central US Store 72,2019-03-31,Baby,Diapers,14,30,19682231,75197058,True,2019-03-31,1
+182,Central US,Central US Store 72,2019-01-19,Furniture,Indoor tables,8,100,66549284,83840398,True,2019-05-16,2
+183,Central US,Central US Store 72,2019-04-12,Furniture,Indoor seating,15,15,73961541,40623698,True,2019-08-04,4
+184,Central US,Central US Store 72,2019-05-16,Clothing,Mens,24,25,22897921,35437694,False,2019-05-16,1
+185,Central US,Central US Store 72,2019-06-03,Baby,Car seats,26,15,55950430,44513201,True,2019-03-27,2
+186,Central US,Central US Store 72,2019-08-14,Electronics,Televisions,27,300,27058630,30251690,False,2019-04-14,3
+187,Central US,Central US Store 72,2019-07-19,Electronics,Televisions,24,100,46115902,75629225,True,2019-07-19,1
+188,Central US,Central US Store 72,2019-08-14,Electronics,Speakers,27,100,87448502,89890736,True,2019-08-14,1
+189,Central US,Central US Store 72,2019-03-10,Baby,Diaper bags,14,15,14557421,30251690,False,2019-04-14,4
+190,Central US,Central US Store 72,2019-07-31,Beauty/Health,Haircare,29,10,93857725,59639046,True,2019-07-31,1
+191,Central US,Central US Store 72,2019-05-23,Beauty/Health,Haircare,22,6,24743592,29819523,False,2019-05-24,4
+192,Central US,Central US Store 72,2019-05-13,Electronics,Computers,18,50,82997130,17718847,False,2019-05-13,1
+193,Central US,Central US Store 72,2019-04-19,Baby,Cribs,17,5,94028209,32412525,False,2019-04-29,2
+194,Central US,Central US Store 72,2019-04-18,Furniture,Pool furniture,16,30,88722740,3025169,False,2019-03-28,2
+195,Central US,Central US Store 72,2019-07-19,Baby,Strollers,26,12,87925304,71307555,True,2019-01-12,2
+196,Central US,Central US Store 72,2019-06-12,Baby,Baby toys,24,5,59376592,56181710,True,2019-03-28,3
+197,Central US,Central US Store 72,2019-08-04,Electronics,Tablets,28,200,82225851,34141193,False,2019-08-04,1
+198,Central US,Central US Store 72,2019-04-16,Baby,Diapers,17,30,32977174,6050338,False,2019-04-16,1
+199,Central US,Central US Store 72,2019-01-13,Electronics,Cell Phones,7,200,20094154,63528549,True,2019-03-16,2
+200,Central US,Central US Store 72,2019-04-23,Baby,Cribs,16,30,23231395,64392883,True,2019-01-04,5
+201,Central US,Central US Store 72,2019-06-21,Clothing,Kids,26,12,67117147,73468390,True,2019-06-14,2
+202,Central US,Central US Store 72,2019-06-08,Electronics,Tablets,21,50,73225234,66121551,True,2019-07-25,2
+203,Central US,Central US Store 72,2019-06-10,Furniture,Indoor seating,26,75,71294687,6050338,False,2019-04-16,2
+204,Central US,Central US Store 72,2019-06-28,Clothing,Baby,23,25,18160615,27226521,False,2019-05-23,2
+205,Central US,Central US Store 72,2019-05-31,Furniture,Beds,23,30,87100590,15125845,False,2019-05-31,1
+206,Central US,Central US Store 72,2019-02-09,Clothing,Shoes,10,10,17605335,32412525,False,2019-04-29,3
+207,Central US,Central US Store 72,2019-03-30,Clothing,Mens,14,10,98797951,56613877,True,2019-06-10,3
+208,Central US,Central US Store 72,2019-04-20,Clothing,Womens,17,12,31942703,6482505,False,2019-04-20,1
+209,Central US,Central US Store 72,2019-05-14,Baby,Baby toys,20,12,18273314,58774712,True,2019-05-03,2
+210,Central US,Central US Store 72,2019-07-11,Clothing,Womens,30,12,41259853,52292207,True,2019-01-09,2
+211,Central US,Central US Store 72,2019-03-19,Beauty/Health,Oral care,13,14,54460282,67850219,True,2019-08-09,3
+212,Central US,Central US Store 72,2019-07-12,Beauty/Health,Feminine Products,28,10,54975273,71739722,True,2019-07-12,1
+213,Central US,Central US Store 72,2019-02-08,Electronics,Cell Phones,9,200,89565253,19447515,False,2019-02-08,1
+214,Central US,Central US Store 72,2019-04-24,Clothing,Baby,20,10,86406688,41488032,True,2019-04-24,1
+215,Central US,Central US Store 72,2019-07-05,Furniture,Patio furniture,27,15,79772434,57478211,True,2019-05-28,2
+216,Central US,Central US Store 72,2019-05-27,Beauty/Health,Haircare,24,15,75161725,54453042,True,2019-06-25,3
+217,Central US,Central US Store 72,2019-08-08,Electronics,Speakers,27,100,75770536,61367714,True,2019-03-18,5
+218,Central US,Central US Store 72,2019-05-11,Furniture,Pool furniture,20,75,90490241,55749543,True,2019-06-01,2
+219,Central US,Central US Store 72,2019-06-03,Beauty/Health,Skincare,25,14,62919863,70011054,True,2019-06-03,1
+220,Central US,Central US Store 72,2019-03-22,Beauty/Health,Skincare,12,14,41893710,57046044,True,2019-03-22,1
+221,Central US,Central US Store 72,2019-04-29,Baby,Diapers,18,12,42854140,84272565,True,2019-04-29,1
+222,Central US,Central US Store 72,2019-07-06,Furniture,Indoor tables,29,75,66334340,73036223,True,2019-02-03,2
+223,Central US,Central US Store 72,2019-07-10,Beauty/Health,Bath,26,15,34930111,60935547,True,2019-04-17,3
+224,Central US,Central US Store 72,2019-01-30,Clothing,Swimwear,8,25,40128012,81247396,True,2019-01-30,1
+225,Central US,Central US Store 72,2019-03-21,Baby,Car seats,12,30,21820894,57046044,True,2019-03-22,2
+226,Central US,Central US Store 72,2019-05-06,Clothing,Mens,24,13,52732116,52724374,True,2019-05-06,1
+227,Central US,Central US Store 72,2019-05-22,Clothing,Swimwear,22,12,12159626,50563539,True,2019-05-22,1
+228,Central US,Central US Store 72,2019-06-04,Baby,Diaper bags,25,30,29201919,86433400,True,2019-06-04,1
+229,Central US,Central US Store 72,2019-04-19,Electronics,Headphones,15,300,28907246,69146720,True,2019-04-19,1
+230,Central US,Central US Store 72,2019-01-15,Clothing,Baby,7,20,66649562,48834871,True,2019-01-19,2
+231,Central US,Central US Store 72,2019-04-16,Furniture,Patio furniture,15,15,78653534,39759364,True,2019-05-31,2
+232,Central US,Central US Store 72,2019-02-19,Baby,Diaper bags,10,5,20779916,69578887,True,2019-03-23,2
+233,Central US,Central US Store 72,2019-05-04,Electronics,Headphones,19,300,27811248,55749543,True,2019-06-01,3
+234,Central US,Central US Store 72,2019-01-31,Furniture,Patio furniture,8,30,30042530,38462863,False,2019-07-01,4
+235,Central US,Central US Store 72,2019-03-19,Baby,Car seats,14,15,76344388,11236342,False,2019-03-19,1
+236,Central US,Central US Store 72,2019-05-08,Electronics,Computers,18,50,19701517,76061392,True,2019-03-06,5
+237,Central US,Central US Store 72,2019-05-16,Beauty/Health,Feminine Products,24,10,31231355,83408231,True,2019-02-12,3
+238,Central US,Central US Store 72,2019-07-05,Furniture,Beds,29,75,73151777,44513201,True,2019-03-27,3
+239,Central US,Central US Store 72,2019-04-24,Electronics,Headphones,16,300,36062458,44513201,True,2019-03-27,4
+240,Central US,Central US Store 72,2019-06-05,Electronics,Speakers,21,300,64940823,20744016,False,2019-06-09,2
+241,Central US,Central US Store 72,2019-05-08,Electronics,Tablets,19,300,48611431,20311849,False,2019-03-21,2
+242,Central US,Central US Store 72,2019-04-29,Beauty/Health,Bath,17,6,35766976,84272565,True,2019-04-29,2
+243,Central US,Central US Store 72,2019-01-29,Furniture,Indoor tables,8,75,18364505,71307555,True,2019-01-12,3
+244,Central US,Central US Store 72,2019-03-31,Beauty/Health,Bath,13,10,85447437,53156541,True,2019-04-16,2
+245,Central US,Central US Store 72,2019-05-29,Clothing,Womens,24,12,90414397,32844692,False,2019-06-14,2
+246,Central US,Central US Store 72,2019-03-09,Beauty/Health,Bath,12,10,94016054,35437694,False,2019-05-16,2
+247,Central US,Central US Store 72,2019-03-28,Clothing,Womens,14,13,89439214,37598529,False,2019-03-28,1
+248,Central US,Central US Store 72,2019-03-15,Electronics,Televisions,12,100,90103052,65257217,True,2019-03-15,1
+249,Central US,Central US Store 72,2019-05-03,Clothing,Kids,23,25,70619780,57478211,True,2019-05-28,3
+250,Central US,Central US Store 72,2019-01-20,Beauty/Health,Feminine Products,7,6,51953333,63960716,True,2019-01-20,1
+251,Central US,Central US Store 72,2019-06-29,Beauty/Health,Skincare,26,10,68003061,47538370,True,2019-06-29,1
+252,Central US,Central US Store 72,2019-01-18,Beauty/Health,Haircare,8,15,79924051,16422346,False,2019-01-18,1
+253,Central US,Central US Store 72,2019-08-08,Baby,Strollers,30,5,60963622,69578887,True,2019-03-23,3
+254,Central US,Central US Store 72,2019-07-07,Beauty/Health,Haircare,27,10,33828971,43648867,True,2019-07-07,1
+255,Central US,Central US Store 72,2019-07-09,Clothing,Swimwear,29,20,68710987,72171889,True,2019-07-09,1
+256,Central US,Central US Store 72,2019-03-26,Furniture,Pool furniture,13,100,60868470,25497853,False,2019-05-16,2
+257,Central US,Central US Store 72,2019-07-23,Furniture,Indoor seating,28,100,89247457,78222227,True,2019-04-04,2
+258,Central US,Central US Store 72,2019-05-25,Beauty/Health,Skincare,23,10,47711134,50131372,True,2019-05-19,3
+259,Central US,Central US Store 72,2019-08-15,Beauty/Health,Fragrances,33,15,61444038,82976064,True,2019-05-19,2
+260,Central US,Central US Store 72,2019-05-22,Beauty/Health,Bath,23,10,75936811,61367714,True,2019-03-18,6
+261,Central US,Central US Store 72,2019-07-23,Beauty/Health,Skincare,27,14,86000941,8211173,False,2019-07-23,1
+262,Central US,Central US Store 72,2019-06-19,Furniture,Patio furniture,27,40,34169068,18151014,False,2019-06-19,1
+263,Central US,Central US Store 72,2019-07-30,Electronics,Cell Phones,24,200,52048044,87729901,True,2019-08-04,2
+264,Central US,Central US Store 72,2019-06-20,Baby,Cribs,25,30,90020598,45377535,True,2019-06-20,1
+265,Central US,Central US Store 72,2019-01-13,Electronics,Computers,6,200,63805415,31548191,False,2019-01-13,1
+266,Central US,Central US Store 72,2019-07-26,Baby,Diapers,27,30,62750903,65257217,True,2019-03-15,2
+267,Central US,Central US Store 72,2019-02-01,Furniture,Indoor seating,9,15,27466928,77790060,True,2019-02-01,1
+268,Central US,Central US Store 72,2019-08-04,Electronics,Televisions,27,100,37085263,80815229,True,2019-06-13,3
+269,Central US,Central US Store 72,2019-01-24,Furniture,Indoor seating,7,75,79194662,29819523,False,2019-05-24,5
+270,Central US,Central US Store 72,2019-02-16,Baby,Car seats,10,5,18530896,76061392,True,2019-03-06,6
+271,Central US,Central US Store 72,2019-02-14,Furniture,Patio furniture,10,30,25122015,70875388,True,2019-02-06,2
+272,Central US,Central US Store 72,2019-04-03,Electronics,Televisions,15,100,98906221,79518728,True,2019-04-25,3
+273,Central US,Central US Store 72,2019-01-03,Baby,Baby toys,6,5,16720454,82111730,True,2019-01-03,1
+274,Central US,Central US Store 72,2019-08-04,Clothing,Mens,32,25,21752874,24201352,False,2019-04-11,2
+275,Central US,Central US Store 72,2019-05-13,Furniture,Beds,20,15,26528129,34573360,False,2019-05-28,2
+276,Central US,Central US Store 72,2019-02-19,Furniture,Patio furniture,9,75,19625788,2160835,False,2019-02-19,1
+277,Central US,Central US Store 72,2019-08-09,Furniture,Patio furniture,29,15,84452676,79950895,True,2019-08-09,1
+278,Central US,Central US Store 72,2019-02-27,Baby,Diapers,9,12,79662687,75197058,True,2019-03-31,2
+279,Central US,Central US Store 72,2019-06-01,Electronics,Tablets,21,200,28428985,63528549,True,2019-03-16,3
+280,Central US,Central US Store 72,2019-01-11,Furniture,Patio furniture,6,40,41906257,30251690,False,2019-04-14,5
+281,Central US,Central US Store 72,2019-06-19,Electronics,Tablets,22,300,12942061,83840398,True,2019-05-16,3
+282,Central US,Central US Store 72,2019-03-18,Baby,Cribs,12,5,40025825,61799881,True,2019-03-01,2
+283,Central US,Central US Store 72,2019-01-06,Beauty/Health,Makeup,7,6,23064823,30251690,False,2019-04-14,6
+284,Central US,Central US Store 72,2019-05-10,Beauty/Health,Bath,22,6,10970002,71739722,True,2019-07-12,2
+285,Central US,Central US Store 72,2019-01-16,Furniture,Indoor tables,8,30,64340130,50995706,True,2019-01-08,3
+286,Central US,Central US Store 72,2019-02-07,Furniture,Beds,10,15,77152044,31548191,False,2019-01-13,2
+287,Central US,Central US Store 72,2019-07-22,Clothing,Baby,30,10,23638356,35869861,False,2019-01-23,4
+288,Central US,Central US Store 72,2019-04-01,Beauty/Health,Oral care,15,15,26755943,11668509,False,2019-03-23,2
+289,Central US,Central US Store 72,2019-05-26,Beauty/Health,Oral care,24,6,52205429,65257217,True,2019-03-15,3
+290,Central US,Central US Store 72,2019-02-19,Beauty/Health,Feminine Products,10,6,57556919,60503380,True,2019-03-23,2
+291,Central US,Central US Store 72,2019-03-17,Furniture,Patio furniture,13,75,85853522,25065686,False,2019-03-17,1
+292,Central US,Central US Store 72,2019-07-02,Furniture,Indoor tables,29,75,88274294,31116024,False,2019-07-02,1
+293,Central US,Central US Store 72,2019-03-08,Furniture,Pool furniture,12,40,97519075,33276859,False,2019-05-08,5
+294,Central US,Central US Store 72,2019-05-27,Furniture,Patio furniture,22,100,21982861,60071213,True,2019-05-27,1
+295,Central US,Central US Store 72,2019-04-06,Clothing,Womens,17,20,56417212,63528549,True,2019-03-16,4
+296,Central US,Central US Store 72,2019-04-20,Beauty/Health,Skincare,16,15,20739777,47538370,True,2019-06-29,2
+297,Central US,Central US Store 72,2019-08-10,Beauty/Health,Skincare,32,14,82149771,21176183,False,2019-08-10,1
+298,Central US,Central US Store 72,2019-05-26,Beauty/Health,Bath,21,14,13609581,49267038,True,2019-05-09,2
+299,Central US,Central US Store 72,2019-01-05,Clothing,Mens,8,20,12086866,51860040,True,2019-08-01,4
+300,Central US,Central US Store 72,2019-05-25,Clothing,Womens,20,20,65538266,4753837,False,2019-05-25,1
+301,Central US,Central US Store 72,2019-03-01,Baby,Diaper bags,13,30,31230194,74332724,True,2019-03-01,1
+302,Central US,Central US Store 72,2019-01-19,Beauty/Health,Haircare,6,6,48286667,38895030,True,2019-01-19,1
+303,Central US,Central US Store 72,2019-06-03,Clothing,Kids,25,12,37632975,47538370,True,2019-06-29,3
+304,Central US,Central US Store 72,2019-06-26,Baby,Diaper bags,24,5,73466008,14261511,False,2019-06-26,1
+305,Central US,Central US Store 72,2019-03-22,Clothing,Shoes,12,20,35725955,35437694,False,2019-05-16,3
+306,Central US,Central US Store 72,2019-03-31,Baby,Cribs,13,12,23777248,63528549,True,2019-03-16,5
+307,Central US,Central US Store 72,2019-07-04,Furniture,Pool furniture,27,40,82083259,73468390,True,2019-06-14,3
+308,Central US,Central US Store 72,2019-05-07,Clothing,Kids,24,10,50055527,17286680,False,2019-06-27,2
+309,Central US,Central US Store 72,2019-06-16,Beauty/Health,Oral care,26,10,93251624,75629225,True,2019-07-19,2
+310,Central US,Central US Store 72,2019-06-28,Electronics,Computers,21,100,15164110,75629225,True,2019-07-19,3
+311,Central US,Central US Store 72,2019-02-17,Electronics,Televisions,9,200,68929863,47538370,True,2019-06-29,4
+312,Central US,Central US Store 72,2019-06-04,Baby,Diaper bags,25,10,22200938,72171889,True,2019-07-09,2
+313,Central US,Central US Store 72,2019-07-20,Baby,Baby toys,30,5,68251984,88162068,True,2019-07-20,1
+314,Central US,Central US Store 72,2019-01-27,Baby,Diapers,6,5,13588766,56613877,True,2019-06-10,4
+315,Central US,Central US Store 72,2019-05-29,Furniture,Indoor seating,20,40,16276757,28523022,False,2019-05-29,1
+316,Central US,Central US Store 72,2019-05-23,Furniture,Indoor seating,23,100,37018053,61367714,True,2019-03-18,7
+317,Central US,Central US Store 72,2019-08-14,Furniture,Indoor seating,32,15,53105687,31980358,False,2019-05-22,4
+318,Central US,Central US Store 72,2019-01-26,Electronics,Cell Phones,6,100,39312553,8643340,False,2019-01-28,2
+319,Central US,Central US Store 72,2019-06-16,Beauty/Health,Oral care,27,10,95533611,48402704,True,2019-02-14,3
+320,Central US,Central US Store 72,2019-08-10,Beauty/Health,Skincare,31,15,55914592,61799881,True,2019-03-01,3
+321,Central US,Central US Store 72,2019-01-06,Baby,Baby toys,8,30,77438718,67850219,True,2019-08-09,4
+322,Central US,Central US Store 72,2019-02-27,Baby,Diaper bags,10,10,31021163,70443221,True,2019-02-27,1
+323,Central US,Central US Store 72,2019-04-26,Electronics,Cell Phones,16,200,70556657,19879682,False,2019-03-27,3
+324,Central US,Central US Store 72,2019-07-01,Clothing,Swimwear,28,25,44818128,36302028,False,2019-05-10,4
+325,Central US,Central US Store 72,2019-08-01,Beauty/Health,Bath,33,10,10788156,87297734,True,2019-03-21,3
+326,Central US,Central US Store 72,2019-05-13,Baby,Diapers,24,12,40378976,17286680,False,2019-06-27,3
+327,Central US,Central US Store 72,2019-04-17,Electronics,Tablets,16,200,71998706,33709026,False,2019-04-17,1
+328,Central US,Central US Store 72,2019-04-19,Electronics,Cell Phones,16,200,25677531,76061392,True,2019-03-06,7
+329,Central US,Central US Store 72,2019-03-18,Baby,Diapers,14,12,75297151,43648867,True,2019-07-07,2
+330,Central US,Central US Store 72,2019-07-31,Electronics,Computers,25,200,23123167,73036223,True,2019-02-03,3
+331,Central US,Central US Store 72,2019-04-12,Furniture,Beds,16,40,53644662,31116024,False,2019-07-02,2
+332,Central US,Central US Store 72,2019-02-21,Baby,Diaper bags,9,12,84173554,35005527,False,2019-01-28,6
+333,Central US,Central US Store 72,2019-02-03,Beauty/Health,Oral care,9,10,82898964,26794354,False,2019-02-03,1
+334,Central US,Central US Store 72,2019-02-21,Baby,Car seats,11,5,47152306,43648867,True,2019-07-07,3
+335,Central US,Central US Store 72,2019-05-29,Beauty/Health,Oral care,22,14,28903922,63096382,True,2019-05-29,1
+336,Central US,Central US Store 72,2019-06-21,Furniture,Pool furniture,25,100,39686844,40191531,True,2019-07-07,3
+337,Central US,Central US Store 72,2019-01-26,Furniture,Indoor tables,8,15,41027968,46241869,True,2019-03-19,2
+338,Central US,Central US Store 72,2019-01-10,Clothing,Baby,6,25,33608731,78654394,True,2019-07-03,2
+339,Central US,Central US Store 72,2019-01-18,Electronics,Tablets,7,200,80712417,60503380,True,2019-03-23,3
+340,Central US,Central US Store 72,2019-05-03,Clothing,Baby,20,13,63205546,54020875,True,2019-03-07,2
+341,Central US,Central US Store 72,2019-05-09,Clothing,Shoes,21,25,70657954,39759364,True,2019-05-31,3
+342,Central US,Central US Store 72,2019-07-23,Electronics,Tablets,25,100,83790757,43648867,True,2019-07-07,4
+343,Central US,Central US Store 72,2019-06-12,Furniture,Indoor seating,24,15,85534327,33709026,False,2019-04-17,2
+344,Central US,Central US Store 72,2019-03-04,Furniture,Indoor seating,14,15,37024432,33709026,False,2019-04-17,3
+345,Central US,Central US Store 72,2019-07-16,Electronics,Speakers,24,100,57643942,78654394,True,2019-07-03,3
+346,Central US,Central US Store 72,2019-04-11,Furniture,Indoor tables,15,40,38915750,18583181,False,2019-04-11,1
+347,Central US,Central US Store 72,2019-03-26,Electronics,Computers,13,50,24289063,54885209,True,2019-04-25,2
+348,Central US,Central US Store 72,2019-03-05,Furniture,Pool furniture,12,100,54740377,13829344,False,2019-03-05,1
+349,Central US,Central US Store 72,2019-03-15,Beauty/Health,Skincare,14,10,10145269,65257217,True,2019-03-15,4
+350,Central US,Central US Store 72,2019-04-19,Furniture,Patio furniture,16,30,15638988,25065686,False,2019-03-17,2
+351,Central US,Central US Store 72,2019-05-18,Baby,Strollers,24,30,96889414,60935547,True,2019-04-17,4
+352,Central US,Central US Store 72,2019-04-07,Electronics,Computers,16,300,56579808,79086561,True,2019-04-25,2
+353,Central US,Central US Store 72,2019-02-05,Clothing,Kids,9,20,67496594,1296501,False,2019-02-28,2
+354,Central US,Central US Store 72,2019-02-18,Clothing,Womens,11,25,37902123,10804175,False,2019-02-18,1
+355,Central US,Central US Store 72,2019-06-30,Baby,Cribs,26,30,23004266,44081034,True,2019-01-09,2
+356,Central US,Central US Store 72,2019-02-19,Electronics,Cell Phones,10,50,52552583,3025169,False,2019-03-28,3
+357,Central US,Central US Store 72,2019-07-26,Furniture,Patio furniture,26,30,50466139,86001233,True,2019-06-18,2
+358,Central US,Central US Store 72,2019-06-12,Baby,Strollers,25,30,88957821,3457336,False,2019-06-12,1
+359,Central US,Central US Store 72,2019-02-08,Furniture,Pool furniture,11,75,27660258,58342545,True,2019-06-02,3
+360,Central US,Central US Store 72,2019-05-21,Furniture,Beds,24,75,12299825,44945368,True,2019-05-21,1
+361,Central US,Central US Store 72,2019-06-28,Baby,Cribs,23,5,35886883,47106203,True,2019-02-25,3
+362,Central US,Central US Store 72,2019-07-04,Electronics,Tablets,25,200,44188454,89026402,True,2019-07-04,1
+363,Central US,Central US Store 72,2019-02-10,Electronics,Computers,10,200,65739766,29819523,False,2019-05-24,6
+364,Central US,Central US Store 72,2019-03-15,Beauty/Health,Oral care,12,10,48776699,82543897,True,2019-05-24,2
+365,Central US,Central US Store 72,2019-02-27,Baby,Baby toys,9,15,67116287,61367714,True,2019-03-18,8
+366,Central US,Central US Store 72,2019-02-22,Baby,Strollers,9,15,56859416,45809702,True,2019-04-19,2
+367,Central US,Central US Store 72,2019-02-08,Furniture,Pool furniture,11,40,70580534,27226521,False,2019-05-23,3
+368,Central US,Central US Store 72,2019-05-21,Furniture,Beds,20,15,69237117,3889503,False,2019-05-21,1
+369,Central US,Central US Store 72,2019-03-02,Beauty/Health,Bath,14,6,12434179,25497853,False,2019-05-16,3
+370,Central US,Central US Store 72,2019-02-05,Electronics,Cell Phones,10,200,18021056,44513201,True,2019-03-27,5
+371,Central US,Central US Store 72,2019-02-06,Clothing,Shoes,10,25,89806902,49699205,True,2019-02-06,1
+372,Central US,Central US Store 72,2019-02-17,Clothing,Baby,9,25,21519177,73900557,True,2019-02-17,1
+373,Central US,Central US Store 72,2019-07-24,Electronics,Speakers,25,50,64395407,73900557,True,2019-02-17,2
+374,Central US,Central US Store 72,2019-04-19,Clothing,Baby,15,10,66316245,72171889,True,2019-07-09,3
+375,Central US,Central US Store 72,2019-01-18,Furniture,Pool furniture,8,30,63828013,35005527,False,2019-01-28,7
+376,Central US,Central US Store 72,2019-08-06,Beauty/Health,Feminine Products,29,15,12004966,38895030,True,2019-01-19,2
+377,Central US,Central US Store 72,2019-05-30,Baby,Strollers,21,12,89723073,67850219,True,2019-08-09,5
+378,Central US,Central US Store 72,2019-01-08,Beauty/Health,Bath,6,14,20774261,43216700,True,2019-05-18,2
+379,Central US,Central US Store 72,2019-05-05,Electronics,Televisions,18,50,28672849,33276859,False,2019-05-08,6
+380,Central US,Central US Store 72,2019-03-14,Furniture,Indoor seating,14,15,53513992,47538370,True,2019-06-29,5
+381,Central US,Central US Store 72,2019-05-15,Baby,Diapers,24,30,80181615,14261511,False,2019-06-26,2
+382,Central US,Central US Store 72,2019-04-12,Beauty/Health,Skincare,17,10,77479314,44081034,True,2019-01-09,3
+383,Central US,Central US Store 72,2019-07-11,Beauty/Health,Skincare,26,15,44909128,29387356,False,2019-06-22,4
+384,Central US,Central US Store 72,2019-05-19,Baby,Baby toys,22,30,93574647,85136899,True,2019-03-13,2
+385,Central US,Central US Store 72,2019-05-25,Clothing,Kids,20,10,10981231,81679563,True,2019-01-21,2
+386,Central US,Central US Store 72,2019-07-31,Clothing,Mens,27,25,89687944,54885209,True,2019-04-25,3
+387,Central US,Central US Store 72,2019-08-06,Beauty/Health,Oral care,32,14,90293715,82976064,True,2019-05-19,3
+388,Central US,Central US Store 72,2019-01-10,Clothing,Mens,8,25,25576599,66121551,True,2019-07-25,3
+389,Central US,Central US Store 72,2019-05-22,Beauty/Health,Makeup,20,14,38177404,59206879,True,2019-05-22,1
+390,Central US,Central US Store 72,2019-04-03,Baby,Baby toys,15,30,59694809,30251690,False,2019-04-14,7
+391,Central US,Central US Store 72,2019-01-20,Electronics,Speakers,7,200,34841641,67418052,True,2019-05-31,2
+392,Central US,Central US Store 72,2019-04-05,Beauty/Health,Haircare,17,10,17872771,18151014,False,2019-06-19,2
+393,Central US,Central US Store 72,2019-02-06,Beauty/Health,Skincare,11,15,72713775,47970537,True,2019-01-06,2
+394,Central US,Central US Store 72,2019-04-13,Beauty/Health,Bath,16,10,54028095,44513201,True,2019-03-27,6
+395,Central US,Central US Store 72,2019-04-20,Furniture,Indoor seating,16,30,30886038,54020875,True,2019-03-07,3
+396,Central US,Central US Store 72,2019-04-24,Electronics,Tablets,15,50,48663102,44081034,True,2019-01-09,4
+397,Central US,Central US Store 72,2019-08-13,Beauty/Health,Bath,31,6,19559610,42352366,True,2019-01-20,3
+398,Central US,Central US Store 72,2019-05-07,Baby,Cribs,21,30,48403857,31116024,False,2019-07-02,3
+399,Central US,Central US Store 72,2019-03-07,Clothing,Womens,13,25,38403342,27658688,False,2019-03-07,1
+400,Central US,Central US Store 72,2019-04-15,Beauty/Health,Feminine Products,16,10,73999919,31116024,False,2019-07-02,4
+401,Central US,Central US Store 72,2019-02-23,Clothing,Swimwear,11,13,62147570,45809702,True,2019-04-19,3
+402,Central US,Central US Store 72,2019-03-15,Furniture,Pool furniture,12,15,36405405,43648867,True,2019-07-07,5
+403,Central US,Central US Store 72,2019-03-17,Baby,Strollers,12,10,47411180,87297734,True,2019-03-21,4
+404,Central US,Central US Store 72,2019-02-18,Beauty/Health,Haircare,9,14,41648927,87297734,True,2019-03-21,5
+405,Central US,Central US Store 72,2019-04-15,Electronics,Speakers,15,50,38446588,61799881,True,2019-03-01,4
+406,Central US,Central US Store 72,2019-05-11,Baby,Diaper bags,24,12,64819656,62664215,True,2019-03-11,4
+407,Central US,Central US Store 72,2019-06-10,Baby,Baby toys,24,15,25257794,42352366,True,2019-01-20,4
+408,Central US,Central US Store 72,2019-05-31,Clothing,Mens,22,20,97830385,79518728,True,2019-04-25,4
+409,Central US,Central US Store 72,2019-04-20,Clothing,Baby,16,25,59335820,64825050,True,2019-04-04,2
+410,Central US,Central US Store 72,2019-07-19,Furniture,Beds,27,100,10162831,60071213,True,2019-05-27,2
+411,Central US,Central US Store 72,2019-03-10,Furniture,Indoor seating,14,15,82952053,63960716,True,2019-01-20,2
+412,Central US,Central US Store 72,2019-01-19,Beauty/Health,Fragrances,8,10,89152976,37598529,False,2019-03-28,2
+413,Central US,Central US Store 72,2019-06-16,Clothing,Swimwear,24,25,47973489,62232048,True,2019-01-20,3
+414,Central US,Central US Store 72,2019-04-02,Furniture,Beds,17,15,42348881,25065686,False,2019-03-17,3
+415,Central US,Central US Store 72,2019-07-15,Beauty/Health,Makeup,28,10,43804222,16422346,False,2019-01-18,2
+416,Central US,Central US Store 72,2019-04-17,Electronics,Cell Phones,16,50,63445508,81679563,True,2019-01-21,3
+417,Central US,Central US Store 72,2019-05-12,Beauty/Health,Haircare,20,6,48237140,72604056,True,2019-01-03,2
+418,Central US,Central US Store 72,2019-01-25,Furniture,Indoor seating,7,15,70532485,52724374,True,2019-05-06,2
+419,Central US,Central US Store 72,2019-07-18,Furniture,Indoor tables,30,15,62359770,49699205,True,2019-02-06,2
+420,Central US,Central US Store 72,2019-05-31,Baby,Diapers,22,12,10813268,67850219,True,2019-08-09,6
+421,Central US,Central US Store 72,2019-01-29,Beauty/Health,Fragrances,7,10,85032633,77357893,True,2019-01-29,1
+422,Central US,Central US Store 72,2019-05-31,Clothing,Baby,20,25,31286657,26794354,False,2019-02-03,2
+423,Central US,Central US Store 72,2019-04-04,Baby,Cribs,15,10,27299919,59206879,True,2019-05-22,2
+424,Central US,Central US Store 72,2019-03-05,Clothing,Kids,12,13,31147017,74764891,True,2019-06-14,2
+425,Central US,Central US Store 72,2019-06-09,Beauty/Health,Makeup,24,10,38013625,57046044,True,2019-03-22,3
+426,Central US,Central US Store 72,2019-03-16,Furniture,Patio furniture,12,100,90332997,30251690,False,2019-04-14,8
+427,Central US,Central US Store 72,2019-08-03,Clothing,Baby,30,10,34136769,62664215,True,2019-03-11,5
+428,Central US,Central US Store 72,2019-03-22,Beauty/Health,Haircare,12,10,23564229,15125845,False,2019-05-31,2
+429,Central US,Central US Store 72,2019-08-02,Beauty/Health,Feminine Products,32,14,88599035,75629225,True,2019-07-19,4
+430,Central US,Central US Store 72,2019-04-10,Clothing,Mens,15,10,44728972,81247396,True,2019-01-30,2
+431,Central US,Central US Store 72,2019-04-09,Clothing,Mens,15,10,36771972,32412525,False,2019-04-29,4
+432,Central US,Central US Store 72,2019-01-26,Furniture,Indoor seating,7,75,46643439,33709026,False,2019-04-17,4
+433,Central US,Central US Store 72,2019-08-09,Electronics,Televisions,28,300,28928685,6914672,False,2019-08-09,1
+434,Central US,Central US Store 72,2019-07-08,Furniture,Indoor tables,28,100,98099195,79950895,True,2019-08-09,2
+435,Central US,Central US Store 72,2019-04-14,Baby,Strollers,15,15,33047659,86865567,True,2019-05-29,2
+436,Central US,Central US Store 72,2019-06-30,Furniture,Indoor seating,23,100,31997836,84704732,True,2019-06-30,1
+437,Central US,Central US Store 72,2019-02-06,Clothing,Swimwear,11,25,57089597,78222227,True,2019-04-04,3
+438,Central US,Central US Store 72,2019-03-26,Beauty/Health,Haircare,13,10,99937890,56181710,True,2019-03-28,4
+439,Central US,Central US Store 72,2019-03-08,Clothing,Shoes,12,25,20318373,29387356,False,2019-06-22,5
+440,Central US,Central US Store 72,2019-02-22,Baby,Baby toys,9,10,58648636,69578887,True,2019-03-23,4
+441,Central US,Central US Store 72,2019-02-22,Furniture,Pool furniture,9,15,57300144,42352366,True,2019-01-20,5
+442,Central US,Central US Store 72,2019-06-28,Furniture,Pool furniture,26,75,29735092,45809702,True,2019-04-19,4
+443,Central US,Central US Store 72,2019-05-16,Baby,Cribs,21,5,57557156,34141193,False,2019-08-04,2
+444,Central US,Central US Store 72,2019-04-05,Beauty/Health,Bath,16,15,39152845,22472684,False,2019-03-01,3
+445,Central US,Central US Store 72,2019-01-30,Clothing,Shoes,8,10,53320223,80815229,True,2019-06-13,4
+446,Central US,Central US Store 72,2019-01-31,Clothing,Womens,6,10,36399576,82543897,True,2019-05-24,3
+447,Central US,Central US Store 72,2019-06-13,Clothing,Baby,26,20,27869446,18583181,False,2019-04-11,2
+448,Central US,Central US Store 72,2019-05-08,Furniture,Indoor seating,24,75,17033708,44081034,True,2019-01-09,5
+449,Central US,Central US Store 72,2019-01-19,Clothing,Mens,7,25,87587685,86865567,True,2019-05-29,3
+450,Central US,Central US Store 72,2019-07-29,Electronics,Computers,25,200,72480093,67850219,True,2019-08-09,7
+451,Central US,Central US Store 72,2019-07-21,Electronics,Headphones,25,200,49652959,65689384,True,2019-01-29,3
+452,Central US,Central US Store 72,2019-02-06,Furniture,Indoor seating,10,75,74830878,55317376,True,2019-02-06,3
+453,Central US,Central US Store 72,2019-04-18,Baby,Baby toys,17,30,62269310,66121551,True,2019-07-25,4
+454,Central US,Central US Store 72,2019-04-08,Furniture,Pool furniture,16,75,28616127,14261511,False,2019-06-26,3
+455,Central US,Central US Store 72,2019-04-11,Furniture,Indoor seating,17,75,74274767,74332724,True,2019-03-01,2
+456,Central US,Central US Store 72,2019-05-03,Clothing,Kids,20,20,22353131,35869861,False,2019-01-23,5
+457,Central US,Central US Store 72,2019-06-26,Clothing,Shoes,23,10,51416377,19879682,False,2019-03-27,4
+458,Central US,Central US Store 72,2019-05-24,Electronics,Tablets,18,300,46125466,53156541,True,2019-04-16,3
+459,Central US,Central US Store 72,2019-06-23,Beauty/Health,Makeup,26,10,99482683,38462863,False,2019-07-01,5
+460,Central US,Central US Store 72,2019-04-16,Clothing,Swimwear,15,10,71218610,49699205,True,2019-02-06,3
+461,Central US,Central US Store 72,2019-04-10,Electronics,Speakers,15,100,54321753,19879682,False,2019-03-27,5
+462,Central US,Central US Store 72,2019-01-05,Furniture,Indoor tables,8,100,83802702,2593002,False,2019-01-05,1
+463,Central US,Central US Store 72,2019-01-31,Clothing,Swimwear,8,25,85193710,48834871,True,2019-01-19,3
+464,Central US,Central US Store 72,2019-03-12,Furniture,Pool furniture,14,30,91341002,45809702,True,2019-04-19,5
+465,Central US,Central US Store 72,2019-05-08,Electronics,Computers,18,200,26254208,53156541,True,2019-04-16,4
+466,Central US,Central US Store 72,2019-06-16,Electronics,Televisions,21,50,37708354,81679563,True,2019-01-21,4
+467,Central US,Central US Store 72,2019-01-22,Electronics,Cell Phones,6,100,65776701,56613877,True,2019-06-10,5
+468,Central US,Central US Store 72,2019-05-26,Electronics,Tablets,19,100,89555405,65257217,True,2019-03-15,5
+469,Central US,Central US Store 72,2019-05-26,Furniture,Patio furniture,20,15,64560255,31548191,False,2019-01-13,3
+470,Central US,Central US Store 72,2019-06-20,Clothing,Mens,23,12,70125846,89026402,True,2019-07-04,2
+471,Central US,Central US Store 72,2019-06-27,Baby,Diapers,23,15,52115009,44513201,True,2019-03-27,7
+472,Central US,Central US Store 72,2019-01-27,Electronics,Televisions,7,300,13916038,77790060,True,2019-02-01,2
+473,Central US,Central US Store 72,2019-04-04,Baby,Strollers,16,5,11828346,29387356,False,2019-06-22,6
+474,Central US,Central US Store 72,2019-08-06,Furniture,Indoor tables,31,30,75751250,37598529,False,2019-03-28,3
+475,Central US,Central US Store 72,2019-06-19,Beauty/Health,Feminine Products,23,10,36472587,43648867,True,2019-07-07,6
+476,Central US,Central US Store 72,2019-08-07,Baby,Diapers,31,30,45311404,35869861,False,2019-01-23,6
+477,Central US,Central US Store 72,2019-04-05,Baby,Car seats,16,30,74467963,53156541,True,2019-04-16,5
+478,Central US,Central US Store 72,2019-05-06,Baby,Diaper bags,22,12,87617508,54885209,True,2019-04-25,4
+479,Central US,Central US Store 72,2019-01-18,Electronics,Tablets,7,200,44403247,34573360,False,2019-05-28,3
+480,Central US,Central US Store 72,2019-01-29,Baby,Strollers,7,30,61816384,49267038,True,2019-05-09,3
+481,Central US,Central US Store 72,2019-01-11,Baby,Baby toys,6,10,67168636,74332724,True,2019-03-01,3
+482,Central US,Central US Store 72,2019-04-08,Beauty/Health,Fragrances,15,10,94232367,18583181,False,2019-04-11,3
+483,Central US,Central US Store 72,2019-02-11,Electronics,Speakers,10,100,35367104,50995706,True,2019-01-08,4
+484,Central US,Central US Store 72,2019-02-22,Electronics,Computers,10,100,65621164,77790060,True,2019-02-01,3
+485,Central US,Central US Store 72,2019-06-14,Electronics,Tablets,21,100,33193246,73900557,True,2019-02-17,3
+486,Central US,Central US Store 72,2019-02-04,Clothing,Swimwear,10,25,76280085,76061392,True,2019-03-06,8
+487,Central US,Central US Store 72,2019-08-09,Electronics,Cell Phones,28,100,26632206,75629225,True,2019-07-19,5
+488,Central US,Central US Store 72,2019-01-18,Baby,Diapers,6,5,31124743,35437694,False,2019-05-16,4
+489,Central US,Central US Store 72,2019-07-25,Clothing,Shoes,28,25,78097151,28523022,False,2019-05-29,2
+490,Central US,Central US Store 72,2019-02-20,Furniture,Indoor tables,11,75,36936916,61367714,True,2019-03-18,9
+491,Central US,Central US Store 72,2019-01-21,Electronics,Tablets,6,100,13202160,2160835,False,2019-02-19,2
+492,Central US,Central US Store 72,2019-07-14,Baby,Diapers,29,30,80542499,35005527,False,2019-01-28,8
+493,Central US,Central US Store 72,2019-03-19,Baby,Car seats,13,30,96836892,70011054,True,2019-06-03,2
+494,Central US,Central US Store 72,2019-08-08,Electronics,Televisions,27,100,84515372,46674036,True,2019-03-09,2
+495,Central US,Central US Store 72,2019-06-04,Furniture,Indoor seating,24,100,27699244,53588708,True,2019-04-12,3
+496,Central US,Central US Store 72,2019-07-30,Clothing,Baby,26,25,74746636,43648867,True,2019-07-07,7
+497,Central US,Central US Store 72,2019-07-04,Beauty/Health,Haircare,30,6,29678777,25065686,False,2019-03-17,4
+498,Central US,Central US Store 72,2019-03-13,Baby,Car seats,12,12,24245660,35005527,False,2019-01-28,9
+499,Central US,Central US Store 72,2019-04-22,Furniture,Indoor tables,17,75,60950021,56181710,True,2019-03-28,5
+500,Central US,Central US Store 72,2019-04-18,Clothing,Shoes,17,10,51309855,16422346,False,2019-01-18,3
+501,Central US,Central US Store 72,2019-07-30,Electronics,Speakers,24,100,78347035,83840398,True,2019-05-16,4
+502,Central US,Central US Store 72,2019-03-03,Clothing,Shoes,12,25,64316216,61799881,True,2019-03-01,5
+503,Central US,Central US Store 72,2019-05-09,Clothing,Baby,21,12,93623734,65689384,True,2019-01-29,4
+504,Central US,Central US Store 72,2019-07-09,Baby,Baby toys,26,12,89451453,29819523,False,2019-05-24,7
+505,Central US,Central US Store 72,2019-06-18,Furniture,Pool furniture,26,40,43435257,44081034,True,2019-01-09,6
+506,Central US,Central US Store 72,2019-02-16,Furniture,Beds,10,40,92419611,46674036,True,2019-03-09,3
+507,Central US,Central US Store 72,2019-05-30,Electronics,Computers,18,100,84112849,64825050,True,2019-04-04,3
+508,Central US,Central US Store 72,2019-06-24,Furniture,Patio furniture,24,30,68304587,69578887,True,2019-03-23,5
+509,Central US,Central US Store 72,2019-04-19,Furniture,Beds,16,75,67458177,30683857,False,2019-06-29,3
+510,Central US,Central US Store 72,2019-07-01,Beauty/Health,Bath,26,10,11619621,16422346,False,2019-01-18,4
+511,Central US,Central US Store 72,2019-05-11,Electronics,Computers,18,200,50594016,43216700,True,2019-05-18,3
+512,Central US,Central US Store 72,2019-06-28,Clothing,Womens,24,10,85789150,49699205,True,2019-02-06,4
+513,Central US,Central US Store 72,2019-02-10,Clothing,Baby,10,25,67006155,54453042,True,2019-06-25,4
+514,Central US,Central US Store 72,2019-06-28,Beauty/Health,Feminine Products,24,10,99132080,53588708,True,2019-04-12,4
+515,Central US,Central US Store 72,2019-07-26,Clothing,Baby,28,25,84625279,31548191,False,2019-01-13,4
+516,Central US,Central US Store 72,2019-04-10,Baby,Car seats,15,15,79311965,17718847,False,2019-05-13,2
+517,Central US,Central US Store 72,2019-05-13,Clothing,Kids,24,10,61257830,88594235,True,2019-07-09,2
+518,Central US,Central US Store 72,2019-07-27,Clothing,Shoes,29,20,26905435,30683857,False,2019-06-29,4
+519,Central US,Central US Store 72,2019-01-17,Beauty/Health,Haircare,8,14,94608694,70443221,True,2019-02-27,2
+520,Central US,Central US Store 72,2019-05-03,Electronics,Tablets,18,200,80573448,82543897,True,2019-05-24,4
+521,Central US,Central US Store 72,2019-07-06,Clothing,Womens,27,13,65599814,70011054,True,2019-06-03,3
+522,Central US,Central US Store 72,2019-07-19,Baby,Diapers,30,15,48288210,78654394,True,2019-07-03,4
+523,Central US,Central US Store 72,2019-06-11,Baby,Cribs,25,5,35242191,66121551,True,2019-07-25,5
+524,Central US,Central US Store 72,2019-01-24,Clothing,Shoes,7,10,99053963,65689384,True,2019-01-29,5
+525,Central US,Central US Store 72,2019-05-22,Clothing,Shoes,23,20,32771130,40191531,True,2019-07-07,4
+526,Central US,Central US Store 72,2019-07-21,Clothing,Shoes,28,10,76310553,51427873,True,2019-07-21,1
+527,Central US,Central US Store 72,2019-02-06,Clothing,Swimwear,10,12,21721606,53156541,True,2019-04-16,6
+528,Central US,Central US Store 72,2019-07-30,Clothing,Baby,30,25,29542710,28523022,False,2019-05-29,3
+529,Central US,Central US Store 72,2019-03-26,Clothing,Swimwear,14,10,20636113,43648867,True,2019-07-07,8
+530,Central US,Central US Store 72,2019-08-10,Beauty/Health,Bath,29,10,75054753,48402704,True,2019-02-14,4
+531,Central US,Central US Store 72,2019-04-10,Beauty/Health,Haircare,17,15,47274828,46241869,True,2019-03-19,3
+532,Central US,Central US Store 72,2019-05-01,Furniture,Indoor seating,20,75,82141135,62232048,True,2019-01-20,4
+533,Central US,Central US Store 72,2019-07-28,Clothing,Swimwear,29,13,59064350,66553718,True,2019-04-21,2
+534,Central US,Central US Store 72,2019-02-04,Baby,Diaper bags,11,30,51479255,46674036,True,2019-03-09,4
+535,Central US,Central US Store 72,2019-01-31,Beauty/Health,Skincare,7,10,71679337,84272565,True,2019-04-29,3
+536,Central US,Central US Store 72,2019-02-10,Electronics,Televisions,10,50,91816161,18583181,False,2019-04-11,4
+537,Central US,Central US Store 72,2019-03-02,Clothing,Mens,12,25,12367636,46674036,True,2019-03-09,5
+538,Central US,Central US Store 72,2019-05-28,Clothing,Swimwear,21,12,13745355,50563539,True,2019-05-22,2
+539,Central US,Central US Store 72,2019-07-17,Baby,Diaper bags,26,15,98434031,55317376,True,2019-02-06,4
+540,Central US,Central US Store 72,2019-08-05,Clothing,Kids,31,25,75832472,82543897,True,2019-05-24,5
+541,Central US,Central US Store 72,2019-06-27,Clothing,Baby,26,12,45147414,4321670,False,2019-07-09,3
+542,Central US,Central US Store 72,2019-06-16,Electronics,Cell Phones,22,300,91256404,21608350,False,2019-06-16,1
+543,Central US,Central US Store 72,2019-08-05,Furniture,Beds,29,30,25724129,73900557,True,2019-02-17,4
+544,Central US,Central US Store 72,2019-05-31,Beauty/Health,Skincare,21,6,33630368,86865567,True,2019-05-29,4
+545,Central US,Central US Store 72,2019-03-26,Baby,Baby toys,13,10,56557063,49267038,True,2019-05-09,4
+546,Central US,Central US Store 72,2019-03-18,Furniture,Beds,13,40,11694184,19447515,False,2019-02-08,2
+547,Central US,Central US Store 72,2019-06-11,Furniture,Beds,25,15,66852212,84704732,True,2019-06-30,2
+548,Central US,Central US Store 72,2019-07-26,Electronics,Computers,24,50,38680290,64392883,True,2019-01-04,6
+549,Central US,Central US Store 72,2019-02-21,Clothing,Shoes,10,25,43252073,37598529,False,2019-03-28,4
+550,Central US,Central US Store 72,2019-01-27,Electronics,Speakers,7,200,41037938,68714553,True,2019-08-09,2
+551,Central US,Central US Store 72,2019-01-25,Clothing,Baby,8,25,59017214,44513201,True,2019-03-27,8
+552,Central US,Central US Store 72,2019-07-02,Furniture,Pool furniture,26,15,38786924,70011054,True,2019-06-03,4
+553,Central US,Central US Store 72,2019-03-28,Clothing,Kids,13,20,36873247,71307555,True,2019-01-12,4
+554,Central US,Central US Store 72,2019-05-23,Clothing,Shoes,20,25,51610218,18583181,False,2019-04-11,5
+555,Central US,Central US Store 72,2019-01-16,Baby,Diapers,7,5,38852015,69146720,True,2019-04-19,2
+556,Central US,Central US Store 72,2019-07-15,Clothing,Shoes,26,10,95086583,17286680,False,2019-06-27,4
+557,Central US,Central US Store 72,2019-04-29,Baby,Diapers,20,5,63657212,38030696,False,2019-04-29,1
+558,Central US,Central US Store 72,2019-07-05,Baby,Baby toys,28,10,68282047,77357893,True,2019-01-29,2
+559,Central US,Central US Store 72,2019-01-11,Beauty/Health,Skincare,7,6,69416112,71739722,True,2019-07-12,3
+560,Central US,Central US Store 72,2019-06-09,Beauty/Health,Haircare,27,14,23864746,73036223,True,2019-02-03,4
+561,Central US,Central US Store 72,2019-05-06,Furniture,Beds,21,40,47721831,75197058,True,2019-03-31,3
+562,Central US,Central US Store 72,2019-08-09,Baby,Strollers,29,15,76644250,6482505,False,2019-04-20,2
+563,Central US,Central US Store 72,2019-07-26,Clothing,Kids,26,10,83310269,78654394,True,2019-07-03,5
+564,Central US,Central US Store 72,2019-07-31,Beauty/Health,Feminine Products,26,14,93700755,69146720,True,2019-04-19,3
+565,Central US,Central US Store 72,2019-01-10,Electronics,Televisions,7,100,80488726,24201352,False,2019-04-11,3
+566,Central US,Central US Store 72,2019-05-16,Furniture,Beds,23,75,65137320,79950895,True,2019-08-09,3
+567,Central US,Central US Store 72,2019-08-05,Clothing,Kids,29,12,91826285,70011054,True,2019-06-03,5
+568,Central US,Central US Store 72,2019-01-25,Clothing,Mens,7,13,98364956,57910378,True,2019-01-25,1
+569,Central US,Central US Store 72,2019-08-04,Clothing,Swimwear,30,12,74737406,48834871,True,2019-01-19,4
+570,Central US,Central US Store 72,2019-06-14,Electronics,Cell Phones,21,100,89362970,76925726,True,2019-02-22,2
+571,Central US,Central US Store 72,2019-05-01,Electronics,Tablets,19,200,65651365,50131372,True,2019-05-19,4
+572,Central US,Central US Store 72,2019-01-20,Baby,Car seats,8,30,15922269,36302028,False,2019-05-10,5
+573,Central US,Central US Store 72,2019-03-09,Furniture,Beds,12,75,50938069,79518728,True,2019-04-25,5
+574,Central US,Central US Store 72,2019-03-31,Clothing,Swimwear,12,13,77032201,57910378,True,2019-01-25,2
+575,Central US,Central US Store 72,2019-01-26,Clothing,Shoes,6,20,79845406,42352366,True,2019-01-20,6
+576,Central US,Central US Store 72,2019-06-06,Baby,Car seats,23,12,26969592,29819523,False,2019-05-24,8
+577,Central US,Central US Store 72,2019-01-19,Beauty/Health,Makeup,6,10,30660818,80815229,True,2019-06-13,5
+578,Central US,Central US Store 72,2019-04-05,Clothing,Womens,15,20,77310514,29387356,False,2019-06-22,7
+579,Central US,Central US Store 72,2019-06-13,Electronics,Tablets,21,100,24085187,39759364,True,2019-05-31,4
+580,Central US,Central US Store 72,2019-07-22,Furniture,Indoor seating,28,15,91266862,66553718,True,2019-04-21,3
+581,Central US,Central US Store 72,2019-04-29,Furniture,Pool furniture,21,40,42420137,25497853,False,2019-05-16,4
+582,Central US,Central US Store 72,2019-05-24,Electronics,Televisions,18,50,15162568,30251690,False,2019-04-14,9
+583,Central US,Central US Store 72,2019-05-18,Furniture,Patio furniture,24,100,92711333,38462863,False,2019-07-01,6
+584,Central US,Central US Store 72,2019-03-14,Furniture,Indoor seating,14,15,71149982,15125845,False,2019-05-31,3
+585,Central US,Central US Store 72,2019-02-21,Clothing,Mens,11,25,75604145,80383062,True,2019-02-27,2
+586,Central US,Central US Store 72,2019-04-07,Electronics,Headphones,16,300,77207628,23337018,False,2019-04-07,1
+587,Central US,Central US Store 72,2019-07-19,Clothing,Baby,28,10,48239907,66121551,True,2019-07-25,6
+588,Central US,Central US Store 72,2019-06-25,Electronics,Tablets,22,200,35727654,75629225,True,2019-07-19,6
+589,Central US,Central US Store 72,2019-01-04,Clothing,Womens,8,25,47826912,35437694,False,2019-05-16,5
+590,Central US,Central US Store 72,2019-01-03,Baby,Diaper bags,7,15,60740784,44081034,True,2019-01-09,7
+591,Central US,Central US Store 72,2019-07-26,Electronics,Computers,25,100,41598326,22472684,False,2019-03-01,4
+592,Central US,Central US Store 72,2019-05-13,Clothing,Swimwear,20,25,94021069,87729901,True,2019-08-04,3
+593,Central US,Central US Store 72,2019-08-14,Furniture,Patio furniture,33,40,45444701,85569066,True,2019-04-09,3
+594,Central US,Central US Store 72,2019-04-16,Baby,Cribs,16,10,56493051,51427873,True,2019-07-21,2
+595,Central US,Central US Store 72,2019-08-10,Baby,Diapers,31,10,80423489,49267038,True,2019-05-09,5
+596,Central US,Central US Store 72,2019-04-01,Baby,Car seats,15,12,74837019,51860040,True,2019-08-01,5
+597,Central US,Central US Store 72,2019-04-25,Beauty/Health,Bath,20,10,27622337,80383062,True,2019-02-27,3
+598,Central US,Central US Store 72,2019-06-26,Electronics,Speakers,22,50,88329954,30683857,False,2019-06-29,5
+599,Central US,Central US Store 72,2019-03-23,Electronics,Headphones,12,100,64361822,35869861,False,2019-01-23,7
+600,Central US,Central US Store 72,2019-04-21,Beauty/Health,Feminine Products,15,10,99662420,64825050,True,2019-04-04,4
+601,Central US,Central US Store 72,2019-01-24,Beauty/Health,Haircare,8,10,69900135,41920199,True,2019-07-10,2
+602,Central US,Central US Store 72,2019-02-15,Furniture,Indoor seating,10,15,63980630,24633519,False,2019-02-21,3
+603,Central US,Central US Store 72,2019-05-27,Electronics,Televisions,18,100,38583881,83840398,True,2019-05-16,5
+604,Central US,Central US Store 72,2019-07-27,Baby,Diaper bags,30,5,53244928,75629225,True,2019-07-19,7
+605,Central US,Central US Store 72,2019-02-26,Furniture,Indoor tables,10,30,84451922,46241869,True,2019-03-19,4
+606,Central US,Central US Store 72,2019-04-24,Electronics,Speakers,15,200,70988655,38030696,False,2019-04-29,2
+607,Central US,Central US Store 72,2019-01-21,Clothing,Mens,8,13,60844495,57046044,True,2019-03-22,4
+608,Central US,Central US Store 72,2019-06-14,Beauty/Health,Haircare,25,14,61725952,73900557,True,2019-02-17,5
+609,Central US,Central US Store 72,2019-07-28,Electronics,Speakers,24,300,57957238,63960716,True,2019-01-20,3
+610,Central US,Central US Store 72,2019-02-26,Furniture,Indoor tables,10,75,75411343,85569066,True,2019-04-09,4
+611,Central US,Central US Store 72,2019-03-01,Electronics,Headphones,13,200,15043653,9939841,False,2019-03-01,1
+612,Central US,Central US Store 72,2019-08-08,Baby,Car seats,29,12,56773509,37598529,False,2019-03-28,5
+613,Central US,Central US Store 72,2019-07-26,Baby,Baby toys,27,30,62598605,49267038,True,2019-05-09,6
+614,Central US,Central US Store 72,2019-02-10,Clothing,Womens,9,10,28484989,68714553,True,2019-08-09,3
+615,Central US,Central US Store 72,2019-06-06,Clothing,Shoes,24,10,10158722,64392883,True,2019-01-04,7
+616,Central US,Central US Store 72,2019-06-03,Clothing,Baby,25,12,44490007,24633519,False,2019-02-21,4
+617,Central US,Central US Store 72,2019-04-01,Beauty/Health,Feminine Products,17,10,35037245,34573360,False,2019-05-28,4
+618,Central US,Central US Store 72,2019-02-23,Beauty/Health,Bath,11,10,77137080,73036223,True,2019-02-03,5
+619,Central US,Central US Store 72,2019-01-23,Furniture,Indoor tables,7,30,89539343,75629225,True,2019-07-19,8
+620,Central US,Central US Store 72,2019-02-06,Clothing,Shoes,10,25,57200312,79518728,True,2019-04-25,6
+621,Central US,Central US Store 72,2019-06-19,Baby,Baby toys,23,15,47582786,55317376,True,2019-02-06,5
+622,Central US,Central US Store 72,2019-08-08,Beauty/Health,Oral care,29,14,74016126,8211173,False,2019-07-23,2
+623,Central US,Central US Store 72,2019-04-09,Beauty/Health,Fragrances,16,14,31213729,44945368,True,2019-05-21,2
+624,Central US,Central US Store 72,2019-07-24,Furniture,Patio furniture,26,15,57650723,53156541,True,2019-04-16,7
+625,Central US,Central US Store 72,2019-08-11,Furniture,Indoor tables,31,15,78831518,28523022,False,2019-05-29,4
+626,Central US,Central US Store 72,2019-07-10,Baby,Baby toys,29,30,38360005,40623698,True,2019-08-04,5
+627,Central US,Central US Store 72,2019-04-02,Beauty/Health,Fragrances,17,6,82238260,87297734,True,2019-03-21,6
+628,Central US,Central US Store 72,2019-02-27,Electronics,Cell Phones,10,200,66208633,49267038,True,2019-05-09,7
+629,Central US,Central US Store 72,2019-02-26,Electronics,Tablets,10,100,17252010,57046044,True,2019-03-22,5
+630,Central US,Central US Store 72,2019-06-01,Baby,Strollers,27,5,45694135,47970537,True,2019-01-06,3
+631,Central US,Central US Store 72,2019-03-22,Clothing,Mens,12,13,20505947,38462863,False,2019-07-01,7
+632,Central US,Central US Store 72,2019-07-16,Beauty/Health,Fragrances,29,10,83658472,28523022,False,2019-05-29,5
+633,Central US,Central US Store 72,2019-01-30,Baby,Car seats,8,10,64803729,35869861,False,2019-01-23,8
+634,Central US,Central US Store 72,2019-08-14,Clothing,Swimwear,33,20,81788193,27226521,False,2019-05-23,4
+635,Central US,Central US Store 72,2019-07-16,Electronics,Headphones,25,100,42383690,4753837,False,2019-05-25,2
+636,Central US,Central US Store 72,2019-03-18,Clothing,Kids,12,12,74162538,44945368,True,2019-05-21,3
+637,Central US,Central US Store 72,2019-08-07,Electronics,Computers,28,100,49288658,44945368,True,2019-05-21,4
+638,Central US,Central US Store 72,2019-02-02,Electronics,Speakers,10,200,94607321,76061392,True,2019-03-06,9
+639,Central US,Central US Store 72,2019-08-13,Baby,Diaper bags,33,15,57333543,83840398,True,2019-05-16,6
+640,Central US,Central US Store 72,2019-06-29,Electronics,Televisions,22,300,54512825,41488032,True,2019-04-24,2
+641,Central US,Central US Store 72,2019-01-13,Furniture,Beds,6,15,97872449,59639046,True,2019-07-31,2
+642,Central US,Central US Store 72,2019-04-18,Beauty/Health,Bath,15,10,73978459,44945368,True,2019-05-21,5
+643,Central US,Central US Store 72,2019-01-21,Clothing,Mens,8,25,21436367,29387356,False,2019-06-22,8
+644,Central US,Central US Store 72,2019-05-22,Beauty/Health,Feminine Products,24,10,90931847,58774712,True,2019-05-03,3
+645,Central US,Central US Store 72,2019-04-18,Baby,Diapers,16,10,92400875,28955189,False,2019-04-21,2
+646,Central US,Central US Store 72,2019-05-30,Furniture,Beds,23,15,48950481,6050338,False,2019-04-16,3
+647,Central US,Central US Store 72,2019-07-13,Beauty/Health,Bath,26,14,68965278,61367714,True,2019-03-18,10
+648,Central US,Central US Store 72,2019-07-15,Electronics,Tablets,25,200,77913327,70443221,True,2019-02-27,3
+649,Central US,Central US Store 72,2019-07-13,Furniture,Indoor seating,30,75,61386824,16422346,False,2019-01-18,5
+650,Central US,Central US Store 72,2019-07-08,Beauty/Health,Skincare,26,10,98173149,16854513,False,2019-07-08,1
+651,Central US,Central US Store 72,2019-06-29,Beauty/Health,Makeup,24,6,14137258,34141193,False,2019-08-04,3
+652,Central US,Central US Store 72,2019-03-01,Clothing,Mens,12,25,45401435,44513201,True,2019-03-27,9
+653,Central US,Central US Store 72,2019-02-10,Beauty/Health,Oral care,9,15,86319902,24201352,False,2019-04-11,4
+654,Central US,Central US Store 72,2019-06-14,Baby,Cribs,24,5,62935209,37598529,False,2019-03-28,6
+655,Central US,Central US Store 72,2019-07-14,Baby,Cribs,26,15,10130494,26362187,False,2019-02-15,4
+656,Central US,Central US Store 72,2019-01-11,Beauty/Health,Skincare,8,14,33736004,28955189,False,2019-04-21,3
+657,Central US,Central US Store 72,2019-07-13,Beauty/Health,Feminine Products,29,10,34045432,24201352,False,2019-04-11,5
+658,Central US,Central US Store 72,2019-08-02,Electronics,Cell Phones,27,100,48534411,26794354,False,2019-02-03,3
+659,Central US,Central US Store 72,2019-02-21,Clothing,Womens,10,10,52626873,64392883,True,2019-01-04,8
+660,Central US,Central US Store 72,2019-05-02,Furniture,Indoor seating,24,100,82305884,38895030,True,2019-01-19,3
+661,Central US,Central US Store 72,2019-02-02,Baby,Cribs,10,15,43273581,2160835,False,2019-02-19,3
+662,Central US,Central US Store 72,2019-06-05,Furniture,Patio furniture,23,40,79835964,63096382,True,2019-05-29,2
+663,Central US,Central US Store 72,2019-01-14,Clothing,Mens,6,20,82540615,63528549,True,2019-03-16,6
+664,Central US,Central US Store 72,2019-05-05,Beauty/Health,Fragrances,21,6,59792045,44081034,True,2019-01-09,8
+665,Central US,Central US Store 72,2019-07-24,Clothing,Mens,27,25,33895351,11668509,False,2019-03-23,3
+666,Central US,Central US Store 72,2019-05-10,Furniture,Pool furniture,20,75,26391763,11236342,False,2019-03-19,2
+667,Central US,Central US Store 72,2019-01-09,Furniture,Indoor seating,8,15,64317874,29387356,False,2019-06-22,9
+668,Central US,Central US Store 72,2019-01-29,Baby,Diaper bags,7,10,85751424,79518728,True,2019-04-25,7
+669,Central US,Central US Store 72,2019-04-13,Beauty/Health,Oral care,17,6,93523829,82543897,True,2019-05-24,6
+670,Central US,Central US Store 72,2019-06-17,Beauty/Health,Haircare,27,6,59814447,82111730,True,2019-01-03,2
+671,Central US,Central US Store 72,2019-04-18,Beauty/Health,Skincare,15,10,67805596,50131372,True,2019-05-19,5
+672,Central US,Central US Store 72,2019-01-06,Clothing,Swimwear,6,25,74354799,51860040,True,2019-08-01,6
+673,Central US,Central US Store 72,2019-08-10,Beauty/Health,Bath,31,10,14872361,76061392,True,2019-03-06,10
+674,Central US,Central US Store 72,2019-01-23,Baby,Car seats,8,12,13210147,30251690,False,2019-04-14,10
+675,Central US,Central US Store 72,2019-07-17,Furniture,Patio furniture,28,15,76955630,19879682,False,2019-03-27,6
+676,Central US,Central US Store 72,2019-08-11,Furniture,Pool furniture,32,75,27799865,41920199,True,2019-07-10,3
+677,Central US,Central US Store 72,2019-08-06,Clothing,Womens,33,10,15283808,45809702,True,2019-04-19,6
+678,Central US,Central US Store 72,2019-04-11,Beauty/Health,Fragrances,15,10,42069682,60071213,True,2019-05-27,3
+679,Central US,Central US Store 72,2019-02-17,Furniture,Indoor tables,11,100,86125270,81247396,True,2019-01-30,3
+680,Central US,Central US Store 72,2019-04-30,Clothing,Shoes,19,20,53355888,84704732,True,2019-06-30,3
+681,Central US,Central US Store 72,2019-06-24,Beauty/Health,Haircare,27,10,60248062,88594235,True,2019-07-09,3
+682,Central US,Central US Store 72,2019-06-14,Beauty/Health,Fragrances,23,15,83501404,66121551,True,2019-07-25,7
+683,Central US,Central US Store 72,2019-06-15,Baby,Cribs,27,30,15868103,6050338,False,2019-04-16,4
+684,Central US,Central US Store 72,2019-06-07,Clothing,Womens,27,10,21688879,58342545,True,2019-06-02,4
+685,Central US,Central US Store 72,2019-06-05,Beauty/Health,Feminine Products,27,10,93821276,25065686,False,2019-03-17,5
+686,Central US,Central US Store 72,2019-02-11,Furniture,Beds,9,100,50121176,54453042,True,2019-06-25,5
+687,Central US,Central US Store 72,2019-07-09,Clothing,Shoes,27,10,61431428,86001233,True,2019-06-18,3
+688,Central US,Central US Store 72,2019-06-11,Electronics,Speakers,21,200,73893711,15990179,False,2019-06-11,1
+689,Central US,Central US Store 72,2019-07-23,Beauty/Health,Bath,30,6,71413745,12965010,False,2019-07-23,1
+690,Central US,Central US Store 72,2019-06-16,Clothing,Shoes,27,20,92465162,33709026,False,2019-04-17,5
+691,Central US,Central US Store 72,2019-04-04,Beauty/Health,Fragrances,16,15,26024153,52724374,True,2019-05-06,3
+692,Central US,Central US Store 72,2019-05-08,Clothing,Baby,22,13,50526825,74332724,True,2019-03-01,4
+693,Central US,Central US Store 72,2019-01-21,Baby,Baby toys,8,10,38641958,61799881,True,2019-03-01,6
+694,Central US,Central US Store 72,2019-01-12,Baby,Diapers,8,30,81285318,23337018,False,2019-04-07,2
+695,Central US,Central US Store 72,2019-05-03,Furniture,Beds,21,75,32189181,35437694,False,2019-05-16,6
+696,Central US,Central US Store 72,2019-03-19,Baby,Baby toys,12,10,67353971,67418052,True,2019-05-31,3
+697,Central US,Central US Store 72,2019-01-20,Electronics,Cell Phones,6,300,14894452,79086561,True,2019-04-25,3
+698,Central US,Central US Store 72,2019-05-31,Beauty/Health,Feminine Products,21,10,61410403,79086561,True,2019-04-25,4
+699,Central US,Central US Store 72,2019-01-08,Beauty/Health,Haircare,6,14,40300853,51860040,True,2019-08-01,7
+700,Central US,Central US Store 72,2019-05-19,Clothing,Baby,23,20,97354854,16854513,False,2019-07-08,2
+701,Central US,Central US Store 72,2019-07-13,Baby,Diapers,28,10,89845960,86865567,True,2019-05-29,5
+702,Central US,Central US Store 72,2019-04-24,Electronics,Televisions,16,100,59810704,81247396,True,2019-01-30,4
+703,Central US,Central US Store 72,2019-01-14,Beauty/Health,Skincare,8,6,30658389,51427873,True,2019-07-21,3
+704,Central US,Central US Store 72,2019-01-03,Clothing,Kids,6,13,52933200,49699205,True,2019-02-06,5
+705,Central US,Central US Store 72,2019-05-22,Clothing,Mens,21,13,35830161,24633519,False,2019-02-21,5
+706,Central US,Central US Store 72,2019-08-10,Furniture,Pool furniture,32,15,88754580,76061392,True,2019-03-06,11
+707,Central US,Central US Store 72,2019-08-09,Furniture,Indoor seating,29,75,49138209,65257217,True,2019-03-15,6
+708,Central US,Central US Store 72,2019-02-04,Beauty/Health,Bath,11,15,10387847,76061392,True,2019-03-06,12
+709,Central US,Central US Store 72,2019-05-31,Electronics,Computers,18,100,12635210,9939841,False,2019-03-01,2
+710,Central US,Central US Store 72,2019-08-15,Furniture,Beds,32,75,23203479,85136899,True,2019-03-13,3
+711,Central US,Central US Store 72,2019-03-22,Clothing,Baby,13,20,50438076,62232048,True,2019-01-20,5
+712,Central US,Central US Store 72,2019-08-07,Baby,Diapers,32,5,71497975,70011054,True,2019-06-03,6
+713,Central US,Central US Store 72,2019-06-15,Beauty/Health,Fragrances,26,10,47977612,56613877,True,2019-06-10,6
+714,Central US,Central US Store 72,2019-05-08,Baby,Cribs,20,30,17515242,73468390,True,2019-06-14,4
+715,Central US,Central US Store 72,2019-05-25,Furniture,Indoor tables,22,30,96454430,65689384,True,2019-01-29,6
+716,Central US,Central US Store 72,2019-01-12,Beauty/Health,Makeup,7,14,83423545,57910378,True,2019-01-25,3
+717,Central US,Central US Store 72,2019-01-27,Clothing,Shoes,6,25,32317151,51427873,True,2019-07-21,4
+718,Central US,Central US Store 72,2019-01-31,Furniture,Beds,6,15,28163619,51860040,True,2019-08-01,8
+719,Central US,Central US Store 72,2019-06-18,Clothing,Shoes,25,10,45165338,49267038,True,2019-05-09,8
+720,Central US,Central US Store 72,2019-04-09,Furniture,Pool furniture,16,30,64322570,32844692,False,2019-06-14,3
+721,Central US,Central US Store 72,2019-06-18,Baby,Diaper bags,23,12,34545676,71739722,True,2019-07-12,4
+722,Central US,Central US Store 72,2019-06-24,Beauty/Health,Skincare,27,14,73030299,39327197,True,2019-06-20,3
+723,Central US,Central US Store 72,2019-07-19,Clothing,Womens,26,25,48347585,34573360,False,2019-05-28,5
+724,Central US,Central US Store 72,2019-01-25,Clothing,Kids,7,25,61745470,47538370,True,2019-06-29,6
+725,Central US,Central US Store 72,2019-05-06,Clothing,Shoes,24,25,92322641,9507674,False,2019-05-06,1
+726,Central US,Central US Store 72,2019-07-16,Baby,Diapers,26,12,49890895,85569066,True,2019-04-09,5
+727,Central US,Central US Store 72,2019-04-01,Electronics,Computers,16,50,46731361,2593002,False,2019-01-05,2
+728,Central US,Central US Store 72,2019-01-15,Clothing,Baby,8,25,43614559,44945368,True,2019-05-21,6
+729,Central US,Central US Store 72,2019-05-08,Furniture,Beds,21,100,45661056,61799881,True,2019-03-01,7
+730,Central US,Central US Store 72,2019-04-01,Electronics,Speakers,16,100,87506778,82111730,True,2019-01-03,3
+731,Central US,Central US Store 72,2019-04-03,Electronics,Televisions,15,100,31839788,41055865,True,2019-04-03,1
+732,Central US,Central US Store 72,2019-05-16,Clothing,Baby,23,25,75430722,76493559,True,2019-05-16,1
+733,Central US,Central US Store 72,2019-07-17,Electronics,Headphones,25,300,86827045,39759364,True,2019-05-31,5
+734,Central US,Central US Store 72,2019-07-23,Electronics,Televisions,25,50,72325436,68282386,True,2019-04-18,2
+735,Central US,Central US Store 72,2019-03-05,Electronics,Speakers,12,50,42941027,46674036,True,2019-03-09,6
+736,Central US,Central US Store 72,2019-08-12,Electronics,Tablets,27,50,95866759,42352366,True,2019-01-20,7
+737,Central US,Central US Store 72,2019-08-12,Electronics,Cell Phones,27,100,13462711,43216700,True,2019-05-18,4
+738,Central US,Central US Store 72,2019-01-27,Furniture,Patio furniture,6,100,63120538,36734195,False,2019-05-28,2
+739,Central US,Central US Store 72,2019-01-13,Electronics,Headphones,7,200,78847972,47106203,True,2019-02-25,4
+740,Central US,Central US Store 72,2019-07-29,Electronics,Headphones,25,200,49088447,24201352,False,2019-04-11,6
+741,Central US,Central US Store 72,2019-07-24,Baby,Strollers,28,15,61241782,62232048,True,2019-01-20,6
+742,Central US,Central US Store 72,2019-07-17,Clothing,Baby,27,10,74524271,82543897,True,2019-05-24,7
+743,Central US,Central US Store 72,2019-03-08,Baby,Car seats,14,10,71593168,41055865,True,2019-04-03,2
+744,Central US,Central US Store 72,2019-04-26,Furniture,Beds,20,15,41297471,82976064,True,2019-05-19,4
+745,Central US,Central US Store 72,2019-04-01,Clothing,Swimwear,16,25,38494654,75197058,True,2019-03-31,4
+746,Central US,Central US Store 72,2019-01-04,Beauty/Health,Oral care,7,15,59507795,41488032,True,2019-04-24,3
+747,Central US,Central US Store 72,2019-07-28,Electronics,Cell Phones,24,100,34776241,37166362,False,2019-07-28,1
+748,Central US,Central US Store 72,2019-06-18,Baby,Diaper bags,25,15,27477455,49699205,True,2019-02-06,6
+749,Central US,Central US Store 72,2019-07-11,Electronics,Tablets,25,50,62114241,37598529,False,2019-03-28,7
+750,Central US,Central US Store 72,2019-02-05,Beauty/Health,Skincare,10,10,22716938,79086561,True,2019-04-25,5
+751,Central US,Central US Store 72,2019-05-06,Furniture,Patio furniture,20,15,29596000,68714553,True,2019-08-09,4
+752,Central US,Central US Store 72,2019-02-05,Beauty/Health,Feminine Products,9,6,99482223,41488032,True,2019-04-24,4
+753,Central US,Central US Store 72,2019-06-29,Furniture,Indoor tables,26,40,95762066,38462863,False,2019-07-01,8
+754,Central US,Central US Store 72,2019-07-17,Baby,Car seats,28,5,65012453,77357893,True,2019-01-29,3
+755,Central US,Central US Store 72,2019-02-24,Clothing,Baby,10,25,60399122,49699205,True,2019-02-06,7
+756,Central US,Central US Store 72,2019-06-16,Electronics,Computers,21,100,35739752,77790060,True,2019-02-01,4
+757,Central US,Central US Store 72,2019-04-13,Furniture,Beds,15,30,16271272,80815229,True,2019-06-13,6
+758,Central US,Central US Store 72,2019-03-08,Furniture,Indoor seating,13,30,26850093,67850219,True,2019-08-09,8
+759,Central US,Central US Store 72,2019-04-25,Beauty/Health,Makeup,20,10,58838237,77790060,True,2019-02-01,5
+760,Central US,Central US Store 72,2019-01-03,Beauty/Health,Skincare,8,10,82338993,81679563,True,2019-01-21,5
+761,Central US,Central US Store 72,2019-05-11,Furniture,Pool furniture,22,100,49204522,36302028,False,2019-05-10,6
+762,Central US,Central US Store 72,2019-01-06,Clothing,Kids,6,25,63673908,50131372,True,2019-05-19,6
+763,Central US,Central US Store 72,2019-01-06,Beauty/Health,Haircare,6,10,91489629,9507674,False,2019-05-06,2
+764,Central US,Central US Store 72,2019-02-12,Baby,Car seats,10,12,78428884,58774712,True,2019-05-03,4
+765,Central US,Central US Store 72,2019-01-01,Baby,Cribs,6,30,73275714,86001233,True,2019-06-18,4
+766,Central US,Central US Store 72,2019-08-09,Beauty/Health,Oral care,29,14,91463925,76925726,True,2019-02-22,3
+767,Central US,Central US Store 72,2019-03-09,Clothing,Mens,12,25,15709011,31980358,False,2019-05-22,5
+768,Central US,Central US Store 72,2019-06-19,Baby,Car seats,23,30,75207313,64825050,True,2019-04-04,5
+769,Central US,Central US Store 72,2019-05-24,Clothing,Shoes,21,13,74033157,70443221,True,2019-02-27,4
+770,Central US,Central US Store 72,2019-04-30,Beauty/Health,Oral care,20,15,25076413,57046044,True,2019-03-22,6
+771,Central US,Central US Store 72,2019-02-07,Beauty/Health,Haircare,10,10,83684614,83840398,True,2019-05-16,7
+772,Central US,Central US Store 72,2019-03-28,Furniture,Indoor seating,12,15,51027045,43648867,True,2019-07-07,9
+773,Central US,Central US Store 72,2019-01-10,Beauty/Health,Skincare,7,6,82909558,54020875,True,2019-03-07,4
+774,Central US,Central US Store 72,2019-08-12,Furniture,Indoor seating,32,75,44248335,26362187,False,2019-02-15,5
+775,Central US,Central US Store 72,2019-07-29,Baby,Diapers,28,5,32610912,78222227,True,2019-04-04,4
+776,Central US,Central US Store 72,2019-02-13,Electronics,Televisions,10,200,15747081,47538370,True,2019-06-29,7
+777,Central US,Central US Store 72,2019-05-05,Furniture,Pool furniture,20,30,30665116,60503380,True,2019-03-23,4
+778,Central US,Central US Store 72,2019-01-15,Beauty/Health,Bath,7,10,27707220,61367714,True,2019-03-18,11
+779,Central US,Central US Store 72,2019-07-13,Electronics,Computers,24,300,83810520,86433400,True,2019-06-04,2
+780,Central US,Central US Store 72,2019-04-24,Furniture,Patio furniture,20,15,97390672,35437694,False,2019-05-16,7
+781,Central US,Central US Store 72,2019-07-31,Beauty/Health,Makeup,30,15,99472768,55317376,True,2019-02-06,6
+782,Central US,Central US Store 72,2019-01-02,Beauty/Health,Feminine Products,6,15,53194154,45377535,True,2019-06-20,2
+783,Central US,Central US Store 72,2019-02-22,Furniture,Indoor tables,11,75,47089747,67850219,True,2019-08-09,9
+784,Central US,Central US Store 72,2019-01-22,Beauty/Health,Haircare,8,10,92453276,864334,False,2019-01-22,1
+785,Central US,Central US Store 72,2019-04-08,Beauty/Health,Skincare,16,10,72244371,86865567,True,2019-05-29,6
+786,Central US,Central US Store 72,2019-01-30,Electronics,Speakers,7,100,84732651,27226521,False,2019-05-23,5
+787,Central US,Central US Store 72,2019-04-22,Electronics,Cell Phones,16,200,44743847,61367714,True,2019-03-18,12
+788,Central US,Central US Store 72,2019-01-15,Electronics,Cell Phones,6,300,71577824,33276859,False,2019-05-08,7
+789,Central US,Central US Store 72,2019-03-17,Clothing,Shoes,13,12,10192558,79518728,True,2019-04-25,8
+790,Central US,Central US Store 72,2019-02-17,Furniture,Pool furniture,9,15,55840808,35437694,False,2019-05-16,8
+791,Central US,Central US Store 72,2019-06-13,Furniture,Indoor tables,25,15,48650133,5618171,False,2019-06-13,1
+792,Central US,Central US Store 72,2019-03-25,Beauty/Health,Skincare,13,10,82423618,57478211,True,2019-05-28,4
+793,Central US,Central US Store 72,2019-05-15,Beauty/Health,Feminine Products,24,14,59008008,69146720,True,2019-04-19,4
+794,Central US,Central US Store 72,2019-01-22,Furniture,Indoor seating,7,15,48900757,76061392,True,2019-03-06,13
+795,Central US,Central US Store 72,2019-01-20,Furniture,Patio furniture,6,30,34997036,39327197,True,2019-06-20,4
+796,Central US,Central US Store 72,2019-07-30,Baby,Car seats,27,12,35658013,34141193,False,2019-08-04,4
+797,Central US,Central US Store 72,2019-01-29,Clothing,Womens,6,20,89306914,44945368,True,2019-05-21,7
+798,Central US,Central US Store 72,2019-06-17,Electronics,Cell Phones,21,300,93478604,60071213,True,2019-05-27,4
+799,Central US,Central US Store 72,2019-07-01,Furniture,Pool furniture,28,15,19863074,56181710,True,2019-03-28,6
+800,Central US,Central US Store 72,2019-07-22,Furniture,Patio furniture,30,75,68067543,51427873,True,2019-07-21,5
+801,Central US,Central US Store 72,2019-08-06,Baby,Diaper bags,29,30,11655562,28523022,False,2019-05-29,6
+802,Central US,Central US Store 72,2019-03-25,Clothing,Womens,12,13,61641149,69578887,True,2019-03-23,6
+803,Central US,Central US Store 72,2019-01-01,Baby,Car seats,7,5,94913880,39327197,True,2019-06-20,5
+804,Central US,Central US Store 72,2019-07-13,Beauty/Health,Bath,30,10,84358081,88594235,True,2019-07-09,4
+805,Central US,Central US Store 72,2019-06-11,Baby,Cribs,27,15,12690254,46241869,True,2019-03-19,5
+806,Central US,Central US Store 72,2019-01-09,Clothing,Mens,7,25,98753609,49267038,True,2019-05-09,9
+807,Central US,Central US Store 72,2019-03-21,Furniture,Beds,12,100,79841256,63096382,True,2019-05-29,3
+808,Central US,Central US Store 72,2019-04-03,Furniture,Indoor tables,16,75,18980491,69578887,True,2019-03-23,7
+809,Central US,Central US Store 72,2019-04-30,Beauty/Health,Fragrances,20,6,58055506,46241869,True,2019-03-19,6
+810,Central US,Central US Store 72,2019-02-08,Electronics,Speakers,10,50,79652060,60503380,True,2019-03-23,5
+811,Central US,Central US Store 72,2019-02-24,Furniture,Pool furniture,11,30,39324487,76493559,True,2019-05-16,2
+812,Central US,Central US Store 72,2019-04-28,Beauty/Health,Oral care,20,6,85432100,81679563,True,2019-01-21,6
+813,Central US,Central US Store 72,2019-04-05,Furniture,Indoor tables,16,40,78374985,45809702,True,2019-04-19,7
+814,Central US,Central US Store 72,2019-04-30,Beauty/Health,Oral care,19,10,39850068,12965010,False,2019-07-23,2
+815,Central US,Central US Store 72,2019-05-21,Baby,Strollers,24,10,53880594,18583181,False,2019-04-11,6
+816,Central US,Central US Store 72,2019-04-23,Baby,Cribs,15,30,26461022,64825050,True,2019-04-04,6
+817,Central US,Central US Store 72,2019-01-16,Clothing,Kids,8,12,17543212,35005527,False,2019-01-28,10
+818,Central US,Central US Store 72,2019-06-03,Electronics,Televisions,22,300,87494744,68714553,True,2019-08-09,5
+819,Central US,Central US Store 72,2019-03-06,Beauty/Health,Skincare,13,6,45143154,20311849,False,2019-03-21,3
+820,Central US,Central US Store 72,2019-01-19,Clothing,Womens,8,10,29571637,35005527,False,2019-01-28,11
+821,Central US,Central US Store 72,2019-01-06,Clothing,Baby,8,25,18662207,76925726,True,2019-02-22,4
+822,Central US,Central US Store 72,2019-06-23,Beauty/Health,Skincare,26,10,82355287,29387356,False,2019-06-22,10
+823,Central US,Central US Store 72,2019-04-16,Baby,Diapers,16,30,19631573,26794354,False,2019-02-03,4
+824,Central US,Central US Store 72,2019-03-03,Clothing,Kids,14,20,55828400,33709026,False,2019-04-17,6
+825,Central US,Central US Store 72,2019-06-30,Baby,Car seats,23,12,32090702,86865567,True,2019-05-29,7
+826,Central US,Central US Store 72,2019-02-24,Furniture,Patio furniture,11,40,10654215,11668509,False,2019-03-23,4
+827,Central US,Central US Store 72,2019-03-02,Electronics,Headphones,13,100,80576024,44945368,True,2019-05-21,8
+828,Central US,Central US Store 72,2019-03-14,Beauty/Health,Skincare,12,15,36006477,26362187,False,2019-02-15,6
+829,Central US,Central US Store 72,2019-04-27,Clothing,Baby,21,20,80360213,68714553,True,2019-08-09,6
+830,Central US,Central US Store 72,2019-08-02,Clothing,Baby,30,13,47904119,45377535,True,2019-06-20,3
+831,Central US,Central US Store 72,2019-02-11,Electronics,Cell Phones,9,100,82352211,28090855,False,2019-06-14,2
+832,Central US,Central US Store 72,2019-06-03,Baby,Cribs,26,5,40202798,62232048,True,2019-01-20,7
+833,Central US,Central US Store 72,2019-07-28,Beauty/Health,Oral care,26,14,21225439,75629225,True,2019-07-19,9
+834,Central US,Central US Store 72,2019-01-27,Baby,Baby toys,6,15,58028139,52292207,True,2019-01-09,3
+835,Central US,Central US Store 72,2019-07-27,Furniture,Indoor tables,30,40,44566833,39759364,True,2019-05-31,6
+836,Central US,Central US Store 72,2019-07-16,Baby,Car seats,27,30,13142772,77357893,True,2019-01-29,4
+837,Central US,Central US Store 72,2019-05-11,Clothing,Baby,22,20,67412010,36302028,False,2019-05-10,7
+838,Central US,Central US Store 72,2019-06-26,Baby,Car seats,27,15,31072747,69578887,True,2019-03-23,8
+839,Central US,Central US Store 72,2019-05-23,Furniture,Pool furniture,23,100,25315242,11668509,False,2019-03-23,5
+840,Central US,Central US Store 72,2019-06-04,Electronics,Computers,21,100,15386135,79518728,True,2019-04-25,9
+841,Central US,Central US Store 72,2019-05-05,Beauty/Health,Feminine Products,22,10,14485640,16422346,False,2019-01-18,6
+842,Central US,Central US Store 72,2019-04-06,Furniture,Beds,16,30,20711950,61367714,True,2019-03-18,13
+843,Central US,Central US Store 72,2019-02-24,Beauty/Health,Haircare,10,10,36182647,48402704,True,2019-02-14,5
+844,Central US,Central US Store 72,2019-06-28,Clothing,Shoes,27,25,75943717,44945368,True,2019-05-21,9
+845,Central US,Central US Store 72,2019-05-22,Clothing,Kids,20,20,60615619,66553718,True,2019-04-21,4
+846,Central US,Central US Store 72,2019-07-08,Clothing,Womens,28,10,60934923,86001233,True,2019-06-18,5
+847,Central US,Central US Store 72,2019-06-05,Electronics,Headphones,21,300,34668001,80815229,True,2019-06-13,7
+848,Central US,Central US Store 72,2019-01-17,Baby,Diaper bags,8,15,43526752,6914672,False,2019-08-09,2
+849,Central US,Central US Store 72,2019-07-31,Baby,Car seats,28,12,32197404,15558012,False,2019-07-31,1
