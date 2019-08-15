@@ -7,9 +7,9 @@ STORAGE_ACCOUNT_NAME=$ADLSGen2StorageName
 echo "Filling in storage name in spark script..."
 sed -i -e 's/<ADLS GEN2 STORAGE NAME>/'$ADLSGen2StorageName'/g' ./scripts/sparktransform.py
 
-CLIENT_ID=$(cat serviceprincipal.json | jq -r ".appId")
-CLIENT_SECRET=$(cat serviceprincipal.json | jq -r ".password")
-TENANT_NAME=$(cat serviceprincipal.json | jq -r ".tenant")
+CLIENT_ID=$(cat ./scripts/serviceprincipal.json | jq -r ".appId")
+CLIENT_SECRET=$(cat ./scripts/serviceprincipal.json | jq -r ".password")
+TENANT_NAME=$(cat ./scripts/serviceprincipal.json | jq -r ".tenant")
 
 # get authorization token
 echo "Getting authorization token..."
@@ -60,6 +60,6 @@ az group deployment create --name "ADFDeployment"$resourceGroup \
     --template-file ./templates/adftemplate.json \
     --parameters AzureDataLakeStorage1_accountKey=$adlskey AzureBlobStorage1_accountKey=$blobkey
 echo "done"
-rm serviceprincipal.json
+rm ./scripts/serviceprincipal.json
 rm blobkeys.json
 rm adlskeys.json
