@@ -168,7 +168,7 @@ SELECT REGION AS region,
 FROM sales_raw;
 DROP TABLE sales_raw
 ```
-Run the following command to execute the script
+Run the following command to execute the script or if you are in the Interactive Query editor simply click Execute. 
 ```
 beeline -u 'jdbc:hive2://localhost:10001/;transportMode=http' -f query.hql
 ```
