@@ -294,7 +294,8 @@
                     ],
                     "properties": {
                         "roleDefinitionId": "[variables('storageBlobOwner')]",
-                        "principalId": "[reference(variables('identityResourceId'), '2018-11-30').principalId]"
+                        "principalId": "[reference(variables('identityResourceId'), '2018-11-30').principalId]",
+                        "principalType": "ServicePrincipal"
                     }
                 }
             ]
