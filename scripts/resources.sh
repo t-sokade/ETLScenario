@@ -11,29 +11,11 @@ location=$2
 echo "Creating resource group..." 
 az group create --name $resourceGroup --location $location
 
-echo "Creating managed identity..."
-az group deployment create --name "MIDeployment"$resourceGroup --resource-group $resourceGroup \
-     --template-file ./templates/mitemplate.json > mioutputs.json
-
-principalId=$(cat mioutputs.json | jq -r '.properties.outputs.principalId.value')
-miname=$(cat mioutputs.json | jq -r '.properties.outputs.miname.value')
-ADLSGen2StorageName=$(cat mioutputs.json | jq -r '.properties.outputs.adls.value')
-# for hierarchical namespace argument
-az extension add --name storage-preview
-
-echo "Deploying ADLS Gen2 Storage Account called "$ADLSGen2StorageName
-az storage account create --name $ADLSGen2StorageName\
-    --resource-group $resourceGroup \
-    --location $location --sku Standard_LRS \
-    --kind StorageV2 --hierarchical-namespace true
-
-echo "Assigning Role to Managed Identity"
-sleep 20s
-az role assignment create --role "Storage Blob Data Contributor" \
---assignee $principalId --scope "/subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.Storage/storageAccounts/$ADLSGen2StorageName"
-
 echo "Deploying ETL resources..."
 echo "Deploying Blob Storage Account"
+echo "Deploying ADLS Gen2 Account"
+echo "Deploying Managed Identity"
+echo "Assigning role to Managed Identity"
 echo "Deploying VNET"
 echo "Deploying Network Security Group"
 echo "Deploying Spark Cluster"
@@ -46,6 +28,7 @@ az group deployment create --name "ResourcesDeployment"$resourceGroup \
 
 
 blobStorageName=$(cat resourcesoutputs.json | jq -r '.properties.outputs.blobStorageName.value')
+ADLSGen2StorageName=$(cat resourcesoutputs.json | jq -r '.properties.outputs.blobStorageName.value')
 
 echo "Uploading data to blob storage..."
 az storage blob upload-batch -d rawdata \
