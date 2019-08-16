@@ -9,7 +9,7 @@
       "value": "Thisisapassword1"
     },
     "sparkClusterVersion": {
-      "value": "3.6"
+      "value": "4.0"
     },
     "sparkClusterWorkerNodeCount": {
       "value": 4
@@ -43,6 +43,9 @@
     },
     "llapsshPassword": {
       "value": "Thisisapassword1"
+    },
+    "roleNameGuid": {
+      "value": "[newGuid()]"
     }
   }
 }
