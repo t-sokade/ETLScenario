@@ -23,8 +23,7 @@ echo "Deploying LLAP cluster"
 echo "Note: Cluster creation can take around 20 minutes"
 az group deployment create --name "ResourcesDeployment"$resourceGroup \
     --resource-group $resourceGroup \
-    --template-file ./templates/resourcestemplate.json \
-    --parameters ADLSGen2StorageName=$ADLSGen2StorageName > resourcesoutputs.json
+    --template-file ./templates/resourcestemplate.json > resourcesoutputs.json
 
 
 blobStorageName=$(cat resourcesoutputs.json | jq -r '.properties.outputs.blobStorageName.value')
