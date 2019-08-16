@@ -27,7 +27,7 @@ Through the Azure portal, open the Cloud Shell from the top menu bar. Log into y
 az account set --subscription <SUBSCRIPTION ID>
 ```
 
-For this tutorial to work you MUST have the status of `Owner` on your subscription. 
+For this tutorial to work you MUST have the status of `Owner` on your subscription. To check, go to your
 #### Download relevant files for this project
 
 Clone the github repository and `cd` into the root folder. 
@@ -135,7 +135,7 @@ CREATE EXTERNAL TABLE sales_raw(
   UNITSOLD INT,
   UNITPRICE INT,
   REVENUE INT,
-  CUSTOMERID INT, 
+  CUSTOMERID STRING, 
   LOYALTY BOOLEAN, 
   FIRSTPURCHASE STRING,
   FREQ INT)

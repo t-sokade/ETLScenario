@@ -102,7 +102,7 @@
        },
        "roleNameGuid":{  
           "type":"string",
-          "defaultValue":"[newGuid()]",
+          "defaultValue":"[guid(resourceGroup().id)]",
           "metadata":{  
              "description":"A new GUID used to identify the role assignment"
           }
