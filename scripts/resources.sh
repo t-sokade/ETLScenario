@@ -22,7 +22,7 @@ echo "Deploying Spark Cluster"
 echo "Deploying LLAP cluster"
 echo "Note: Cluster creation can take around 20 minutes"
 az group deployment create --name "ResourcesDeployment"$resourceGroup \
-    --resource-group $resourceGroup \
+    --resource-group $resourceGroup --mode Complete
     --template-file ./templates/resourcestemplate.json > resourcesoutputs.json
 
 
