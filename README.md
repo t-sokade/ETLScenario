@@ -20,7 +20,9 @@ Download [Power BI Desktop](https://www.microsoft.com/en-us/download/details.asp
 #### Sign into Azure
 
 Through the Azure portal, open the Cloud Shell from the top menu bar. Log into your Azure account and set the subscription. 
+
 ![alt text](./media/cloudshell.png)
+
 ```azurecli-interactive 
 az account set --subscription <SUBSCRIPTION ID>
 ```
