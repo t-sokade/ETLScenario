@@ -44,7 +44,7 @@ counter=10
 response=""
 until [ $counter -eq "1" ] || [ $response -eq "201" ]; do
     counter=$(( $counter - 1))
-    sleep 10s
+    sleep 60s
     echo "Waiting on access to storage account..."
     response=$(curl -s -o -I -w "%{http_code}" -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGen2StorageName.dfs.core.windows.net/files?resource=filesystem")
     echo $response
