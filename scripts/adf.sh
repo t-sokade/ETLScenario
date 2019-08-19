@@ -62,7 +62,7 @@ until [ $counter -eq 1 ] || [ "$response" -eq "201" ]; do
     sleep 60s
     echo "Waiting on access to storage account..."
     response=$(curl -s -o -I -w "%{http_code}" -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGen2StorageName.dfs.core.windows.net/files?resource=filesystem")
-    echo $response
+    echo "Response code for FileSystem create request: "$response
 done
 if [ $response -eq "201" ]; then
     echo "FileSystem created"
