@@ -33,16 +33,26 @@ TENANT_NAME=$(cat serviceprincipal.json | jq -r ".tenant")
 
 # get authorization token
 echo "Getting authorization token..."
-sleep 30s
-ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded" --data-urlencode "client_id=$CLIENT_ID" \
---data-urlencode "client_secret=$CLIENT_SECRET" --data-urlencode "scope=https://storage.azure.com/.default" --data-urlencode \
-"grant_type=client_credentials" "https://login.microsoftonline.com/$TENANT_NAME/oauth2/v2.0/token" | jq -r ".access_token")
+until [ $counter -eq 1 ] || [ ! -z "$ACCESS_TOKEN" ]; do
+    counter=$(( $counter - 1))
+    sleep 15s
+    ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded" --data-urlencode "client_id=$CLIENT_ID" \
+    --data-urlencode "client_secret=$CLIENT_SECRET" --data-urlencode "scope=https://storage.azure.com/.default" --data-urlencode \
+    "grant_type=client_credentials" "https://login.microsoftonline.com/$TENANT_NAME/oauth2/v2.0/token" | jq -r ".access_token")
+    echo $ACCESS_TOKEN
+done
 
-#create files FS
+if [ -z "$ACCESS_TOKEN" ]
+    echo "Unable to obtain ACCESS_TOKEN"
+    exit 1
+fi 
+# create files FS
+# While loop to give role assignment time to propagate. 
+# Continue trying to create FileSystem until the role assignment is successful
 echo "Creating FileSystem"
 counter=10
 response=""
-until [ $counter -eq "1" ] || [ $response -eq "201" ]; do
+until [ $counter -eq 1 ] || [ "$response" -eq "201" ]; do
     counter=$(( $counter - 1))
     sleep 60s
     echo "Waiting on access to storage account..."
@@ -69,6 +79,7 @@ curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authoriz
 curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGen2StorageName.dfs.core.windows.net/files/adf/archives?resource=directory"
 curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGen2StorageName.dfs.core.windows.net/files/adf/logs?resource=directory"
 curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGen2StorageName.dfs.core.windows.net/files/adf/sparktransform.py?resource=file"
+echo "Folder structure created" 
 
 # create the sparktransform.py file
 # replace <ADLS GEN2 STORAGE NAME> with actual name
@@ -97,7 +108,7 @@ az group deployment create --name "ADFDeployment"$resourceGroup \
     --resource-group $resourceGroup \
     --template-file ./templates/adftemplate.json \
     --parameters AzureDataLakeStorage1_accountKey=$adlskey AzureBlobStorage1_accountKey=$blobkey
-echo "done"
+echo "ADF deployed"
 rm serviceprincipal.json
 rm blobkeys.json
 rm adlskeys.json
