@@ -3,20 +3,20 @@ echo "Creating service principal"
 
 subscriptionId=$(az account show | jq -r '.id')
 
-if [ -z "$resourceGroup"]
+if [ -z "$resourceGroup" ]
 then 
     echo "Please input the name of your resource group here"
     read resourceGroup
 fi
 
-if [ -z "$ADLSGen2StorageName"]
+if [ -z "$ADLSGen2StorageName" ]
 then 
     echo "Please input the name of your ADLS Gen2 Storage Account. Here are the storage accounts in this resource group."
     az resource list --resource-group skdemo123 --resource-type Microsoft.Storage/storageAccounts | jq '.[].name'
     read ADLSGen2StorageName
 fi
 
-if [ -z "$blobStorageName"]
+if [ -z "$blobStorageName" ]
 then 
     echo "Please input the name of your Blob Storage Account. Here are the storage accounts in this resource group."
     az resource list --resource-group skdemo123 --resource-type Microsoft.Storage/storageAccounts | jq '.[].name'
