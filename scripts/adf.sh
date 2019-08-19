@@ -43,6 +43,7 @@ until [ $counter -eq 1 ] || [ ! -z "$ACCESS_TOKEN" ]; do
 done
 
 if [ -z "$ACCESS_TOKEN" ]
+then
     echo "Unable to obtain ACCESS_TOKEN"
     exit 1
 fi 
