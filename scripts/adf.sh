@@ -3,15 +3,25 @@ echo "Creating service principal"
 
 subscriptionId=$(az account show | jq -r '.id')
 
-if [-z "$resourceGroup"]
+if [ -z "$resourceGroup"]
 then 
     echo "Please input the name of your resource group here"
     read resourceGroup
 fi
 
-if [-z "$ADLSGen2StorageName"]
+if [ -z "$ADLSGen2StorageName"]
 then 
-    
+    echo "Please input the name of your ADLS Gen2 Storage Account. Here are the storage accounts in this resource group."
+    az resource list --resource-group skdemo123 --resource-type Microsoft.Storage/storageAccounts | jq '.[].name'
+    read ADLSGen2StorageName
+fi
+
+if [ -z "$blobStorageName"]
+then 
+    echo "Please input the name of your Blob Storage Account. Here are the storage accounts in this resource group."
+    az resource list --resource-group skdemo123 --resource-type Microsoft.Storage/storageAccounts | jq '.[].name'
+    read blobStorageName
+fi
 
 az ad sp create-for-rbac --role "Storage Blob Data Contributor" --scope \
     "subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.Storage/storageAccounts/$ADLSGen2StorageName" \
@@ -30,6 +40,17 @@ ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded"
 
 #create files FS
 echo "Creating FileSystem"
+counter=10
+response=""
+until [ $counter -eq "1" ] || [ $response -eq "201" ]; do
+counter=$(( $counter - 1))
+sleep 10s
+echo "Waiting on access to storage account..."
+response=$(curl -s -o -I -w "%{http_code}" -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGen2StorageName.dfs.core.windows.net/files?resource=filesystem")
+echo $response
+done
+echo "FileSystem created"
+
 curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGen2StorageName.dfs.core.windows.net/files?resource=filesystem"
 curl -i -X PATCH -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "x-ms-acl: user::rwx,group::r-x,other::--x,default:user::rwx,default:group::r-x,default:other::--x" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGen2StorageName.dfs.core.windows.net/files/?action=setAccessControl"
 

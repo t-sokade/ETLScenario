@@ -33,6 +33,5 @@ echo "Uploading data to blob storage..."
 az storage blob upload-batch -d rawdata \
     --account-name $blobStorageName -s ./ --pattern *.csv
 
-rm mioutputs.json
 rm resourcesoutputs.json
 echo "Done"
