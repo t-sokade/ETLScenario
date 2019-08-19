@@ -37,6 +37,7 @@ curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authoriz
 curl -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGen2StorageName.dfs.core.windows.net/files/adf/sparktransform.py?resource=file"
 
 # create the sparktransform.py file
+# replace <ADLS GEN2 STORAGE NAME> with actual name
 echo "Creating sparktransform file..."
 sed -i -e 's/<ADLS GEN2 STORAGE NAME>/'$ADLSGen2StorageName'/g' ./scripts/sparktransform.py
 
