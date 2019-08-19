@@ -27,7 +27,7 @@ Through the Azure portal, open the Cloud Shell from the top menu bar. Log into y
 az account set --subscription <SUBSCRIPTION ID>
 ```
 
-For this tutorial to work you MUST have the status of `Owner` on your subscription. To check, go to your
+For this tutorial to work you MUST have the status of `Owner` on your subscription. 
 #### Download relevant files for this project
 
 Clone the github repository and `cd` into the root folder. 
@@ -83,27 +83,20 @@ The following script will:
 ```
 . ./scripts/adf.sh
 ```
-If for any reason this script is failing make sure that the following environment variables are set correctly:
-```
-echo $resourceGroup
-echo $blobStorageName
-echo $ADLSGen2StorageName
-```
 
 ### Trigger the Pipeline
-You can either trigger the ADF pipeline by changing the cloudshell to PowerShell mode and executing the following command or manually as described below: 
+
+To trigger the pipeline manually, open the Data Factory from the Azure Portal, select Author & Monitor, and add a trigger to the pipeline. [Here](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-create-linux-clusters-adf#trigger-a-pipeline) is a tutorial that shows you how to trigger pipelines from the portal.  
+
+To trigger the pipeline from the command line, change the cloudshell to PowerShell mode and execute the following command. 
 
 ```powershell
 Invoke-AzDataFactoryV2Pipeline -DataFactory "<DATA FACTORY NAME>" -PipelineName "IngestAndTransform" 
 ```
 
-To trigger the pipeline manually, you can open the Data Factory, select Author & Monitor, and trigger the pipeline from the portal. [Here](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-create-linux-clusters-adf#trigger-a-pipeline) is a tutorial that shows you how to trigger pipelines from the portal. 
-
 To verify that the pipelines executed you can either 
 1. Navigate to the monitor section on ADF through the portal. 
 2. Go to your ADLS Gen 2 storage account storage explorer, go to the `files` FileSystem, and navigate to the `transformed` folder and check its contents to see if the pipeline succeeded.
-
-For other ways to transform data using HDInsight check out this article on using [Jupyter notebook](https://docs.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-load-data-run-query)
 
 ## Create a table on the Interactive Query cluster to view data on Power BI
 You can complete this step by sshing in to the cluster from the command line or by opening up the Interactive Query editor on the LLAP cluster and pasting the hive script there. 
