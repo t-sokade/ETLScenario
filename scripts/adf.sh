@@ -33,6 +33,7 @@ TENANT_NAME=$(cat serviceprincipal.json | jq -r ".tenant")
 
 # get authorization token
 echo "Getting authorization token..."
+ACCESS_TOKEN=""
 until [ $counter -eq 1 ] || [ ! -z "$ACCESS_TOKEN" ]; do
     counter=$(( $counter - 1))
     sleep 15s
