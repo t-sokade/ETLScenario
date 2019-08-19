@@ -3,18 +3,27 @@ echo "Creating service principal"
 
 subscriptionId=$(az account show | jq -r '.id')
 
+if [-z "$resourceGroup"]
+then 
+    echo "Please input the name of your resource group here"
+    read resourceGroup
+fi
+
+if [-z "$ADLSGen2StorageName"]
+then 
+    
+
 az ad sp create-for-rbac --role "Storage Blob Data Contributor" --scope \
     "subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.Storage/storageAccounts/$ADLSGen2StorageName" \
     > serviceprincipal.json
 
-echo "Filling in storage name in spark script..."
 CLIENT_ID=$(cat serviceprincipal.json | jq -r ".appId")
 CLIENT_SECRET=$(cat serviceprincipal.json | jq -r ".password")
 TENANT_NAME=$(cat serviceprincipal.json | jq -r ".tenant")
 
 # get authorization token
 echo "Getting authorization token..."
-sleep 30s
+sleep 60s
 ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded" --data-urlencode "client_id=$CLIENT_ID" \
 --data-urlencode "client_secret=$CLIENT_SECRET" --data-urlencode "scope=https://storage.azure.com/.default" --data-urlencode \
 "grant_type=client_credentials" "https://login.microsoftonline.com/$TENANT_NAME/oauth2/v2.0/token" | jq -r ".access_token")
