@@ -49,7 +49,7 @@ until [ $counter -eq "1" ] || [ $response -eq "201" ]; do
     response=$(curl -s -o -I -w "%{http_code}" -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGen2StorageName.dfs.core.windows.net/files?resource=filesystem")
     echo $response
 done
-if [ $response -eq "201" ] 
+if [ $response -eq "201" ]; then
     echo "FileSystem created"
 else
     echo "Unable to create FileSystem" 
