@@ -37,7 +37,7 @@ ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded"
     --data-urlencode "client_secret=$CLIENT_SECRET" --data-urlencode "scope=https://storage.azure.com/.default" --data-urlencode \
     "grant_type=client_credentials" "https://login.microsoftonline.com/$TENANT_NAME/oauth2/v2.0/token" | jq -r ".access_token")
 counter=10
-until [ $counter -eq 1 ] || [ ! -z "$ACCESS_TOKEN" ]; do
+until [ $counter -eq 1 ] || [[ "$ACCESS_TOKEN" -neq "null" ] && [ ! -z "$ACCESS_TOKEN" ]]; do
     counter=$(( $counter - 1))
     sleep 15s
     ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded" --data-urlencode "client_id=$CLIENT_ID" \
