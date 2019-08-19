@@ -12,14 +12,14 @@ fi
 if [ -z "$ADLSGen2StorageName" ]
 then 
     echo "Please input the name of your ADLS Gen2 Storage Account. Here are the storage accounts in this resource group."
-    az resource list --resource-group skdemo123 --resource-type Microsoft.Storage/storageAccounts | jq '.[].name'
+    az resource list --resource-group $resourceGroup --resource-type Microsoft.Storage/storageAccounts | jq '.[].name'
     read ADLSGen2StorageName
 fi
 
 if [ -z "$blobStorageName" ]
 then 
     echo "Please input the name of your Blob Storage Account. Here are the storage accounts in this resource group."
-    az resource list --resource-group skdemo123 --resource-type Microsoft.Storage/storageAccounts | jq '.[].name'
+    az resource list --resource-group $resourceGroup --resource-type Microsoft.Storage/storageAccounts | jq '.[].name'
     read blobStorageName
 fi
 
