@@ -33,7 +33,9 @@ TENANT_NAME=$(cat serviceprincipal.json | jq -r ".tenant")
 
 # get authorization token
 echo "Getting authorization token..."
-ACCESS_TOKEN=""
+ACCESS_TOKEN=$(curl -X POST -H "Content-Type: application/x-www-form-urlencoded" --data-urlencode "client_id=$CLIENT_ID" \
+    --data-urlencode "client_secret=$CLIENT_SECRET" --data-urlencode "scope=https://storage.azure.com/.default" --data-urlencode \
+    "grant_type=client_credentials" "https://login.microsoftonline.com/$TENANT_NAME/oauth2/v2.0/token" | jq -r ".access_token")
 counter=10
 until [ $counter -eq 1 ] || [ ! -z "$ACCESS_TOKEN" ]; do
     counter=$(( $counter - 1))
@@ -54,7 +56,7 @@ fi
 # Continue trying to create FileSystem until the role assignment is successful
 echo "Creating FileSystem"
 counter=10
-response=""
+response=$(curl -s -o -I -w "%{http_code}" -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGen2StorageName.dfs.core.windows.net/files?resource=filesystem")
 until [ $counter -eq 1 ] || [ "$response" -eq "201" ]; do
     counter=$(( $counter - 1))
     sleep 60s
