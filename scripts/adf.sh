@@ -60,7 +60,7 @@ response=$(curl -s -o -I -w "%{http_code}" -i -X PUT -H "x-ms-version: 2018-11-0
 until [ $counter -eq 1 ] || [ "$response" -eq "201" ]; do
     counter=$(( $counter - 1))
     sleep 60s
-    echo "Waiting on access to storage account...Trying again. "
+    echo "Waiting on access to storage account...Trying again."
     response=$(curl -s -o -I -w "%{http_code}" -i -X PUT -H "x-ms-version: 2018-11-09" -H "content-length: 0" -H "Authorization: Bearer $ACCESS_TOKEN" "https://$ADLSGen2StorageName.dfs.core.windows.net/files?resource=filesystem")
     echo "Response code for FileSystem create request: "$response
 done
