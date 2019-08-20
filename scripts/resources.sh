@@ -1,13 +1,18 @@
 #!/bin/bash
 if [[ $# -ne 2 ]]
     then
-        echo "Please provide arguments in the format './resources.sh <RESOURCEGROUP> <LOCATION>'"
-        exit 1
+        echo "Please provide a resourcegroup and a location" 
+        echo "Enter resource group name"
+        read resourceGroup
+        echo "Enter location (for example, westus)"
+        read location
+else 
+    resourceGroup=$1
+    location=$2
 fi
 subscriptionId=$(az account show | jq -r '.id')
 
-resourceGroup=$1
-location=$2
+
 echo "Creating resource group..." 
 az group create --name $resourceGroup --location $location
 
