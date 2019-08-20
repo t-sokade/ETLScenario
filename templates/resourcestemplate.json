@@ -281,9 +281,6 @@
           "name":"[variables('vNet').name]",
           "apiVersion":"2016-03-30",
           "location":"[resourceGroup().location]",
-          "dependsOn":[  
-             "[concat('Microsoft.Network/networkSecurityGroups/', variables('networkSecurityGroup').name)]"
-          ],
           "properties":{  
              "addressSpace":{  
                 "addressPrefixes":[  
