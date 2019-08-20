@@ -32,7 +32,7 @@ az group deployment create --name "ResourcesDeployment"$resourceGroup \
 
 
 blobStorageName=$(cat resourcesoutputs.json | jq -r '.properties.outputs.blobStorageName.value')
-ADLSGen2StorageName=$(cat resourcesoutputs.json | jq -r '.properties.outputs.blobStorageName.value')
+ADLSGen2StorageName=$(cat resourcesoutputs.json | jq -r '.properties.outputs.ADLSGen2StorageName.value')
 
 echo "Uploading data to blob storage..."
 az storage blob upload-batch -d rawdata \
