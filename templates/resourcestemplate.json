@@ -110,7 +110,7 @@
     },
     "variables":{  
        "blobStorageName":"[concat('blob', uniqueString(resourceGroup().id))]",
-       "ADLSGen2storageName":"[concat('adlsgen2', uniqueString(resourceGroup().id))]",
+       "ADLSGen2StorageName":"[concat('adlsgen2', uniqueString(resourceGroup().id))]",
        "sparkClusterName":"[concat('spark-', uniqueString(resourceGroup().id))]",
        "llapClusterName":"[concat('llap-', uniqueString(resourceGroup().id))]",
        "managedIdentityName":"[concat('mi-', uniqueString(resourceGroup().id))]",
@@ -206,7 +206,7 @@
        },
        {  
           "type":"Microsoft.Storage/storageAccounts",
-          "name":"[variables('ADLSGen2storageName')]",
+          "name":"[variables('ADLSGen2StorageName')]",
           "apiVersion":"2019-04-01",
           "location":"[resourceGroup().location]",
           "kind":"StorageV2",
@@ -245,9 +245,9 @@
              {  
                 "type":"Microsoft.Storage/storageAccounts/providers/roleAssignments",
                 "apiVersion":"2018-09-01-preview",
-                "name":"[concat(variables('ADLSGen2storageName'), '/Microsoft.Authorization/', parameters('roleNameGuid'))]",
+                "name":"[concat(variables('ADLSGen2StorageName'), '/Microsoft.Authorization/', parameters('roleNameGuid'))]",
                 "dependsOn":[  
-                   "[resourceId('Microsoft.Storage/storageAccounts', variables('ADLSGen2storageName'))]",
+                   "[resourceId('Microsoft.Storage/storageAccounts', variables('ADLSGen2StorageName'))]",
                    "[resourceId('Microsoft.ManagedIdentity/userAssignedIdentities', variables('managedIdentityName'))]"
                 ],
                 "properties":{  
@@ -261,9 +261,9 @@
        {  
           "type":"Microsoft.Storage/storageAccounts/blobServices",
           "apiVersion":"2019-04-01",
-          "name":"[concat(variables('ADLSGen2storageName'), '/default')]",
+          "name":"[concat(variables('ADLSGen2StorageName'), '/default')]",
           "dependsOn":[  
-             "[resourceId('Microsoft.Storage/storageAccounts', variables('ADLSGen2storageName'))]"
+             "[resourceId('Microsoft.Storage/storageAccounts', variables('ADLSGen2StorageName'))]"
           ],
           "properties":{  
              "cors":{  
@@ -304,7 +304,7 @@
           "location":"[resourceGroup().location]",
           "dependsOn":[  
              "[concat('Microsoft.Network/virtualNetworks/',variables('vNet').name)]",
-             "[concat('Microsoft.Storage/storageAccounts/',variables('ADLSGen2storageName'))]",
+             "[concat('Microsoft.Storage/storageAccounts/',variables('ADLSGen2StorageName'))]",
              "[variables('managedIdentityName')]"
           ],
           "properties":{  
@@ -327,7 +327,7 @@
              "storageProfile":{  
                 "storageaccounts":[  
                    {  
-                      "name":"[concat(variables('ADLSGen2storageName'), '.dfs.core.windows.net')]",
+                      "name":"[concat(variables('ADLSGen2StorageName'), '.dfs.core.windows.net')]",
                       "isDefault":true,
                       "fileSystem":"[concat(variables('sparkClusterName'), '-2019-01-23t20-00-14-186z')]",
                       "resourceID":"[concat(resourceGroup().id, '/providers/Microsoft.Storage/storageAccounts/', variables('ADLSGen2storageName'))]",
@@ -399,7 +399,7 @@
           "location":"[resourceGroup().location]",
           "dependsOn":[  
              "[concat('Microsoft.Network/virtualNetworks/',variables('vNet').name)]",
-             "[concat('Microsoft.Storage/storageAccounts/',variables('ADLSGen2storageName'))]",
+             "[concat('Microsoft.Storage/storageAccounts/',variables('ADLSGen2StorageName'))]",
              "[variables('managedIdentityName')]"
           ],
           "properties":{  
@@ -422,10 +422,10 @@
              "storageProfile":{  
                 "storageaccounts":[  
                    {  
-                      "name":"[concat(variables('ADLSGen2storageName'), '.dfs.core.windows.net')]",
+                      "name":"[concat(variables('ADLSGen2StorageName'), '.dfs.core.windows.net')]",
                       "isDefault":true,
                       "fileSystem":"[concat(variables('llapClusterName'), '-2019-01-23t20-00-14-186z')]",
-                      "resourceID":"[concat(resourceGroup().id, '/providers/Microsoft.Storage/storageAccounts/', variables('ADLSGen2storageName'))]",
+                      "resourceID":"[concat(resourceGroup().id, '/providers/Microsoft.Storage/storageAccounts/', variables('ADLSGen2StorageName'))]",
                       "msiResourceId":"[concat(resourceGroup().id, '/providers/Microsoft.ManagedIdentity/userAssignedIdentities/', variables('managedIdentityName'))]"
                    }
                 ]
