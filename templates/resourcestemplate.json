@@ -330,7 +330,7 @@
                       "name":"[concat(variables('ADLSGen2StorageName'), '.dfs.core.windows.net')]",
                       "isDefault":true,
                       "fileSystem":"[concat(variables('sparkClusterName'), '-2019-01-23t20-00-14-186z')]",
-                      "resourceID":"[concat(resourceGroup().id, '/providers/Microsoft.Storage/storageAccounts/', variables('ADLSGen2storageName'))]",
+                      "resourceID":"[concat(resourceGroup().id, '/providers/Microsoft.Storage/storageAccounts/', variables('ADLSGen2StorageName'))]",
                       "msiResourceId":"[concat(resourceGroup().id, '/providers/Microsoft.ManagedIdentity/userAssignedIdentities/', variables('managedIdentityName'))]"
                    }
                 ]
