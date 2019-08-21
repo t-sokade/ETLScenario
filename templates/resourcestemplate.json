@@ -493,7 +493,7 @@
           "value":"[variables('blobStorageName')]",
           "type":"string"
        },
-       "ADLSGen2StorageName":{  
+       "adlsGen2StorageName":{  
           "value":"[variables('ADLSGen2StorageName')]",
           "type":"string"
        }
