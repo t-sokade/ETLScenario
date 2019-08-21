@@ -1,865 +1,885 @@
 ordernum,region,store,saledate,dep,item,unitsold,unitprice,employeeID,customerID,loyalty,firstpurchase,freq
-0,East US,East US Store 81,2019-03-05,Baby,Car seats,6,5,12994887,15125845,False,2019-03-05,1
-1,East US,East US Store 81,2019-06-01,Beauty/Health,Oral care,12,14,36281325,6050338,False,2019-06-01,1
-2,East US,East US Store 81,2019-02-04,Beauty/Health,Bath,5,15,87854347,24633519,False,2019-02-04,1
-3,East US,East US Store 81,2019-08-13,Electronics,Tablets,11,200,58649222,57910378,True,2019-08-13,1
-4,East US,East US Store 81,2019-02-11,Electronics,Headphones,5,100,74767773,63528549,True,2019-02-11,1
-5,East US,East US Store 81,2019-04-13,Baby,Car seats,9,5,79654917,79950895,True,2019-04-13,1
-6,East US,East US Store 81,2019-02-20,Furniture,Indoor seating,7,15,54852561,15558012,False,2019-02-20,1
-7,East US,East US Store 81,2019-04-04,Baby,Car seats,9,5,65537218,74332724,True,2019-04-04,1
-8,East US,East US Store 81,2019-04-12,Baby,Strollers,9,10,34088948,81679563,True,2019-04-12,1
-9,East US,East US Store 81,2019-02-21,Beauty/Health,Fragrances,7,6,97006422,21176183,False,2019-02-21,1
-10,East US,East US Store 81,2019-04-20,Beauty/Health,Makeup,9,10,77802931,13397177,False,2019-04-20,1
-11,East US,East US Store 81,2019-03-16,Baby,Cribs,7,30,45160934,33276859,False,2019-03-16,1
-12,East US,East US Store 81,2019-02-15,Furniture,Indoor seating,5,15,63584284,60503380,True,2019-02-15,1
-13,East US,East US Store 81,2019-02-23,Beauty/Health,Makeup,6,14,53656382,40191531,True,2019-02-23,1
-14,East US,East US Store 81,2019-07-31,Baby,Diapers,13,10,37723016,73900557,True,2019-07-31,1
-15,East US,East US Store 81,2019-08-08,Electronics,Cell Phones,11,100,60080410,44945368,True,2019-08-08,1
-16,East US,East US Store 81,2019-08-04,Clothing,Swimwear,13,20,79451698,32844692,False,2019-08-04,1
-17,East US,East US Store 81,2019-08-14,Beauty/Health,Feminine Products,14,15,25841139,74332724,True,2019-04-04,2
-18,East US,East US Store 81,2019-04-10,Furniture,Indoor seating,8,40,19380790,58342545,True,2019-04-10,1
-19,East US,East US Store 81,2019-06-09,Electronics,Headphones,9,200,50076717,32412525,False,2019-06-09,1
-20,East US,East US Store 81,2019-05-11,Furniture,Pool furniture,9,100,97747985,73900557,True,2019-07-31,2
-21,East US,East US Store 81,2019-02-19,Baby,Strollers,7,5,64875518,84272565,True,2019-02-19,1
-22,East US,East US Store 81,2019-04-04,Clothing,Baby,7,25,12718124,12532843,False,2019-04-04,1
-23,East US,East US Store 81,2019-07-22,Beauty/Health,Haircare,12,10,61144610,59206879,True,2019-07-22,1
-24,East US,East US Store 81,2019-04-22,Beauty/Health,Oral care,9,10,92539415,62664215,True,2019-04-22,1
-25,East US,East US Store 81,2019-01-30,Clothing,Kids,6,13,52881295,62232048,True,2019-01-30,1
-26,East US,East US Store 81,2019-01-15,Furniture,Patio furniture,4,75,29148410,36734195,False,2019-01-15,1
-27,East US,East US Store 81,2019-04-19,Clothing,Shoes,8,20,52480024,3889503,False,2019-04-19,1
-28,East US,East US Store 81,2019-06-01,Electronics,Cell Phones,10,100,61323782,72171889,True,2019-06-01,1
-29,East US,East US Store 81,2019-02-20,Electronics,Tablets,5,200,72372331,68714553,True,2019-02-20,1
-30,East US,East US Store 81,2019-04-02,Clothing,Mens,7,25,57528777,15558012,False,2019-02-20,2
-31,East US,East US Store 81,2019-01-08,Baby,Car seats,5,15,87508184,31116024,False,2019-01-08,1
-32,East US,East US Store 81,2019-08-06,Furniture,Pool furniture,14,75,76659969,42784533,True,2019-08-06,1
-33,East US,East US Store 81,2019-07-10,Furniture,Indoor tables,12,40,47594860,41920199,True,2019-07-10,1
-34,East US,East US Store 81,2019-06-05,Furniture,Pool furniture,12,100,63244729,50131372,True,2019-06-05,1
-35,East US,East US Store 81,2019-06-04,Clothing,Womens,10,10,85392571,66121551,True,2019-06-04,1
-36,East US,East US Store 81,2019-03-06,Baby,Diaper bags,8,30,55572052,37598529,False,2019-03-06,1
-37,East US,East US Store 81,2019-05-21,Furniture,Indoor tables,9,100,35146729,77357893,True,2019-05-21,1
-38,East US,East US Store 81,2019-01-01,Beauty/Health,Haircare,6,14,88232583,44513201,True,2019-01-01,1
-39,East US,East US Store 81,2019-02-13,Electronics,Headphones,5,200,46663029,70011054,True,2019-02-13,1
-40,East US,East US Store 81,2019-07-31,Furniture,Indoor tables,13,30,30637508,21176183,False,2019-02-21,2
-41,East US,East US Store 81,2019-01-13,Electronics,Televisions,5,200,66184498,69578887,True,2019-01-13,1
-42,East US,East US Store 81,2019-06-26,Furniture,Indoor tables,12,15,72573035,83840398,True,2019-06-26,1
-43,East US,East US Store 81,2019-07-07,Furniture,Indoor tables,13,40,37489829,24633519,False,2019-02-04,2
-44,East US,East US Store 81,2019-04-17,Beauty/Health,Skincare,9,10,94746777,64825050,True,2019-04-17,1
-45,East US,East US Store 81,2019-07-17,Beauty/Health,Bath,12,10,89221735,36302028,False,2019-07-17,1
-46,East US,East US Store 81,2019-05-20,Furniture,Patio furniture,10,15,84894381,40191531,True,2019-02-23,2
-47,East US,East US Store 81,2019-03-20,Beauty/Health,Makeup,6,10,77515293,63096382,True,2019-03-20,1
-48,East US,East US Store 81,2019-04-30,Beauty/Health,Bath,10,14,10733226,57478211,True,2019-04-30,1
-49,East US,East US Store 81,2019-03-20,Furniture,Indoor seating,6,15,27406271,31548191,False,2019-03-20,1
-50,East US,East US Store 81,2019-05-25,Baby,Strollers,10,30,50294359,43216700,True,2019-05-25,1
-51,East US,East US Store 81,2019-05-26,Beauty/Health,Fragrances,11,10,72330292,33709026,False,2019-05-26,1
-52,East US,East US Store 81,2019-03-02,Electronics,Speakers,7,200,74728175,41920199,True,2019-07-10,2
-53,East US,East US Store 81,2019-02-19,Furniture,Indoor tables,5,30,31188554,76061392,True,2019-02-19,1
-54,East US,East US Store 81,2019-05-24,Baby,Cribs,11,10,20724885,49267038,True,2019-05-24,1
-55,East US,East US Store 81,2019-08-11,Clothing,Mens,14,10,84813426,67418052,True,2019-08-11,1
-56,East US,East US Store 81,2019-06-16,Electronics,Speakers,9,300,81842417,47538370,True,2019-06-16,1
-57,East US,East US Store 81,2019-01-16,Beauty/Health,Fragrances,5,6,54111232,23769185,False,2019-01-16,1
-58,East US,East US Store 81,2019-01-20,Clothing,Womens,5,13,65508982,1728668,False,2019-01-20,1
-59,East US,East US Store 81,2019-02-09,Furniture,Pool furniture,7,40,12462324,30251690,False,2019-02-09,1
-60,East US,East US Store 81,2019-01-30,Baby,Diaper bags,6,5,66604826,46674036,True,2019-01-30,1
-61,East US,East US Store 81,2019-07-23,Furniture,Indoor seating,12,100,12096497,80815229,True,2019-07-23,1
-62,East US,East US Store 81,2019-01-07,Electronics,Speakers,4,100,72040573,50995706,True,2019-01-07,1
-63,East US,East US Store 81,2019-05-06,Clothing,Baby,9,20,17331554,54453042,True,2019-05-06,1
-64,East US,East US Store 81,2019-04-04,Clothing,Swimwear,8,25,96958281,38030696,False,2019-04-04,1
-65,East US,East US Store 81,2019-04-24,Furniture,Indoor seating,8,15,50729730,86433400,True,2019-04-24,1
-66,East US,East US Store 81,2019-05-28,Furniture,Indoor seating,9,30,66118392,82111730,True,2019-05-28,1
-67,East US,East US Store 81,2019-04-12,Furniture,Beds,7,15,46482079,70011054,True,2019-02-13,2
-68,East US,East US Store 81,2019-06-22,Clothing,Kids,11,20,69404326,32844692,False,2019-08-04,2
-69,East US,East US Store 81,2019-05-26,Baby,Cribs,11,30,61996888,46674036,True,2019-01-30,2
-70,East US,East US Store 81,2019-05-23,Beauty/Health,Fragrances,11,10,11235947,54885209,True,2019-05-23,1
-71,East US,East US Store 81,2019-02-14,Beauty/Health,Makeup,5,10,80742344,37166362,False,2019-02-14,1
-72,East US,East US Store 81,2019-02-15,Clothing,Womens,5,13,65458750,38895030,True,2019-02-15,1
-73,East US,East US Store 81,2019-08-01,Beauty/Health,Makeup,12,10,60700698,66985885,True,2019-08-01,1
-74,East US,East US Store 81,2019-07-02,Baby,Car seats,12,15,10427205,86865567,True,2019-07-02,1
-75,East US,East US Store 81,2019-02-10,Baby,Strollers,6,12,86584524,57478211,True,2019-04-30,2
-76,East US,East US Store 81,2019-01-13,Beauty/Health,Feminine Products,6,10,28590154,69146720,True,2019-01-13,1
-77,East US,East US Store 81,2019-08-15,Clothing,Womens,14,25,83435281,18583181,False,2019-08-15,1
-78,East US,East US Store 81,2019-08-18,Beauty/Health,Oral care,14,15,40115446,71307555,True,2019-08-18,1
-79,East US,East US Store 81,2019-06-20,Baby,Cribs,12,12,52950351,80815229,True,2019-07-23,2
-80,East US,East US Store 81,2019-08-03,Beauty/Health,Oral care,12,10,70963717,51427873,True,2019-08-03,1
-81,East US,East US Store 81,2019-05-05,Clothing,Mens,11,13,72677277,76493559,True,2019-05-05,1
-82,East US,East US Store 81,2019-07-25,Electronics,Tablets,11,200,40098029,31548191,False,2019-03-20,2
-83,East US,East US Store 81,2019-04-14,Baby,Strollers,8,30,81146777,44081034,True,2019-04-14,1
-84,East US,East US Store 81,2019-06-25,Furniture,Beds,12,40,38868433,62232048,True,2019-01-30,2
-85,East US,East US Store 81,2019-03-23,Clothing,Baby,7,12,15520710,79086561,True,2019-03-23,1
-86,East US,East US Store 81,2019-02-15,Clothing,Kids,5,25,19569494,68714553,True,2019-02-20,2
-87,East US,East US Store 81,2019-01-07,Baby,Diaper bags,6,5,57814375,6482505,False,2019-01-07,1
-88,East US,East US Store 81,2019-05-22,Baby,Car seats,11,12,89503651,45377535,True,2019-05-22,1
-89,East US,East US Store 81,2019-07-12,Furniture,Indoor tables,12,100,79885394,81679563,True,2019-04-12,2
-90,East US,East US Store 81,2019-08-06,Electronics,Computers,11,100,94403654,26794354,False,2019-08-06,1
-91,East US,East US Store 81,2019-07-25,Beauty/Health,Haircare,12,6,91218320,73036223,True,2019-07-25,1
-92,East US,East US Store 81,2019-05-27,Clothing,Baby,10,12,94668456,41488032,True,2019-05-27,1
-93,East US,East US Store 81,2019-06-26,Clothing,Kids,10,25,78806299,35437694,False,2019-06-26,1
-94,East US,East US Store 81,2019-05-25,Beauty/Health,Fragrances,11,10,66324943,10372008,False,2019-05-25,1
-95,East US,East US Store 81,2019-02-21,Furniture,Indoor seating,6,15,49383703,4321670,False,2019-02-21,1
-96,East US,East US Store 81,2019-07-09,Electronics,Speakers,10,100,14404281,83408231,True,2019-07-09,1
-97,East US,East US Store 81,2019-03-01,Furniture,Pool furniture,7,40,81664658,9507674,False,2019-03-01,1
-98,East US,East US Store 81,2019-02-19,Furniture,Pool furniture,6,15,94016415,16422346,False,2019-02-19,1
-99,East US,East US Store 81,2019-05-02,Clothing,Mens,10,12,10672344,60503380,True,2019-02-15,2
-100,East US,East US Store 81,2019-06-23,Electronics,Computers,9,100,96753761,82111730,True,2019-05-28,2
-101,East US,East US Store 81,2019-08-11,Electronics,Cell Phones,12,100,80102835,65689384,True,2019-08-11,1
-102,East US,East US Store 81,2019-06-17,Clothing,Womens,10,10,12102994,86865567,True,2019-07-02,2
-103,East US,East US Store 81,2019-06-07,Baby,Diaper bags,12,15,67542189,78654394,True,2019-06-07,1
-104,East US,East US Store 81,2019-07-27,Furniture,Indoor tables,12,75,78612817,6482505,False,2019-01-07,2
-105,East US,East US Store 81,2019-02-04,Baby,Car seats,5,30,61946685,65257217,True,2019-02-04,1
-106,East US,East US Store 81,2019-07-02,Furniture,Beds,12,40,62201112,22040517,False,2019-07-02,1
-107,East US,East US Store 81,2019-04-14,Beauty/Health,Feminine Products,8,15,70406962,38462863,False,2019-04-14,1
-108,East US,East US Store 81,2019-05-08,Beauty/Health,Haircare,10,10,13046797,78222227,True,2019-05-08,1
-109,East US,East US Store 81,2019-08-01,Furniture,Indoor tables,14,100,99367291,70875388,True,2019-08-01,1
-110,East US,East US Store 81,2019-05-26,Baby,Strollers,10,30,25626870,86001233,True,2019-05-26,1
-111,East US,East US Store 81,2019-07-10,Furniture,Beds,13,15,11854562,72171889,True,2019-06-01,2
-112,East US,East US Store 81,2019-02-27,Clothing,Baby,6,20,61595786,71307555,True,2019-08-18,2
-113,East US,East US Store 81,2019-03-14,Baby,Diapers,8,5,16311622,53588708,True,2019-03-14,1
-114,East US,East US Store 81,2019-01-10,Baby,Strollers,6,30,35200660,35005527,False,2019-01-10,1
-115,East US,East US Store 81,2019-08-05,Electronics,Computers,12,200,12336875,45377535,True,2019-05-22,2
-116,East US,East US Store 81,2019-01-15,Furniture,Indoor seating,6,75,51566521,9507674,False,2019-03-01,2
-117,East US,East US Store 81,2019-07-04,Furniture,Indoor seating,12,75,93613199,86001233,True,2019-05-26,2
-118,East US,East US Store 81,2019-08-13,Clothing,Kids,13,10,28082285,8643340,False,2019-08-13,1
-119,East US,East US Store 81,2019-03-21,Electronics,Speakers,6,100,12322677,2593002,False,2019-03-21,1
-120,East US,East US Store 81,2019-05-25,Beauty/Health,Fragrances,9,10,78146712,17286680,False,2019-05-25,1
-121,East US,East US Store 81,2019-01-09,Beauty/Health,Makeup,6,10,25462508,42352366,True,2019-01-09,1
-122,East US,East US Store 81,2019-05-18,Electronics,Speakers,9,200,14882987,3457336,False,2019-05-18,1
-123,East US,East US Store 81,2019-01-23,Clothing,Womens,4,25,32793246,1296501,False,2019-01-23,1
-124,East US,East US Store 81,2019-01-19,Furniture,Beds,6,15,95144090,80815229,True,2019-07-23,3
-125,East US,East US Store 81,2019-07-01,Electronics,Speakers,10,50,72053108,51860040,True,2019-07-01,1
-126,East US,East US Store 81,2019-02-19,Furniture,Beds,5,15,35487564,37166362,False,2019-02-14,2
-127,East US,East US Store 81,2019-02-24,Electronics,Cell Phones,5,100,84925341,59206879,True,2019-07-22,2
-128,East US,East US Store 81,2019-07-03,Clothing,Swimwear,11,25,74852366,53156541,True,2019-07-03,1
-129,East US,East US Store 81,2019-08-13,Baby,Diapers,13,30,30225939,64392883,True,2019-08-13,1
-130,East US,East US Store 81,2019-06-15,Electronics,Computers,9,100,90547766,28523022,False,2019-06-15,1
-131,East US,East US Store 81,2019-07-08,Beauty/Health,Bath,13,10,69103469,14693678,False,2019-07-08,1
-132,East US,East US Store 81,2019-05-09,Beauty/Health,Oral care,9,10,27450824,72604056,True,2019-05-09,1
-133,East US,East US Store 81,2019-04-01,Beauty/Health,Feminine Products,9,10,93577744,13397177,False,2019-04-20,2
-134,East US,East US Store 81,2019-07-02,Furniture,Beds,11,15,67364326,66553718,True,2019-07-02,1
-135,East US,East US Store 81,2019-05-26,Electronics,Speakers,9,200,21594198,27226521,False,2019-05-26,1
-136,East US,East US Store 81,2019-08-17,Clothing,Womens,13,12,92984378,70011054,True,2019-02-13,3
-137,East US,East US Store 81,2019-01-14,Electronics,Headphones,5,300,63819993,56181710,True,2019-01-14,1
-138,East US,East US Store 81,2019-05-15,Beauty/Health,Fragrances,10,14,30901399,87729901,True,2019-05-15,1
-139,East US,East US Store 81,2019-05-01,Furniture,Indoor tables,10,15,29827024,44513201,True,2019-01-01,2
-140,East US,East US Store 81,2019-04-02,Furniture,Patio furniture,9,15,96442281,31116024,False,2019-01-08,2
-141,East US,East US Store 81,2019-07-26,Electronics,Computers,11,200,81934694,88162068,True,2019-07-26,1
-142,East US,East US Store 81,2019-02-18,Furniture,Indoor tables,7,75,24543316,63960716,True,2019-02-18,1
-143,East US,East US Store 81,2019-07-18,Electronics,Headphones,10,50,25073926,35005527,False,2019-01-10,2
-144,East US,East US Store 81,2019-07-20,Clothing,Womens,13,25,45779044,37598529,False,2019-03-06,2
-145,East US,East US Store 81,2019-01-18,Furniture,Indoor seating,5,100,54638405,17286680,False,2019-05-25,2
-146,East US,East US Store 81,2019-04-12,Beauty/Health,Feminine Products,8,10,21812149,83408231,True,2019-07-09,2
-147,East US,East US Store 81,2019-03-03,Furniture,Indoor seating,7,75,48451607,86001233,True,2019-05-26,3
-148,East US,East US Store 81,2019-02-21,Baby,Diapers,7,10,60053752,66553718,True,2019-07-02,2
-149,East US,East US Store 81,2019-01-21,Clothing,Womens,4,20,61700347,21176183,False,2019-02-21,3
-150,East US,East US Store 81,2019-08-21,Beauty/Health,Bath,12,10,91102473,75629225,True,2019-08-21,1
-151,East US,East US Store 81,2019-05-11,Furniture,Indoor tables,9,40,86470939,35437694,False,2019-06-26,2
-152,East US,East US Store 81,2019-01-02,Clothing,Baby,5,10,28028696,29819523,False,2019-01-02,1
-153,East US,East US Store 81,2019-04-29,Clothing,Shoes,8,25,78162928,70011054,True,2019-02-13,4
-154,East US,East US Store 81,2019-02-12,Clothing,Baby,5,20,22719699,56613877,True,2019-02-12,1
-155,East US,East US Store 81,2019-02-10,Beauty/Health,Skincare,5,10,36531208,44081034,True,2019-04-14,2
-156,East US,East US Store 81,2019-05-04,Clothing,Baby,9,13,33262627,82543897,True,2019-05-04,1
-157,East US,East US Store 81,2019-02-02,Clothing,Baby,7,25,75103591,29387356,False,2019-02-02,1
-158,East US,East US Store 81,2019-05-26,Electronics,Cell Phones,8,100,92824648,47970537,True,2019-05-26,1
-159,East US,East US Store 81,2019-07-15,Clothing,Swimwear,11,20,33450735,60935547,True,2019-07-15,1
-160,East US,East US Store 81,2019-05-13,Furniture,Patio furniture,10,40,59205733,87297734,True,2019-05-13,1
-161,East US,East US Store 81,2019-07-18,Baby,Strollers,11,12,36227624,12100676,False,2019-07-18,1
-162,East US,East US Store 81,2019-04-27,Clothing,Swimwear,9,25,37767437,20744016,False,2019-04-27,1
-163,East US,East US Store 81,2019-03-10,Electronics,Televisions,7,100,65580186,3025169,False,2019-03-10,1
-164,East US,East US Store 81,2019-01-04,Electronics,Headphones,5,50,75672578,24201352,False,2019-01-04,1
-165,East US,East US Store 81,2019-04-07,Beauty/Health,Oral care,8,6,36095864,86001233,True,2019-05-26,4
-166,East US,East US Store 81,2019-02-07,Clothing,Kids,7,20,25920527,76925726,True,2019-02-07,1
-167,East US,East US Store 81,2019-07-19,Beauty/Health,Haircare,13,6,21721319,62664215,True,2019-04-22,2
-168,East US,East US Store 81,2019-05-10,Furniture,Indoor tables,9,100,22788968,49699205,True,2019-05-10,1
-169,East US,East US Store 81,2019-03-08,Clothing,Baby,7,10,28987213,68714553,True,2019-02-20,3
-170,East US,East US Store 81,2019-08-07,Beauty/Health,Haircare,14,10,67260105,48402704,True,2019-08-07,1
-171,East US,East US Store 81,2019-04-01,Baby,Baby toys,8,15,88265489,13397177,False,2019-04-20,3
-172,East US,East US Store 81,2019-07-14,Clothing,Womens,13,20,89797727,72604056,True,2019-05-09,2
-173,East US,East US Store 81,2019-01-09,Baby,Cribs,4,5,29178677,70011054,True,2019-02-13,5
-174,East US,East US Store 81,2019-01-29,Electronics,Computers,4,200,35636541,71307555,True,2019-08-18,3
-175,East US,East US Store 81,2019-01-24,Clothing,Baby,6,25,44056349,65689384,True,2019-08-11,2
-176,East US,East US Store 81,2019-05-01,Electronics,Tablets,8,100,35444384,23769185,False,2019-01-16,2
-177,East US,East US Store 81,2019-03-16,Furniture,Beds,8,40,61586705,86433400,True,2019-04-24,2
-178,East US,East US Store 81,2019-04-11,Furniture,Indoor seating,7,40,35858699,52292207,True,2019-04-11,1
-179,East US,East US Store 81,2019-07-28,Furniture,Indoor tables,13,15,35168760,86001233,True,2019-05-26,5
-180,East US,East US Store 81,2019-05-18,Beauty/Health,Bath,10,10,79432944,50995706,True,2019-01-07,2
-181,East US,East US Store 81,2019-02-09,Baby,Diaper bags,5,30,58243937,68714553,True,2019-02-20,4
-182,East US,East US Store 81,2019-04-02,Baby,Diaper bags,9,30,93679490,45809702,True,2019-04-02,1
-183,East US,East US Store 81,2019-04-01,Baby,Strollers,7,30,50621788,70011054,True,2019-02-13,6
-184,East US,East US Store 81,2019-07-12,Electronics,Televisions,11,300,71578299,73468390,True,2019-07-12,1
-185,East US,East US Store 81,2019-08-12,Clothing,Baby,13,12,23270872,47538370,True,2019-06-16,2
-186,East US,East US Store 81,2019-03-16,Beauty/Health,Oral care,6,6,33910588,73900557,True,2019-07-31,3
-187,East US,East US Store 81,2019-05-04,Clothing,Shoes,9,12,26423265,84272565,True,2019-02-19,2
-188,East US,East US Store 81,2019-01-23,Electronics,Televisions,4,300,86949280,19879682,False,2019-01-23,1
-189,East US,East US Store 81,2019-07-21,Electronics,Speakers,11,300,47759151,31116024,False,2019-01-08,3
-190,East US,East US Store 81,2019-05-16,Electronics,Speakers,9,200,91122488,60935547,True,2019-07-15,2
-191,East US,East US Store 81,2019-05-27,Electronics,Televisions,8,100,63157460,42352366,True,2019-01-09,2
-192,East US,East US Store 81,2019-03-28,Clothing,Mens,7,12,43539564,18151014,False,2019-03-28,1
-193,East US,East US Store 81,2019-06-04,Furniture,Patio furniture,12,100,33409115,68714553,True,2019-02-20,5
-194,East US,East US Store 81,2019-04-23,Beauty/Health,Feminine Products,9,10,56688649,76925726,True,2019-02-07,2
-195,East US,East US Store 81,2019-08-17,Clothing,Swimwear,13,25,21267937,51860040,True,2019-07-01,2
-196,East US,East US Store 81,2019-04-20,Furniture,Indoor tables,9,30,51649837,86865567,True,2019-07-02,3
-197,East US,East US Store 81,2019-05-25,Beauty/Health,Bath,10,6,61247236,42352366,True,2019-01-09,3
-198,East US,East US Store 81,2019-02-10,Beauty/Health,Skincare,5,14,19981467,20311849,False,2019-02-10,1
-199,East US,East US Store 81,2019-07-23,Furniture,Indoor tables,13,75,83996871,47106203,True,2019-07-23,1
-200,East US,East US Store 81,2019-03-20,Electronics,Speakers,7,100,38501922,44513201,True,2019-01-01,3
-201,East US,East US Store 81,2019-07-16,Beauty/Health,Oral care,13,10,68100161,39327197,True,2019-07-16,1
-202,East US,East US Store 81,2019-02-01,Furniture,Patio furniture,6,40,97841462,79518728,True,2019-02-01,1
-203,East US,East US Store 81,2019-08-10,Clothing,Baby,12,25,60931506,25065686,False,2019-08-10,1
-204,East US,East US Store 81,2019-04-13,Baby,Car seats,8,30,93138394,15990179,False,2019-04-13,1
-205,East US,East US Store 81,2019-03-15,Clothing,Womens,8,13,21504532,31116024,False,2019-01-08,4
-206,East US,East US Store 81,2019-06-22,Furniture,Patio furniture,10,75,74051879,71739722,True,2019-06-22,1
-207,East US,East US Store 81,2019-06-24,Furniture,Patio furniture,12,75,59409244,75197058,True,2019-06-24,1
-208,East US,East US Store 81,2019-02-21,Furniture,Indoor tables,6,100,94624520,38030696,False,2019-04-04,2
-209,East US,East US Store 81,2019-08-01,Beauty/Health,Oral care,14,10,77454803,57478211,True,2019-04-30,3
-210,East US,East US Store 81,2019-03-04,Electronics,Speakers,7,50,69668138,82976064,True,2019-03-04,1
-211,East US,East US Store 81,2019-07-15,Furniture,Indoor tables,13,30,21234116,48834871,True,2019-07-15,1
-212,East US,East US Store 81,2019-07-25,Electronics,Televisions,10,200,85125179,39759364,True,2019-07-25,1
-213,East US,East US Store 81,2019-06-16,Clothing,Swimwear,11,25,46334355,58774712,True,2019-06-16,1
-214,East US,East US Store 81,2019-06-27,Furniture,Pool furniture,12,75,50929407,5618171,False,2019-06-27,1
-215,East US,East US Store 81,2019-07-20,Beauty/Health,Fragrances,12,10,22502369,68282386,True,2019-07-20,1
-216,East US,East US Store 81,2019-04-30,Electronics,Cell Phones,7,100,70580876,25930020,False,2019-04-30,1
-217,East US,East US Store 81,2019-01-13,Furniture,Beds,4,15,74200229,70443221,True,2019-01-13,1
-218,East US,East US Store 81,2019-06-23,Baby,Diapers,11,30,78812568,50995706,True,2019-01-07,3
-219,East US,East US Store 81,2019-03-25,Furniture,Pool furniture,7,40,79460195,79518728,True,2019-02-01,2
-220,East US,East US Store 81,2019-01-04,Electronics,Televisions,4,200,57579615,1296501,False,2019-01-23,2
-221,East US,East US Store 81,2019-01-13,Beauty/Health,Makeup,5,10,44163196,86433400,True,2019-04-24,3
-222,East US,East US Store 81,2019-04-29,Furniture,Pool furniture,10,30,59998433,84272565,True,2019-02-19,3
-223,East US,East US Store 81,2019-05-01,Furniture,Patio furniture,9,40,30098244,68714553,True,2019-02-20,6
-224,East US,East US Store 81,2019-02-25,Beauty/Health,Feminine Products,5,10,59088829,23337018,False,2019-02-25,1
-225,East US,East US Store 81,2019-03-02,Baby,Cribs,6,30,90183681,68282386,True,2019-07-20,2
-226,East US,East US Store 81,2019-08-15,Electronics,Tablets,11,200,65228944,43216700,True,2019-05-25,2
-227,East US,East US Store 81,2019-01-22,Electronics,Televisions,5,300,25324975,41488032,True,2019-05-27,2
-228,East US,East US Store 81,2019-03-01,Beauty/Health,Makeup,6,14,47210942,48402704,True,2019-08-07,2
-229,East US,East US Store 81,2019-05-06,Clothing,Baby,10,20,27649436,65689384,True,2019-08-11,3
-230,East US,East US Store 81,2019-03-19,Baby,Cribs,7,30,38616431,50563539,True,2019-03-19,1
-231,East US,East US Store 81,2019-01-31,Baby,Cribs,4,10,58651908,34141193,False,2019-01-31,1
-232,East US,East US Store 81,2019-07-22,Furniture,Indoor tables,13,30,77562571,10372008,False,2019-05-25,2
-233,East US,East US Store 81,2019-04-15,Clothing,Kids,9,10,46932369,73036223,True,2019-07-25,2
-234,East US,East US Store 81,2019-03-08,Furniture,Beds,8,30,13710332,76061392,True,2019-02-19,2
-235,East US,East US Store 81,2019-02-21,Beauty/Health,Haircare,5,10,74211113,82543897,True,2019-05-04,2
-236,East US,East US Store 81,2019-04-04,Electronics,Computers,8,100,83702183,35437694,False,2019-06-26,3
-237,East US,East US Store 81,2019-08-18,Beauty/Health,Haircare,14,10,51766053,89026402,True,2019-08-18,1
-238,East US,East US Store 81,2019-04-10,Furniture,Patio furniture,7,30,43994527,50995706,True,2019-01-07,4
-239,East US,East US Store 81,2019-06-02,Electronics,Cell Phones,9,100,35216973,82543897,True,2019-05-04,3
-240,East US,East US Store 81,2019-01-11,Beauty/Health,Bath,6,10,75361403,2160835,False,2019-01-11,1
-241,East US,East US Store 81,2019-07-06,Electronics,Computers,10,100,63429853,5186004,False,2019-07-06,1
-242,East US,East US Store 81,2019-06-12,Beauty/Health,Oral care,10,10,86815507,87729901,True,2019-05-15,2
-243,East US,East US Store 81,2019-06-01,Electronics,Tablets,9,200,11852788,66121551,True,2019-06-04,2
-244,East US,East US Store 81,2019-02-15,Baby,Diaper bags,6,10,36549697,24633519,False,2019-02-04,3
-245,East US,East US Store 81,2019-07-12,Clothing,Shoes,11,20,86297809,44081034,True,2019-04-14,3
-246,East US,East US Store 81,2019-01-25,Furniture,Indoor tables,5,15,76632602,70875388,True,2019-08-01,2
-247,East US,East US Store 81,2019-04-13,Beauty/Health,Fragrances,7,6,62945794,49267038,True,2019-05-24,2
-248,East US,East US Store 81,2019-01-09,Furniture,Beds,4,30,31063612,41488032,True,2019-05-27,3
-249,East US,East US Store 81,2019-02-08,Furniture,Beds,6,75,61124112,56613877,True,2019-02-12,2
-250,East US,East US Store 81,2019-07-22,Clothing,Shoes,11,25,77568190,27658688,False,2019-07-22,1
-251,East US,East US Store 81,2019-04-23,Electronics,Cell Phones,8,300,59042207,58342545,True,2019-04-10,2
-252,East US,East US Store 81,2019-06-23,Furniture,Beds,11,75,80078939,3457336,False,2019-05-18,2
-253,East US,East US Store 81,2019-03-23,Baby,Strollers,6,5,47913414,84272565,True,2019-02-19,4
-254,East US,East US Store 81,2019-01-14,Beauty/Health,Oral care,5,6,84347228,38030696,False,2019-04-04,3
-255,East US,East US Store 81,2019-06-01,Beauty/Health,Bath,10,15,69965051,28523022,False,2019-06-15,2
-256,East US,East US Store 81,2019-08-16,Beauty/Health,Bath,14,10,95763495,22472684,False,2019-08-16,1
-257,East US,East US Store 81,2019-05-28,Furniture,Patio furniture,10,100,97803054,67418052,True,2019-08-11,2
-258,East US,East US Store 81,2019-07-23,Clothing,Kids,12,25,93914224,49699205,True,2019-05-10,2
-259,East US,East US Store 81,2019-03-06,Beauty/Health,Bath,6,10,92786433,54020875,True,2019-03-06,1
-260,East US,East US Store 81,2019-08-21,Baby,Baby toys,13,30,80088650,32412525,False,2019-06-09,2
-261,East US,East US Store 81,2019-08-02,Baby,Diapers,14,10,58972863,57046044,True,2019-08-02,1
-262,East US,East US Store 81,2019-04-21,Electronics,Headphones,7,100,84076862,4753837,False,2019-04-21,1
-263,East US,East US Store 81,2019-03-24,Electronics,Televisions,7,100,41247563,45377535,True,2019-05-22,3
-264,East US,East US Store 81,2019-03-17,Furniture,Pool furniture,7,100,30536141,77790060,True,2019-03-17,1
-265,East US,East US Store 81,2019-05-24,Clothing,Swimwear,11,25,91180183,38462863,False,2019-04-14,2
-266,East US,East US Store 81,2019-01-24,Baby,Strollers,6,5,72160754,62664215,True,2019-04-22,3
-267,East US,East US Store 81,2019-04-30,Beauty/Health,Feminine Products,9,10,54421919,75629225,True,2019-08-21,2
-268,East US,East US Store 81,2019-06-15,Furniture,Indoor tables,12,100,26711553,66985885,True,2019-08-01,2
-269,East US,East US Store 81,2019-08-02,Electronics,Speakers,12,200,46079872,48834871,True,2019-07-15,2
-270,East US,East US Store 81,2019-08-19,Electronics,Computers,11,200,37562523,41920199,True,2019-07-10,3
-271,East US,East US Store 81,2019-04-05,Clothing,Swimwear,9,12,19869343,67850219,True,2019-04-05,1
-272,East US,East US Store 81,2019-03-25,Furniture,Patio furniture,8,15,14898990,24201352,False,2019-01-04,2
-273,East US,East US Store 81,2019-07-19,Beauty/Health,Feminine Products,13,10,61056875,59206879,True,2019-07-22,3
-274,East US,East US Store 81,2019-02-20,Electronics,Headphones,5,100,97364181,5618171,False,2019-06-27,2
-275,East US,East US Store 81,2019-08-10,Beauty/Health,Bath,12,14,13972146,26794354,False,2019-08-06,2
-276,East US,East US Store 81,2019-01-02,Baby,Car seats,4,15,69178582,21608350,False,2019-01-02,1
-277,East US,East US Store 81,2019-02-21,Clothing,Kids,5,13,28793557,53156541,True,2019-07-03,2
-278,East US,East US Store 81,2019-04-17,Clothing,Baby,8,13,56250153,66553718,True,2019-07-02,3
-279,East US,East US Store 81,2019-07-27,Furniture,Indoor seating,13,30,76364617,57478211,True,2019-04-30,4
-280,East US,East US Store 81,2019-07-29,Furniture,Pool furniture,11,30,64925177,22904851,False,2019-07-29,1
-281,East US,East US Store 81,2019-02-06,Clothing,Swimwear,5,13,57394236,56181710,True,2019-01-14,2
-282,East US,East US Store 81,2019-07-08,Beauty/Health,Makeup,13,10,54315265,4321670,False,2019-02-21,2
-283,East US,East US Store 81,2019-01-30,Electronics,Headphones,5,100,88602618,9939841,False,2019-01-30,1
-284,East US,East US Store 81,2019-07-20,Beauty/Health,Fragrances,11,10,86820664,46241869,True,2019-07-20,1
-285,East US,East US Store 81,2019-05-28,Baby,Strollers,11,30,73597472,43648867,True,2019-05-28,1
-286,East US,East US Store 81,2019-06-10,Furniture,Beds,12,30,72851273,70011054,True,2019-02-13,7
-287,East US,East US Store 81,2019-07-24,Clothing,Baby,11,12,47771669,38895030,True,2019-02-15,2
-288,East US,East US Store 81,2019-05-25,Electronics,Headphones,9,200,12135568,70443221,True,2019-01-13,2
-289,East US,East US Store 81,2019-07-15,Baby,Baby toys,11,15,96371157,27226521,False,2019-05-26,2
-290,East US,East US Store 81,2019-07-15,Furniture,Patio furniture,11,40,99225723,45809702,True,2019-04-02,2
-291,East US,East US Store 81,2019-04-27,Beauty/Health,Makeup,10,10,79325724,13829344,False,2019-04-27,1
-292,East US,East US Store 81,2019-04-26,Furniture,Indoor seating,9,75,41594340,74332724,True,2019-04-04,3
-293,East US,East US Store 81,2019-02-27,Beauty/Health,Feminine Products,7,10,54405882,49267038,True,2019-05-24,3
-294,East US,East US Store 81,2019-05-11,Electronics,Televisions,9,300,29134584,74764891,True,2019-05-11,1
-295,East US,East US Store 81,2019-05-13,Furniture,Indoor tables,10,100,13945533,50131372,True,2019-06-05,2
-296,East US,East US Store 81,2019-07-24,Furniture,Pool furniture,12,100,93284331,68714553,True,2019-02-20,7
-297,East US,East US Store 81,2019-02-28,Beauty/Health,Bath,7,10,75760120,1728668,False,2019-01-20,2
-298,East US,East US Store 81,2019-08-04,Baby,Baby toys,13,15,67871792,41055865,True,2019-08-04,1
-299,East US,East US Store 81,2019-08-11,Furniture,Indoor seating,12,75,59194843,29387356,False,2019-02-02,2
-300,East US,East US Store 81,2019-05-12,Baby,Diapers,11,30,73814969,36302028,False,2019-07-17,2
-301,East US,East US Store 81,2019-07-28,Furniture,Patio furniture,11,30,33253274,36734195,False,2019-01-15,2
-302,East US,East US Store 81,2019-05-21,Furniture,Beds,9,40,69290264,55317376,True,2019-05-21,1
-303,East US,East US Store 81,2019-06-09,Electronics,Cell Phones,9,100,85496909,3025169,False,2019-03-10,2
-304,East US,East US Store 81,2019-05-10,Clothing,Swimwear,10,25,11329235,61367714,True,2019-05-10,1
-305,East US,East US Store 81,2019-05-12,Baby,Diapers,9,5,18058131,38030696,False,2019-04-04,4
-306,East US,East US Store 81,2019-02-26,Furniture,Patio furniture,6,15,30126006,36734195,False,2019-01-15,3
-307,East US,East US Store 81,2019-06-26,Clothing,Shoes,10,20,93013033,67418052,True,2019-08-11,3
-308,East US,East US Store 81,2019-03-10,Clothing,Shoes,6,25,52980620,84272565,True,2019-02-19,5
-309,East US,East US Store 81,2019-05-13,Beauty/Health,Feminine Products,9,10,55993583,51427873,True,2019-08-03,2
-310,East US,East US Store 81,2019-07-02,Electronics,Televisions,10,50,46518877,66553718,True,2019-07-02,4
-311,East US,East US Store 81,2019-04-01,Beauty/Health,Oral care,8,6,66889012,54885209,True,2019-05-23,2
-312,East US,East US Store 81,2019-03-17,Clothing,Swimwear,7,20,51679850,78654394,True,2019-06-07,2
-313,East US,East US Store 81,2019-05-11,Furniture,Patio furniture,10,75,45749419,87297734,True,2019-05-13,2
-314,East US,East US Store 81,2019-01-29,Baby,Diaper bags,4,15,80867760,73468390,True,2019-07-12,2
-315,East US,East US Store 81,2019-01-17,Baby,Strollers,4,15,37481985,65257217,True,2019-02-04,2
-316,East US,East US Store 81,2019-03-09,Electronics,Cell Phones,7,100,83953383,19015348,False,2019-03-09,1
-317,East US,East US Store 81,2019-08-14,Beauty/Health,Feminine Products,13,10,75407956,30683857,False,2019-08-14,1
-318,East US,East US Store 81,2019-04-28,Electronics,Speakers,8,100,17040309,38895030,True,2019-02-15,3
-319,East US,East US Store 81,2019-03-24,Beauty/Health,Haircare,6,14,95644143,10804175,False,2019-03-24,1
-320,East US,East US Store 81,2019-07-30,Beauty/Health,Makeup,13,15,77143375,55317376,True,2019-05-21,2
-321,East US,East US Store 81,2019-01-01,Electronics,Computers,4,200,75450796,52292207,True,2019-04-11,2
-322,East US,East US Store 81,2019-06-16,Beauty/Health,Oral care,10,10,85313337,82543897,True,2019-05-04,4
-323,East US,East US Store 81,2019-04-25,Beauty/Health,Oral care,9,10,18417136,88162068,True,2019-07-26,2
-324,East US,East US Store 81,2019-03-22,Furniture,Indoor tables,7,15,15334956,78654394,True,2019-06-07,3
-325,East US,East US Store 81,2019-03-08,Furniture,Indoor tables,6,75,78408958,83408231,True,2019-07-09,3
-326,East US,East US Store 81,2019-05-06,Clothing,Shoes,9,10,76163306,7346839,False,2019-05-06,1
-327,East US,East US Store 81,2019-07-25,Beauty/Health,Bath,12,15,13795013,44513201,True,2019-01-01,4
-328,East US,East US Store 81,2019-02-12,Clothing,Baby,5,20,52989985,81679563,True,2019-04-12,3
-329,East US,East US Store 81,2019-06-17,Baby,Diaper bags,10,12,66568297,44945368,True,2019-08-08,2
-330,East US,East US Store 81,2019-08-11,Baby,Car seats,12,12,86943897,58342545,True,2019-04-10,3
-331,East US,East US Store 81,2019-08-02,Clothing,Kids,12,12,22731997,87729901,True,2019-05-15,3
-332,East US,East US Store 81,2019-06-01,Furniture,Indoor tables,10,30,67120868,33709026,False,2019-05-26,2
-333,East US,East US Store 81,2019-01-11,Clothing,Kids,5,13,68751494,27658688,False,2019-07-22,2
-334,East US,East US Store 81,2019-07-09,Furniture,Patio furniture,12,30,69349509,28955189,False,2019-07-09,1
-335,East US,East US Store 81,2019-04-11,Electronics,Tablets,7,100,33422875,63960716,True,2019-02-18,2
-336,East US,East US Store 81,2019-03-16,Beauty/Health,Skincare,8,10,10049740,47538370,True,2019-06-16,3
-337,East US,East US Store 81,2019-07-04,Furniture,Pool furniture,13,40,65442418,64825050,True,2019-04-17,2
-338,East US,East US Store 81,2019-04-19,Electronics,Headphones,8,200,15718445,39759364,True,2019-07-25,2
-339,East US,East US Store 81,2019-02-16,Electronics,Tablets,6,200,74089066,39759364,True,2019-07-25,3
-340,East US,East US Store 81,2019-07-05,Baby,Cribs,12,15,26577191,30251690,False,2019-02-09,2
-341,East US,East US Store 81,2019-05-20,Baby,Strollers,9,10,67690315,69578887,True,2019-01-13,2
-342,East US,East US Store 81,2019-04-22,Electronics,Computers,8,100,26258936,31548191,False,2019-03-20,3
-343,East US,East US Store 81,2019-06-21,Electronics,Speakers,9,100,56387974,80815229,True,2019-07-23,4
-344,East US,East US Store 81,2019-05-14,Beauty/Health,Oral care,10,10,62192769,7346839,False,2019-05-06,2
-345,East US,East US Store 81,2019-07-10,Furniture,Indoor seating,13,40,50166185,73468390,True,2019-07-12,3
-346,East US,East US Store 81,2019-02-17,Electronics,Cell Phones,6,50,30713960,56613877,True,2019-02-12,3
-347,East US,East US Store 81,2019-04-29,Electronics,Cell Phones,8,300,49985815,65257217,True,2019-02-04,3
-348,East US,East US Store 81,2019-03-18,Beauty/Health,Bath,6,10,98520096,67418052,True,2019-08-11,4
-349,East US,East US Store 81,2019-02-19,Electronics,Speakers,6,200,99378200,41920199,True,2019-07-10,4
-350,East US,East US Store 81,2019-01-23,Clothing,Womens,6,25,60045296,74332724,True,2019-04-04,4
-351,East US,East US Store 81,2019-05-04,Clothing,Swimwear,10,20,66240488,30251690,False,2019-02-09,3
-352,East US,East US Store 81,2019-01-28,Furniture,Indoor tables,6,40,95136247,63096382,True,2019-03-20,2
-353,East US,East US Store 81,2019-05-10,Baby,Diaper bags,11,30,50358465,45809702,True,2019-04-02,3
-354,East US,East US Store 81,2019-02-17,Baby,Baby toys,7,10,77863011,36302028,False,2019-07-17,3
-355,East US,East US Store 81,2019-02-17,Clothing,Swimwear,5,13,99523141,36302028,False,2019-07-17,4
-356,East US,East US Store 81,2019-05-07,Baby,Diaper bags,11,30,98487836,38895030,True,2019-02-15,4
-357,East US,East US Store 81,2019-05-25,Baby,Baby toys,11,30,60940489,4753837,False,2019-04-21,2
-358,East US,East US Store 81,2019-02-24,Baby,Diaper bags,6,15,44482459,25497853,False,2019-02-24,1
-359,East US,East US Store 81,2019-06-16,Electronics,Cell Phones,9,50,51390346,8211173,False,2019-06-16,1
-360,East US,East US Store 81,2019-07-17,Baby,Baby toys,11,30,49406289,19879682,False,2019-01-23,2
-361,East US,East US Store 81,2019-01-14,Furniture,Pool furniture,5,30,47969913,76493559,True,2019-05-05,2
-362,East US,East US Store 81,2019-02-18,Beauty/Health,Oral care,7,10,79913810,7346839,False,2019-05-06,3
-363,East US,East US Store 81,2019-03-28,Furniture,Patio furniture,7,40,14695911,58774712,True,2019-06-16,2
-364,East US,East US Store 81,2019-07-23,Furniture,Patio furniture,13,75,56753134,60935547,True,2019-07-15,3
-365,East US,East US Store 81,2019-04-18,Electronics,Tablets,7,50,92994645,11236342,False,2019-04-18,1
-366,East US,East US Store 81,2019-04-08,Clothing,Mens,7,12,59880227,77790060,True,2019-03-17,2
-367,East US,East US Store 81,2019-08-01,Clothing,Swimwear,14,13,31231021,71307555,True,2019-08-18,4
-368,East US,East US Store 81,2019-04-03,Clothing,Swimwear,8,12,81539957,73900557,True,2019-07-31,4
-369,East US,East US Store 81,2019-07-08,Electronics,Tablets,10,200,13022455,11236342,False,2019-04-18,2
-370,East US,East US Store 81,2019-08-08,Electronics,Computers,12,100,34790499,32844692,False,2019-08-04,3
-371,East US,East US Store 81,2019-03-10,Beauty/Health,Feminine Products,8,10,27087167,67850219,True,2019-04-05,2
-372,East US,East US Store 81,2019-03-30,Furniture,Beds,7,75,49016239,87729901,True,2019-05-15,4
-373,East US,East US Store 81,2019-06-16,Beauty/Health,Skincare,10,15,87129168,87729901,True,2019-05-15,5
-374,East US,East US Store 81,2019-02-16,Baby,Baby toys,7,12,76905078,22904851,False,2019-07-29,2
-375,East US,East US Store 81,2019-05-17,Furniture,Indoor tables,10,15,47936674,83840398,True,2019-06-26,2
-376,East US,East US Store 81,2019-01-06,Beauty/Health,Feminine Products,5,10,26959233,77357893,True,2019-05-21,2
-377,East US,East US Store 81,2019-08-15,Clothing,Shoes,12,12,29608754,84272565,True,2019-02-19,6
-378,East US,East US Store 81,2019-07-12,Baby,Baby toys,13,12,75577422,71307555,True,2019-08-18,5
-379,East US,East US Store 81,2019-03-06,Baby,Baby toys,6,30,88770146,87297734,True,2019-05-13,3
-380,East US,East US Store 81,2019-05-05,Beauty/Health,Haircare,10,10,19873750,52724374,True,2019-05-05,1
-381,East US,East US Store 81,2019-06-24,Baby,Car seats,11,30,64261715,39327197,True,2019-07-16,2
-382,East US,East US Store 81,2019-05-25,Beauty/Health,Oral care,10,10,23996668,48834871,True,2019-07-15,3
-383,East US,East US Store 81,2019-03-18,Baby,Baby toys,6,10,88275045,70443221,True,2019-01-13,3
-384,East US,East US Store 81,2019-05-20,Electronics,Televisions,9,200,20830405,17718847,False,2019-05-20,1
-385,East US,East US Store 81,2019-07-20,Clothing,Swimwear,13,20,78325665,71307555,True,2019-08-18,6
-386,East US,East US Store 81,2019-07-04,Clothing,Mens,11,25,77225864,44945368,True,2019-08-08,3
-387,East US,East US Store 81,2019-07-27,Furniture,Pool furniture,11,40,58126367,65257217,True,2019-02-04,4
-388,East US,East US Store 81,2019-06-16,Clothing,Mens,12,25,34356889,52724374,True,2019-05-05,2
-389,East US,East US Store 81,2019-02-07,Baby,Car seats,7,15,32571492,57910378,True,2019-08-13,2
-390,East US,East US Store 81,2019-07-09,Clothing,Baby,12,13,91418998,66553718,True,2019-07-02,5
-391,East US,East US Store 81,2019-03-05,Furniture,Patio furniture,7,75,65245477,34141193,False,2019-01-31,2
-392,East US,East US Store 81,2019-01-05,Clothing,Mens,6,20,52459671,18583181,False,2019-08-15,2
-393,East US,East US Store 81,2019-03-25,Beauty/Health,Oral care,7,10,69531334,63096382,True,2019-03-20,3
-394,East US,East US Store 81,2019-05-28,Beauty/Health,Oral care,9,14,11425045,31980358,False,2019-05-28,1
-395,East US,East US Store 81,2019-08-01,Furniture,Indoor tables,12,75,90736021,34141193,False,2019-01-31,3
-396,East US,East US Store 81,2019-07-08,Clothing,Baby,12,25,34508839,28090855,False,2019-07-08,1
-397,East US,East US Store 81,2019-07-15,Clothing,Kids,11,25,63028613,86433400,True,2019-04-24,4
-398,East US,East US Store 81,2019-04-11,Furniture,Patio furniture,7,15,17700391,78654394,True,2019-06-07,4
-399,East US,East US Store 81,2019-06-02,Clothing,Kids,11,20,62548270,28955189,False,2019-07-09,2
-400,East US,East US Store 81,2019-05-07,Furniture,Pool furniture,10,100,20886321,31980358,False,2019-05-28,2
-401,East US,East US Store 81,2019-03-25,Furniture,Indoor tables,7,40,84296030,59639046,True,2019-03-25,1
-402,East US,East US Store 81,2019-06-03,Furniture,Patio furniture,11,40,77894583,84704732,True,2019-06-03,1
-403,East US,East US Store 81,2019-02-23,Furniture,Patio furniture,6,30,54351541,22904851,False,2019-07-29,3
-404,East US,East US Store 81,2019-04-08,Electronics,Speakers,8,100,71071094,40623698,True,2019-04-08,1
-405,East US,East US Store 81,2019-01-18,Clothing,Kids,4,25,96631502,56181710,True,2019-01-14,3
-406,East US,East US Store 81,2019-03-17,Electronics,Televisions,6,100,49960494,6914672,False,2019-03-17,1
-407,East US,East US Store 81,2019-01-08,Beauty/Health,Haircare,4,10,97952974,73900557,True,2019-07-31,5
-408,East US,East US Store 81,2019-08-01,Furniture,Beds,13,30,72913658,55317376,True,2019-05-21,3
-409,East US,East US Store 81,2019-01-25,Clothing,Womens,6,13,87096878,44513201,True,2019-01-01,5
-410,East US,East US Store 81,2019-06-07,Electronics,Televisions,9,200,52985486,53588708,True,2019-03-14,2
-411,East US,East US Store 81,2019-03-11,Electronics,Televisions,7,100,68663382,65257217,True,2019-02-04,5
-412,East US,East US Store 81,2019-08-02,Baby,Car seats,14,12,82048652,76061392,True,2019-02-19,3
-413,East US,East US Store 81,2019-02-24,Baby,Diaper bags,6,12,42797419,54453042,True,2019-05-06,2
-414,East US,East US Store 81,2019-05-16,Clothing,Mens,9,10,87656444,49267038,True,2019-05-24,4
-415,East US,East US Store 81,2019-06-14,Clothing,Swimwear,12,25,67168551,31116024,False,2019-01-08,5
-416,East US,East US Store 81,2019-04-24,Baby,Car seats,7,30,66319448,83408231,True,2019-07-09,4
-417,East US,East US Store 81,2019-03-27,Beauty/Health,Fragrances,7,10,27383168,26794354,False,2019-08-06,3
-418,East US,East US Store 81,2019-06-13,Baby,Strollers,10,15,29179404,47970537,True,2019-05-26,2
-419,East US,East US Store 81,2019-05-28,Electronics,Speakers,9,300,60865113,8211173,False,2019-06-16,2
-420,East US,East US Store 81,2019-01-31,Beauty/Health,Fragrances,6,10,90668400,79518728,True,2019-02-01,3
-421,East US,East US Store 81,2019-05-26,Beauty/Health,Skincare,11,14,94544289,6050338,False,2019-06-01,2
-422,East US,East US Store 81,2019-02-20,Clothing,Baby,6,25,34585752,71739722,True,2019-06-22,2
-423,East US,East US Store 81,2019-01-14,Electronics,Computers,4,200,98712880,50131372,True,2019-06-05,3
-424,East US,East US Store 81,2019-08-19,Clothing,Shoes,12,25,31684315,21608350,False,2019-01-02,2
-425,East US,East US Store 81,2019-07-31,Baby,Baby toys,13,12,64593633,66985885,True,2019-08-01,3
-426,East US,East US Store 81,2019-07-07,Electronics,Speakers,10,100,72533987,70443221,True,2019-01-13,4
-427,East US,East US Store 81,2019-01-26,Clothing,Kids,5,20,45554954,43216700,True,2019-05-25,3
-428,East US,East US Store 81,2019-02-05,Clothing,Baby,7,25,88480048,67850219,True,2019-04-05,3
-429,East US,East US Store 81,2019-07-27,Beauty/Health,Makeup,13,10,73444923,67418052,True,2019-08-11,5
-430,East US,East US Store 81,2019-08-18,Beauty/Health,Oral care,14,10,39607984,64825050,True,2019-04-17,3
-431,East US,East US Store 81,2019-04-12,Furniture,Beds,9,15,32879204,80383062,True,2019-04-12,1
-432,East US,East US Store 81,2019-08-14,Beauty/Health,Oral care,12,10,70455591,41055865,True,2019-08-04,2
-433,East US,East US Store 81,2019-01-06,Baby,Cribs,6,12,98229864,63096382,True,2019-03-20,4
-434,East US,East US Store 81,2019-07-04,Clothing,Baby,13,25,54715624,24201352,False,2019-01-04,3
-435,East US,East US Store 81,2019-02-17,Clothing,Mens,7,25,58180023,39759364,True,2019-07-25,4
-436,East US,East US Store 81,2019-06-12,Furniture,Patio furniture,12,30,80602884,12965010,False,2019-06-12,1
-437,East US,East US Store 81,2019-01-21,Baby,Strollers,5,30,93711526,15990179,False,2019-04-13,2
-438,East US,East US Store 81,2019-06-05,Baby,Diaper bags,10,10,40695932,63528549,True,2019-02-11,2
-439,East US,East US Store 81,2019-08-12,Furniture,Pool furniture,13,100,30322278,48402704,True,2019-08-07,3
-440,East US,East US Store 81,2019-04-11,Electronics,Speakers,7,200,89609319,48402704,True,2019-08-07,4
-441,East US,East US Store 81,2019-07-15,Baby,Diaper bags,11,5,56813336,17286680,False,2019-05-25,3
-442,East US,East US Store 81,2019-03-25,Beauty/Health,Skincare,6,10,72648298,40191531,True,2019-02-23,3
-443,East US,East US Store 81,2019-01-26,Electronics,Speakers,4,200,38922313,51427873,True,2019-08-03,3
-444,East US,East US Store 81,2019-05-26,Clothing,Mens,10,10,30045879,66553718,True,2019-07-02,6
-445,East US,East US Store 81,2019-08-03,Baby,Diapers,12,30,28974762,22040517,False,2019-07-02,2
-446,East US,East US Store 81,2019-06-06,Baby,Baby toys,10,30,19586426,86001233,True,2019-05-26,6
-447,East US,East US Store 81,2019-02-20,Electronics,Computers,6,100,25996187,73468390,True,2019-07-12,4
-448,East US,East US Store 81,2019-02-17,Baby,Diaper bags,7,30,10211476,73900557,True,2019-07-31,6
-449,East US,East US Store 81,2019-07-23,Electronics,Headphones,11,100,60266833,56181710,True,2019-01-14,4
-450,East US,East US Store 81,2019-01-19,Clothing,Shoes,5,20,96251908,23769185,False,2019-01-16,3
-451,East US,East US Store 81,2019-02-02,Furniture,Beds,5,15,11353292,39327197,True,2019-07-16,3
-452,East US,East US Store 81,2019-07-29,Beauty/Health,Bath,13,10,55674677,73468390,True,2019-07-12,5
-453,East US,East US Store 81,2019-04-24,Beauty/Health,Haircare,7,10,32004689,49267038,True,2019-05-24,5
-454,East US,East US Store 81,2019-04-06,Furniture,Pool furniture,7,40,12062132,47106203,True,2019-07-23,2
-455,East US,East US Store 81,2019-05-14,Beauty/Health,Bath,9,14,58316217,52724374,True,2019-05-05,3
-456,East US,East US Store 81,2019-02-14,Electronics,Cell Phones,5,200,21599689,3457336,False,2019-05-18,3
-457,East US,East US Store 81,2019-06-08,Furniture,Patio furniture,11,30,23143120,83840398,True,2019-06-26,3
-458,East US,East US Store 81,2019-08-07,Electronics,Headphones,11,50,12181881,32844692,False,2019-08-04,4
-459,East US,East US Store 81,2019-01-18,Furniture,Beds,5,15,96281226,44081034,True,2019-04-14,4
-460,East US,East US Store 81,2019-04-10,Beauty/Health,Feminine Products,9,10,18714854,27658688,False,2019-07-22,3
-461,East US,East US Store 81,2019-02-02,Electronics,Headphones,5,100,48995360,23337018,False,2019-02-25,2
-462,East US,East US Store 81,2019-04-13,Furniture,Beds,7,75,53385188,60935547,True,2019-07-15,4
-463,East US,East US Store 81,2019-05-20,Baby,Baby toys,11,30,38521240,26794354,False,2019-08-06,4
-464,East US,East US Store 81,2019-07-17,Furniture,Indoor tables,12,40,80385197,34573360,False,2019-07-17,1
-465,East US,East US Store 81,2019-06-14,Furniture,Beds,11,40,76655279,64392883,True,2019-08-13,2
-466,East US,East US Store 81,2019-03-09,Clothing,Mens,8,25,36071468,52724374,True,2019-05-05,4
-467,East US,East US Store 81,2019-02-05,Beauty/Health,Skincare,5,10,94702261,58342545,True,2019-04-10,4
-468,East US,East US Store 81,2019-03-19,Electronics,Speakers,6,100,21451004,3025169,False,2019-03-10,3
-469,East US,East US Store 81,2019-01-06,Beauty/Health,Feminine Products,4,15,21297773,71307555,True,2019-08-18,7
-470,East US,East US Store 81,2019-07-13,Baby,Strollers,13,30,75171370,36302028,False,2019-07-17,5
-471,East US,East US Store 81,2019-04-07,Furniture,Patio furniture,8,30,17883655,69146720,True,2019-01-13,2
-472,East US,East US Store 81,2019-07-08,Clothing,Mens,12,12,70160125,28090855,False,2019-07-08,2
-473,East US,East US Store 81,2019-04-22,Beauty/Health,Oral care,7,10,53752868,63960716,True,2019-02-18,3
-474,East US,East US Store 81,2019-03-21,Baby,Diapers,8,5,89068983,51860040,True,2019-07-01,3
-475,East US,East US Store 81,2019-08-21,Electronics,Headphones,11,50,92666184,75629225,True,2019-08-21,3
-476,East US,East US Store 81,2019-05-07,Electronics,Televisions,8,200,20026379,65257217,True,2019-02-04,6
-477,East US,East US Store 81,2019-01-26,Beauty/Health,Skincare,4,10,54379948,70443221,True,2019-01-13,5
-478,East US,East US Store 81,2019-03-03,Furniture,Indoor tables,6,30,48614391,82543897,True,2019-05-04,5
-479,East US,East US Store 81,2019-02-20,Baby,Diaper bags,7,12,52302064,53588708,True,2019-03-14,3
-480,East US,East US Store 81,2019-08-18,Furniture,Pool furniture,12,40,72220811,44513201,True,2019-01-01,6
-481,East US,East US Store 81,2019-01-05,Electronics,Tablets,4,200,47596251,78222227,True,2019-05-08,2
-482,East US,East US Store 81,2019-04-20,Baby,Cribs,9,10,23666049,23769185,False,2019-01-16,4
-483,East US,East US Store 81,2019-04-25,Clothing,Shoes,8,10,26914105,34141193,False,2019-01-31,4
-484,East US,East US Store 81,2019-04-26,Baby,Cribs,8,15,77836140,60071213,True,2019-04-26,1
-485,East US,East US Store 81,2019-03-06,Electronics,Speakers,6,50,12422882,40623698,True,2019-04-08,2
-486,East US,East US Store 81,2019-05-10,Furniture,Patio furniture,11,30,35164118,41055865,True,2019-08-04,3
-487,East US,East US Store 81,2019-05-26,Baby,Car seats,10,10,43964055,38895030,True,2019-02-15,5
-488,East US,East US Store 81,2019-06-14,Clothing,Baby,12,25,27771644,82976064,True,2019-03-04,2
-489,East US,East US Store 81,2019-02-24,Furniture,Beds,6,30,63585996,62664215,True,2019-04-22,4
-490,East US,East US Store 81,2019-02-15,Clothing,Swimwear,7,12,69593242,66121551,True,2019-06-04,3
-491,East US,East US Store 81,2019-06-24,Electronics,Speakers,9,100,50092055,34573360,False,2019-07-17,2
-492,East US,East US Store 81,2019-02-07,Clothing,Kids,5,25,83795656,73900557,True,2019-07-31,7
-493,East US,East US Store 81,2019-01-06,Furniture,Pool furniture,4,30,24194260,83840398,True,2019-06-26,4
-494,East US,East US Store 81,2019-06-29,Beauty/Health,Makeup,11,10,32600727,70875388,True,2019-08-01,3
-495,East US,East US Store 81,2019-04-09,Furniture,Indoor seating,8,40,99488306,4753837,False,2019-04-21,3
-496,East US,East US Store 81,2019-01-11,Baby,Cribs,6,12,28824512,50563539,True,2019-03-19,2
-497,East US,East US Store 81,2019-07-14,Electronics,Cell Phones,10,100,91303137,35437694,False,2019-06-26,4
-498,East US,East US Store 81,2019-02-04,Furniture,Indoor tables,6,15,85969569,68282386,True,2019-07-20,3
-499,East US,East US Store 81,2019-07-25,Baby,Diaper bags,13,5,47897608,34573360,False,2019-07-17,3
-500,East US,East US Store 81,2019-03-15,Electronics,Cell Phones,7,100,32477774,52724374,True,2019-05-05,5
-501,East US,East US Store 81,2019-06-18,Baby,Car seats,12,5,76218846,40191531,True,2019-02-23,4
-502,East US,East US Store 81,2019-06-01,Clothing,Swimwear,10,25,55648563,21176183,False,2019-02-21,4
-503,East US,East US Store 81,2019-01-12,Baby,Car seats,5,15,59741341,15990179,False,2019-04-13,3
-504,East US,East US Store 81,2019-05-30,Electronics,Televisions,9,300,38465528,11236342,False,2019-04-18,3
-505,East US,East US Store 81,2019-05-31,Clothing,Mens,10,13,86886399,40623698,True,2019-04-08,3
-506,East US,East US Store 81,2019-04-27,Electronics,Headphones,8,200,90575968,42352366,True,2019-01-09,4
-507,East US,East US Store 81,2019-01-13,Beauty/Health,Feminine Products,5,10,96960612,70875388,True,2019-08-01,4
-508,East US,East US Store 81,2019-01-07,Electronics,Speakers,4,100,51434621,32412525,False,2019-06-09,3
-509,East US,East US Store 81,2019-01-27,Baby,Strollers,5,15,91929226,33276859,False,2019-03-16,2
-510,East US,East US Store 81,2019-06-30,Baby,Diapers,10,12,35176804,74332724,True,2019-04-04,5
-511,East US,East US Store 81,2019-06-29,Beauty/Health,Bath,12,10,29209273,64825050,True,2019-04-17,4
-512,East US,East US Store 81,2019-02-07,Baby,Baby toys,6,5,62866342,42784533,True,2019-08-06,2
-513,East US,East US Store 81,2019-08-18,Furniture,Patio furniture,14,40,16953219,75629225,True,2019-08-21,4
-514,East US,East US Store 81,2019-05-01,Furniture,Indoor tables,10,75,55171669,50131372,True,2019-06-05,4
-515,East US,East US Store 81,2019-06-02,Baby,Diaper bags,12,30,37699780,73468390,True,2019-07-12,6
-516,East US,East US Store 81,2019-03-24,Electronics,Speakers,6,200,11460146,39759364,True,2019-07-25,5
-517,East US,East US Store 81,2019-08-08,Electronics,Televisions,11,200,47977787,51427873,True,2019-08-03,4
-518,East US,East US Store 81,2019-08-19,Clothing,Swimwear,14,12,37543208,49267038,True,2019-05-24,6
-519,East US,East US Store 81,2019-08-12,Clothing,Kids,14,13,55540062,55317376,True,2019-05-21,4
-520,East US,East US Store 81,2019-05-25,Furniture,Indoor tables,11,30,91704394,15990179,False,2019-04-13,4
-521,East US,East US Store 81,2019-08-01,Baby,Diaper bags,14,5,86514947,58774712,True,2019-06-16,3
-522,East US,East US Store 81,2019-07-18,Beauty/Health,Oral care,13,6,33634080,46674036,True,2019-01-30,3
-523,East US,East US Store 81,2019-07-27,Furniture,Beds,12,40,47486600,42352366,True,2019-01-09,5
-524,East US,East US Store 81,2019-06-03,Clothing,Shoes,11,12,38629783,61799881,True,2019-06-03,1
-525,East US,East US Store 81,2019-01-01,Clothing,Baby,4,25,94547376,34573360,False,2019-07-17,4
-526,East US,East US Store 81,2019-05-06,Clothing,Swimwear,10,25,97546943,12100676,False,2019-07-18,2
-527,East US,East US Store 81,2019-05-19,Clothing,Womens,10,10,37815488,83408231,True,2019-07-09,5
-528,East US,East US Store 81,2019-04-29,Furniture,Patio furniture,8,100,80978963,43216700,True,2019-05-25,4
-529,East US,East US Store 81,2019-01-04,Beauty/Health,Feminine Products,4,10,98518765,54020875,True,2019-03-06,2
-530,East US,East US Store 81,2019-06-10,Clothing,Shoes,10,25,21316165,76061392,True,2019-02-19,4
-531,East US,East US Store 81,2019-02-07,Baby,Cribs,6,15,98069203,7346839,False,2019-05-06,4
-532,East US,East US Store 81,2019-07-30,Baby,Diaper bags,13,12,95252300,77357893,True,2019-05-21,3
-533,East US,East US Store 81,2019-01-24,Electronics,Cell Phones,4,200,37836717,6482505,False,2019-01-07,3
-534,East US,East US Store 81,2019-01-09,Electronics,Computers,4,100,67626685,51860040,True,2019-07-01,4
-535,East US,East US Store 81,2019-06-01,Furniture,Indoor seating,10,15,54587775,41920199,True,2019-07-10,5
-536,East US,East US Store 81,2019-07-15,Electronics,Speakers,11,200,56250722,28955189,False,2019-07-09,3
-537,East US,East US Store 81,2019-08-19,Electronics,Computers,11,50,94818342,57910378,True,2019-08-13,3
-538,East US,East US Store 81,2019-07-27,Furniture,Indoor tables,13,40,71669535,23769185,False,2019-01-16,5
-539,East US,East US Store 81,2019-05-13,Beauty/Health,Feminine Products,10,10,73513325,37598529,False,2019-03-06,3
-540,East US,East US Store 81,2019-07-06,Furniture,Patio furniture,12,15,42141298,32844692,False,2019-08-04,5
-541,East US,East US Store 81,2019-03-16,Baby,Strollers,8,5,80883146,83408231,True,2019-07-09,6
-542,East US,East US Store 81,2019-02-17,Baby,Car seats,6,5,99037693,16422346,False,2019-02-19,2
-543,East US,East US Store 81,2019-04-19,Clothing,Baby,7,25,35049551,81247396,True,2019-04-19,1
-544,East US,East US Store 81,2019-03-23,Furniture,Indoor tables,7,40,62636946,75629225,True,2019-08-21,5
-545,East US,East US Store 81,2019-05-11,Electronics,Cell Phones,9,50,22738592,73900557,True,2019-07-31,8
-546,East US,East US Store 81,2019-05-07,Beauty/Health,Fragrances,11,10,89225723,80383062,True,2019-04-12,2
-547,East US,East US Store 81,2019-04-25,Baby,Diapers,8,30,81568688,72604056,True,2019-05-09,3
-548,East US,East US Store 81,2019-04-06,Baby,Diapers,9,15,36829995,67850219,True,2019-04-05,4
-549,East US,East US Store 81,2019-06-20,Furniture,Pool furniture,11,40,92422240,47538370,True,2019-06-16,4
-550,East US,East US Store 81,2019-05-05,Beauty/Health,Oral care,9,10,95515197,60071213,True,2019-04-26,2
-551,East US,East US Store 81,2019-01-21,Electronics,Tablets,5,200,55573413,53156541,True,2019-07-03,3
-552,East US,East US Store 81,2019-02-15,Clothing,Womens,5,20,11489571,70443221,True,2019-01-13,6
-553,East US,East US Store 81,2019-02-22,Beauty/Health,Oral care,5,10,22144804,83408231,True,2019-07-09,7
-554,East US,East US Store 81,2019-03-01,Electronics,Computers,6,300,95384111,36302028,False,2019-07-17,6
-555,East US,East US Store 81,2019-08-19,Baby,Diaper bags,13,15,89813892,73468390,True,2019-07-12,7
-556,East US,East US Store 81,2019-06-09,Furniture,Indoor tables,10,75,41294425,47106203,True,2019-07-23,3
-557,East US,East US Store 81,2019-07-04,Baby,Diaper bags,11,5,31288621,85569066,True,2019-07-04,1
-558,East US,East US Store 81,2019-07-19,Electronics,Speakers,10,300,90307761,35005527,False,2019-01-10,3
-559,East US,East US Store 81,2019-06-16,Clothing,Mens,10,25,11031652,74764891,True,2019-05-11,2
-560,East US,East US Store 81,2019-07-14,Electronics,Tablets,10,100,23569263,76493559,True,2019-05-05,3
-561,East US,East US Store 81,2019-03-21,Electronics,Headphones,6,200,72599336,80815229,True,2019-07-23,5
-562,East US,East US Store 81,2019-03-10,Baby,Strollers,7,12,41217998,85136899,True,2019-03-10,1
-563,East US,East US Store 81,2019-06-14,Beauty/Health,Bath,10,10,54036957,40623698,True,2019-04-08,4
-564,East US,East US Store 81,2019-07-10,Baby,Diapers,12,30,58386597,68282386,True,2019-07-20,4
-565,East US,East US Store 81,2019-06-09,Electronics,Speakers,9,100,87416281,54885209,True,2019-05-23,3
-566,East US,East US Store 81,2019-01-04,Electronics,Computers,5,200,88207507,60935547,True,2019-07-15,5
-567,East US,East US Store 81,2019-04-13,Baby,Strollers,9,30,38395061,70875388,True,2019-08-01,5
-568,East US,East US Store 81,2019-06-23,Beauty/Health,Makeup,12,14,40718215,44945368,True,2019-08-08,4
-569,East US,East US Store 81,2019-05-11,Beauty/Health,Oral care,9,10,63204883,36302028,False,2019-07-17,7
-570,East US,East US Store 81,2019-08-19,Baby,Diapers,14,12,92597981,73900557,True,2019-07-31,9
-571,East US,East US Store 81,2019-01-06,Electronics,Cell Phones,4,100,10847920,50563539,True,2019-03-19,3
-572,East US,East US Store 81,2019-05-17,Beauty/Health,Haircare,11,15,79532576,26362187,False,2019-05-17,1
-573,East US,East US Store 81,2019-04-29,Baby,Diaper bags,8,10,21291177,47538370,True,2019-06-16,5
-574,East US,East US Store 81,2019-06-28,Furniture,Indoor tables,11,75,75426255,38462863,False,2019-04-14,3
-575,East US,East US Store 81,2019-04-10,Baby,Baby toys,8,30,37906144,44513201,True,2019-01-01,7
-576,East US,East US Store 81,2019-08-20,Electronics,Computers,12,100,93870319,53588708,True,2019-03-14,4
-577,East US,East US Store 81,2019-03-10,Electronics,Headphones,6,200,80285620,68714553,True,2019-02-20,8
-578,East US,East US Store 81,2019-04-19,Furniture,Indoor tables,8,40,27146835,73900557,True,2019-07-31,10
-579,East US,East US Store 81,2019-07-30,Electronics,Speakers,11,300,96478044,31548191,False,2019-03-20,4
-580,East US,East US Store 81,2019-01-21,Electronics,Computers,4,200,35275069,86433400,True,2019-04-24,5
-581,East US,East US Store 81,2019-05-11,Baby,Diapers,9,10,67943425,43216700,True,2019-05-25,5
-582,East US,East US Store 81,2019-04-17,Electronics,Televisions,8,300,59855988,22472684,False,2019-08-16,2
-583,East US,East US Store 81,2019-01-18,Electronics,Computers,4,200,23944466,61799881,True,2019-06-03,2
-584,East US,East US Store 81,2019-05-06,Electronics,Computers,9,100,35778850,41920199,True,2019-07-10,6
-585,East US,East US Store 81,2019-04-23,Electronics,Headphones,7,200,20647032,66985885,True,2019-08-01,4
-586,East US,East US Store 81,2019-05-14,Beauty/Health,Haircare,11,10,26836847,2593002,False,2019-03-21,2
-587,East US,East US Store 81,2019-06-11,Electronics,Televisions,10,100,83400349,66985885,True,2019-08-01,5
-588,East US,East US Store 81,2019-04-17,Clothing,Kids,8,25,84775969,28090855,False,2019-07-08,3
-589,East US,East US Store 81,2019-01-15,Baby,Diapers,4,12,14285604,38030696,False,2019-04-04,5
-590,East US,East US Store 81,2019-01-10,Furniture,Indoor tables,5,75,47411538,78654394,True,2019-06-07,5
-591,East US,East US Store 81,2019-08-08,Baby,Diaper bags,14,30,32163490,59639046,True,2019-03-25,2
-592,East US,East US Store 81,2019-02-09,Beauty/Health,Haircare,7,15,83488752,70443221,True,2019-01-13,7
-593,East US,East US Store 81,2019-03-08,Electronics,Computers,6,100,47048593,50131372,True,2019-06-05,5
-594,East US,East US Store 81,2019-01-17,Beauty/Health,Feminine Products,5,10,75985593,69146720,True,2019-01-13,3
-595,East US,East US Store 81,2019-03-11,Clothing,Shoes,8,25,55571743,85136899,True,2019-03-10,2
-596,East US,East US Store 81,2019-05-10,Furniture,Patio furniture,11,15,51082440,3457336,False,2019-05-18,4
-597,East US,East US Store 81,2019-08-02,Beauty/Health,Fragrances,12,10,13393982,73036223,True,2019-07-25,3
-598,East US,East US Store 81,2019-07-23,Electronics,Tablets,10,100,82763863,7779006,False,2019-07-23,1
-599,East US,East US Store 81,2019-06-25,Clothing,Baby,12,10,44968183,69146720,True,2019-01-13,4
-600,East US,East US Store 81,2019-08-05,Electronics,Televisions,11,100,31100464,75629225,True,2019-08-21,6
-601,East US,East US Store 81,2019-01-26,Clothing,Swimwear,6,20,11777399,44945368,True,2019-08-08,5
-602,East US,East US Store 81,2019-04-07,Beauty/Health,Oral care,8,15,66086749,71739722,True,2019-06-22,3
-603,East US,East US Store 81,2019-08-17,Clothing,Mens,14,13,79064004,36302028,False,2019-07-17,8
-604,East US,East US Store 81,2019-01-26,Electronics,Televisions,5,50,38642642,62664215,True,2019-04-22,5
-605,East US,East US Store 81,2019-04-16,Electronics,Computers,8,100,95945483,44081034,True,2019-04-14,5
-606,East US,East US Store 81,2019-07-17,Electronics,Speakers,10,300,89374758,83408231,True,2019-07-09,8
-607,East US,East US Store 81,2019-07-09,Electronics,Speakers,11,100,80300567,54885209,True,2019-05-23,4
-608,East US,East US Store 81,2019-04-17,Furniture,Pool furniture,7,75,69059074,16422346,False,2019-02-19,3
-609,East US,East US Store 81,2019-04-06,Baby,Diaper bags,9,10,92670757,60935547,True,2019-07-15,6
-610,East US,East US Store 81,2019-07-15,Furniture,Indoor seating,12,30,18691115,8211173,False,2019-06-16,3
-611,East US,East US Store 81,2019-07-06,Electronics,Televisions,10,50,28481547,64392883,True,2019-08-13,3
-612,East US,East US Store 81,2019-03-11,Electronics,Tablets,6,100,67892978,19015348,False,2019-03-09,2
-613,East US,East US Store 81,2019-03-15,Clothing,Swimwear,6,20,11782251,28523022,False,2019-06-15,3
-614,East US,East US Store 81,2019-08-02,Furniture,Pool furniture,14,15,40471207,25497853,False,2019-02-24,2
-615,East US,East US Store 81,2019-05-16,Electronics,Computers,8,100,75483896,73900557,True,2019-07-31,11
-616,East US,East US Store 81,2019-05-20,Electronics,Headphones,9,300,32800838,31980358,False,2019-05-28,3
-617,East US,East US Store 81,2019-05-25,Baby,Baby toys,11,5,97779003,70443221,True,2019-01-13,8
-618,East US,East US Store 81,2019-07-16,Electronics,Computers,11,300,84563242,73468390,True,2019-07-12,8
-619,East US,East US Store 81,2019-06-10,Electronics,Speakers,9,200,41902313,29819523,False,2019-01-02,2
-620,East US,East US Store 81,2019-05-06,Beauty/Health,Makeup,9,10,44470880,81679563,True,2019-04-12,4
-621,East US,East US Store 81,2019-04-28,Clothing,Baby,9,12,39363768,72171889,True,2019-06-01,3
-622,East US,East US Store 81,2019-08-13,Baby,Diapers,12,30,39771793,42352366,True,2019-01-09,6
-623,East US,East US Store 81,2019-07-25,Clothing,Swimwear,12,20,83449939,35437694,False,2019-06-26,5
-624,East US,East US Store 81,2019-06-16,Furniture,Pool furniture,11,75,89878201,75197058,True,2019-06-24,2
-625,East US,East US Store 81,2019-08-16,Electronics,Headphones,11,300,63414217,69578887,True,2019-01-13,3
-626,East US,East US Store 81,2019-07-29,Electronics,Tablets,11,100,83638105,54453042,True,2019-05-06,3
-627,East US,East US Store 81,2019-04-22,Baby,Diapers,8,30,67498955,40191531,True,2019-02-23,5
-628,East US,East US Store 81,2019-03-07,Beauty/Health,Bath,6,6,34076973,63528549,True,2019-02-11,3
-629,East US,East US Store 81,2019-05-11,Beauty/Health,Bath,10,15,90590472,77790060,True,2019-03-17,3
-630,East US,East US Store 81,2019-04-06,Furniture,Beds,8,40,23470640,36734195,False,2019-01-15,4
-631,East US,East US Store 81,2019-05-28,Beauty/Health,Skincare,9,6,66348326,87729901,True,2019-05-15,6
-632,East US,East US Store 81,2019-06-28,Furniture,Indoor tables,10,30,56207765,50131372,True,2019-06-05,6
-633,East US,East US Store 81,2019-07-08,Beauty/Health,Bath,12,6,47406645,69146720,True,2019-01-13,5
-634,East US,East US Store 81,2019-05-25,Furniture,Patio furniture,10,75,18110002,34141193,False,2019-01-31,5
-635,East US,East US Store 81,2019-02-27,Beauty/Health,Makeup,5,10,63855186,33709026,False,2019-05-26,3
-636,East US,East US Store 81,2019-01-03,Furniture,Beds,4,30,61894161,68714553,True,2019-02-20,9
-637,East US,East US Store 81,2019-01-18,Beauty/Health,Skincare,5,14,96128376,45809702,True,2019-04-02,4
-638,East US,East US Store 81,2019-07-11,Clothing,Kids,13,10,34397462,68282386,True,2019-07-20,5
-639,East US,East US Store 81,2019-03-05,Electronics,Computers,7,100,71757979,26794354,False,2019-08-06,5
-640,East US,East US Store 81,2019-08-13,Baby,Strollers,14,12,79791882,59206879,True,2019-07-22,4
-641,East US,East US Store 81,2019-07-13,Electronics,Cell Phones,11,200,33100629,32844692,False,2019-08-04,6
-642,East US,East US Store 81,2019-08-04,Clothing,Shoes,14,20,58045203,83408231,True,2019-07-09,9
-643,East US,East US Store 81,2019-06-28,Baby,Diaper bags,11,5,83301990,80383062,True,2019-04-12,3
-644,East US,East US Store 81,2019-06-25,Clothing,Womens,12,12,65332395,44081034,True,2019-04-14,6
-645,East US,East US Store 81,2019-03-20,Electronics,Computers,7,100,48076388,10804175,False,2019-03-24,2
-646,East US,East US Store 81,2019-06-09,Furniture,Pool furniture,10,100,19777623,30251690,False,2019-02-09,4
-647,East US,East US Store 81,2019-07-01,Baby,Diaper bags,13,15,28654403,70011054,True,2019-02-13,8
-648,East US,East US Store 81,2019-06-13,Clothing,Shoes,12,10,23600480,77790060,True,2019-03-17,4
-649,East US,East US Store 81,2019-04-05,Clothing,Swimwear,9,10,47744417,79086561,True,2019-03-23,2
-650,East US,East US Store 81,2019-08-02,Baby,Cribs,13,10,26283229,76061392,True,2019-02-19,5
-651,East US,East US Store 81,2019-01-07,Baby,Car seats,6,30,92329695,58774712,True,2019-06-16,4
-652,East US,East US Store 81,2019-04-15,Baby,Diapers,7,5,51595754,38030696,False,2019-04-04,6
-653,East US,East US Store 81,2019-03-15,Clothing,Kids,7,12,35948487,41055865,True,2019-08-04,4
-654,East US,East US Store 81,2019-01-31,Furniture,Pool furniture,5,75,42319247,56181710,True,2019-01-14,5
-655,East US,East US Store 81,2019-02-22,Clothing,Swimwear,5,12,17938072,52724374,True,2019-05-05,6
-656,East US,East US Store 81,2019-02-26,Beauty/Health,Fragrances,6,6,64706901,64392883,True,2019-08-13,4
-657,East US,East US Store 81,2019-01-19,Beauty/Health,Feminine Products,5,10,78941737,1296501,False,2019-01-23,3
-658,East US,East US Store 81,2019-04-29,Beauty/Health,Feminine Products,8,6,80565642,26794354,False,2019-08-06,6
-659,East US,East US Store 81,2019-08-14,Baby,Diapers,12,15,69596232,52292207,True,2019-04-11,3
-660,East US,East US Store 81,2019-02-16,Furniture,Patio furniture,6,15,91359942,4753837,False,2019-04-21,4
-661,East US,East US Store 81,2019-02-14,Beauty/Health,Bath,6,10,46151609,23337018,False,2019-02-25,3
-662,East US,East US Store 81,2019-07-04,Furniture,Patio furniture,12,100,10945074,45377535,True,2019-05-22,4
-663,East US,East US Store 81,2019-07-18,Baby,Car seats,12,12,36911434,82111730,True,2019-05-28,3
-664,East US,East US Store 81,2019-06-04,Beauty/Health,Fragrances,12,15,69694396,44081034,True,2019-04-14,7
-665,East US,East US Store 81,2019-04-09,Clothing,Baby,7,10,53857971,75197058,True,2019-06-24,3
-666,East US,East US Store 81,2019-04-01,Beauty/Health,Feminine Products,8,10,92151918,76493559,True,2019-05-05,4
-667,East US,East US Store 81,2019-01-16,Clothing,Womens,5,20,51736850,69578887,True,2019-01-13,4
-668,East US,East US Store 81,2019-07-14,Electronics,Computers,10,50,34177097,77357893,True,2019-05-21,4
-669,East US,East US Store 81,2019-03-17,Beauty/Health,Fragrances,7,15,25763126,44945368,True,2019-08-08,6
-670,East US,East US Store 81,2019-07-13,Furniture,Patio furniture,11,100,93013238,86433400,True,2019-04-24,6
-671,East US,East US Store 81,2019-05-13,Electronics,Speakers,9,300,42198078,19015348,False,2019-03-09,3
-672,East US,East US Store 81,2019-08-13,Beauty/Health,Fragrances,14,10,52385134,89026402,True,2019-08-18,2
-673,East US,East US Store 81,2019-06-25,Baby,Diaper bags,11,12,13482761,38895030,True,2019-02-15,6
-674,East US,East US Store 81,2019-04-12,Beauty/Health,Skincare,9,10,73893696,60071213,True,2019-04-26,3
-675,East US,East US Store 81,2019-05-14,Furniture,Indoor seating,9,40,83540888,79518728,True,2019-02-01,4
-676,East US,East US Store 81,2019-07-11,Beauty/Health,Fragrances,11,10,46672987,41488032,True,2019-05-27,4
-677,East US,East US Store 81,2019-04-13,Clothing,Shoes,8,20,83064124,66985885,True,2019-08-01,6
-678,East US,East US Store 81,2019-01-23,Furniture,Indoor seating,4,30,14981709,70011054,True,2019-02-13,9
-679,East US,East US Store 81,2019-02-15,Baby,Cribs,7,30,68235448,46241869,True,2019-07-20,2
-680,East US,East US Store 81,2019-01-22,Beauty/Health,Makeup,6,10,12302164,24201352,False,2019-01-04,4
-681,East US,East US Store 81,2019-06-21,Furniture,Beds,12,75,72514279,48834871,True,2019-07-15,4
-682,East US,East US Store 81,2019-04-05,Furniture,Patio furniture,7,75,99698395,36302028,False,2019-07-17,9
-683,East US,East US Store 81,2019-05-08,Electronics,Computers,8,200,36431946,72604056,True,2019-05-09,4
-684,East US,East US Store 81,2019-06-15,Clothing,Womens,11,12,66595473,54885209,True,2019-05-23,5
-685,East US,East US Store 81,2019-04-27,Beauty/Health,Fragrances,10,15,76477245,87297734,True,2019-05-13,4
-686,East US,East US Store 81,2019-04-23,Electronics,Tablets,7,100,25301140,65689384,True,2019-08-11,4
-687,East US,East US Store 81,2019-07-15,Beauty/Health,Makeup,13,10,10479876,67850219,True,2019-04-05,5
-688,East US,East US Store 81,2019-02-19,Beauty/Health,Skincare,6,10,26118762,69146720,True,2019-01-13,6
-689,East US,East US Store 81,2019-05-09,Baby,Baby toys,9,15,98640363,76925726,True,2019-02-07,3
-690,East US,East US Store 81,2019-02-12,Electronics,Televisions,6,200,96198942,67418052,True,2019-08-11,6
-691,East US,East US Store 81,2019-03-01,Baby,Strollers,8,15,33183154,40623698,True,2019-04-08,5
-692,East US,East US Store 81,2019-02-05,Baby,Strollers,7,30,58261579,19447515,False,2019-02-05,1
-693,East US,East US Store 81,2019-02-21,Electronics,Cell Phones,5,300,84782974,61367714,True,2019-05-10,2
-694,East US,East US Store 81,2019-04-14,Baby,Baby toys,7,10,25521088,53588708,True,2019-03-14,5
-695,East US,East US Store 81,2019-05-02,Beauty/Health,Skincare,9,10,99173395,24633519,False,2019-02-04,4
-696,East US,East US Store 81,2019-07-09,Electronics,Televisions,10,100,24502696,32844692,False,2019-08-04,7
-697,East US,East US Store 81,2019-03-14,Baby,Diaper bags,6,15,60253434,85136899,True,2019-03-10,3
-698,East US,East US Store 81,2019-04-16,Beauty/Health,Bath,8,6,93482369,62232048,True,2019-01-30,3
-699,East US,East US Store 81,2019-04-30,Baby,Strollers,10,10,57530982,84704732,True,2019-06-03,2
-700,East US,East US Store 81,2019-03-28,Furniture,Pool furniture,6,40,60203137,18151014,False,2019-03-28,2
-701,East US,East US Store 81,2019-08-08,Electronics,Headphones,12,300,54367513,70011054,True,2019-02-13,10
-702,East US,East US Store 81,2019-02-01,Furniture,Patio furniture,6,100,50292401,3457336,False,2019-05-18,5
-703,East US,East US Store 81,2019-03-10,Electronics,Tablets,7,100,64538443,65689384,True,2019-08-11,5
-704,East US,East US Store 81,2019-05-20,Electronics,Tablets,9,100,32647697,37166362,False,2019-02-14,3
-705,East US,East US Store 81,2019-05-21,Baby,Diaper bags,10,30,18448971,87297734,True,2019-05-13,5
-706,East US,East US Store 81,2019-02-16,Furniture,Beds,5,30,54901430,60935547,True,2019-07-15,7
-707,East US,East US Store 81,2019-07-28,Electronics,Televisions,10,100,20318171,46241869,True,2019-07-20,3
-708,East US,East US Store 81,2019-08-08,Baby,Strollers,14,10,40901653,68282386,True,2019-07-20,6
-709,East US,East US Store 81,2019-04-27,Electronics,Cell Phones,8,300,85709058,39327197,True,2019-07-16,4
-710,East US,East US Store 81,2019-07-08,Electronics,Headphones,10,200,15755881,66553718,True,2019-07-02,7
-711,East US,East US Store 81,2019-02-27,Baby,Baby toys,6,15,17394330,25497853,False,2019-02-24,3
-712,East US,East US Store 81,2019-01-23,Furniture,Patio furniture,6,15,53066925,28955189,False,2019-07-09,4
-713,East US,East US Store 81,2019-03-24,Baby,Baby toys,8,5,24377932,48402704,True,2019-08-07,5
-714,East US,East US Store 81,2019-05-24,Electronics,Televisions,9,200,99305871,41488032,True,2019-05-27,5
-715,East US,East US Store 81,2019-07-22,Furniture,Beds,12,15,85112752,60503380,True,2019-02-15,3
-716,East US,East US Store 81,2019-07-10,Electronics,Cell Phones,10,100,75416164,28523022,False,2019-06-15,4
-717,East US,East US Store 81,2019-07-13,Baby,Cribs,12,10,38001736,69146720,True,2019-01-13,7
-718,East US,East US Store 81,2019-07-18,Furniture,Beds,12,40,87562168,35005527,False,2019-01-10,4
-719,East US,East US Store 81,2019-07-12,Clothing,Womens,11,10,57707618,76061392,True,2019-02-19,6
-720,East US,East US Store 81,2019-06-23,Beauty/Health,Haircare,10,10,32070659,50563539,True,2019-03-19,4
-721,East US,East US Store 81,2019-06-01,Electronics,Speakers,9,50,91703666,67850219,True,2019-04-05,6
-722,East US,East US Store 81,2019-05-17,Electronics,Computers,8,200,97353703,31548191,False,2019-03-20,5
-723,East US,East US Store 81,2019-02-02,Furniture,Indoor tables,6,75,45105791,86865567,True,2019-07-02,4
-724,East US,East US Store 81,2019-02-09,Electronics,Speakers,5,50,88747058,67850219,True,2019-04-05,7
-725,East US,East US Store 81,2019-06-07,Electronics,Cell Phones,9,100,43165057,38895030,True,2019-02-15,7
-726,East US,East US Store 81,2019-07-11,Clothing,Mens,13,12,51511079,83408231,True,2019-07-09,10
-727,East US,East US Store 81,2019-08-01,Baby,Cribs,13,10,46657181,52292207,True,2019-04-11,4
-728,East US,East US Store 81,2019-05-29,Beauty/Health,Makeup,11,10,26667937,82543897,True,2019-05-04,6
-729,East US,East US Store 81,2019-04-24,Beauty/Health,Haircare,7,14,17955480,32412525,False,2019-06-09,4
-730,East US,East US Store 81,2019-05-27,Beauty/Health,Oral care,11,10,76203856,30683857,False,2019-08-14,2
-731,East US,East US Store 81,2019-06-05,Electronics,Speakers,10,50,91230663,64825050,True,2019-04-17,5
-732,East US,East US Store 81,2019-06-25,Baby,Car seats,10,12,56630846,39759364,True,2019-07-25,6
-733,East US,East US Store 81,2019-07-07,Electronics,Televisions,11,300,61956144,19015348,False,2019-03-09,4
-734,East US,East US Store 81,2019-07-12,Electronics,Computers,11,200,67985971,25930020,False,2019-04-30,2
-735,East US,East US Store 81,2019-06-17,Furniture,Pool furniture,11,40,81710463,56613877,True,2019-02-12,4
-736,East US,East US Store 81,2019-05-01,Beauty/Health,Skincare,11,10,82224108,18151014,False,2019-03-28,3
-737,East US,East US Store 81,2019-05-17,Beauty/Health,Bath,11,10,71935262,60935547,True,2019-07-15,8
-738,East US,East US Store 81,2019-04-01,Furniture,Patio furniture,8,30,92354326,72604056,True,2019-05-09,5
-739,East US,East US Store 81,2019-05-21,Baby,Diaper bags,11,30,60657210,12100676,False,2019-07-18,3
-740,East US,East US Store 81,2019-01-12,Clothing,Womens,6,20,55372460,54020875,True,2019-03-06,3
-741,East US,East US Store 81,2019-01-16,Beauty/Health,Feminine Products,5,10,77894564,16854513,False,2019-01-16,1
-742,East US,East US Store 81,2019-08-15,Furniture,Pool furniture,12,75,68248435,15558012,False,2019-02-20,3
-743,East US,East US Store 81,2019-07-31,Electronics,Speakers,10,50,61084007,73036223,True,2019-07-25,4
-744,East US,East US Store 81,2019-06-16,Clothing,Baby,11,13,17908165,9075507,False,2019-06-16,1
-745,East US,East US Store 81,2019-05-08,Clothing,Mens,9,25,46391735,39327197,True,2019-07-16,5
-746,East US,East US Store 81,2019-06-07,Clothing,Mens,12,13,14949975,78654394,True,2019-06-07,6
-747,East US,East US Store 81,2019-03-09,Baby,Strollers,6,30,89458116,26362187,False,2019-05-17,2
-748,East US,East US Store 81,2019-04-11,Beauty/Health,Skincare,9,10,48224979,73036223,True,2019-07-25,5
-749,East US,East US Store 81,2019-04-02,Baby,Diapers,7,5,27995798,35437694,False,2019-06-26,6
-750,East US,East US Store 81,2019-01-06,Beauty/Health,Haircare,4,10,90450287,21608350,False,2019-01-02,3
-751,East US,East US Store 81,2019-07-13,Beauty/Health,Oral care,12,15,98868749,37166362,False,2019-02-14,4
-752,East US,East US Store 81,2019-06-23,Clothing,Womens,12,20,74565797,33709026,False,2019-05-26,4
-753,East US,East US Store 81,2019-03-09,Baby,Diaper bags,7,12,68845980,11236342,False,2019-04-18,4
-754,East US,East US Store 81,2019-08-18,Baby,Car seats,12,12,71259527,39759364,True,2019-07-25,7
-755,East US,East US Store 81,2019-05-02,Beauty/Health,Skincare,11,14,18900284,64825050,True,2019-04-17,6
-756,East US,East US Store 81,2019-07-10,Furniture,Pool furniture,11,75,60282923,78222227,True,2019-05-08,3
-757,East US,East US Store 81,2019-02-28,Electronics,Tablets,5,100,44182481,63960716,True,2019-02-18,4
-758,East US,East US Store 81,2019-02-19,Clothing,Womens,7,20,70684668,20744016,False,2019-04-27,2
-759,East US,East US Store 81,2019-07-18,Clothing,Swimwear,11,20,91684900,82543897,True,2019-05-04,7
-760,East US,East US Store 81,2019-02-13,Furniture,Beds,5,30,75930301,85136899,True,2019-03-10,4
-761,East US,East US Store 81,2019-05-18,Baby,Diaper bags,9,5,72759023,65689384,True,2019-08-11,6
-762,East US,East US Store 81,2019-07-13,Electronics,Headphones,10,200,67388661,51860040,True,2019-07-01,5
-763,East US,East US Store 81,2019-06-07,Furniture,Indoor tables,10,30,43393159,66553718,True,2019-07-02,8
-764,East US,East US Store 81,2019-02-02,Clothing,Mens,5,25,30140908,28955189,False,2019-07-09,5
-765,East US,East US Store 81,2019-02-13,Clothing,Swimwear,7,20,97706724,9939841,False,2019-01-30,2
-766,East US,East US Store 81,2019-06-29,Beauty/Health,Oral care,12,10,52487845,82543897,True,2019-05-04,8
-767,East US,East US Store 81,2019-07-10,Baby,Diaper bags,13,15,53505598,82111730,True,2019-05-28,4
-768,East US,East US Store 81,2019-08-01,Furniture,Pool furniture,12,30,85534276,37598529,False,2019-03-06,4
-769,East US,East US Store 81,2019-07-12,Furniture,Pool furniture,12,75,44269623,64825050,True,2019-04-17,7
-770,East US,East US Store 81,2019-06-23,Baby,Diapers,12,30,47103361,79086561,True,2019-03-23,3
-771,East US,East US Store 81,2019-02-19,Baby,Cribs,6,15,83007912,58342545,True,2019-04-10,5
-772,East US,East US Store 81,2019-06-15,Clothing,Womens,12,25,49165264,14693678,False,2019-07-08,2
-773,East US,East US Store 81,2019-05-03,Baby,Strollers,11,12,80793897,28523022,False,2019-06-15,5
-774,East US,East US Store 81,2019-07-29,Electronics,Speakers,11,300,61366534,23769185,False,2019-01-16,6
-775,East US,East US Store 81,2019-07-19,Clothing,Baby,11,10,48843566,68282386,True,2019-07-20,7
-776,East US,East US Store 81,2019-04-28,Electronics,Headphones,7,200,43261164,54020875,True,2019-03-06,4
-777,East US,East US Store 81,2019-04-08,Baby,Baby toys,7,30,29459093,78222227,True,2019-05-08,4
-778,East US,East US Store 81,2019-06-14,Clothing,Baby,12,25,45588139,80815229,True,2019-07-23,6
-779,East US,East US Store 81,2019-02-04,Clothing,Baby,7,20,92084590,27658688,False,2019-07-22,4
-780,East US,East US Store 81,2019-07-13,Beauty/Health,Bath,11,6,98821957,35869861,False,2019-07-13,1
-781,East US,East US Store 81,2019-05-23,Electronics,Speakers,9,100,14260959,61799881,True,2019-06-03,3
-782,East US,East US Store 81,2019-03-11,Beauty/Health,Oral care,7,10,78741945,40623698,True,2019-04-08,6
-783,East US,East US Store 81,2019-07-31,Baby,Car seats,11,30,14322449,54885209,True,2019-05-23,6
-784,East US,East US Store 81,2019-02-10,Electronics,Cell Phones,5,200,31417639,65257217,True,2019-02-04,7
-785,East US,East US Store 81,2019-05-11,Electronics,Headphones,8,100,94069243,61799881,True,2019-06-03,4
-786,East US,East US Store 81,2019-07-17,Furniture,Indoor tables,12,75,37484196,62232048,True,2019-01-30,4
-787,East US,East US Store 81,2019-07-25,Baby,Car seats,13,30,20021038,52724374,True,2019-05-05,7
-788,East US,East US Store 81,2019-05-06,Baby,Diapers,11,5,65517400,62664215,True,2019-04-22,6
-789,East US,East US Store 81,2019-07-16,Electronics,Televisions,11,200,22307080,38895030,True,2019-02-15,8
-790,East US,East US Store 81,2019-04-05,Furniture,Patio furniture,7,100,92772236,30683857,False,2019-08-14,3
-791,East US,East US Store 81,2019-06-02,Clothing,Baby,10,20,53223955,23337018,False,2019-02-25,4
-792,East US,East US Store 81,2019-01-15,Beauty/Health,Bath,6,14,71918638,7346839,False,2019-05-06,5
-793,East US,East US Store 81,2019-05-29,Baby,Car seats,10,5,18875713,28090855,False,2019-07-08,4
-794,East US,East US Store 81,2019-03-17,Baby,Diaper bags,6,30,32629328,70443221,True,2019-01-13,9
-795,East US,East US Store 81,2019-02-17,Baby,Diaper bags,7,15,84262164,24201352,False,2019-01-04,5
-796,East US,East US Store 81,2019-03-18,Electronics,Cell Phones,6,200,24032059,62664215,True,2019-04-22,7
-797,East US,East US Store 81,2019-06-18,Baby,Car seats,10,30,48016174,30251690,False,2019-02-09,5
-798,East US,East US Store 81,2019-01-12,Clothing,Kids,5,13,47047918,27226521,False,2019-05-26,3
-799,East US,East US Store 81,2019-01-14,Electronics,Televisions,5,200,26099320,13829344,False,2019-04-27,2
-800,East US,East US Store 81,2019-07-17,Baby,Cribs,13,5,60428632,86001233,True,2019-05-26,7
-801,East US,East US Store 81,2019-05-24,Clothing,Kids,9,20,27682847,28090855,False,2019-07-08,5
-802,East US,East US Store 81,2019-01-02,Baby,Diaper bags,4,30,22946463,77357893,True,2019-05-21,5
-803,East US,East US Store 81,2019-05-22,Electronics,Headphones,8,200,76296057,79518728,True,2019-02-01,5
-804,East US,East US Store 81,2019-02-02,Furniture,Patio furniture,7,40,65847172,71739722,True,2019-06-22,4
-805,East US,East US Store 81,2019-04-21,Electronics,Televisions,7,200,27560855,63096382,True,2019-03-20,5
-806,East US,East US Store 81,2019-01-06,Beauty/Health,Bath,4,10,71662059,51860040,True,2019-07-01,6
-807,East US,East US Store 81,2019-01-05,Electronics,Speakers,4,100,26475755,56613877,True,2019-02-12,5
-808,East US,East US Store 81,2019-07-10,Beauty/Health,Fragrances,13,10,32837320,65257217,True,2019-02-04,8
-809,East US,East US Store 81,2019-01-06,Beauty/Health,Bath,6,15,67751736,58342545,True,2019-04-10,6
-810,East US,East US Store 81,2019-04-28,Electronics,Televisions,7,50,78319518,37598529,False,2019-03-06,5
-811,East US,East US Store 81,2019-03-22,Furniture,Indoor seating,6,15,36801862,84704732,True,2019-06-03,3
-812,East US,East US Store 81,2019-06-26,Electronics,Computers,10,50,97458150,43216700,True,2019-05-25,6
-813,East US,East US Store 81,2019-01-21,Furniture,Indoor tables,5,100,17033756,70011054,True,2019-02-13,11
-814,East US,East US Store 81,2019-03-31,Furniture,Patio furniture,8,40,65633925,39327197,True,2019-07-16,6
-815,East US,East US Store 81,2019-07-17,Furniture,Indoor seating,11,75,47703855,42784533,True,2019-08-06,3
-816,East US,East US Store 81,2019-03-13,Clothing,Mens,8,25,40288967,36734195,False,2019-01-15,5
-817,East US,East US Store 81,2019-04-29,Baby,Baby toys,10,5,28924902,68714553,True,2019-02-20,10
-818,East US,East US Store 81,2019-02-25,Electronics,Tablets,5,300,68038630,86001233,True,2019-05-26,8
-819,East US,East US Store 81,2019-05-09,Electronics,Headphones,8,200,81172702,60935547,True,2019-07-15,9
-820,East US,East US Store 81,2019-04-14,Baby,Diaper bags,9,30,65686966,82543897,True,2019-05-04,9
-821,East US,East US Store 81,2019-07-15,Baby,Baby toys,13,10,25213258,79518728,True,2019-02-01,6
-822,East US,East US Store 81,2019-07-03,Electronics,Headphones,11,100,57657024,79086561,True,2019-03-23,4
-823,East US,East US Store 81,2019-02-11,Electronics,Cell Phones,6,50,18136851,23337018,False,2019-02-25,5
-824,East US,East US Store 81,2019-08-13,Clothing,Swimwear,12,25,49426855,42784533,True,2019-08-06,4
-825,East US,East US Store 81,2019-04-21,Clothing,Kids,7,25,36563754,71307555,True,2019-08-18,8
-826,East US,East US Store 81,2019-02-27,Electronics,Speakers,5,300,45291098,45809702,True,2019-04-02,5
-827,East US,East US Store 81,2019-04-01,Furniture,Indoor tables,7,30,59484339,57910378,True,2019-08-13,4
-828,East US,East US Store 81,2019-07-16,Furniture,Beds,12,40,90576598,78222227,True,2019-05-08,5
-829,East US,East US Store 81,2019-03-27,Electronics,Tablets,7,200,44587985,60071213,True,2019-04-26,4
-830,East US,East US Store 81,2019-01-08,Beauty/Health,Skincare,4,14,14047046,30683857,False,2019-08-14,4
-831,East US,East US Store 81,2019-07-28,Furniture,Pool furniture,12,100,18018535,27226521,False,2019-05-26,4
-832,East US,East US Store 81,2019-06-06,Beauty/Health,Oral care,11,6,70526963,76493559,True,2019-05-05,5
-833,East US,East US Store 81,2019-04-17,Beauty/Health,Feminine Products,9,15,22224264,72171889,True,2019-06-01,4
-834,East US,East US Store 81,2019-08-15,Beauty/Health,Skincare,14,15,79680446,57910378,True,2019-08-13,5
-835,East US,East US Store 81,2019-08-15,Baby,Strollers,13,30,32041594,59639046,True,2019-03-25,3
-836,East US,East US Store 81,2019-03-10,Electronics,Tablets,6,200,36495684,13397177,False,2019-04-20,4
-837,East US,East US Store 81,2019-03-09,Baby,Diaper bags,8,12,88439162,61799881,True,2019-06-03,5
-838,East US,East US Store 81,2019-05-14,Furniture,Pool furniture,9,100,17991602,31116024,False,2019-01-08,6
-839,East US,East US Store 81,2019-04-18,Clothing,Shoes,8,20,81098165,27658688,False,2019-07-22,5
-840,East US,East US Store 81,2019-04-03,Clothing,Shoes,8,12,77702477,34141193,False,2019-01-31,6
-841,East US,East US Store 81,2019-02-10,Baby,Car seats,6,12,11133328,67418052,True,2019-08-11,7
-842,East US,East US Store 81,2019-08-14,Electronics,Tablets,12,100,97671105,63528549,True,2019-02-11,4
-843,East US,East US Store 81,2019-08-11,Baby,Diapers,12,15,19002673,16854513,False,2019-01-16,2
-844,East US,East US Store 81,2019-06-10,Clothing,Baby,11,20,34924727,85569066,True,2019-07-04,2
-845,East US,East US Store 81,2019-06-22,Baby,Strollers,11,30,80435306,54020875,True,2019-03-06,5
-846,East US,East US Store 81,2019-06-21,Baby,Car seats,10,12,53438766,46241869,True,2019-07-20,4
-847,East US,East US Store 81,2019-05-07,Baby,Strollers,9,30,25816572,15558012,False,2019-02-20,4
-848,East US,East US Store 81,2019-07-27,Baby,Car seats,11,30,28761867,28955189,False,2019-07-09,6
-849,East US,East US Store 81,2019-01-31,Electronics,Televisions,4,100,91260990,38030696,False,2019-04-04,7
-850,East US,East US Store 81,2019-06-24,Furniture,Indoor seating,11,15,70103088,84704732,True,2019-06-03,4
-851,East US,East US Store 81,2019-03-16,Beauty/Health,Feminine Products,8,10,50381752,37166362,False,2019-02-14,5
-852,East US,East US Store 81,2019-02-25,Electronics,Televisions,5,100,76545586,19879682,False,2019-01-23,3
-853,East US,East US Store 81,2019-08-19,Beauty/Health,Haircare,12,10,44443057,82543897,True,2019-05-04,10
-854,East US,East US Store 81,2019-01-19,Clothing,Swimwear,5,20,88990696,43648867,True,2019-05-28,2
-855,East US,East US Store 81,2019-07-17,Furniture,Beds,13,15,65498483,73036223,True,2019-07-25,6
-856,East US,East US Store 81,2019-03-17,Electronics,Speakers,7,100,51603092,30251690,False,2019-02-09,6
-857,East US,East US Store 81,2019-02-07,Furniture,Indoor tables,5,15,37026294,35869861,False,2019-07-13,2
-858,East US,East US Store 81,2019-07-03,Electronics,Televisions,10,100,88898726,80815229,True,2019-07-23,7
-859,East US,East US Store 81,2019-01-05,Electronics,Cell Phones,4,100,73039961,31116024,False,2019-01-08,7
-860,East US,East US Store 81,2019-01-15,Beauty/Health,Fragrances,5,10,52606977,35005527,False,2019-01-10,5
-861,East US,East US Store 81,2019-03-06,Beauty/Health,Feminine Products,7,10,99265417,81247396,True,2019-04-19,2
-862,East US,East US Store 81,2019-07-24,Electronics,Headphones,10,100,63601540,5186004,False,2019-07-06,2
-863,East US,East US Store 81,2019-08-18,Electronics,Cell Phones,11,100,54689448,11668509,False,2019-08-18,1
+0,West Europe,West Europe Store 81,2019-08-21,Electronics,Computers,2,100,84744123,24633519,False,2019-08-21,1
+1,West Europe,West Europe Store 81,2019-03-12,Clothing,Mens,6,25,62288036,36734195,False,2019-03-12,1
+2,West Europe,West Europe Store 81,2019-06-09,Baby,Car seats,8,12,45554770,62232048,True,2019-06-09,1
+3,West Europe,West Europe Store 81,2019-01-21,Beauty/Health,Fragrances,3,10,37128433,64392883,True,2019-01-21,1
+4,West Europe,West Europe Store 81,2019-01-17,Electronics,Headphones,2,200,57346115,86433400,True,2019-01-17,1
+5,West Europe,West Europe Store 81,2019-06-22,Electronics,Tablets,2,200,95704442,30683857,False,2019-06-22,1
+6,West Europe,West Europe Store 81,2019-05-23,Clothing,Shoes,7,25,57167952,35869861,False,2019-05-23,1
+7,West Europe,West Europe Store 81,2019-04-13,Beauty/Health,Bath,6,14,13925388,40191531,True,2019-04-13,1
+8,West Europe,West Europe Store 81,2019-01-04,Baby,Baby toys,2,15,65634552,80815229,True,2019-01-04,1
+9,West Europe,West Europe Store 81,2019-08-20,Beauty/Health,Feminine Products,11,10,54390476,31116024,False,2019-08-20,1
+10,West Europe,West Europe Store 81,2019-07-06,Baby,Diaper bags,11,15,58028188,77357893,True,2019-07-06,1
+11,West Europe,West Europe Store 81,2019-04-05,Clothing,Mens,7,10,37895163,73036223,True,2019-04-05,1
+12,West Europe,West Europe Store 81,2019-02-23,Beauty/Health,Oral care,5,6,38905626,24201352,False,2019-02-23,1
+13,West Europe,West Europe Store 81,2019-08-16,Electronics,Computers,2,100,24760466,24201352,False,2019-02-23,2
+14,West Europe,West Europe Store 81,2019-08-12,Beauty/Health,Feminine Products,10,10,80115688,3889503,False,2019-08-12,1
+15,West Europe,West Europe Store 81,2019-02-28,Beauty/Health,Haircare,5,10,55021982,56181710,True,2019-02-28,1
+16,West Europe,West Europe Store 81,2019-05-22,Baby,Diapers,9,30,21501586,56613877,True,2019-05-22,1
+17,West Europe,West Europe Store 81,2019-08-18,Beauty/Health,Bath,12,10,21043190,70875388,True,2019-08-18,1
+18,West Europe,West Europe Store 81,2019-01-31,Beauty/Health,Oral care,4,10,37796586,64825050,True,2019-01-31,1
+19,West Europe,West Europe Store 81,2019-04-22,Clothing,Shoes,6,12,13892105,45809702,True,2019-04-22,1
+20,West Europe,West Europe Store 81,2019-02-07,Furniture,Indoor tables,4,30,28502578,70875388,True,2019-08-18,2
+21,West Europe,West Europe Store 81,2019-08-01,Baby,Diapers,12,15,27930374,53156541,True,2019-08-01,1
+22,West Europe,West Europe Store 81,2019-01-13,Baby,Baby toys,3,12,64104714,86865567,True,2019-01-13,1
+23,West Europe,West Europe Store 81,2019-07-03,Baby,Diaper bags,11,15,77702459,37598529,False,2019-07-03,1
+24,West Europe,West Europe Store 81,2019-08-16,Beauty/Health,Haircare,12,10,27913684,38895030,True,2019-08-16,1
+25,West Europe,West Europe Store 81,2019-01-30,Beauty/Health,Haircare,4,14,38448654,66985885,True,2019-01-30,1
+26,West Europe,West Europe Store 81,2019-08-06,Clothing,Mens,10,20,50187841,62232048,True,2019-06-09,2
+27,West Europe,West Europe Store 81,2019-08-09,Furniture,Patio furniture,12,75,96677432,63960716,True,2019-08-09,1
+28,West Europe,West Europe Store 81,2019-01-11,Beauty/Health,Bath,3,10,59631364,68714553,True,2019-01-11,1
+29,West Europe,West Europe Store 81,2019-05-03,Electronics,Speakers,2,200,71684456,33709026,False,2019-05-03,1
+30,West Europe,West Europe Store 81,2019-01-10,Electronics,Cell Phones,2,200,79720455,22472684,False,2019-01-10,1
+31,West Europe,West Europe Store 81,2019-02-27,Furniture,Indoor seating,3,75,32441443,66553718,True,2019-02-27,1
+32,West Europe,West Europe Store 81,2019-06-01,Electronics,Cell Phones,1,100,19220200,74332724,True,2019-06-01,1
+33,West Europe,West Europe Store 81,2019-03-24,Furniture,Pool furniture,5,100,85555257,80383062,True,2019-03-24,1
+34,West Europe,West Europe Store 81,2019-03-03,Furniture,Patio furniture,4,30,91306272,13829344,False,2019-03-03,1
+35,West Europe,West Europe Store 81,2019-06-26,Baby,Cribs,9,30,23473922,48402704,True,2019-06-26,1
+36,West Europe,West Europe Store 81,2019-05-17,Clothing,Baby,9,12,80376814,77790060,True,2019-05-17,1
+37,West Europe,West Europe Store 81,2019-04-20,Baby,Diapers,7,12,81487353,35437694,False,2019-04-20,1
+38,West Europe,West Europe Store 81,2019-07-26,Beauty/Health,Fragrances,10,10,21886464,50563539,True,2019-07-26,1
+39,West Europe,West Europe Store 81,2019-04-27,Clothing,Womens,8,10,14612429,57478211,True,2019-04-27,1
+40,West Europe,West Europe Store 81,2019-04-21,Baby,Car seats,5,15,50002354,15558012,False,2019-04-21,1
+41,West Europe,West Europe Store 81,2019-05-25,Baby,Diapers,7,30,38648971,82976064,True,2019-05-25,1
+42,West Europe,West Europe Store 81,2019-04-22,Electronics,Computers,2,200,34125534,3889503,False,2019-08-12,2
+43,West Europe,West Europe Store 81,2019-07-10,Baby,Diaper bags,11,30,51465520,67850219,True,2019-07-10,1
+44,West Europe,West Europe Store 81,2019-06-07,Baby,Diaper bags,9,30,48889862,29819523,False,2019-06-07,1
+45,West Europe,West Europe Store 81,2019-05-11,Beauty/Health,Feminine Products,7,10,55018128,76493559,True,2019-05-11,1
+46,West Europe,West Europe Store 81,2019-02-23,Clothing,Baby,5,12,25685821,67850219,True,2019-07-10,2
+47,West Europe,West Europe Store 81,2019-06-25,Furniture,Indoor seating,8,100,38594955,66985885,True,2019-01-30,2
+48,West Europe,West Europe Store 81,2019-08-16,Clothing,Mens,11,25,57279103,88594235,True,2019-08-16,1
+49,West Europe,West Europe Store 81,2019-03-25,Baby,Strollers,6,12,94745518,87297734,True,2019-03-25,1
+50,West Europe,West Europe Store 81,2019-02-27,Beauty/Health,Feminine Products,3,14,57443491,20744016,False,2019-02-27,1
+51,West Europe,West Europe Store 81,2019-06-25,Beauty/Health,Oral care,9,10,20520500,76493559,True,2019-05-11,2
+52,West Europe,West Europe Store 81,2019-06-15,Beauty/Health,Feminine Products,9,15,85078639,4321670,False,2019-06-15,1
+53,West Europe,West Europe Store 81,2019-05-17,Beauty/Health,Makeup,8,15,19912821,15558012,False,2019-04-21,2
+54,West Europe,West Europe Store 81,2019-07-21,Clothing,Kids,9,13,19287314,77790060,True,2019-05-17,2
+55,West Europe,West Europe Store 81,2019-04-23,Furniture,Pool furniture,5,100,76794233,42784533,True,2019-04-23,1
+56,West Europe,West Europe Store 81,2019-06-23,Clothing,Baby,10,20,52432000,79518728,True,2019-06-23,1
+57,West Europe,West Europe Store 81,2019-05-12,Electronics,Cell Phones,2,200,55687998,22040517,False,2019-05-12,1
+58,West Europe,West Europe Store 81,2019-04-28,Clothing,Baby,8,25,58663851,68714553,True,2019-01-11,2
+59,West Europe,West Europe Store 81,2019-03-12,Furniture,Indoor tables,6,100,43588952,31548191,False,2019-03-12,1
+60,West Europe,West Europe Store 81,2019-08-02,Clothing,Baby,11,25,29253200,82111730,True,2019-08-02,1
+61,West Europe,West Europe Store 81,2019-06-21,Baby,Cribs,9,10,69481767,38895030,True,2019-08-16,2
+62,West Europe,West Europe Store 81,2019-07-04,Beauty/Health,Haircare,9,14,12273377,50131372,True,2019-07-04,1
+63,West Europe,West Europe Store 81,2019-03-17,Clothing,Mens,6,20,30960475,78654394,True,2019-03-17,1
+64,West Europe,West Europe Store 81,2019-08-02,Baby,Car seats,10,12,53448968,21176183,False,2019-08-02,1
+65,West Europe,West Europe Store 81,2019-08-21,Electronics,Headphones,1,200,69565798,25497853,False,2019-08-21,1
+66,West Europe,West Europe Store 81,2019-01-23,Beauty/Health,Haircare,4,10,11405976,32412525,False,2019-01-23,1
+67,West Europe,West Europe Store 81,2019-04-14,Clothing,Baby,6,25,18641680,61367714,True,2019-04-14,1
+68,West Europe,West Europe Store 81,2019-01-03,Furniture,Beds,4,75,60236812,59639046,True,2019-01-03,1
+69,West Europe,West Europe Store 81,2019-05-24,Beauty/Health,Fragrances,9,10,17842436,87297734,True,2019-03-25,2
+70,West Europe,West Europe Store 81,2019-06-22,Baby,Baby toys,10,30,38138857,83840398,True,2019-06-22,1
+71,West Europe,West Europe Store 81,2019-01-24,Electronics,Computers,2,200,52565994,44081034,True,2019-01-24,1
+72,West Europe,West Europe Store 81,2019-08-12,Electronics,Computers,2,300,28571645,46674036,True,2019-08-12,1
+73,West Europe,West Europe Store 81,2019-07-30,Electronics,Televisions,1,100,31614359,33709026,False,2019-05-03,2
+74,West Europe,West Europe Store 81,2019-06-20,Electronics,Speakers,1,300,93923500,70011054,True,2019-06-20,1
+75,West Europe,West Europe Store 81,2019-04-18,Furniture,Indoor tables,5,30,70083040,81679563,True,2019-04-18,1
+76,West Europe,West Europe Store 81,2019-06-02,Furniture,Indoor tables,10,75,15214727,42352366,True,2019-06-02,1
+77,West Europe,West Europe Store 81,2019-01-13,Clothing,Shoes,2,13,67498857,22040517,False,2019-05-12,2
+78,West Europe,West Europe Store 81,2019-01-31,Electronics,Headphones,2,100,38574472,44081034,True,2019-01-24,2
+79,West Europe,West Europe Store 81,2019-06-01,Baby,Car seats,10,5,96750012,4321670,False,2019-06-15,2
+80,West Europe,West Europe Store 81,2019-01-02,Electronics,Cell Phones,2,200,72938367,72171889,True,2019-01-02,1
+81,West Europe,West Europe Store 81,2019-02-21,Baby,Car seats,3,12,94174834,41488032,True,2019-02-21,1
+82,West Europe,West Europe Store 81,2019-04-11,Baby,Car seats,5,30,60335719,69146720,True,2019-04-11,1
+83,West Europe,West Europe Store 81,2019-02-21,Beauty/Health,Bath,4,14,66289492,68714553,True,2019-01-11,3
+84,West Europe,West Europe Store 81,2019-08-17,Electronics,Computers,2,200,79416343,77790060,True,2019-05-17,3
+85,West Europe,West Europe Store 81,2019-07-21,Electronics,Televisions,1,100,37908818,53156541,True,2019-08-01,2
+86,West Europe,West Europe Store 81,2019-05-17,Beauty/Health,Makeup,8,15,11372613,23337018,False,2019-05-17,1
+87,West Europe,West Europe Store 81,2019-07-24,Baby,Car seats,11,30,50027202,75197058,True,2019-07-24,1
+88,West Europe,West Europe Store 81,2019-07-20,Furniture,Patio furniture,10,15,20965494,54453042,True,2019-07-20,1
+89,West Europe,West Europe Store 81,2019-05-05,Electronics,Televisions,1,100,96781713,63528549,True,2019-05-05,1
+90,West Europe,West Europe Store 81,2019-08-06,Baby,Diapers,12,30,50245093,58342545,True,2019-08-06,1
+91,West Europe,West Europe Store 81,2019-05-16,Baby,Diapers,9,12,84476712,52292207,True,2019-05-16,1
+92,West Europe,West Europe Store 81,2019-01-11,Beauty/Health,Fragrances,2,10,91638159,82543897,True,2019-01-11,1
+93,West Europe,West Europe Store 81,2019-05-23,Electronics,Speakers,2,200,54012361,40623698,True,2019-05-23,1
+94,West Europe,West Europe Store 81,2019-07-06,Clothing,Womens,9,12,99408111,22904851,False,2019-07-06,1
+95,West Europe,West Europe Store 81,2019-01-22,Clothing,Shoes,3,13,91761195,51860040,True,2019-01-22,1
+96,West Europe,West Europe Store 81,2019-04-10,Electronics,Speakers,2,50,87036398,41920199,True,2019-04-10,1
+97,West Europe,West Europe Store 81,2019-05-27,Furniture,Indoor seating,8,75,82433101,84272565,True,2019-05-27,1
+98,West Europe,West Europe Store 81,2019-01-28,Baby,Car seats,4,30,35463584,62664215,True,2019-01-28,1
+99,West Europe,West Europe Store 81,2019-07-13,Clothing,Baby,10,20,28674333,26362187,False,2019-07-13,1
+100,West Europe,West Europe Store 81,2019-03-22,Furniture,Indoor tables,6,40,75523836,63096382,True,2019-03-22,1
+101,West Europe,West Europe Store 81,2019-06-02,Furniture,Indoor seating,10,40,31016559,86001233,True,2019-06-02,1
+102,West Europe,West Europe Store 81,2019-06-10,Furniture,Indoor seating,10,40,41908273,54020875,True,2019-06-10,1
+103,West Europe,West Europe Store 81,2019-02-27,Furniture,Beds,4,30,89354751,34573360,False,2019-02-27,1
+104,West Europe,West Europe Store 81,2019-08-14,Beauty/Health,Feminine Products,11,10,81318933,65257217,True,2019-08-14,1
+105,West Europe,West Europe Store 81,2019-02-21,Electronics,Computers,2,200,61529465,27658688,False,2019-02-21,1
+106,West Europe,West Europe Store 81,2019-01-26,Electronics,Tablets,2,100,59240422,46674036,True,2019-08-12,2
+107,West Europe,West Europe Store 81,2019-04-15,Baby,Baby toys,6,15,77454356,53156541,True,2019-08-01,3
+108,West Europe,West Europe Store 81,2019-06-29,Beauty/Health,Oral care,8,10,94722517,41055865,True,2019-06-29,1
+109,West Europe,West Europe Store 81,2019-07-03,Baby,Diapers,9,30,10636922,53588708,True,2019-07-03,1
+110,West Europe,West Europe Store 81,2019-05-29,Baby,Diaper bags,9,10,59007579,49699205,True,2019-05-29,1
+111,West Europe,West Europe Store 81,2019-06-29,Electronics,Headphones,1,50,46372373,35005527,False,2019-06-29,1
+112,West Europe,West Europe Store 81,2019-05-24,Clothing,Swimwear,7,13,73834684,6050338,False,2019-05-24,1
+113,West Europe,West Europe Store 81,2019-03-15,Baby,Baby toys,5,12,40535223,33276859,False,2019-03-15,1
+114,West Europe,West Europe Store 81,2019-08-06,Baby,Baby toys,12,10,81917989,6914672,False,2019-08-06,1
+115,West Europe,West Europe Store 81,2019-05-13,Electronics,Televisions,1,100,14745751,82976064,True,2019-05-25,2
+116,West Europe,West Europe Store 81,2019-02-05,Beauty/Health,Feminine Products,3,6,55167500,35005527,False,2019-06-29,2
+117,West Europe,West Europe Store 81,2019-03-05,Baby,Diapers,5,5,42914392,9507674,False,2019-03-05,1
+118,West Europe,West Europe Store 81,2019-07-10,Clothing,Swimwear,9,10,39554264,50131372,True,2019-07-04,2
+119,West Europe,West Europe Store 81,2019-05-05,Beauty/Health,Bath,8,6,39647719,23337018,False,2019-05-17,2
+120,West Europe,West Europe Store 81,2019-03-24,Furniture,Pool furniture,6,40,15341230,54453042,True,2019-07-20,2
+121,West Europe,West Europe Store 81,2019-05-03,Baby,Baby toys,8,15,50158611,43216700,True,2019-05-03,1
+122,West Europe,West Europe Store 81,2019-02-03,Furniture,Indoor seating,4,75,86082847,39327197,True,2019-02-03,1
+123,West Europe,West Europe Store 81,2019-04-14,Clothing,Womens,5,13,77195474,83408231,True,2019-04-14,1
+124,West Europe,West Europe Store 81,2019-02-16,Baby,Diapers,3,10,14570721,69146720,True,2019-04-11,2
+125,West Europe,West Europe Store 81,2019-03-26,Beauty/Health,Fragrances,6,10,51989786,6914672,False,2019-08-06,2
+126,West Europe,West Europe Store 81,2019-04-02,Clothing,Kids,6,10,18116059,63960716,True,2019-08-09,2
+127,West Europe,West Europe Store 81,2019-07-08,Electronics,Computers,2,300,72661489,42352366,True,2019-06-02,2
+128,West Europe,West Europe Store 81,2019-06-30,Beauty/Health,Fragrances,8,6,67949094,69146720,True,2019-04-11,3
+129,West Europe,West Europe Store 81,2019-07-24,Clothing,Mens,11,13,91984990,28090855,False,2019-07-24,1
+130,West Europe,West Europe Store 81,2019-07-11,Beauty/Health,Feminine Products,11,10,15458552,36734195,False,2019-03-12,2
+131,West Europe,West Europe Store 81,2019-05-27,Furniture,Indoor seating,7,30,59827210,83408231,True,2019-04-14,2
+132,West Europe,West Europe Store 81,2019-03-30,Clothing,Swimwear,5,25,30327708,12100676,False,2019-03-30,1
+133,West Europe,West Europe Store 81,2019-02-25,Furniture,Patio furniture,4,75,56000971,27226521,False,2019-02-25,1
+134,West Europe,West Europe Store 81,2019-02-18,Electronics,Tablets,2,200,52390557,70443221,True,2019-02-18,1
+135,West Europe,West Europe Store 81,2019-02-03,Furniture,Pool furniture,5,75,36860291,69578887,True,2019-02-03,1
+136,West Europe,West Europe Store 81,2019-03-11,Furniture,Indoor seating,6,40,33304844,75629225,True,2019-03-11,1
+137,West Europe,West Europe Store 81,2019-04-30,Furniture,Pool furniture,6,75,21445639,67418052,True,2019-04-30,1
+138,West Europe,West Europe Store 81,2019-03-08,Clothing,Mens,4,10,16394288,30683857,False,2019-06-22,2
+139,West Europe,West Europe Store 81,2019-04-21,Electronics,Cell Phones,1,300,32909608,41055865,True,2019-06-29,2
+140,West Europe,West Europe Store 81,2019-04-12,Baby,Car seats,6,10,78799086,49699205,True,2019-05-29,2
+141,West Europe,West Europe Store 81,2019-01-30,Baby,Diapers,3,10,28261399,61799881,True,2019-01-30,1
+142,West Europe,West Europe Store 81,2019-01-29,Baby,Diaper bags,3,30,79837446,58774712,True,2019-01-29,1
+143,West Europe,West Europe Store 81,2019-04-26,Beauty/Health,Haircare,5,10,32339508,52292207,True,2019-05-16,2
+144,West Europe,West Europe Store 81,2019-03-30,Baby,Strollers,4,5,65992129,17718847,False,2019-03-30,1
+145,West Europe,West Europe Store 81,2019-07-23,Baby,Diaper bags,10,10,33839185,84704732,True,2019-07-23,1
+146,West Europe,West Europe Store 81,2019-08-07,Furniture,Indoor seating,12,40,22746924,49699205,True,2019-05-29,3
+147,West Europe,West Europe Store 81,2019-03-22,Electronics,Televisions,2,200,16820567,82543897,True,2019-01-11,2
+148,West Europe,West Europe Store 81,2019-02-12,Baby,Diapers,5,5,56961446,77357893,True,2019-07-06,2
+149,West Europe,West Europe Store 81,2019-01-06,Baby,Baby toys,3,5,78782253,60071213,True,2019-01-06,1
+150,West Europe,West Europe Store 81,2019-01-07,Clothing,Kids,4,13,92046451,82111730,True,2019-08-02,2
+151,West Europe,West Europe Store 81,2019-01-12,Furniture,Indoor tables,4,15,66804178,36734195,False,2019-03-12,3
+152,West Europe,West Europe Store 81,2019-03-11,Furniture,Indoor seating,5,15,88110832,80383062,True,2019-03-24,2
+153,West Europe,West Europe Store 81,2019-05-30,Clothing,Womens,7,25,42424279,70875388,True,2019-08-18,3
+154,West Europe,West Europe Store 81,2019-03-13,Beauty/Health,Makeup,4,10,24651777,67850219,True,2019-07-10,3
+155,West Europe,West Europe Store 81,2019-03-06,Clothing,Shoes,4,12,63964729,2593002,False,2019-03-06,1
+156,West Europe,West Europe Store 81,2019-04-24,Electronics,Televisions,1,300,41687595,62232048,True,2019-06-09,3
+157,West Europe,West Europe Store 81,2019-03-06,Clothing,Baby,4,20,87064509,15558012,False,2019-04-21,3
+158,West Europe,West Europe Store 81,2019-08-18,Furniture,Indoor tables,12,100,45481213,20744016,False,2019-02-27,2
+159,West Europe,West Europe Store 81,2019-03-21,Electronics,Tablets,1,200,39658428,3457336,False,2019-03-21,1
+160,West Europe,West Europe Store 81,2019-08-14,Beauty/Health,Makeup,11,10,17729818,75629225,True,2019-03-11,2
+161,West Europe,West Europe Store 81,2019-06-23,Clothing,Shoes,8,12,77973537,57478211,True,2019-04-27,2
+162,West Europe,West Europe Store 81,2019-08-18,Baby,Diaper bags,12,30,61836834,37166362,False,2019-08-18,1
+163,West Europe,West Europe Store 81,2019-07-05,Furniture,Indoor seating,10,40,15923325,35005527,False,2019-06-29,3
+164,West Europe,West Europe Store 81,2019-01-15,Furniture,Patio furniture,2,30,58730960,84272565,True,2019-05-27,2
+165,West Europe,West Europe Store 81,2019-01-31,Baby,Diaper bags,4,12,92520221,2593002,False,2019-03-06,2
+166,West Europe,West Europe Store 81,2019-03-01,Baby,Cribs,4,30,97946771,37598529,False,2019-07-03,2
+167,West Europe,West Europe Store 81,2019-02-22,Electronics,Tablets,2,300,89478197,39327197,True,2019-02-03,2
+168,West Europe,West Europe Store 81,2019-01-23,Beauty/Health,Fragrances,2,10,52662468,80815229,True,2019-01-04,2
+169,West Europe,West Europe Store 81,2019-01-12,Beauty/Health,Bath,2,10,98719849,49267038,True,2019-01-12,1
+170,West Europe,West Europe Store 81,2019-05-27,Clothing,Mens,8,10,31667073,88162068,True,2019-05-27,1
+171,West Europe,West Europe Store 81,2019-03-12,Furniture,Beds,6,30,74972180,56613877,True,2019-05-22,2
+172,West Europe,West Europe Store 81,2019-01-24,Baby,Diaper bags,2,30,97693081,70875388,True,2019-08-18,4
+173,West Europe,West Europe Store 81,2019-03-29,Baby,Cribs,4,30,64878927,66121551,True,2019-03-29,1
+174,West Europe,West Europe Store 81,2019-08-02,Baby,Strollers,12,30,96103297,10372008,False,2019-08-02,1
+175,West Europe,West Europe Store 81,2019-04-14,Electronics,Headphones,2,100,11489541,73468390,True,2019-04-14,1
+176,West Europe,West Europe Store 81,2019-08-21,Electronics,Headphones,1,300,24749660,54020875,True,2019-06-10,2
+177,West Europe,West Europe Store 81,2019-04-17,Baby,Cribs,5,12,68453612,27226521,False,2019-02-25,2
+178,West Europe,West Europe Store 81,2019-06-13,Beauty/Health,Haircare,8,10,23102116,84704732,True,2019-07-23,2
+179,West Europe,West Europe Store 81,2019-07-26,Clothing,Kids,9,13,19164213,88162068,True,2019-05-27,2
+180,West Europe,West Europe Store 81,2019-03-04,Furniture,Indoor seating,4,40,28679272,22040517,False,2019-05-12,3
+181,West Europe,West Europe Store 81,2019-04-28,Baby,Car seats,6,30,88114122,41488032,True,2019-02-21,2
+182,West Europe,West Europe Store 81,2019-05-20,Electronics,Tablets,2,50,86754741,23337018,False,2019-05-17,3
+183,West Europe,West Europe Store 81,2019-02-09,Clothing,Shoes,3,25,51140927,55317376,True,2019-02-09,1
+184,West Europe,West Europe Store 81,2019-07-21,Beauty/Health,Skincare,11,15,32218192,17286680,False,2019-07-21,1
+185,West Europe,West Europe Store 81,2019-04-16,Beauty/Health,Bath,6,10,99398399,48402704,True,2019-06-26,2
+186,West Europe,West Europe Store 81,2019-01-24,Beauty/Health,Haircare,3,10,18022656,64392883,True,2019-01-21,2
+187,West Europe,West Europe Store 81,2019-04-29,Electronics,Computers,1,100,34120956,4753837,False,2019-04-29,1
+188,West Europe,West Europe Store 81,2019-04-11,Clothing,Kids,6,10,48382625,68714553,True,2019-01-11,4
+189,West Europe,West Europe Store 81,2019-08-03,Electronics,Headphones,1,50,61237198,22472684,False,2019-01-10,2
+190,West Europe,West Europe Store 81,2019-03-15,Beauty/Health,Oral care,5,10,76989568,34141193,False,2019-03-15,1
+191,West Europe,West Europe Store 81,2019-06-06,Electronics,Tablets,2,100,46039235,49267038,True,2019-01-12,2
+192,West Europe,West Europe Store 81,2019-03-29,Beauty/Health,Makeup,5,10,63913850,25930020,False,2019-03-29,1
+193,West Europe,West Europe Store 81,2019-02-15,Baby,Car seats,5,15,37985999,12100676,False,2019-03-30,2
+194,West Europe,West Europe Store 81,2019-08-21,Electronics,Computers,2,100,36051500,85569066,True,2019-08-21,1
+195,West Europe,West Europe Store 81,2019-07-17,Electronics,Computers,2,50,91385275,42352366,True,2019-06-02,3
+196,West Europe,West Europe Store 81,2019-04-23,Beauty/Health,Bath,6,10,36546515,14261511,False,2019-04-23,1
+197,West Europe,West Europe Store 81,2019-08-05,Beauty/Health,Haircare,11,10,25090320,82976064,True,2019-05-25,3
+198,West Europe,West Europe Store 81,2019-05-29,Furniture,Beds,8,40,53156215,70443221,True,2019-02-18,2
+199,West Europe,West Europe Store 81,2019-07-23,Clothing,Mens,10,25,83788881,55749543,True,2019-07-23,1
+200,West Europe,West Europe Store 81,2019-06-09,Clothing,Baby,9,13,94488023,34141193,False,2019-03-15,2
+201,West Europe,West Europe Store 81,2019-08-15,Beauty/Health,Haircare,10,14,16358164,55317376,True,2019-02-09,2
+202,West Europe,West Europe Store 81,2019-03-11,Furniture,Patio furniture,6,15,76652062,44081034,True,2019-01-24,3
+203,West Europe,West Europe Store 81,2019-01-17,Beauty/Health,Skincare,4,10,88877421,60503380,True,2019-01-17,1
+204,West Europe,West Europe Store 81,2019-05-30,Furniture,Beds,8,100,42651056,59206879,True,2019-05-30,1
+205,West Europe,West Europe Store 81,2019-03-19,Electronics,Headphones,1,200,69582750,63528549,True,2019-05-05,2
+206,West Europe,West Europe Store 81,2019-03-02,Electronics,Tablets,1,50,58894773,54453042,True,2019-07-20,3
+207,West Europe,West Europe Store 81,2019-06-23,Furniture,Pool furniture,10,100,27687796,28523022,False,2019-06-23,1
+208,West Europe,West Europe Store 81,2019-01-04,Furniture,Indoor tables,4,40,87157046,34573360,False,2019-02-27,2
+209,West Europe,West Europe Store 81,2019-08-18,Electronics,Cell Phones,1,100,16997734,61367714,True,2019-04-14,2
+210,West Europe,West Europe Store 81,2019-05-23,Furniture,Indoor tables,8,75,69656419,87729901,True,2019-05-23,1
+211,West Europe,West Europe Store 81,2019-08-08,Clothing,Mens,12,25,43085104,38895030,True,2019-08-16,3
+212,West Europe,West Europe Store 81,2019-01-20,Clothing,Swimwear,4,13,34116008,44513201,True,2019-01-20,1
+213,West Europe,West Europe Store 81,2019-07-12,Baby,Cribs,11,5,26961469,78654394,True,2019-03-17,2
+214,West Europe,West Europe Store 81,2019-02-17,Electronics,Headphones,1,100,56755864,86433400,True,2019-01-17,2
+215,West Europe,West Europe Store 81,2019-01-29,Beauty/Health,Oral care,2,14,49856444,22472684,False,2019-01-10,3
+216,West Europe,West Europe Store 81,2019-07-29,Electronics,Televisions,2,100,84033351,43648867,True,2019-07-29,1
+217,West Europe,West Europe Store 81,2019-08-04,Beauty/Health,Bath,11,10,47708367,59206879,True,2019-05-30,2
+218,West Europe,West Europe Store 81,2019-04-07,Furniture,Indoor seating,7,75,56435665,60503380,True,2019-01-17,2
+219,West Europe,West Europe Store 81,2019-08-17,Baby,Diapers,10,15,72445295,23337018,False,2019-05-17,4
+220,West Europe,West Europe Store 81,2019-01-09,Clothing,Kids,4,25,32445248,82111730,True,2019-08-02,3
+221,West Europe,West Europe Store 81,2019-02-19,Furniture,Pool furniture,4,100,92894742,84704732,True,2019-07-23,3
+222,West Europe,West Europe Store 81,2019-06-06,Electronics,Computers,1,200,21278438,78654394,True,2019-03-17,3
+223,West Europe,West Europe Store 81,2019-02-27,Furniture,Indoor tables,5,75,65202260,17286680,False,2019-07-21,2
+224,West Europe,West Europe Store 81,2019-07-08,Beauty/Health,Feminine Products,10,15,26930082,60503380,True,2019-01-17,3
+225,West Europe,West Europe Store 81,2019-06-30,Beauty/Health,Haircare,10,10,45159464,22040517,False,2019-05-12,4
+226,West Europe,West Europe Store 81,2019-04-06,Electronics,Headphones,1,50,25153509,84272565,True,2019-05-27,3
+227,West Europe,West Europe Store 81,2019-03-12,Clothing,Shoes,6,20,96366599,28955189,False,2019-03-12,1
+228,West Europe,West Europe Store 81,2019-01-18,Baby,Baby toys,2,30,32836773,75197058,True,2019-07-24,2
+229,West Europe,West Europe Store 81,2019-06-20,Furniture,Indoor seating,10,75,17348589,82976064,True,2019-05-25,4
+230,West Europe,West Europe Store 81,2019-02-24,Electronics,Computers,1,50,11071863,67850219,True,2019-07-10,4
+231,West Europe,West Europe Store 81,2019-04-04,Clothing,Shoes,6,10,98246477,37166362,False,2019-08-18,2
+232,West Europe,West Europe Store 81,2019-03-04,Clothing,Kids,6,13,10977326,6050338,False,2019-05-24,2
+233,West Europe,West Europe Store 81,2019-02-05,Baby,Diaper bags,4,5,25704753,65689384,True,2019-02-05,1
+234,West Europe,West Europe Store 81,2019-04-22,Baby,Car seats,7,30,88063137,65689384,True,2019-02-05,2
+235,West Europe,West Europe Store 81,2019-01-03,Beauty/Health,Feminine Products,3,10,56558406,73468390,True,2019-04-14,2
+236,West Europe,West Europe Store 81,2019-03-18,Clothing,Womens,4,10,52142405,44513201,True,2019-01-20,2
+237,West Europe,West Europe Store 81,2019-04-14,Furniture,Beds,7,40,89484425,20744016,False,2019-02-27,3
+238,West Europe,West Europe Store 81,2019-06-28,Furniture,Pool furniture,8,30,13575278,50563539,True,2019-07-26,2
+239,West Europe,West Europe Store 81,2019-07-19,Electronics,Televisions,2,200,71624950,47106203,True,2019-07-19,1
+240,West Europe,West Europe Store 81,2019-05-02,Beauty/Health,Fragrances,7,10,11084590,83840398,True,2019-06-22,2
+241,West Europe,West Europe Store 81,2019-07-25,Beauty/Health,Feminine Products,9,10,46833782,63096382,True,2019-03-22,2
+242,West Europe,West Europe Store 81,2019-07-30,Baby,Baby toys,9,30,89449625,33709026,False,2019-05-03,3
+243,West Europe,West Europe Store 81,2019-04-08,Baby,Car seats,7,12,79769966,32412525,False,2019-01-23,2
+244,West Europe,West Europe Store 81,2019-05-05,Beauty/Health,Skincare,9,6,15276250,85136899,True,2019-05-05,1
+245,West Europe,West Europe Store 81,2019-07-21,Electronics,Tablets,1,200,73557799,55317376,True,2019-02-09,3
+246,West Europe,West Europe Store 81,2019-07-21,Clothing,Mens,11,25,13095300,20744016,False,2019-02-27,4
+247,West Europe,West Europe Store 81,2019-02-24,Beauty/Health,Fragrances,5,10,94060959,42352366,True,2019-06-02,4
+248,West Europe,West Europe Store 81,2019-03-03,Clothing,Mens,4,25,12910543,5618171,False,2019-03-03,1
+249,West Europe,West Europe Store 81,2019-06-19,Electronics,Cell Phones,2,200,79430107,35437694,False,2019-04-20,2
+250,West Europe,West Europe Store 81,2019-01-11,Electronics,Televisions,1,100,74232621,22040517,False,2019-05-12,5
+251,West Europe,West Europe Store 81,2019-03-19,Furniture,Patio furniture,5,100,71242699,77357893,True,2019-07-06,3
+252,West Europe,West Europe Store 81,2019-08-20,Furniture,Indoor seating,11,75,11743302,30683857,False,2019-06-22,3
+253,West Europe,West Europe Store 81,2019-05-10,Furniture,Indoor tables,9,100,14587074,48402704,True,2019-06-26,3
+254,West Europe,West Europe Store 81,2019-07-01,Clothing,Mens,9,12,87992924,53156541,True,2019-08-01,4
+255,West Europe,West Europe Store 81,2019-01-20,Electronics,Headphones,2,100,46218994,4753837,False,2019-04-29,2
+256,West Europe,West Europe Store 81,2019-02-08,Clothing,Swimwear,4,12,83043529,58342545,True,2019-08-06,2
+257,West Europe,West Europe Store 81,2019-05-24,Electronics,Headphones,1,300,35854094,76061392,True,2019-05-24,1
+258,West Europe,West Europe Store 81,2019-03-01,Baby,Strollers,4,15,20596200,31548191,False,2019-03-12,2
+259,West Europe,West Europe Store 81,2019-01-07,Baby,Diaper bags,2,15,70833798,11668509,False,2019-01-07,1
+260,West Europe,West Europe Store 81,2019-07-17,Beauty/Health,Fragrances,11,15,79550348,34141193,False,2019-03-15,3
+261,West Europe,West Europe Store 81,2019-01-30,Electronics,Speakers,2,200,98914273,48402704,True,2019-06-26,4
+262,West Europe,West Europe Store 81,2019-04-30,Electronics,Televisions,1,200,46230233,30683857,False,2019-06-22,4
+263,West Europe,West Europe Store 81,2019-07-25,Baby,Strollers,9,30,54535847,79518728,True,2019-06-23,2
+264,West Europe,West Europe Store 81,2019-06-07,Furniture,Indoor seating,8,15,57573676,63528549,True,2019-05-05,3
+265,West Europe,West Europe Store 81,2019-07-05,Electronics,Cell Phones,1,50,30379744,35869861,False,2019-05-23,2
+266,West Europe,West Europe Store 81,2019-02-19,Beauty/Health,Feminine Products,3,6,89945080,36302028,False,2019-02-19,1
+267,West Europe,West Europe Store 81,2019-01-09,Clothing,Mens,4,10,11417164,29387356,False,2019-01-09,1
+268,West Europe,West Europe Store 81,2019-05-29,Electronics,Televisions,2,200,95595293,37598529,False,2019-07-03,3
+269,West Europe,West Europe Store 81,2019-06-14,Electronics,Speakers,1,100,95450288,80815229,True,2019-01-04,3
+270,West Europe,West Europe Store 81,2019-05-06,Furniture,Indoor tables,8,15,70844726,47970537,True,2019-05-06,1
+271,West Europe,West Europe Store 81,2019-03-21,Electronics,Televisions,1,200,17013187,42352366,True,2019-06-02,5
+272,West Europe,West Europe Store 81,2019-01-28,Beauty/Health,Feminine Products,2,15,27408318,53588708,True,2019-07-03,2
+273,West Europe,West Europe Store 81,2019-01-16,Baby,Cribs,4,5,12285487,6050338,False,2019-05-24,3
+274,West Europe,West Europe Store 81,2019-07-23,Furniture,Pool furniture,9,75,50169064,37598529,False,2019-07-03,4
+275,West Europe,West Europe Store 81,2019-03-11,Clothing,Baby,5,12,97672547,71307555,True,2019-03-11,1
+276,West Europe,West Europe Store 81,2019-01-17,Clothing,Swimwear,4,10,28828230,65689384,True,2019-02-05,3
+277,West Europe,West Europe Store 81,2019-08-04,Beauty/Health,Makeup,11,15,49660847,30251690,False,2019-08-04,1
+278,West Europe,West Europe Store 81,2019-05-16,Electronics,Cell Phones,2,100,58845251,87729901,True,2019-05-23,2
+279,West Europe,West Europe Store 81,2019-02-19,Beauty/Health,Haircare,3,15,87245827,72604056,True,2019-02-19,1
+280,West Europe,West Europe Store 81,2019-03-23,Baby,Diapers,5,10,61846991,68282386,True,2019-03-23,1
+281,West Europe,West Europe Store 81,2019-08-18,Furniture,Patio furniture,11,40,26488337,59206879,True,2019-05-30,3
+282,West Europe,West Europe Store 81,2019-04-28,Electronics,Televisions,1,50,33629512,83840398,True,2019-06-22,3
+283,West Europe,West Europe Store 81,2019-03-07,Baby,Baby toys,5,5,23465810,79518728,True,2019-06-23,3
+284,West Europe,West Europe Store 81,2019-07-19,Electronics,Computers,1,200,33001853,40623698,True,2019-05-23,2
+285,West Europe,West Europe Store 81,2019-08-18,Beauty/Health,Skincare,12,10,53978954,65689384,True,2019-02-05,4
+286,West Europe,West Europe Store 81,2019-04-25,Furniture,Beds,5,30,21743794,58342545,True,2019-08-06,3
+287,West Europe,West Europe Store 81,2019-03-03,Electronics,Tablets,2,50,74847832,29387356,False,2019-01-09,2
+288,West Europe,West Europe Store 81,2019-04-08,Beauty/Health,Skincare,5,10,51702580,2593002,False,2019-03-06,3
+289,West Europe,West Europe Store 81,2019-01-14,Furniture,Patio furniture,3,75,49232829,73900557,True,2019-01-14,1
+290,West Europe,West Europe Store 81,2019-04-02,Beauty/Health,Bath,5,6,75544208,15990179,False,2019-04-02,1
+291,West Europe,West Europe Store 81,2019-03-29,Furniture,Indoor tables,6,75,36137582,15558012,False,2019-04-21,4
+292,West Europe,West Europe Store 81,2019-05-24,Clothing,Womens,8,10,82202911,33276859,False,2019-03-15,2
+293,West Europe,West Europe Store 81,2019-05-06,Baby,Strollers,7,12,30578072,86001233,True,2019-06-02,2
+294,West Europe,West Europe Store 81,2019-02-08,Electronics,Televisions,2,200,96983167,26362187,False,2019-07-13,2
+295,West Europe,West Europe Store 81,2019-03-29,Beauty/Health,Fragrances,4,10,63011193,79086561,True,2019-03-29,1
+296,West Europe,West Europe Store 81,2019-07-31,Furniture,Beds,10,15,12489834,64392883,True,2019-01-21,3
+297,West Europe,West Europe Store 81,2019-01-15,Baby,Diaper bags,4,10,13862737,2593002,False,2019-03-06,4
+298,West Europe,West Europe Store 81,2019-07-18,Clothing,Shoes,9,10,73005911,61367714,True,2019-04-14,3
+299,West Europe,West Europe Store 81,2019-03-14,Furniture,Patio furniture,4,100,59932818,81679563,True,2019-04-18,2
+300,West Europe,West Europe Store 81,2019-05-27,Clothing,Shoes,9,10,62658637,24633519,False,2019-08-21,2
+301,West Europe,West Europe Store 81,2019-08-17,Beauty/Health,Bath,10,15,47216486,36734195,False,2019-03-12,4
+302,West Europe,West Europe Store 81,2019-01-21,Baby,Strollers,2,12,28950930,27658688,False,2019-02-21,2
+303,West Europe,West Europe Store 81,2019-03-22,Baby,Car seats,4,30,87231382,50131372,True,2019-07-04,3
+304,West Europe,West Europe Store 81,2019-03-12,Beauty/Health,Haircare,6,10,91020213,47106203,True,2019-07-19,2
+305,West Europe,West Europe Store 81,2019-02-05,Clothing,Womens,5,20,63669707,32412525,False,2019-01-23,3
+306,West Europe,West Europe Store 81,2019-01-17,Clothing,Womens,2,12,45928711,42784533,True,2019-04-23,2
+307,West Europe,West Europe Store 81,2019-05-02,Baby,Diapers,9,5,39418145,58774712,True,2019-01-29,2
+308,West Europe,West Europe Store 81,2019-05-14,Baby,Car seats,8,30,64317513,64392883,True,2019-01-21,4
+309,West Europe,West Europe Store 81,2019-07-01,Baby,Strollers,9,30,90711081,79086561,True,2019-03-29,2
+310,West Europe,West Europe Store 81,2019-06-29,Clothing,Kids,9,13,46264402,44081034,True,2019-01-24,4
+311,West Europe,West Europe Store 81,2019-04-27,Furniture,Beds,7,15,83446555,84704732,True,2019-07-23,4
+312,West Europe,West Europe Store 81,2019-05-28,Electronics,Computers,1,200,49962582,31548191,False,2019-03-12,3
+313,West Europe,West Europe Store 81,2019-03-13,Clothing,Baby,5,25,84620207,17286680,False,2019-07-21,3
+314,West Europe,West Europe Store 81,2019-04-16,Electronics,Speakers,2,300,32135303,46241869,True,2019-04-16,1
+315,West Europe,West Europe Store 81,2019-07-02,Beauty/Health,Makeup,11,14,19847084,36734195,False,2019-03-12,5
+316,West Europe,West Europe Store 81,2019-06-05,Clothing,Mens,8,10,43775786,55749543,True,2019-07-23,2
+317,West Europe,West Europe Store 81,2019-04-16,Furniture,Indoor seating,7,40,28409652,50995706,True,2019-04-16,1
+318,West Europe,West Europe Store 81,2019-06-14,Furniture,Pool furniture,9,30,38869269,77790060,True,2019-05-17,4
+319,West Europe,West Europe Store 81,2019-07-14,Beauty/Health,Haircare,9,10,90332767,76493559,True,2019-05-11,3
+320,West Europe,West Europe Store 81,2019-03-26,Electronics,Televisions,2,300,71783258,32412525,False,2019-01-23,4
+321,West Europe,West Europe Store 81,2019-05-21,Beauty/Health,Feminine Products,7,6,40060256,56613877,True,2019-05-22,3
+322,West Europe,West Europe Store 81,2019-06-26,Baby,Strollers,9,5,33796786,59206879,True,2019-05-30,4
+323,West Europe,West Europe Store 81,2019-07-27,Electronics,Speakers,1,50,96872666,62664215,True,2019-01-28,2
+324,West Europe,West Europe Store 81,2019-07-18,Baby,Cribs,11,30,41330470,60935547,True,2019-07-18,1
+325,West Europe,West Europe Store 81,2019-07-29,Beauty/Health,Oral care,11,6,54822879,83408231,True,2019-04-14,3
+326,West Europe,West Europe Store 81,2019-01-19,Clothing,Womens,2,12,97082722,77357893,True,2019-07-06,4
+327,West Europe,West Europe Store 81,2019-02-18,Furniture,Indoor tables,4,30,75136728,28523022,False,2019-06-23,2
+328,West Europe,West Europe Store 81,2019-03-17,Baby,Diapers,5,5,72750148,52724374,True,2019-03-17,1
+329,West Europe,West Europe Store 81,2019-02-22,Furniture,Indoor seating,3,75,27583926,30683857,False,2019-06-22,5
+330,West Europe,West Europe Store 81,2019-02-10,Baby,Cribs,4,12,29458237,47538370,True,2019-02-10,1
+331,West Europe,West Europe Store 81,2019-07-09,Baby,Car seats,10,30,54443104,62664215,True,2019-01-28,3
+332,West Europe,West Europe Store 81,2019-04-15,Clothing,Mens,6,10,31943452,37166362,False,2019-08-18,3
+333,West Europe,West Europe Store 81,2019-07-26,Beauty/Health,Skincare,10,10,47664347,82543897,True,2019-01-11,3
+334,West Europe,West Europe Store 81,2019-08-17,Clothing,Baby,10,20,98502808,40623698,True,2019-05-23,3
+335,West Europe,West Europe Store 81,2019-06-13,Furniture,Patio furniture,9,15,39590695,25065686,False,2019-06-13,1
+336,West Europe,West Europe Store 81,2019-05-10,Electronics,Computers,1,200,49930246,45377535,True,2019-05-10,1
+337,West Europe,West Europe Store 81,2019-04-25,Electronics,Speakers,2,50,77217905,38030696,False,2019-04-25,1
+338,West Europe,West Europe Store 81,2019-02-14,Baby,Cribs,3,10,27399233,66121551,True,2019-03-29,2
+339,West Europe,West Europe Store 81,2019-04-29,Furniture,Beds,7,75,13840320,9939841,False,2019-04-29,1
+340,West Europe,West Europe Store 81,2019-01-06,Electronics,Cell Phones,1,50,38343451,21176183,False,2019-08-02,2
+341,West Europe,West Europe Store 81,2019-02-25,Electronics,Tablets,2,200,77835979,85569066,True,2019-08-21,2
+342,West Europe,West Europe Store 81,2019-04-11,Clothing,Kids,6,13,78299577,33709026,False,2019-05-03,4
+343,West Europe,West Europe Store 81,2019-07-16,Clothing,Womens,10,25,76506709,60071213,True,2019-01-06,2
+344,West Europe,West Europe Store 81,2019-07-10,Baby,Diapers,9,5,61467889,57910378,True,2019-07-10,1
+345,West Europe,West Europe Store 81,2019-04-10,Electronics,Speakers,2,200,58334127,53588708,True,2019-07-03,3
+346,West Europe,West Europe Store 81,2019-05-03,Electronics,Headphones,1,200,63809898,6914672,False,2019-08-06,3
+347,West Europe,West Europe Store 81,2019-07-20,Electronics,Speakers,1,100,38415326,62232048,True,2019-06-09,4
+348,West Europe,West Europe Store 81,2019-02-07,Beauty/Health,Oral care,3,10,18221562,56613877,True,2019-05-22,4
+349,West Europe,West Europe Store 81,2019-03-25,Baby,Diapers,5,15,46688700,47106203,True,2019-07-19,3
+350,West Europe,West Europe Store 81,2019-06-23,Furniture,Patio furniture,9,30,53557342,50563539,True,2019-07-26,3
+351,West Europe,West Europe Store 81,2019-05-23,Clothing,Mens,9,25,57293318,67850219,True,2019-07-10,5
+352,West Europe,West Europe Store 81,2019-06-21,Furniture,Pool furniture,9,100,71773158,10372008,False,2019-08-02,2
+353,West Europe,West Europe Store 81,2019-03-04,Clothing,Kids,4,13,85045674,69146720,True,2019-04-11,4
+354,West Europe,West Europe Store 81,2019-04-25,Baby,Diaper bags,6,30,38608556,18151014,False,2019-04-25,1
+355,West Europe,West Europe Store 81,2019-02-01,Electronics,Tablets,2,200,92850180,25497853,False,2019-08-21,2
+356,West Europe,West Europe Store 81,2019-03-16,Baby,Diapers,5,30,31920866,35005527,False,2019-06-29,4
+357,West Europe,West Europe Store 81,2019-01-25,Beauty/Health,Feminine Products,3,6,15421441,77790060,True,2019-05-17,5
+358,West Europe,West Europe Store 81,2019-01-20,Clothing,Mens,3,20,47536617,44513201,True,2019-01-20,3
+359,West Europe,West Europe Store 81,2019-05-04,Furniture,Indoor tables,7,100,35448988,37166362,False,2019-08-18,4
+360,West Europe,West Europe Store 81,2019-08-16,Clothing,Mens,11,12,74704503,4321670,False,2019-06-15,3
+361,West Europe,West Europe Store 81,2019-04-11,Beauty/Health,Skincare,5,15,73459605,57910378,True,2019-07-10,2
+362,West Europe,West Europe Store 81,2019-07-16,Baby,Car seats,10,10,70946321,49267038,True,2019-01-12,3
+363,West Europe,West Europe Store 81,2019-02-20,Beauty/Health,Feminine Products,4,10,87271853,77790060,True,2019-05-17,6
+364,West Europe,West Europe Store 81,2019-07-29,Electronics,Computers,2,100,69813367,86433400,True,2019-01-17,3
+365,West Europe,West Europe Store 81,2019-01-21,Clothing,Shoes,3,10,55267963,50995706,True,2019-04-16,2
+366,West Europe,West Europe Store 81,2019-08-21,Beauty/Health,Bath,10,10,42838830,47538370,True,2019-02-10,2
+367,West Europe,West Europe Store 81,2019-04-16,Clothing,Womens,6,13,46116449,80815229,True,2019-01-04,4
+368,West Europe,West Europe Store 81,2019-01-17,Baby,Cribs,3,30,44986972,2593002,False,2019-03-06,5
+369,West Europe,West Europe Store 81,2019-06-05,Electronics,Computers,1,300,26690708,60935547,True,2019-07-18,2
+370,West Europe,West Europe Store 81,2019-03-08,Electronics,Headphones,2,100,59317154,47538370,True,2019-02-10,3
+371,West Europe,West Europe Store 81,2019-08-05,Beauty/Health,Feminine Products,11,10,46642326,49699205,True,2019-05-29,4
+372,West Europe,West Europe Store 81,2019-04-27,Furniture,Indoor seating,6,75,26414862,50131372,True,2019-07-04,4
+373,West Europe,West Europe Store 81,2019-04-19,Clothing,Mens,6,10,69171432,71307555,True,2019-03-11,2
+374,West Europe,West Europe Store 81,2019-06-15,Beauty/Health,Makeup,10,14,40263517,88594235,True,2019-08-16,2
+375,West Europe,West Europe Store 81,2019-08-13,Furniture,Indoor seating,10,40,47148330,76061392,True,2019-05-24,2
+376,West Europe,West Europe Store 81,2019-01-07,Electronics,Speakers,1,100,70588840,72171889,True,2019-01-02,2
+377,West Europe,West Europe Store 81,2019-06-08,Beauty/Health,Feminine Products,8,15,14194085,16422346,False,2019-06-08,1
+378,West Europe,West Europe Store 81,2019-06-14,Baby,Diaper bags,10,12,10473649,67418052,True,2019-04-30,2
+379,West Europe,West Europe Store 81,2019-01-16,Baby,Diaper bags,3,30,24194733,26362187,False,2019-07-13,3
+380,West Europe,West Europe Store 81,2019-05-08,Baby,Diapers,8,10,93331504,16422346,False,2019-06-08,2
+381,West Europe,West Europe Store 81,2019-02-08,Electronics,Headphones,1,200,15340727,25930020,False,2019-03-29,2
+382,West Europe,West Europe Store 81,2019-07-07,Beauty/Health,Makeup,11,10,18503031,3889503,False,2019-08-12,3
+383,West Europe,West Europe Store 81,2019-01-18,Clothing,Shoes,4,20,78698182,22040517,False,2019-05-12,6
+384,West Europe,West Europe Store 81,2019-07-27,Baby,Strollers,10,10,84327632,82111730,True,2019-08-02,4
+385,West Europe,West Europe Store 81,2019-08-10,Beauty/Health,Bath,12,10,49239350,12100676,False,2019-03-30,3
+386,West Europe,West Europe Store 81,2019-07-12,Clothing,Kids,11,10,86502746,25065686,False,2019-06-13,2
+387,West Europe,West Europe Store 81,2019-06-08,Clothing,Mens,9,20,40374768,77357893,True,2019-07-06,5
+388,West Europe,West Europe Store 81,2019-06-27,Baby,Car seats,8,30,64398879,74764891,True,2019-06-27,1
+389,West Europe,West Europe Store 81,2019-03-12,Furniture,Indoor tables,6,100,93341695,58774712,True,2019-01-29,3
+390,West Europe,West Europe Store 81,2019-01-17,Furniture,Indoor tables,2,75,55479787,81247396,True,2019-01-17,1
+391,West Europe,West Europe Store 81,2019-04-22,Beauty/Health,Oral care,6,14,38195081,56613877,True,2019-05-22,5
+392,West Europe,West Europe Store 81,2019-05-21,Furniture,Indoor seating,9,15,49814672,16854513,False,2019-05-21,1
+393,West Europe,West Europe Store 81,2019-06-17,Clothing,Mens,9,12,96193817,76061392,True,2019-05-24,3
+394,West Europe,West Europe Store 81,2019-07-01,Electronics,Speakers,2,50,20338816,69578887,True,2019-02-03,2
+395,West Europe,West Europe Store 81,2019-03-10,Baby,Car seats,4,5,59206551,76061392,True,2019-05-24,4
+396,West Europe,West Europe Store 81,2019-06-26,Electronics,Cell Phones,1,300,88750754,53156541,True,2019-08-01,5
+397,West Europe,West Europe Store 81,2019-05-17,Clothing,Kids,7,12,40219928,73468390,True,2019-04-14,3
+398,West Europe,West Europe Store 81,2019-07-26,Clothing,Swimwear,9,20,46521663,60935547,True,2019-07-18,3
+399,West Europe,West Europe Store 81,2019-03-20,Clothing,Baby,5,10,16025108,66553718,True,2019-02-27,2
+400,West Europe,West Europe Store 81,2019-01-12,Electronics,Computers,1,100,56628705,50563539,True,2019-07-26,4
+401,West Europe,West Europe Store 81,2019-05-27,Clothing,Womens,7,25,52657130,63096382,True,2019-03-22,3
+402,West Europe,West Europe Store 81,2019-01-28,Electronics,Televisions,1,50,18932423,69578887,True,2019-02-03,3
+403,West Europe,West Europe Store 81,2019-07-06,Furniture,Indoor tables,10,30,86910618,87729901,True,2019-05-23,3
+404,West Europe,West Europe Store 81,2019-04-16,Beauty/Health,Haircare,7,10,75414623,36734195,False,2019-03-12,6
+405,West Europe,West Europe Store 81,2019-07-09,Baby,Diaper bags,10,5,43142699,30251690,False,2019-08-04,2
+406,West Europe,West Europe Store 81,2019-04-06,Baby,Car seats,5,12,60432405,84704732,True,2019-07-23,5
+407,West Europe,West Europe Store 81,2019-04-19,Furniture,Pool furniture,7,40,36433400,57046044,True,2019-04-19,1
+408,West Europe,West Europe Store 81,2019-03-20,Baby,Baby toys,5,12,43957819,27226521,False,2019-02-25,3
+409,West Europe,West Europe Store 81,2019-03-11,Furniture,Patio furniture,6,40,12424244,68282386,True,2019-03-23,2
+410,West Europe,West Europe Store 81,2019-01-07,Beauty/Health,Bath,3,10,60185460,21608350,False,2019-01-07,1
+411,West Europe,West Europe Store 81,2019-04-22,Electronics,Cell Phones,1,200,11250021,3889503,False,2019-08-12,4
+412,West Europe,West Europe Store 81,2019-07-25,Furniture,Pool furniture,11,75,64606238,67418052,True,2019-04-30,3
+413,West Europe,West Europe Store 81,2019-04-13,Electronics,Headphones,2,100,81344703,69578887,True,2019-02-03,4
+414,West Europe,West Europe Store 81,2019-01-14,Baby,Car seats,4,15,81037151,63960716,True,2019-08-09,3
+415,West Europe,West Europe Store 81,2019-03-16,Furniture,Patio furniture,4,40,50931280,60935547,True,2019-07-18,4
+416,West Europe,West Europe Store 81,2019-01-02,Furniture,Indoor tables,2,40,40686892,39327197,True,2019-02-03,3
+417,West Europe,West Europe Store 81,2019-03-25,Clothing,Shoes,4,25,29959885,39327197,True,2019-02-03,4
+418,West Europe,West Europe Store 81,2019-02-06,Furniture,Patio furniture,5,15,91249540,24201352,False,2019-02-23,3
+419,West Europe,West Europe Store 81,2019-06-16,Baby,Car seats,10,5,61312047,85136899,True,2019-05-05,2
+420,West Europe,West Europe Store 81,2019-01-08,Clothing,Shoes,3,25,68924106,22904851,False,2019-07-06,2
+421,West Europe,West Europe Store 81,2019-07-17,Electronics,Computers,2,300,63018608,44945368,True,2019-07-17,1
+422,West Europe,West Europe Store 81,2019-03-23,Beauty/Health,Bath,6,6,38422525,15990179,False,2019-04-02,2
+423,West Europe,West Europe Store 81,2019-05-17,Electronics,Headphones,2,50,58897080,45809702,True,2019-04-22,2
+424,West Europe,West Europe Store 81,2019-01-23,Electronics,Headphones,1,100,14179849,50995706,True,2019-04-16,3
+425,West Europe,West Europe Store 81,2019-05-27,Clothing,Baby,8,10,48432860,57046044,True,2019-04-19,2
+426,West Europe,West Europe Store 81,2019-07-07,Baby,Car seats,9,5,35740398,86433400,True,2019-01-17,4
+427,West Europe,West Europe Store 81,2019-07-25,Clothing,Mens,11,25,43240004,66985885,True,2019-01-30,3
+428,West Europe,West Europe Store 81,2019-04-06,Beauty/Health,Bath,6,10,45428123,60071213,True,2019-01-06,3
+429,West Europe,West Europe Store 81,2019-07-18,Clothing,Mens,11,25,46390192,50131372,True,2019-07-04,5
+430,West Europe,West Europe Store 81,2019-02-19,Electronics,Tablets,2,200,67833409,71307555,True,2019-03-11,3
+431,West Europe,West Europe Store 81,2019-04-03,Baby,Diapers,7,15,29355748,22040517,False,2019-05-12,7
+432,West Europe,West Europe Store 81,2019-02-23,Clothing,Shoes,4,10,59728240,82543897,True,2019-01-11,4
+433,West Europe,West Europe Store 81,2019-01-15,Furniture,Pool furniture,4,40,38838272,80815229,True,2019-01-04,5
+434,West Europe,West Europe Store 81,2019-07-24,Beauty/Health,Oral care,10,10,55014415,13397177,False,2019-07-24,1
+435,West Europe,West Europe Store 81,2019-05-14,Baby,Cribs,8,30,88851255,73036223,True,2019-04-05,2
+436,West Europe,West Europe Store 81,2019-06-11,Beauty/Health,Oral care,9,10,65331589,41055865,True,2019-06-29,3
+437,West Europe,West Europe Store 81,2019-04-27,Clothing,Swimwear,6,12,23682747,51860040,True,2019-01-22,2
+438,West Europe,West Europe Store 81,2019-01-17,Clothing,Kids,4,25,30314666,35869861,False,2019-05-23,3
+439,West Europe,West Europe Store 81,2019-05-06,Beauty/Health,Oral care,9,10,15456610,68282386,True,2019-03-23,3
+440,West Europe,West Europe Store 81,2019-06-01,Baby,Diaper bags,9,5,32668202,21608350,False,2019-01-07,2
+441,West Europe,West Europe Store 81,2019-03-14,Beauty/Health,Oral care,5,14,91519420,39759364,True,2019-03-14,1
+442,West Europe,West Europe Store 81,2019-02-05,Beauty/Health,Makeup,4,15,32604891,44945368,True,2019-07-17,2
+443,West Europe,West Europe Store 81,2019-02-27,Baby,Diapers,5,30,23624030,75197058,True,2019-07-24,3
+444,West Europe,West Europe Store 81,2019-08-19,Beauty/Health,Skincare,12,10,33120352,8643340,False,2019-08-19,1
+445,West Europe,West Europe Store 81,2019-04-03,Furniture,Patio furniture,6,15,29770296,12100676,False,2019-03-30,4
+446,West Europe,West Europe Store 81,2019-03-13,Baby,Strollers,4,30,49958911,70875388,True,2019-08-18,5
+447,West Europe,West Europe Store 81,2019-07-27,Furniture,Pool furniture,11,40,69267655,25497853,False,2019-08-21,3
+448,West Europe,West Europe Store 81,2019-08-13,Baby,Diapers,12,12,19953276,68282386,True,2019-03-23,4
+449,West Europe,West Europe Store 81,2019-03-03,Furniture,Indoor tables,6,75,14264960,9075507,False,2019-03-03,1
+450,West Europe,West Europe Store 81,2019-02-18,Furniture,Patio furniture,5,75,59172571,62664215,True,2019-01-28,4
+451,West Europe,West Europe Store 81,2019-07-13,Clothing,Kids,9,25,99433380,66121551,True,2019-03-29,3
+452,West Europe,West Europe Store 81,2019-03-20,Electronics,Headphones,2,50,29952923,17286680,False,2019-07-21,4
+453,West Europe,West Europe Store 81,2019-03-05,Furniture,Indoor seating,6,100,91020205,48402704,True,2019-06-26,5
+454,West Europe,West Europe Store 81,2019-08-09,Furniture,Beds,12,15,17402277,74332724,True,2019-06-01,2
+455,West Europe,West Europe Store 81,2019-06-25,Electronics,Cell Phones,2,200,95758115,43648867,True,2019-07-29,2
+456,West Europe,West Europe Store 81,2019-04-23,Beauty/Health,Fragrances,6,10,61170761,40191531,True,2019-04-13,2
+457,West Europe,West Europe Store 81,2019-06-10,Clothing,Baby,8,12,22957350,54020875,True,2019-06-10,3
+458,West Europe,West Europe Store 81,2019-02-22,Baby,Car seats,3,12,90139850,46674036,True,2019-08-12,3
+459,West Europe,West Europe Store 81,2019-07-01,Clothing,Kids,9,25,72365478,46241869,True,2019-04-16,2
+460,West Europe,West Europe Store 81,2019-06-17,Baby,Diaper bags,10,10,86574696,64392883,True,2019-01-21,5
+461,West Europe,West Europe Store 81,2019-07-19,Beauty/Health,Haircare,10,10,85013284,59639046,True,2019-01-03,2
+462,West Europe,West Europe Store 81,2019-08-02,Furniture,Indoor tables,10,30,44901879,81247396,True,2019-01-17,2
+463,West Europe,West Europe Store 81,2019-04-06,Electronics,Computers,1,300,11633831,30683857,False,2019-06-22,6
+464,West Europe,West Europe Store 81,2019-06-11,Electronics,Speakers,1,50,78795329,37166362,False,2019-08-18,5
+465,West Europe,West Europe Store 81,2019-01-31,Furniture,Pool furniture,3,40,64395124,23337018,False,2019-05-17,5
+466,West Europe,West Europe Store 81,2019-04-29,Baby,Strollers,7,5,84545338,70443221,True,2019-02-18,3
+467,West Europe,West Europe Store 81,2019-08-16,Beauty/Health,Feminine Products,12,10,72968087,43216700,True,2019-05-03,2
+468,West Europe,West Europe Store 81,2019-05-23,Baby,Car seats,7,30,26694177,38895030,True,2019-08-16,4
+469,West Europe,West Europe Store 81,2019-04-30,Clothing,Kids,8,13,70600522,16422346,False,2019-06-08,3
+470,West Europe,West Europe Store 81,2019-03-06,Electronics,Tablets,2,200,86402501,47538370,True,2019-02-10,4
+471,West Europe,West Europe Store 81,2019-03-11,Clothing,Swimwear,5,20,89614119,59206879,True,2019-05-30,5
+472,West Europe,West Europe Store 81,2019-07-24,Baby,Diapers,10,5,35774393,33276859,False,2019-03-15,3
+473,West Europe,West Europe Store 81,2019-03-16,Beauty/Health,Bath,4,10,31151197,78222227,True,2019-03-16,1
+474,West Europe,West Europe Store 81,2019-05-01,Beauty/Health,Feminine Products,7,15,16835888,85569066,True,2019-08-21,3
+475,West Europe,West Europe Store 81,2019-07-08,Furniture,Indoor tables,11,30,84166434,76925726,True,2019-07-08,1
+476,West Europe,West Europe Store 81,2019-06-14,Electronics,Tablets,1,300,46034042,23769185,False,2019-06-14,1
+477,West Europe,West Europe Store 81,2019-08-09,Clothing,Baby,10,20,41522115,48834871,True,2019-08-09,1
+478,West Europe,West Europe Store 81,2019-07-11,Baby,Car seats,11,12,69818856,41055865,True,2019-06-29,4
+479,West Europe,West Europe Store 81,2019-07-29,Electronics,Televisions,1,100,91403963,61367714,True,2019-04-14,4
+480,West Europe,West Europe Store 81,2019-08-21,Clothing,Kids,11,13,78420913,83840398,True,2019-06-22,4
+481,West Europe,West Europe Store 81,2019-01-12,Beauty/Health,Feminine Products,4,10,54689173,58342545,True,2019-08-06,4
+482,West Europe,West Europe Store 81,2019-08-18,Clothing,Womens,11,10,51577451,59206879,True,2019-05-30,6
+483,West Europe,West Europe Store 81,2019-04-11,Clothing,Baby,7,13,76494313,51427873,True,2019-04-11,1
+484,West Europe,West Europe Store 81,2019-01-09,Furniture,Pool furniture,2,100,49117787,55749543,True,2019-07-23,3
+485,West Europe,West Europe Store 81,2019-07-10,Beauty/Health,Haircare,10,10,87234227,88594235,True,2019-08-16,3
+486,West Europe,West Europe Store 81,2019-08-03,Electronics,Cell Phones,2,200,22186902,82976064,True,2019-05-25,5
+487,West Europe,West Europe Store 81,2019-08-05,Furniture,Beds,12,100,30563402,52292207,True,2019-05-16,3
+488,West Europe,West Europe Store 81,2019-07-31,Beauty/Health,Skincare,10,6,81988421,87729901,True,2019-05-23,4
+489,West Europe,West Europe Store 81,2019-07-20,Baby,Baby toys,11,10,81513254,53588708,True,2019-07-03,4
+490,West Europe,West Europe Store 81,2019-04-25,Beauty/Health,Oral care,5,15,93344888,3457336,False,2019-03-21,2
+491,West Europe,West Europe Store 81,2019-01-18,Electronics,Speakers,1,300,52270306,86433400,True,2019-01-17,5
+492,West Europe,West Europe Store 81,2019-01-26,Furniture,Patio furniture,2,75,41606105,71307555,True,2019-03-11,4
+493,West Europe,West Europe Store 81,2019-02-11,Beauty/Health,Oral care,4,14,23676298,68714553,True,2019-01-11,5
+494,West Europe,West Europe Store 81,2019-03-16,Electronics,Headphones,1,100,97404749,82543897,True,2019-01-11,5
+495,West Europe,West Europe Store 81,2019-08-07,Baby,Cribs,11,30,42933838,47106203,True,2019-07-19,4
+496,West Europe,West Europe Store 81,2019-02-05,Electronics,Computers,2,300,10694427,61799881,True,2019-01-30,2
+497,West Europe,West Europe Store 81,2019-07-19,Beauty/Health,Bath,11,15,65649142,28523022,False,2019-06-23,3
+498,West Europe,West Europe Store 81,2019-05-27,Electronics,Headphones,2,200,45591368,72604056,True,2019-02-19,2
+499,West Europe,West Europe Store 81,2019-07-01,Electronics,Computers,1,100,63829927,27658688,False,2019-02-21,3
+500,West Europe,West Europe Store 81,2019-05-07,Beauty/Health,Fragrances,9,10,82220630,46241869,True,2019-04-16,3
+501,West Europe,West Europe Store 81,2019-04-22,Furniture,Beds,7,100,97087367,73468390,True,2019-04-14,4
+502,West Europe,West Europe Store 81,2019-05-27,Electronics,Tablets,1,200,95468301,50131372,True,2019-07-04,6
+503,West Europe,West Europe Store 81,2019-02-01,Clothing,Swimwear,5,20,38489361,35869861,False,2019-05-23,4
+504,West Europe,West Europe Store 81,2019-04-19,Furniture,Beds,6,30,44432187,41488032,True,2019-02-21,3
+505,West Europe,West Europe Store 81,2019-03-10,Beauty/Health,Oral care,4,10,79146693,9075507,False,2019-03-03,2
+506,West Europe,West Europe Store 81,2019-08-18,Electronics,Cell Phones,2,300,98263863,23769185,False,2019-06-14,2
+507,West Europe,West Europe Store 81,2019-08-20,Clothing,Womens,10,20,78928640,65257217,True,2019-08-14,2
+508,West Europe,West Europe Store 81,2019-04-07,Clothing,Shoes,6,12,82594482,41488032,True,2019-02-21,4
+509,West Europe,West Europe Store 81,2019-07-02,Baby,Strollers,11,12,35521173,66985885,True,2019-01-30,4
+510,West Europe,West Europe Store 81,2019-04-07,Baby,Diapers,6,15,90732762,29819523,False,2019-06-07,2
+511,West Europe,West Europe Store 81,2019-02-24,Baby,Strollers,3,30,45288033,64392883,True,2019-01-21,6
+512,West Europe,West Europe Store 81,2019-08-07,Furniture,Pool furniture,12,15,93618619,57910378,True,2019-07-10,3
+513,West Europe,West Europe Store 81,2019-04-05,Clothing,Womens,6,13,30801748,86001233,True,2019-06-02,3
+514,West Europe,West Europe Store 81,2019-05-11,Clothing,Mens,9,25,92116764,36734195,False,2019-03-12,7
+515,West Europe,West Europe Store 81,2019-07-21,Beauty/Health,Feminine Products,11,10,89618103,29387356,False,2019-01-09,3
+516,West Europe,West Europe Store 81,2019-02-27,Furniture,Pool furniture,3,30,74798512,57910378,True,2019-07-10,4
+517,West Europe,West Europe Store 81,2019-03-25,Clothing,Baby,4,25,62017808,38030696,False,2019-04-25,2
+518,West Europe,West Europe Store 81,2019-01-09,Electronics,Tablets,1,50,75831719,72604056,True,2019-02-19,3
+519,West Europe,West Europe Store 81,2019-01-26,Beauty/Health,Bath,2,15,54162517,77790060,True,2019-05-17,7
+520,West Europe,West Europe Store 81,2019-06-21,Baby,Diapers,9,30,82385923,47538370,True,2019-02-10,5
+521,West Europe,West Europe Store 81,2019-06-21,Furniture,Indoor seating,9,40,48562025,40191531,True,2019-04-13,3
+522,West Europe,West Europe Store 81,2019-08-18,Baby,Baby toys,11,30,43046483,39759364,True,2019-03-14,2
+523,West Europe,West Europe Store 81,2019-07-30,Electronics,Tablets,1,100,24200702,57910378,True,2019-07-10,5
+524,West Europe,West Europe Store 81,2019-05-10,Furniture,Patio furniture,8,75,10117516,80815229,True,2019-01-04,6
+525,West Europe,West Europe Store 81,2019-02-06,Baby,Cribs,3,30,62511476,8643340,False,2019-08-19,2
+526,West Europe,West Europe Store 81,2019-03-24,Baby,Cribs,4,15,47054725,79950895,True,2019-03-24,1
+527,West Europe,West Europe Store 81,2019-05-31,Clothing,Womens,9,12,16343038,67850219,True,2019-07-10,6
+528,West Europe,West Europe Store 81,2019-05-15,Clothing,Shoes,9,20,15809835,16422346,False,2019-06-08,4
+529,West Europe,West Europe Store 81,2019-01-22,Baby,Cribs,3,30,20292351,82111730,True,2019-08-02,5
+530,West Europe,West Europe Store 81,2019-02-12,Furniture,Indoor tables,4,75,59365008,86433400,True,2019-01-17,6
+531,West Europe,West Europe Store 81,2019-01-08,Beauty/Health,Makeup,2,10,59545750,38462863,False,2019-01-08,1
+532,West Europe,West Europe Store 81,2019-08-04,Electronics,Headphones,1,50,31991447,50995706,True,2019-04-16,4
+533,West Europe,West Europe Store 81,2019-04-25,Furniture,Beds,5,15,47380692,31116024,False,2019-08-20,2
+534,West Europe,West Europe Store 81,2019-02-10,Furniture,Indoor seating,3,40,11972829,51860040,True,2019-01-22,3
+535,West Europe,West Europe Store 81,2019-07-22,Electronics,Cell Phones,2,300,63740205,31116024,False,2019-08-20,3
+536,West Europe,West Europe Store 81,2019-03-13,Beauty/Health,Feminine Products,6,10,40097278,54885209,True,2019-03-13,1
+537,West Europe,West Europe Store 81,2019-02-03,Electronics,Computers,1,300,82079522,31980358,False,2019-02-03,1
+538,West Europe,West Europe Store 81,2019-02-19,Electronics,Televisions,1,200,55003726,69146720,True,2019-04-11,5
+539,West Europe,West Europe Store 81,2019-06-22,Beauty/Health,Feminine Products,9,10,97894091,70011054,True,2019-06-20,2
+540,West Europe,West Europe Store 81,2019-01-04,Beauty/Health,Feminine Products,4,10,55495256,22472684,False,2019-01-10,4
+541,West Europe,West Europe Store 81,2019-04-01,Baby,Diaper bags,7,30,41786858,81679563,True,2019-04-18,3
+542,West Europe,West Europe Store 81,2019-08-01,Beauty/Health,Haircare,12,10,50779116,40623698,True,2019-05-23,4
+543,West Europe,West Europe Store 81,2019-02-24,Baby,Strollers,5,30,37748414,57478211,True,2019-04-27,3
+544,West Europe,West Europe Store 81,2019-07-19,Clothing,Kids,11,10,48258607,83840398,True,2019-06-22,5
+545,West Europe,West Europe Store 81,2019-06-04,Furniture,Indoor seating,9,75,14735525,21608350,False,2019-01-07,3
+546,West Europe,West Europe Store 81,2019-07-21,Beauty/Health,Makeup,9,6,84730339,35869861,False,2019-05-23,5
+547,West Europe,West Europe Store 81,2019-02-16,Furniture,Pool furniture,4,30,33283961,27226521,False,2019-02-25,4
+548,West Europe,West Europe Store 81,2019-04-14,Electronics,Televisions,1,50,18359437,34573360,False,2019-02-27,3
+549,West Europe,West Europe Store 81,2019-08-05,Baby,Baby toys,10,30,23575187,43648867,True,2019-07-29,3
+550,West Europe,West Europe Store 81,2019-05-07,Electronics,Computers,1,100,71077931,32412525,False,2019-01-23,5
+551,West Europe,West Europe Store 81,2019-05-27,Clothing,Baby,9,25,52469160,36302028,False,2019-02-19,2
+552,West Europe,West Europe Store 81,2019-08-16,Beauty/Health,Fragrances,12,10,16039159,27658688,False,2019-02-21,4
+553,West Europe,West Europe Store 81,2019-06-01,Baby,Cribs,10,5,75507559,82976064,True,2019-05-25,6
+554,West Europe,West Europe Store 81,2019-03-01,Electronics,Cell Phones,1,200,55626908,58342545,True,2019-08-06,5
+555,West Europe,West Europe Store 81,2019-03-25,Beauty/Health,Skincare,4,14,54641419,74332724,True,2019-06-01,3
+556,West Europe,West Europe Store 81,2019-03-30,Clothing,Baby,6,25,34552776,54453042,True,2019-07-20,4
+557,West Europe,West Europe Store 81,2019-02-04,Furniture,Patio furniture,3,40,11113660,58342545,True,2019-08-06,6
+558,West Europe,West Europe Store 81,2019-04-05,Baby,Car seats,6,5,21346964,60071213,True,2019-01-06,4
+559,West Europe,West Europe Store 81,2019-07-14,Furniture,Patio furniture,11,100,26946608,52724374,True,2019-03-17,2
+560,West Europe,West Europe Store 81,2019-05-25,Clothing,Baby,8,10,90063569,70443221,True,2019-02-18,4
+561,West Europe,West Europe Store 81,2019-06-22,Furniture,Beds,8,30,45015961,36734195,False,2019-03-12,8
+562,West Europe,West Europe Store 81,2019-01-18,Clothing,Baby,2,10,12691493,26362187,False,2019-07-13,4
+563,West Europe,West Europe Store 81,2019-05-29,Beauty/Health,Makeup,9,10,36136271,82111730,True,2019-08-02,6
+564,West Europe,West Europe Store 81,2019-07-31,Clothing,Shoes,11,20,19947987,6482505,False,2019-07-31,1
+565,West Europe,West Europe Store 81,2019-03-14,Electronics,Headphones,1,300,63597313,58342545,True,2019-08-06,7
+566,West Europe,West Europe Store 81,2019-02-20,Beauty/Health,Bath,3,14,21629862,64825050,True,2019-01-31,2
+567,West Europe,West Europe Store 81,2019-03-09,Beauty/Health,Feminine Products,5,15,93132934,15558012,False,2019-04-21,5
+568,West Europe,West Europe Store 81,2019-05-17,Baby,Car seats,8,10,88884413,28955189,False,2019-03-12,2
+569,West Europe,West Europe Store 81,2019-02-03,Beauty/Health,Bath,5,10,12972725,61367714,True,2019-04-14,5
+570,West Europe,West Europe Store 81,2019-04-07,Furniture,Pool furniture,6,40,54901852,31548191,False,2019-03-12,4
+571,West Europe,West Europe Store 81,2019-03-26,Beauty/Health,Bath,6,10,63425199,84272565,True,2019-05-27,4
+572,West Europe,West Europe Store 81,2019-04-16,Electronics,Speakers,1,200,10631100,62664215,True,2019-01-28,5
+573,West Europe,West Europe Store 81,2019-01-09,Clothing,Womens,4,12,88958418,68714553,True,2019-01-11,6
+574,West Europe,West Europe Store 81,2019-03-26,Furniture,Beds,6,15,27571272,63960716,True,2019-08-09,4
+575,West Europe,West Europe Store 81,2019-07-08,Clothing,Swimwear,10,12,74185116,64392883,True,2019-01-21,7
+576,West Europe,West Europe Store 81,2019-02-18,Electronics,Speakers,2,200,76746627,86865567,True,2019-01-13,2
+577,West Europe,West Europe Store 81,2019-05-10,Furniture,Pool furniture,8,100,73404115,79950895,True,2019-03-24,2
+578,West Europe,West Europe Store 81,2019-04-15,Clothing,Womens,7,13,78613345,78654394,True,2019-03-17,4
+579,West Europe,West Europe Store 81,2019-01-11,Electronics,Cell Phones,2,200,46457258,24633519,False,2019-08-21,3
+580,West Europe,West Europe Store 81,2019-06-02,Furniture,Indoor tables,8,75,98588740,68282386,True,2019-03-23,5
+581,West Europe,West Europe Store 81,2019-02-04,Beauty/Health,Feminine Products,4,14,59133700,73036223,True,2019-04-05,3
+582,West Europe,West Europe Store 81,2019-04-01,Furniture,Pool furniture,5,75,26503574,37166362,False,2019-08-18,6
+583,West Europe,West Europe Store 81,2019-02-22,Furniture,Patio furniture,3,40,93985825,34141193,False,2019-03-15,4
+584,West Europe,West Europe Store 81,2019-02-15,Baby,Diapers,3,12,33509327,62664215,True,2019-01-28,6
+585,West Europe,West Europe Store 81,2019-08-03,Furniture,Indoor tables,12,75,43742286,88162068,True,2019-05-27,3
+586,West Europe,West Europe Store 81,2019-06-05,Clothing,Mens,10,12,82201578,31548191,False,2019-03-12,5
+587,West Europe,West Europe Store 81,2019-03-25,Electronics,Computers,2,200,23382487,72604056,True,2019-02-19,4
+588,West Europe,West Europe Store 81,2019-08-04,Clothing,Mens,10,25,46781230,27658688,False,2019-02-21,5
+589,West Europe,West Europe Store 81,2019-02-01,Electronics,Televisions,1,100,61663906,61799881,True,2019-01-30,3
+590,West Europe,West Europe Store 81,2019-05-28,Baby,Cribs,8,10,39309273,72604056,True,2019-02-19,5
+591,West Europe,West Europe Store 81,2019-04-29,Baby,Baby toys,6,30,83557247,62664215,True,2019-01-28,7
+592,West Europe,West Europe Store 81,2019-05-18,Beauty/Health,Feminine Products,8,14,95853942,48834871,True,2019-08-09,2
+593,West Europe,West Europe Store 81,2019-02-20,Clothing,Womens,3,12,47717985,62232048,True,2019-06-09,5
+594,West Europe,West Europe Store 81,2019-02-18,Furniture,Beds,5,40,94152141,40623698,True,2019-05-23,5
+595,West Europe,West Europe Store 81,2019-08-12,Electronics,Computers,1,100,61900911,76493559,True,2019-05-11,4
+596,West Europe,West Europe Store 81,2019-01-21,Furniture,Indoor seating,2,15,72074364,79086561,True,2019-03-29,3
+597,West Europe,West Europe Store 81,2019-04-25,Baby,Diaper bags,6,30,66556347,23769185,False,2019-06-14,3
+598,West Europe,West Europe Store 81,2019-01-12,Clothing,Shoes,2,10,60259753,35437694,False,2019-04-20,3
+599,West Europe,West Europe Store 81,2019-01-29,Clothing,Mens,3,13,59129909,73900557,True,2019-01-14,2
+600,West Europe,West Europe Store 81,2019-01-07,Baby,Car seats,3,30,25408432,34141193,False,2019-03-15,5
+601,West Europe,West Europe Store 81,2019-01-01,Baby,Car seats,2,15,53594144,83840398,True,2019-06-22,6
+602,West Europe,West Europe Store 81,2019-07-12,Furniture,Patio furniture,9,40,35090257,32412525,False,2019-01-23,6
+603,West Europe,West Europe Store 81,2019-07-26,Electronics,Computers,1,200,31390485,76061392,True,2019-05-24,5
+604,West Europe,West Europe Store 81,2019-05-28,Clothing,Womens,7,13,14782463,59206879,True,2019-05-30,7
+605,West Europe,West Europe Store 81,2019-04-09,Baby,Diapers,7,10,74481053,22040517,False,2019-05-12,8
+606,West Europe,West Europe Store 81,2019-06-19,Baby,Baby toys,9,15,75126514,57046044,True,2019-04-19,3
+607,West Europe,West Europe Store 81,2019-03-04,Beauty/Health,Oral care,4,6,94828459,51427873,True,2019-04-11,2
+608,West Europe,West Europe Store 81,2019-07-19,Electronics,Headphones,2,100,89535433,38462863,False,2019-01-08,2
+609,West Europe,West Europe Store 81,2019-07-02,Furniture,Pool furniture,11,15,91797501,62664215,True,2019-01-28,8
+610,West Europe,West Europe Store 81,2019-03-04,Furniture,Indoor seating,4,75,32015198,33709026,False,2019-05-03,5
+611,West Europe,West Europe Store 81,2019-04-08,Baby,Baby toys,5,15,66050401,13397177,False,2019-07-24,2
+612,West Europe,West Europe Store 81,2019-04-13,Electronics,Cell Phones,1,200,37495931,44513201,True,2019-01-20,4
+613,West Europe,West Europe Store 81,2019-02-15,Beauty/Health,Makeup,3,15,61509981,5618171,False,2019-03-03,2
+614,West Europe,West Europe Store 81,2019-07-22,Baby,Diapers,11,30,55122291,43216700,True,2019-05-03,3
+615,West Europe,West Europe Store 81,2019-02-18,Furniture,Indoor tables,3,100,58945668,82111730,True,2019-08-02,7
+616,West Europe,West Europe Store 81,2019-04-23,Beauty/Health,Makeup,7,10,72712680,24633519,False,2019-08-21,4
+617,West Europe,West Europe Store 81,2019-06-25,Baby,Strollers,8,10,18169593,63960716,True,2019-08-09,5
+618,West Europe,West Europe Store 81,2019-02-12,Baby,Cribs,5,12,44964849,28090855,False,2019-07-24,2
+619,West Europe,West Europe Store 81,2019-05-18,Furniture,Indoor seating,8,75,46976572,42352366,True,2019-06-02,6
+620,West Europe,West Europe Store 81,2019-05-01,Beauty/Health,Oral care,7,10,94368772,70011054,True,2019-06-20,3
+621,West Europe,West Europe Store 81,2019-04-09,Beauty/Health,Oral care,5,10,13653650,53588708,True,2019-07-03,5
+622,West Europe,West Europe Store 81,2019-05-27,Beauty/Health,Feminine Products,9,15,22386965,85136899,True,2019-05-05,3
+623,West Europe,West Europe Store 81,2019-07-04,Furniture,Indoor tables,9,40,16345095,82976064,True,2019-05-25,7
+624,West Europe,West Europe Store 81,2019-05-29,Beauty/Health,Haircare,8,14,39069649,6050338,False,2019-05-24,4
+625,West Europe,West Europe Store 81,2019-03-29,Electronics,Speakers,1,200,15923712,60071213,True,2019-01-06,5
+626,West Europe,West Europe Store 81,2019-01-06,Electronics,Headphones,1,200,29762008,81679563,True,2019-04-18,4
+627,West Europe,West Europe Store 81,2019-01-16,Electronics,Headphones,1,50,87529800,80815229,True,2019-01-04,7
+628,West Europe,West Europe Store 81,2019-05-17,Furniture,Pool furniture,8,40,21325572,33709026,False,2019-05-03,6
+629,West Europe,West Europe Store 81,2019-02-10,Furniture,Patio furniture,5,100,86922277,59206879,True,2019-05-30,8
+630,West Europe,West Europe Store 81,2019-02-26,Beauty/Health,Haircare,3,14,60761335,81679563,True,2019-04-18,5
+631,West Europe,West Europe Store 81,2019-04-11,Beauty/Health,Haircare,7,6,14900968,60071213,True,2019-01-06,6
+632,West Europe,West Europe Store 81,2019-03-24,Clothing,Swimwear,5,10,20294167,56181710,True,2019-02-28,2
+633,West Europe,West Europe Store 81,2019-04-18,Electronics,Computers,2,50,12195087,40191531,True,2019-04-13,4
+634,West Europe,West Europe Store 81,2019-02-17,Baby,Strollers,5,15,55310450,26362187,False,2019-07-13,5
+635,West Europe,West Europe Store 81,2019-05-13,Electronics,Tablets,1,300,45026669,86001233,True,2019-06-02,4
+636,West Europe,West Europe Store 81,2019-05-16,Baby,Cribs,9,15,74579218,52292207,True,2019-05-16,4
+637,West Europe,West Europe Store 81,2019-04-26,Furniture,Pool furniture,7,40,23702776,77357893,True,2019-07-06,6
+638,West Europe,West Europe Store 81,2019-05-22,Clothing,Kids,8,12,74866172,76925726,True,2019-07-08,2
+639,West Europe,West Europe Store 81,2019-04-04,Electronics,Speakers,1,100,64370870,86865567,True,2019-01-13,3
+640,West Europe,West Europe Store 81,2019-05-08,Clothing,Swimwear,8,25,31497694,25497853,False,2019-08-21,4
+641,West Europe,West Europe Store 81,2019-08-14,Furniture,Patio furniture,12,40,93309222,83840398,True,2019-06-22,7
+642,West Europe,West Europe Store 81,2019-08-06,Beauty/Health,Makeup,10,10,62390929,67850219,True,2019-07-10,7
+643,West Europe,West Europe Store 81,2019-04-30,Baby,Car seats,7,15,68867222,72604056,True,2019-02-19,6
+644,West Europe,West Europe Store 81,2019-02-11,Furniture,Indoor seating,4,75,75991730,61799881,True,2019-01-30,4
+645,West Europe,West Europe Store 81,2019-03-11,Baby,Cribs,5,30,85753905,27226521,False,2019-02-25,5
+646,West Europe,West Europe Store 81,2019-08-20,Baby,Cribs,10,30,69259069,34141193,False,2019-03-15,6
+647,West Europe,West Europe Store 81,2019-06-21,Beauty/Health,Fragrances,8,15,45311888,24633519,False,2019-08-21,5
+648,West Europe,West Europe Store 81,2019-02-07,Beauty/Health,Bath,3,10,16313554,25065686,False,2019-06-13,3
+649,West Europe,West Europe Store 81,2019-07-04,Electronics,Tablets,2,100,32110229,66121551,True,2019-03-29,4
+650,West Europe,West Europe Store 81,2019-01-02,Beauty/Health,Makeup,3,15,16708438,69146720,True,2019-04-11,6
+651,West Europe,West Europe Store 81,2019-04-14,Electronics,Tablets,1,100,14796098,84272565,True,2019-05-27,5
+652,West Europe,West Europe Store 81,2019-02-26,Beauty/Health,Oral care,3,10,96148256,52292207,True,2019-05-16,5
+653,West Europe,West Europe Store 81,2019-04-20,Electronics,Speakers,1,200,42609595,21176183,False,2019-08-02,3
+654,West Europe,West Europe Store 81,2019-04-20,Furniture,Patio furniture,5,30,55794700,43648867,True,2019-07-29,4
+655,West Europe,West Europe Store 81,2019-06-27,Electronics,Headphones,1,50,38953867,82976064,True,2019-05-25,8
+656,West Europe,West Europe Store 81,2019-04-24,Electronics,Televisions,1,200,39182363,66985885,True,2019-01-30,5
+657,West Europe,West Europe Store 81,2019-01-23,Clothing,Mens,2,13,54857282,1728668,False,2019-01-23,1
+658,West Europe,West Europe Store 81,2019-08-13,Beauty/Health,Oral care,10,10,83060731,25930020,False,2019-03-29,3
+659,West Europe,West Europe Store 81,2019-04-02,Clothing,Kids,6,25,11095644,71739722,True,2019-04-02,1
+660,West Europe,West Europe Store 81,2019-03-02,Furniture,Pool furniture,4,30,39170709,33709026,False,2019-05-03,7
+661,West Europe,West Europe Store 81,2019-06-30,Baby,Strollers,9,10,66828737,31548191,False,2019-03-12,6
+662,West Europe,West Europe Store 81,2019-05-02,Furniture,Indoor seating,9,75,18127291,64825050,True,2019-01-31,3
+663,West Europe,West Europe Store 81,2019-06-25,Beauty/Health,Skincare,10,10,18299373,84704732,True,2019-07-23,6
+664,West Europe,West Europe Store 81,2019-03-10,Electronics,Speakers,2,300,51441947,3889503,False,2019-08-12,5
+665,West Europe,West Europe Store 81,2019-01-06,Furniture,Indoor seating,3,15,19171594,83840398,True,2019-06-22,8
+666,West Europe,West Europe Store 81,2019-06-07,Clothing,Shoes,8,25,81789482,35437694,False,2019-04-20,4
+667,West Europe,West Europe Store 81,2019-06-21,Electronics,Televisions,2,100,17121623,68714553,True,2019-01-11,7
+668,West Europe,West Europe Store 81,2019-08-20,Furniture,Patio furniture,12,30,68786224,50563539,True,2019-07-26,5
+669,West Europe,West Europe Store 81,2019-06-09,Beauty/Health,Skincare,9,14,70500792,69146720,True,2019-04-11,7
+670,West Europe,West Europe Store 81,2019-05-13,Baby,Diapers,9,12,11691364,30251690,False,2019-08-04,3
+671,West Europe,West Europe Store 81,2019-02-12,Electronics,Computers,1,200,87984146,66553718,True,2019-02-27,3
+672,West Europe,West Europe Store 81,2019-06-30,Baby,Cribs,10,5,87674313,36734195,False,2019-03-12,9
+673,West Europe,West Europe Store 81,2019-03-11,Furniture,Pool furniture,6,100,26428978,38462863,False,2019-01-08,3
+674,West Europe,West Europe Store 81,2019-02-17,Baby,Cribs,3,5,52354266,69578887,True,2019-02-03,5
+675,West Europe,West Europe Store 81,2019-02-16,Beauty/Health,Skincare,3,15,43000878,53156541,True,2019-08-01,6
+676,West Europe,West Europe Store 81,2019-06-13,Electronics,Speakers,2,200,90260596,82543897,True,2019-01-11,6
+677,West Europe,West Europe Store 81,2019-03-14,Clothing,Swimwear,6,20,44564496,76061392,True,2019-05-24,6
+678,West Europe,West Europe Store 81,2019-07-28,Clothing,Baby,11,25,57419111,60503380,True,2019-01-17,4
+679,West Europe,West Europe Store 81,2019-04-19,Baby,Diaper bags,6,5,16400686,80815229,True,2019-01-04,8
+680,West Europe,West Europe Store 81,2019-02-07,Electronics,Cell Phones,1,200,96734768,81679563,True,2019-04-18,6
+681,West Europe,West Europe Store 81,2019-04-17,Furniture,Indoor seating,5,100,59677048,31980358,False,2019-02-03,2
+682,West Europe,West Europe Store 81,2019-02-10,Clothing,Womens,4,25,94189749,46674036,True,2019-08-12,4
+683,West Europe,West Europe Store 81,2019-07-18,Baby,Baby toys,9,15,78524467,46674036,True,2019-08-12,5
+684,West Europe,West Europe Store 81,2019-03-24,Electronics,Televisions,2,300,10932660,31980358,False,2019-02-03,3
+685,West Europe,West Europe Store 81,2019-07-16,Clothing,Womens,11,20,35508363,89458569,True,2019-07-16,1
+686,West Europe,West Europe Store 81,2019-03-06,Baby,Diapers,6,30,79641831,29819523,False,2019-06-07,3
+687,West Europe,West Europe Store 81,2019-02-26,Baby,Strollers,4,30,36081133,74332724,True,2019-06-01,4
+688,West Europe,West Europe Store 81,2019-03-16,Beauty/Health,Fragrances,6,10,35301504,46241869,True,2019-04-16,4
+689,West Europe,West Europe Store 81,2019-03-26,Baby,Diaper bags,4,15,65413916,17286680,False,2019-07-21,5
+690,West Europe,West Europe Store 81,2019-02-22,Baby,Cribs,5,12,63928195,47538370,True,2019-02-10,6
+691,West Europe,West Europe Store 81,2019-06-29,Electronics,Computers,2,100,51062631,81247396,True,2019-01-17,3
+692,West Europe,West Europe Store 81,2019-03-09,Baby,Strollers,4,10,49154980,6482505,False,2019-07-31,2
+693,West Europe,West Europe Store 81,2019-07-29,Electronics,Computers,1,50,97048355,72604056,True,2019-02-19,7
+694,West Europe,West Europe Store 81,2019-05-04,Baby,Cribs,9,12,36978509,25497853,False,2019-08-21,5
+695,West Europe,West Europe Store 81,2019-06-25,Beauty/Health,Oral care,10,10,55416640,53588708,True,2019-07-03,6
+696,West Europe,West Europe Store 81,2019-03-11,Beauty/Health,Haircare,4,10,28080998,83408231,True,2019-04-14,4
+697,West Europe,West Europe Store 81,2019-02-16,Beauty/Health,Feminine Products,3,6,13589240,54885209,True,2019-03-13,2
+698,West Europe,West Europe Store 81,2019-02-22,Clothing,Swimwear,3,12,96402647,63528549,True,2019-05-05,4
+699,West Europe,West Europe Store 81,2019-05-23,Clothing,Mens,7,25,49322293,32844692,False,2019-05-23,1
+700,West Europe,West Europe Store 81,2019-02-09,Baby,Diaper bags,3,12,11018900,28090855,False,2019-07-24,3
+701,West Europe,West Europe Store 81,2019-05-01,Baby,Cribs,8,5,69608144,44945368,True,2019-07-17,3
+702,West Europe,West Europe Store 81,2019-07-03,Clothing,Swimwear,11,20,43666378,87297734,True,2019-03-25,3
+703,West Europe,West Europe Store 81,2019-05-28,Furniture,Patio furniture,9,75,26011160,39759364,True,2019-03-14,3
+704,West Europe,West Europe Store 81,2019-08-16,Electronics,Cell Phones,2,300,96789798,34141193,False,2019-03-15,7
+705,West Europe,West Europe Store 81,2019-06-29,Beauty/Health,Makeup,9,10,72461602,44081034,True,2019-01-24,5
+706,West Europe,West Europe Store 81,2019-02-26,Baby,Car seats,3,5,64135117,61367714,True,2019-04-14,6
+707,West Europe,West Europe Store 81,2019-07-31,Beauty/Health,Feminine Products,10,6,14002258,61799881,True,2019-01-30,5
+708,West Europe,West Europe Store 81,2019-05-08,Electronics,Computers,1,200,67527288,44081034,True,2019-01-24,6
+709,West Europe,West Europe Store 81,2019-02-25,Beauty/Health,Makeup,5,10,82370283,6050338,False,2019-05-24,5
+710,West Europe,West Europe Store 81,2019-02-27,Baby,Car seats,5,5,34956726,35869861,False,2019-05-23,6
+711,West Europe,West Europe Store 81,2019-01-01,Electronics,Tablets,1,200,28680074,23769185,False,2019-06-14,4
+712,West Europe,West Europe Store 81,2019-03-09,Beauty/Health,Makeup,5,10,84166615,66985885,True,2019-01-30,6
+713,West Europe,West Europe Store 81,2019-06-04,Beauty/Health,Bath,10,14,17154033,82111730,True,2019-08-02,8
+714,West Europe,West Europe Store 81,2019-03-27,Clothing,Kids,6,20,53357211,57910378,True,2019-07-10,6
+715,West Europe,West Europe Store 81,2019-06-11,Baby,Cribs,10,30,52563055,86865567,True,2019-01-13,4
+716,West Europe,West Europe Store 81,2019-08-08,Electronics,Televisions,2,50,56249714,32412525,False,2019-01-23,7
+717,West Europe,West Europe Store 81,2019-04-22,Beauty/Health,Skincare,5,10,14339818,60935547,True,2019-07-18,5
+718,West Europe,West Europe Store 81,2019-03-24,Electronics,Speakers,2,200,47213303,77357893,True,2019-07-06,7
+719,West Europe,West Europe Store 81,2019-04-24,Beauty/Health,Fragrances,5,14,24590772,34573360,False,2019-02-27,4
+720,West Europe,West Europe Store 81,2019-03-03,Electronics,Cell Phones,1,50,34007893,75629225,True,2019-03-11,3
+721,West Europe,West Europe Store 81,2019-05-22,Beauty/Health,Feminine Products,9,15,76370546,73900557,True,2019-01-14,3
+722,West Europe,West Europe Store 81,2019-06-25,Clothing,Womens,8,12,14083903,57910378,True,2019-07-10,7
+723,West Europe,West Europe Store 81,2019-05-16,Furniture,Beds,9,30,14213296,75629225,True,2019-03-11,4
+724,West Europe,West Europe Store 81,2019-07-02,Baby,Baby toys,11,5,48066253,44513201,True,2019-01-20,5
+725,West Europe,West Europe Store 81,2019-02-18,Beauty/Health,Haircare,4,10,30196610,40623698,True,2019-05-23,6
+726,West Europe,West Europe Store 81,2019-03-01,Baby,Diaper bags,5,10,28496040,15558012,False,2019-04-21,6
+727,West Europe,West Europe Store 81,2019-02-28,Clothing,Kids,4,10,43628883,9075507,False,2019-03-03,3
+728,West Europe,West Europe Store 81,2019-02-14,Beauty/Health,Feminine Products,5,14,65719031,65689384,True,2019-02-05,5
+729,West Europe,West Europe Store 81,2019-05-19,Baby,Cribs,8,30,23675566,68714553,True,2019-01-11,8
+730,West Europe,West Europe Store 81,2019-02-04,Electronics,Tablets,2,100,91289619,76925726,True,2019-07-08,3
+731,West Europe,West Europe Store 81,2019-07-13,Beauty/Health,Fragrances,10,6,23251698,79086561,True,2019-03-29,4
+732,West Europe,West Europe Store 81,2019-06-27,Baby,Diapers,9,10,19473070,31980358,False,2019-02-03,4
+733,West Europe,West Europe Store 81,2019-05-08,Clothing,Mens,7,25,17779536,55749543,True,2019-07-23,4
+734,West Europe,West Europe Store 81,2019-06-18,Electronics,Headphones,2,300,92107956,42784533,True,2019-04-23,3
+735,West Europe,West Europe Store 81,2019-07-02,Electronics,Tablets,1,50,16895679,88594235,True,2019-08-16,4
+736,West Europe,West Europe Store 81,2019-03-28,Beauty/Health,Fragrances,5,6,16562943,36734195,False,2019-03-12,10
+737,West Europe,West Europe Store 81,2019-08-12,Clothing,Womens,11,20,33059310,33276859,False,2019-03-15,4
+738,West Europe,West Europe Store 81,2019-06-27,Beauty/Health,Fragrances,9,14,68351856,86433400,True,2019-01-17,7
+739,West Europe,West Europe Store 81,2019-02-07,Clothing,Womens,3,25,15517854,84704732,True,2019-07-23,7
+740,West Europe,West Europe Store 81,2019-06-18,Furniture,Indoor seating,9,100,28458840,50131372,True,2019-07-04,7
+741,West Europe,West Europe Store 81,2019-05-20,Beauty/Health,Fragrances,9,6,93820333,85569066,True,2019-08-21,4
+742,West Europe,West Europe Store 81,2019-04-28,Electronics,Televisions,2,100,98229125,3889503,False,2019-08-12,6
+743,West Europe,West Europe Store 81,2019-05-03,Beauty/Health,Bath,7,14,79220600,88594235,True,2019-08-16,5
+744,West Europe,West Europe Store 81,2019-07-04,Baby,Baby toys,11,15,60026252,62232048,True,2019-06-09,6
+745,West Europe,West Europe Store 81,2019-03-19,Electronics,Tablets,1,300,94253125,46674036,True,2019-08-12,6
+746,West Europe,West Europe Store 81,2019-03-02,Furniture,Indoor seating,6,30,17690471,27658688,False,2019-02-21,6
+747,West Europe,West Europe Store 81,2019-01-07,Furniture,Indoor seating,4,75,75764503,48834871,True,2019-08-09,3
+748,West Europe,West Europe Store 81,2019-04-19,Electronics,Computers,2,200,43817389,84272565,True,2019-05-27,6
+749,West Europe,West Europe Store 81,2019-02-03,Furniture,Indoor tables,4,40,97077645,47970537,True,2019-05-06,2
+750,West Europe,West Europe Store 81,2019-05-16,Baby,Diapers,7,10,98028780,84704732,True,2019-07-23,8
+751,West Europe,West Europe Store 81,2019-02-05,Baby,Diaper bags,4,30,43636387,82976064,True,2019-05-25,9
+752,West Europe,West Europe Store 81,2019-02-05,Baby,Baby toys,3,15,71609507,58774712,True,2019-01-29,4
+753,West Europe,West Europe Store 81,2019-05-19,Baby,Diapers,8,15,65509542,79086561,True,2019-03-29,5
+754,West Europe,West Europe Store 81,2019-01-09,Electronics,Headphones,1,200,42479904,3889503,False,2019-08-12,7
+755,West Europe,West Europe Store 81,2019-08-12,Baby,Strollers,12,12,24626946,58342545,True,2019-08-06,8
+756,West Europe,West Europe Store 81,2019-01-16,Electronics,Cell Phones,2,300,90261711,77790060,True,2019-05-17,8
+757,West Europe,West Europe Store 81,2019-02-01,Electronics,Televisions,1,200,70160062,53588708,True,2019-07-03,7
+758,West Europe,West Europe Store 81,2019-06-18,Clothing,Womens,9,10,81494194,30251690,False,2019-08-04,4
+759,West Europe,West Europe Store 81,2019-06-13,Electronics,Computers,1,100,69511378,75629225,True,2019-03-11,5
+760,West Europe,West Europe Store 81,2019-01-24,Clothing,Mens,4,20,88775167,67418052,True,2019-04-30,4
+761,West Europe,West Europe Store 81,2019-08-16,Furniture,Indoor tables,11,15,21062726,51860040,True,2019-01-22,4
+762,West Europe,West Europe Store 81,2019-03-12,Baby,Strollers,6,10,90267408,73468390,True,2019-04-14,5
+763,West Europe,West Europe Store 81,2019-08-14,Beauty/Health,Fragrances,12,14,11527316,76493559,True,2019-05-11,5
+764,West Europe,West Europe Store 81,2019-05-22,Electronics,Speakers,1,200,81478567,84272565,True,2019-05-27,7
+765,West Europe,West Europe Store 81,2019-05-15,Electronics,Tablets,2,100,50500925,17286680,False,2019-07-21,6
+766,West Europe,West Europe Store 81,2019-05-03,Beauty/Health,Feminine Products,8,14,38897358,7779006,False,2019-05-03,1
+767,West Europe,West Europe Store 81,2019-05-07,Electronics,Tablets,1,50,15736164,76061392,True,2019-05-24,7
+768,West Europe,West Europe Store 81,2019-06-18,Furniture,Indoor tables,9,30,61275296,42784533,True,2019-04-23,4
+769,West Europe,West Europe Store 81,2019-02-10,Electronics,Computers,1,200,42783517,23769185,False,2019-06-14,5
+770,West Europe,West Europe Store 81,2019-02-23,Clothing,Kids,3,13,27190357,31116024,False,2019-08-20,4
+771,West Europe,West Europe Store 81,2019-05-08,Baby,Diapers,8,30,72451599,35005527,False,2019-06-29,5
+772,West Europe,West Europe Store 81,2019-01-04,Beauty/Health,Haircare,3,10,87342186,15125845,False,2019-01-04,1
+773,West Europe,West Europe Store 81,2019-06-28,Furniture,Beds,10,15,48525429,72171889,True,2019-01-02,3
+774,West Europe,West Europe Store 81,2019-05-18,Baby,Diaper bags,9,30,86171341,31980358,False,2019-02-03,5
+775,West Europe,West Europe Store 81,2019-04-21,Furniture,Patio furniture,6,75,23819007,79086561,True,2019-03-29,6
+776,West Europe,West Europe Store 81,2019-05-07,Electronics,Headphones,1,200,92285770,4753837,False,2019-04-29,3
+777,West Europe,West Europe Store 81,2019-03-26,Baby,Car seats,4,5,71409708,18583181,False,2019-03-26,1
+778,West Europe,West Europe Store 81,2019-07-31,Electronics,Tablets,1,100,66314934,49699205,True,2019-05-29,5
+779,West Europe,West Europe Store 81,2019-07-27,Furniture,Beds,11,15,73704545,85136899,True,2019-05-05,4
+780,West Europe,West Europe Store 81,2019-03-16,Baby,Baby toys,5,30,86552772,44081034,True,2019-01-24,7
+781,West Europe,West Europe Store 81,2019-01-24,Electronics,Televisions,1,100,33809291,69146720,True,2019-04-11,8
+782,West Europe,West Europe Store 81,2019-06-07,Electronics,Cell Phones,1,200,93114295,79086561,True,2019-03-29,7
+783,West Europe,West Europe Store 81,2019-01-29,Electronics,Computers,2,200,66933970,32844692,False,2019-05-23,2
+784,West Europe,West Europe Store 81,2019-04-04,Electronics,Headphones,1,50,62619547,32412525,False,2019-01-23,8
+785,West Europe,West Europe Store 81,2019-01-26,Baby,Strollers,3,30,62856856,15125845,False,2019-01-04,2
+786,West Europe,West Europe Store 81,2019-04-04,Electronics,Computers,1,50,31681775,51860040,True,2019-01-22,5
+787,West Europe,West Europe Store 81,2019-06-09,Electronics,Tablets,1,100,14966980,71739722,True,2019-04-02,2
+788,West Europe,West Europe Store 81,2019-05-26,Baby,Diaper bags,9,15,30063942,52292207,True,2019-05-16,6
+789,West Europe,West Europe Store 81,2019-07-16,Electronics,Headphones,2,100,87775737,73036223,True,2019-04-05,4
+790,West Europe,West Europe Store 81,2019-05-07,Baby,Diaper bags,8,30,61251411,70875388,True,2019-08-18,6
+791,West Europe,West Europe Store 81,2019-01-17,Beauty/Health,Bath,2,14,69571695,49699205,True,2019-05-29,6
+792,West Europe,West Europe Store 81,2019-07-17,Baby,Diaper bags,9,12,45365840,81247396,True,2019-01-17,4
+793,West Europe,West Europe Store 81,2019-07-05,Baby,Cribs,9,15,31552197,3457336,False,2019-03-21,3
+794,West Europe,West Europe Store 81,2019-06-04,Clothing,Baby,9,12,12223805,79518728,True,2019-06-23,4
+795,West Europe,West Europe Store 81,2019-07-03,Baby,Diaper bags,9,15,21113675,87297734,True,2019-03-25,4
+796,West Europe,West Europe Store 81,2019-01-30,Furniture,Indoor seating,3,75,28962721,3889503,False,2019-08-12,8
+797,West Europe,West Europe Store 81,2019-02-04,Beauty/Health,Feminine Products,3,15,14604625,66121551,True,2019-03-29,5
+798,West Europe,West Europe Store 81,2019-05-10,Beauty/Health,Skincare,7,10,96301920,84272565,True,2019-05-27,8
+799,West Europe,West Europe Store 81,2019-08-08,Beauty/Health,Makeup,11,6,83998700,24201352,False,2019-02-23,4
+800,West Europe,West Europe Store 81,2019-02-01,Clothing,Mens,5,25,74810116,34573360,False,2019-02-27,5
+801,West Europe,West Europe Store 81,2019-05-30,Furniture,Indoor tables,8,30,50076077,79518728,True,2019-06-23,5
+802,West Europe,West Europe Store 81,2019-05-23,Furniture,Pool furniture,9,30,68326177,15558012,False,2019-04-21,7
+803,West Europe,West Europe Store 81,2019-07-29,Furniture,Indoor seating,9,30,18433023,20744016,False,2019-02-27,5
+804,West Europe,West Europe Store 81,2019-05-27,Beauty/Health,Makeup,8,14,84774617,86865567,True,2019-01-13,5
+805,West Europe,West Europe Store 81,2019-04-17,Clothing,Womens,7,25,24587607,87297734,True,2019-03-25,5
+806,West Europe,West Europe Store 81,2019-01-24,Beauty/Health,Skincare,2,15,35094801,39759364,True,2019-03-14,4
+807,West Europe,West Europe Store 81,2019-05-15,Furniture,Indoor tables,9,15,97033512,26362187,False,2019-07-13,6
+808,West Europe,West Europe Store 81,2019-01-14,Baby,Strollers,3,12,42328761,80383062,True,2019-03-24,3
+809,West Europe,West Europe Store 81,2019-08-06,Clothing,Baby,10,12,68124702,57910378,True,2019-07-10,8
+810,West Europe,West Europe Store 81,2019-02-15,Clothing,Kids,4,13,13649108,51427873,True,2019-04-11,3
+811,West Europe,West Europe Store 81,2019-01-16,Beauty/Health,Fragrances,4,10,17265451,59639046,True,2019-01-03,3
+812,West Europe,West Europe Store 81,2019-02-25,Furniture,Beds,3,75,83792576,79518728,True,2019-06-23,6
+813,West Europe,West Europe Store 81,2019-04-01,Baby,Diaper bags,5,30,11341415,47538370,True,2019-02-10,7
+814,West Europe,West Europe Store 81,2019-01-19,Furniture,Patio furniture,2,40,70416118,69146720,True,2019-04-11,9
+815,West Europe,West Europe Store 81,2019-08-20,Clothing,Kids,10,10,98249291,49699205,True,2019-05-29,7
+816,West Europe,West Europe Store 81,2019-04-17,Clothing,Swimwear,5,13,53217106,50131372,True,2019-07-04,8
+817,West Europe,West Europe Store 81,2019-01-10,Baby,Diapers,4,30,52555699,6050338,False,2019-05-24,6
+818,West Europe,West Europe Store 81,2019-07-21,Electronics,Televisions,2,300,77568939,23337018,False,2019-05-17,6
+819,West Europe,West Europe Store 81,2019-07-22,Electronics,Cell Phones,2,50,48114613,28523022,False,2019-06-23,4
+820,West Europe,West Europe Store 81,2019-07-30,Beauty/Health,Skincare,11,14,93006965,77790060,True,2019-05-17,9
+821,West Europe,West Europe Store 81,2019-02-16,Clothing,Swimwear,5,25,37687218,85569066,True,2019-08-21,5
+822,West Europe,West Europe Store 81,2019-04-19,Beauty/Health,Oral care,7,15,24441740,60935547,True,2019-07-18,6
+823,West Europe,West Europe Store 81,2019-01-02,Clothing,Swimwear,2,12,55716721,40623698,True,2019-05-23,7
+824,West Europe,West Europe Store 81,2019-05-26,Electronics,Headphones,2,200,18096899,31980358,False,2019-02-03,6
+825,West Europe,West Europe Store 81,2019-03-21,Furniture,Patio furniture,6,15,64838128,15125845,False,2019-01-04,3
+826,West Europe,West Europe Store 81,2019-05-02,Baby,Diaper bags,9,5,55336135,87729901,True,2019-05-23,5
+827,West Europe,West Europe Store 81,2019-07-26,Baby,Diaper bags,11,5,31602921,63960716,True,2019-08-09,6
+828,West Europe,West Europe Store 81,2019-07-27,Furniture,Indoor seating,10,15,52270326,42352366,True,2019-06-02,7
+829,West Europe,West Europe Store 81,2019-07-03,Beauty/Health,Bath,9,10,90549516,21176183,False,2019-08-02,4
+830,West Europe,West Europe Store 81,2019-02-18,Clothing,Swimwear,4,25,22994954,22040517,False,2019-05-12,9
+831,West Europe,West Europe Store 81,2019-03-03,Electronics,Tablets,2,100,23048837,31980358,False,2019-02-03,7
+832,West Europe,West Europe Store 81,2019-04-11,Electronics,Computers,1,200,78379107,41920199,True,2019-04-10,2
+833,West Europe,West Europe Store 81,2019-01-28,Baby,Diapers,3,30,38461170,19015348,False,2019-01-28,1
+834,West Europe,West Europe Store 81,2019-07-19,Baby,Cribs,11,10,89001865,57046044,True,2019-04-19,4
+835,West Europe,West Europe Store 81,2019-05-08,Clothing,Shoes,7,10,15147648,48834871,True,2019-08-09,4
+836,West Europe,West Europe Store 81,2019-04-30,Electronics,Televisions,2,100,81980213,76493559,True,2019-05-11,6
+837,West Europe,West Europe Store 81,2019-04-20,Furniture,Pool furniture,5,15,64000152,22472684,False,2019-01-10,5
+838,West Europe,West Europe Store 81,2019-06-01,Clothing,Shoes,10,10,75601616,15558012,False,2019-04-21,8
+839,West Europe,West Europe Store 81,2019-04-15,Electronics,Tablets,1,200,70699183,43216700,True,2019-05-03,4
+840,West Europe,West Europe Store 81,2019-07-08,Baby,Baby toys,10,12,12846885,38462863,False,2019-01-08,4
+841,West Europe,West Europe Store 81,2019-03-26,Beauty/Health,Skincare,6,14,91326716,74764891,True,2019-06-27,2
+842,West Europe,West Europe Store 81,2019-07-19,Furniture,Beds,11,15,74544636,70443221,True,2019-02-18,5
+843,West Europe,West Europe Store 81,2019-04-10,Furniture,Pool furniture,5,100,67429671,6050338,False,2019-05-24,7
+844,West Europe,West Europe Store 81,2019-05-15,Clothing,Mens,7,13,84105581,39327197,True,2019-02-03,5
+845,West Europe,West Europe Store 81,2019-05-05,Baby,Baby toys,8,5,14162270,56613877,True,2019-05-22,6
+846,West Europe,West Europe Store 81,2019-05-01,Electronics,Speakers,1,50,54829647,81679563,True,2019-04-18,7
+847,West Europe,West Europe Store 81,2019-07-15,Beauty/Health,Bath,9,6,11657881,88594235,True,2019-08-16,6
+848,West Europe,West Europe Store 81,2019-08-02,Furniture,Beds,12,75,93854697,81679563,True,2019-04-18,8
+849,West Europe,West Europe Store 81,2019-03-21,Beauty/Health,Haircare,4,10,37654476,61367714,True,2019-04-14,7
+850,West Europe,West Europe Store 81,2019-04-26,Beauty/Health,Bath,5,14,38278340,39327197,True,2019-02-03,6
+851,West Europe,West Europe Store 81,2019-06-24,Baby,Car seats,10,30,42125865,60071213,True,2019-01-06,7
+852,West Europe,West Europe Store 81,2019-01-10,Furniture,Indoor tables,4,15,69535510,44513201,True,2019-01-20,6
+853,West Europe,West Europe Store 81,2019-01-06,Clothing,Mens,2,20,14396876,82111730,True,2019-08-02,9
+854,West Europe,West Europe Store 81,2019-06-16,Baby,Car seats,9,5,56874906,64825050,True,2019-01-31,4
+855,West Europe,West Europe Store 81,2019-06-16,Electronics,Speakers,2,50,39732515,52292207,True,2019-05-16,7
+856,West Europe,West Europe Store 81,2019-06-11,Electronics,Speakers,1,200,43729673,68714553,True,2019-01-11,9
+857,West Europe,West Europe Store 81,2019-08-14,Beauty/Health,Makeup,11,10,71480400,37166362,False,2019-08-18,7
+858,West Europe,West Europe Store 81,2019-08-21,Electronics,Televisions,1,300,26108453,22904851,False,2019-07-06,3
+859,West Europe,West Europe Store 81,2019-03-09,Electronics,Headphones,2,50,41818195,66985885,True,2019-01-30,7
+860,West Europe,West Europe Store 81,2019-06-30,Electronics,Tablets,1,200,57928584,61367714,True,2019-04-14,8
+861,West Europe,West Europe Store 81,2019-03-02,Furniture,Pool furniture,4,100,60002109,10804175,False,2019-03-02,1
+862,West Europe,West Europe Store 81,2019-04-23,Baby,Strollers,7,30,20643036,35005527,False,2019-06-29,6
+863,West Europe,West Europe Store 81,2019-02-24,Clothing,Baby,3,12,74853443,36734195,False,2019-03-12,11
+864,West Europe,West Europe Store 81,2019-07-08,Clothing,Shoes,9,10,38920172,61367714,True,2019-04-14,9
+865,West Europe,West Europe Store 81,2019-03-26,Clothing,Kids,4,10,60958445,21608350,False,2019-01-07,4
+866,West Europe,West Europe Store 81,2019-04-29,Baby,Diapers,8,15,91905770,22040517,False,2019-05-12,10
+867,West Europe,West Europe Store 81,2019-05-08,Furniture,Pool furniture,8,40,99623960,35869861,False,2019-05-23,7
+868,West Europe,West Europe Store 81,2019-03-04,Furniture,Indoor seating,5,40,37461917,38030696,False,2019-04-25,3
+869,West Europe,West Europe Store 81,2019-03-12,Baby,Diaper bags,5,30,91757532,47538370,True,2019-02-10,8
+870,West Europe,West Europe Store 81,2019-04-05,Furniture,Indoor tables,5,100,57853795,11236342,False,2019-04-05,1
+871,West Europe,West Europe Store 81,2019-08-04,Baby,Cribs,11,30,56996473,89458569,True,2019-07-16,2
+872,West Europe,West Europe Store 81,2019-06-03,Electronics,Speakers,1,200,92574791,70011054,True,2019-06-20,4
+873,West Europe,West Europe Store 81,2019-08-13,Electronics,Computers,1,200,56959522,50131372,True,2019-07-04,9
+874,West Europe,West Europe Store 81,2019-06-08,Beauty/Health,Oral care,8,10,93291913,36734195,False,2019-03-12,12
+875,West Europe,West Europe Store 81,2019-01-25,Electronics,Speakers,1,100,78209382,77790060,True,2019-05-17,10
+876,West Europe,West Europe Store 81,2019-05-03,Beauty/Health,Makeup,7,14,96521748,76493559,True,2019-05-11,7
+877,West Europe,West Europe Store 81,2019-04-22,Baby,Baby toys,5,30,48407835,62232048,True,2019-06-09,7
+878,West Europe,West Europe Store 81,2019-04-02,Clothing,Womens,5,25,90659604,38462863,False,2019-01-08,5
+879,West Europe,West Europe Store 81,2019-06-19,Beauty/Health,Fragrances,9,6,20654981,87729901,True,2019-05-23,6
+880,West Europe,West Europe Store 81,2019-05-25,Furniture,Pool furniture,8,100,74113282,32412525,False,2019-01-23,9
+881,West Europe,West Europe Store 81,2019-05-06,Clothing,Shoes,7,20,17305583,86433400,True,2019-01-17,8
+882,West Europe,West Europe Store 81,2019-02-12,Baby,Cribs,3,10,40998770,70443221,True,2019-02-18,6
+883,West Europe,West Europe Store 81,2019-06-14,Beauty/Health,Feminine Products,10,6,11585112,32844692,False,2019-05-23,3
