@@ -127,11 +127,11 @@ CREATE EXTERNAL TABLE sales_raw(
   ITEM STRING,
   UNITSOLD INT,
   UNITPRICE INT,
-  REVENUE INT,
   CUSTOMERID STRING, 
-  LOYALTY STRING, 
+  LOYALTY BOOLEAN, 
   FIRSTPURCHASE STRING,
-  FREQ INT)
+  FREQ INT,
+REVENUE INT)
 --Format and location of the file
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
@@ -149,11 +149,11 @@ SELECT REGION AS region,
 	ITEM as item,
 	UNITSOLD as unitsold,
 	UNITPRICE as unitprice,
-	REVENUE as revenue,
 	CUSTOMERID as customerID,
 	LOYALTY as loyalty,
 	FIRSTPURCHASE as firstpurchase,
-	FREQ as freq
+	FREQ as freq,
+	REVENUE as revenue
 FROM sales_raw;
 DROP TABLE sales_raw
 ```
